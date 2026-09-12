@@ -936,6 +936,174 @@ export const edConfig: SiteConfig = {
         },
       ],
     },
+    {
+      slug: "sildenafil-vs-cialis",
+      title: "Sildenafil vs Cialis (Tadalafil): How to Choose",
+      description:
+        "Sildenafil vs Cialis (tadalafil): compare onset, duration, food effects and daily vs on-demand dosing to bring an informed question to your clinician.",
+      category: "Medications",
+      readTime: "7 min read",
+      publishedAt: "2026-09-12",
+      updatedAt: "2026-09-12",
+      heroColor: "#14243a",
+      author: "ED Treatment Editorial Team",
+      keyTakeaways: [
+        "Sildenafil is short-acting (a window of a few hours) and typically taken before activity; tadalafil is long-acting and can work for well over a day.",
+        "Sildenafil can be slowed by a heavy or high-fat meal; tadalafil is generally less affected by food.",
+        "Tadalafil comes in a low daily dose some men prefer for spontaneity, while sildenafil is usually taken on demand.",
+        "Neither is universally \"better\" — the right choice depends on your timing, health and how you respond, which is a licensed clinician's call.",
+      ],
+      sections: [
+        {
+          heading: "Same job, different timing",
+          body: `<p>Sildenafil (the active ingredient in Viagra) and tadalafil (the active ingredient in Cialis) are both <strong>PDE5 inhibitors</strong> — the same class of medication, working through the same mechanism of improving blood flow. The practical differences between them are mostly about <strong>timing</strong>, not whether they work. Both are widely available as affordable generics, and for many men either one is a reasonable option, which is exactly why comparing them on the details below is useful before you talk to a clinician.</p>`,
+        },
+        {
+          heading: "Onset and duration",
+          body: `<p>The headline difference is how long each lasts:</p><ul><li><strong>Sildenafil</strong> is <strong>short-acting</strong>. It's typically taken shortly before activity and works within a window of a few hours.</li><li><strong>Tadalafil</strong> is <strong>long-acting</strong>. A single on-demand dose can remain effective for well over a day, which is why it's sometimes nicknamed "the weekend pill."</li></ul><p>If you prefer to plan around a specific occasion, the shorter window of sildenafil may be all you need. If you value spontaneity across a longer stretch, tadalafil's longer duration is often the draw.</p>`,
+        },
+        {
+          heading: "Food, and other day-to-day factors",
+          body: `<p>Food is a real, practical difference. <strong>Sildenafil</strong> can be slowed by a heavy or high-fat meal, so it's often taken on a relatively empty stomach for a more predictable onset. <strong>Tadalafil</strong> is generally less affected by what you eat. Both can cause similar side effects (headache, flushing, nasal congestion and others), and both share the same important safety considerations — most critically, neither should be combined with nitrate medications. We cover that in detail in our guide to <a href="/articles/ed-medication-side-effects">ED medication side effects</a>.</p>`,
+        },
+        {
+          heading: "Daily vs on-demand dosing",
+          body: `<p>There's also a dosing-style difference. Sildenafil is essentially an <strong>on-demand</strong> medication — you take it when you plan to be active. Tadalafil can be taken on demand too, but it also comes in a <strong>low daily dose</strong>: a small amount taken every day so the medication is simply always present, removing the need to time anything. Some men strongly prefer that for spontaneity; others would rather not take a daily pill. Neither approach is "better" in general — it's a lifestyle-and-health decision to make with a clinician.</p>`,
+        },
+        {
+          heading: "What about cost?",
+          body: `<p>Both are inexpensive as generics, and the total you pay depends more on the provider, dose and quantity than on which molecule you pick. Online clinics price them per dose or as a monthly plan, and promotions change often — so treat any figure as approximate and confirm it at checkout. We break down the drivers in our guide to <a href="/articles/ed-treatment-cost">ED treatment cost</a>, and you can compare licensed clinics on our <a href="/">ED treatment comparison</a>.</p>`,
+        },
+        {
+          heading: "How to choose",
+          body: `<p>A simple way to frame it: choose based on how you want treatment to fit your life — a shorter, plan-ahead window (often sildenafil) versus a longer duration or a daily option (often tadalafil) — then let a licensed clinician confirm which is appropriate for your health. Some men also find a single standard pill underperforms and discuss a <a href="/articles/best-ed-medicine">compounded multi-ingredient option</a> instead. Bring your preferences and your full medical history to the conversation.</p><p><em>This article is general information, not medical advice. Do not start, stop or switch any medication without a licensed clinician — especially if you take nitrates or have a heart condition.</em></p>`,
+        },
+      ],
+    },
+    {
+      slug: "how-to-get-ed-treatment-online",
+      title: "How to Get ED Treatment Online: A Step-by-Step Guide",
+      description:
+        "How to get ED treatment online, step by step: the intake, licensed-clinician review, prescription and discreet delivery — plus how to spot a legit provider vs red flags.",
+      category: "How It Works",
+      readTime: "6 min read",
+      publishedAt: "2026-09-12",
+      updatedAt: "2026-09-12",
+      heroColor: "#111111",
+      author: "ED Treatment Editorial Team",
+      keyTakeaways: [
+        "Legitimate online ED treatment follows a clear path: online intake, review by a licensed clinician, a prescription only if appropriate, then discreet delivery.",
+        "The non-negotiable sign of a real provider is that a licensed clinician reviews your health before anything is prescribed — a site that skips that is a red flag.",
+        "Answer the medical questions completely and honestly; that intake is a safety step, not a formality.",
+        "Compare providers on price, format, provider quality and discretion before you pick.",
+      ],
+      sections: [
+        {
+          heading: "Why so many men start online",
+          body: `<p>Telehealth has become the default way to get ED treatment for a simple reason: it removes the most awkward barrier — the in-person visit — while keeping the essential part, a licensed clinician's oversight. Done through a legitimate service, the online path is convenient, private and safe for appropriate candidates. The key is knowing what a real process looks like so you can tell a trustworthy provider from a risky one.</p>`,
+        },
+        {
+          heading: "Step 1: Complete an online intake",
+          body: `<p>You start by filling out a health questionnaire. Expect questions about your symptoms, medical history, current medications and any heart conditions. <strong>This is the most important step, so be thorough and honest.</strong> It's not paperwork for its own sake — it's how the clinician screens for interactions and conditions (for example, nitrate medications) that make certain treatments unsafe. Rushing or fudging answers defeats the safeguard that makes online treatment responsible.</p>`,
+        },
+        {
+          heading: "Step 2: A licensed clinician reviews your information",
+          body: `<p>A licensed provider then reviews your intake and decides whether treatment is appropriate — and if so, which option and dose. Some services offer asynchronous review (the clinician reviews your answers on their own schedule); others may include a call or message thread. Either way, <strong>a licensed clinician making the prescribing decision is the line between a legitimate service and a pill mill.</strong> This is also where a good provider may recommend against treatment, suggest a different option, or ask follow-up questions.</p>`,
+        },
+        {
+          heading: "Step 3: Prescription and discreet delivery",
+          body: `<p>If the clinician prescribes, your medication ships to your door — reputable providers use plain, discreet packaging. Many run on a subscription so refills arrive automatically, with online follow-up available if something isn't working or you have side effects. Check the cancellation and follow-up terms before you subscribe so you're not locked into something that doesn't suit you.</p>`,
+        },
+        {
+          heading: "How to spot a legit provider vs red flags",
+          body: `<p>A trustworthy online ED provider:</p><ul><li><strong>Requires a licensed-clinician review</strong> before prescribing — always.</li><li>Uses <strong>US-licensed providers</strong> and dispenses from legitimate, verifiable pharmacies.</li><li>Is <strong>transparent about pricing</strong>, cancellation and what's in the medication.</li><li>Offers real <strong>follow-up and support</strong>.</li></ul><p>Treat these as red flags: a site that <strong>sells prescription ED medication with no medical review</strong>, that ships from unverifiable overseas sources, that markets "no prescription needed," or that makes cure/permanent-fix or guaranteed-results claims. "Herbal" or "natural" ED pills sold with no oversight are a particular hazard — some have been found spiked with undisclosed prescription drugs.</p>`,
+        },
+        {
+          heading: "Comparing your options",
+          body: `<p>Once you know the process, choosing comes down to a few factors: price, the formats and medications offered, provider and support quality, and discretion. We compare licensed online clinics side by side on our <a href="/">ED treatment comparison</a>, and you can read the full write-up of our <a href="/reviews/quad">top-rated provider</a> or browse all our <a href="/reviews">provider reviews</a> to see how each one handles the steps above.</p><p><em>This article is general information, not medical advice. A licensed clinician should decide what treatment, if any, is right for you.</em></p>`,
+        },
+      ],
+    },
+    {
+      slug: "ed-medication-side-effects",
+      title: "ED Medication Side Effects: What to Know",
+      description:
+        "A high-level, honest guide to PDE5 inhibitor side effects — common and less-common — plus the critical nitrates warning and when to seek medical care.",
+      category: "Safety",
+      readTime: "6 min read",
+      publishedAt: "2026-09-12",
+      updatedAt: "2026-09-12",
+      heroColor: "#1a1a1a",
+      author: "ED Treatment Editorial Team",
+      keyTakeaways: [
+        "Most side effects of PDE5 inhibitors (sildenafil, tadalafil) are mild and temporary — headache, flushing, nasal congestion, indigestion.",
+        "ED medications must not be combined with nitrate medicines (often prescribed for chest pain or heart conditions) — the combination can cause a dangerous drop in blood pressure.",
+        "Some symptoms are rare but need urgent care, including an erection lasting more than four hours or sudden vision or hearing changes.",
+        "An honest medical intake exists to catch these risks before they happen — which is why a licensed-clinician review matters.",
+      ],
+      sections: [
+        {
+          heading: "The big picture",
+          body: `<p>The most common ED medications — the PDE5 inhibitors sildenafil (Viagra's active ingredient) and tadalafil (Cialis's active ingredient) — are generally well tolerated for appropriate candidates. Most side effects are <strong>mild and temporary</strong>. But "generally safe" is not "safe for everyone in every situation," which is why these are prescription medications reviewed by a clinician rather than something to grab off a shelf. This guide covers what's common, what's rare-but-serious, and the one interaction everyone should know about.</p>`,
+        },
+        {
+          heading: "Common side effects",
+          body: `<p>The side effects most men might notice are usually short-lived and relate to the medication's effect on blood vessels:</p><ul><li><strong>Headache</strong></li><li><strong>Facial flushing</strong> (warmth or redness)</li><li><strong>Nasal congestion</strong> (a stuffy nose)</li><li><strong>Indigestion or an upset stomach</strong></li><li><strong>Dizziness or lightheadedness</strong></li><li><strong>Back or muscle aches</strong> (reported more with tadalafil)</li></ul><p>These are typically manageable and often ease as your body adjusts or with a dose change your clinician suggests. If a side effect is bothersome or persistent, that's a reason to check in — not to silently push through or double up.</p>`,
+        },
+        {
+          heading: "Less common but serious side effects",
+          body: `<p>Rare effects deserve attention because they need prompt care:</p><ul><li><strong>Priapism</strong> — an erection lasting more than four hours. This is a medical emergency; untreated, it can cause lasting damage. Seek urgent care.</li><li><strong>Sudden vision changes</strong> — including loss of vision in one or both eyes.</li><li><strong>Sudden hearing loss</strong> — sometimes with ringing in the ears or dizziness.</li><li><strong>Chest pain or an allergic reaction</strong> — get emergency care.</li></ul><p>These are uncommon, but knowing them means you'll act quickly if they happen rather than waiting.</p>`,
+        },
+        {
+          heading: "The nitrates warning — the one interaction to know",
+          body: `<p>This is the single most important safety point: <strong>PDE5 inhibitors must not be taken with nitrate medications.</strong> Nitrates (such as nitroglycerin, isosorbide and related "poppers"-type recreational drugs) are commonly prescribed for chest pain (angina) and some heart conditions. Both nitrates and ED medications lower blood pressure, and taken together they can cause a <strong>sudden, dangerous drop in blood pressure</strong>. Certain blood-pressure medications and alpha-blockers also warrant caution. This is precisely why the medical intake asks about your heart history and medications — answer it completely and honestly.</p>`,
+        },
+        {
+          heading: "When to seek care — and how to lower your risk",
+          body: `<p>Seek urgent or emergency care for an erection lasting over four hours, sudden vision or hearing changes, chest pain, or signs of an allergic reaction. For milder but persistent side effects, contact your provider rather than adjusting the dose yourself. The best way to reduce your risk in the first place is to go through a legitimate service where a licensed clinician reviews your health — see <a href="/articles/how-to-get-ed-treatment-online">how to get ED treatment online</a> for what that process should look like, and compare licensed clinics on our <a href="/">ED treatment comparison</a>.</p><p><em>This article is general information, not medical advice. Talk to a licensed clinician about your specific situation, and never combine ED medication with nitrates.</em></p>`,
+        },
+      ],
+    },
+    {
+      slug: "ed-treatment-cost",
+      title: "How Much Does ED Treatment Cost in 2026?",
+      description:
+        "What drives ED treatment cost in 2026 — generic vs brand vs compounded, subscription vs per-dose, and consult fees — plus how to compare providers fairly.",
+      category: "Costs",
+      readTime: "6 min read",
+      publishedAt: "2026-09-12",
+      updatedAt: "2026-09-12",
+      heroColor: "#0f2a43",
+      author: "ED Treatment Editorial Team",
+      keyTakeaways: [
+        "The biggest cost driver is what you take: generic sildenafil and tadalafil are inexpensive, brand-name pills cost far more, and compounded multi-ingredient options typically sit in between or higher.",
+        "How you pay matters too — per-dose pricing vs a monthly subscription changes the math depending on how often you need treatment.",
+        "Watch for consult or membership fees, shipping and upsells that aren't in the headline price.",
+        "Prices and promotions change constantly, so confirm the current total at checkout rather than trusting any figure you see quoted.",
+      ],
+      sections: [
+        {
+          heading: "What actually drives the price",
+          body: `<p>There's no single price for "ED treatment" because the cost depends on a handful of choices. The good news is they're easy to understand once you separate them. The three biggest levers are <strong>what medication you take</strong>, <strong>how you pay for it</strong>, and <strong>what fees sit around it</strong>. Get clear on those and you can compare providers fairly instead of being swayed by a low headline number that doesn't include everything.</p>`,
+        },
+        {
+          heading: "Generic vs brand vs compounded",
+          body: `<p>The medication itself is the largest driver:</p><ul><li><strong>Generic sildenafil and tadalafil</strong> are the affordable, first-line choice for most men. Since the brand patents expired, generics cost a small fraction of the originals.</li><li><strong>Brand-name pills</strong> (Viagra, Cialis) cost substantially more for the same active ingredient — you're paying for the name, not a better molecule.</li><li><strong>Compounded multi-ingredient options</strong> — like a <a href="/reviews/quad">4-in-1 dissolvable formula</a> — combine several actives in one dose and typically cost more than a plain generic, usually as a monthly program. They're aimed at men where a single pill underperformed.</li></ul><p>For most people, an affordable generic is the sensible starting point, and a compounded option is a considered upgrade rather than a default.</p>`,
+        },
+        {
+          heading: "Subscription vs per-dose",
+          body: `<p>Online clinics generally price treatment one of two ways. <strong>Per-dose</strong> pricing suits men who need treatment occasionally — you pay for what you use. A <strong>subscription</strong> bills monthly and often works out cheaper per dose if you use treatment regularly, with refills arriving automatically. Neither is better in the abstract: match it to how often you'll actually use it. If you subscribe, check how easy it is to pause or cancel — that flexibility is part of the real cost.</p>`,
+        },
+        {
+          heading: "The fees around the medication",
+          body: `<p>The headline price often isn't the whole story. Look for:</p><ul><li><strong>Consultation or membership fees</strong> — some providers charge for the clinician review or a membership; many bundle it into the plan.</li><li><strong>Shipping</strong> — sometimes free, sometimes added at checkout.</li><li><strong>Upsells and add-ons</strong> — extra products or "enhancements" that quietly raise the total.</li></ul><p>A provider that bundles the review and shipping into one clear monthly figure is often easier to judge than one with a low pill price and several add-ons stacked on top.</p>`,
+        },
+        {
+          heading: "How to compare fairly — and a note on figures",
+          body: `<p>To compare honestly, work out the <strong>all-in cost per dose or per month</strong> for the specific medication and quantity you'd actually use, including any fees and shipping — then compare that number across providers. Don't compare a brand pill at one clinic to a generic at another and call it a fair fight.</p><p>One caution: prices and promotions in this space change constantly, so treat any specific figure — including ones you see quoted elsewhere — as approximate and <strong>confirm the current total at checkout</strong> before subscribing. You can line up licensed clinics side by side on our <a href="/">ED treatment comparison</a> and read the details in our <a href="/reviews">provider reviews</a>.</p><p><em>This article is general information, not medical advice, and not financial advice. Confirm current pricing directly with each provider.</em></p>`,
+        },
+      ],
+    },
   ],
 
   faqs: [

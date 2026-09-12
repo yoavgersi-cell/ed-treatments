@@ -30,7 +30,10 @@ const COLUMNS: { title: string; links: { label: string; href: string }[] }[] = [
     links: [
       { label: "About", href: "/about" },
       { label: "How We Rank", href: "/how-we-rank" },
+      { label: "Contact", href: "/contact" },
       { label: "Medical Disclaimer", href: "/disclaimer" },
+      { label: "Privacy Policy", href: "/privacy" },
+      { label: "Terms of Service", href: "/terms" },
     ],
   },
 ];
