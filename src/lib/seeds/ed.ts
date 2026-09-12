@@ -44,6 +44,9 @@ export const edConfig: SiteConfig = {
     featuredImageUrl: "/sidebar-featured.webp",
     featuredImageAlt: "Quad by MEDVi — compounded ED treatment",
     featuredImageLink: "#",
+    // Omit "featuredImage" until we have an ED-specific banner creative (the
+    // stock image was a weight-loss ad). Show the content-rich blocks instead.
+    blockOrder: ["socialProof", "secureBadge", "editorialReviews", "rankingMethodology", "disclosure"],
   },
 
   cardSocialProof: {
