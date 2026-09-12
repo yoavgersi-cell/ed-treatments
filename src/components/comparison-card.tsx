@@ -51,14 +51,12 @@ export function ComparisonCard({ product, hideRank, pageType = "listing", source
       <div className="hidden sm:flex sm:flex-row sm:min-h-[196px]">
         {/* Column 1: Logo */}
         <div className="flex items-center justify-center px-6 sm:w-[220px] sm:shrink-0">
-          <div className="mx-auto flex h-[72px] w-full max-w-[172px] items-center justify-center">
-            {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img
-              src={product.logo}
-              alt={`${product.name} logo`}
-              className="mx-auto max-h-full max-w-full object-contain"
-            />
-          </div>
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img
+            src={product.logo}
+            alt={`${product.name} logo`}
+            className="mx-auto block max-h-[56px] w-auto max-w-[160px] object-contain"
+          />
         </div>
 
         {/* Column 2: Content */}
