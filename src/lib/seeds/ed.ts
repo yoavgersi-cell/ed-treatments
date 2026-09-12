@@ -67,8 +67,8 @@ export const edConfig: SiteConfig = {
       name: "Quad by MEDVi",
       tagline:
         "A compounded, multi-ingredient ED medication prescribed online through MEDVi's telehealth service",
-      logo: "/provider-placeholder.svg",
-      smallLogo: "/provider-placeholder.svg",
+      logo: "/logos/medvilogo.webp",
+      smallLogo: "/logos/medvilogo.webp",
       highlights: [
         "Dissolvable, fast-acting format",
         "Rx-only after licensed provider review",
@@ -83,8 +83,8 @@ export const edConfig: SiteConfig = {
       name: "Hims",
       tagline:
         "Established national men's-health telehealth — sildenafil, tadalafil and chewable options",
-      logo: "/provider-placeholder.svg",
-      smallLogo: "/provider-placeholder.svg",
+      logo: "/logos/himslogo.png",
+      smallLogo: "/logos/himslogo.png",
       highlights: [
         "Recognizable national brand",
         "Generic sildenafil and tadalafil",
@@ -115,8 +115,8 @@ export const edConfig: SiteConfig = {
       name: "BraveRX",
       tagline:
         "A men's-health Rx telehealth brand offering ED treatment online with licensed clinicians",
-      logo: "/provider-placeholder.svg",
-      smallLogo: "/provider-placeholder.svg",
+      logo: "/logos/bralogo.png",
+      smallLogo: "/logos/bralogo.png",
       highlights: [
         "Fully online consultation",
         "Licensed clinicians review your intake",
