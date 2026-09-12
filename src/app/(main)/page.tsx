@@ -2,7 +2,6 @@ import type { Metadata } from "next";
 import { HeroSection } from "@/components/hero-section";
 import { ComparisonCard } from "@/components/comparison-card";
 import { SocialProofBand } from "@/components/social-proof-bubble";
-import { Sidebar } from "@/components/sidebar";
 import { EditorialContent } from "@/components/editorial-content";
 import { FaqAccordion } from "@/components/faq-accordion";
 import { ExpertByline } from "@/components/expert-byline";
@@ -69,10 +68,6 @@ export default async function HomePage() {
       starRating?: number;
       badge?: string;
     }>;
-
-  const sidebarProviders = providerOrder
-    .map((id) => config.providers.find((p) => p.id === id))
-    .filter(Boolean) as typeof config.providers;
 
   const faqSchema = {
     "@context": "https://schema.org",
@@ -148,19 +143,16 @@ export default async function HomePage() {
         </section>
       )}
 
-      <section className="mx-auto max-w-[1200px] px-4 pt-6 pb-6">
-        <div className="flex gap-6 items-start">
-          <div className="min-w-0 flex-1 space-y-4">
-            {displayList.map((product, idx) => (
-              <div key={product.id}>
-                <ComparisonCard product={product} socialProof={config.cardSocialProof} />
-                {idx === 0 && config.cardSocialProof && (
-                  <SocialProofBand number={config.cardSocialProof.number} text={config.cardSocialProof.text} />
-                )}
-              </div>
-            ))}
-          </div>
-          <Sidebar config={config.sidebar} providers={sidebarProviders} />
+      <section className="mx-auto max-w-[900px] px-4 pt-6 pb-6">
+        <div className="space-y-4">
+          {displayList.map((product, idx) => (
+            <div key={product.id}>
+              <ComparisonCard product={product} socialProof={config.cardSocialProof} />
+              {idx === 0 && config.cardSocialProof && (
+                <SocialProofBand number={config.cardSocialProof.number} text={config.cardSocialProof.text} />
+              )}
+            </div>
+          ))}
         </div>
       </section>
 

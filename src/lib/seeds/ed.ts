@@ -26,7 +26,7 @@ export const edConfig: SiteConfig = {
     "Some providers featured on this site may compensate us. This may affect the order and placement of listings but does not influence our editorial ratings or reviews.",
 
   hero: {
-    backgroundImageUrl: "/hero.png",
+    backgroundImageUrl: "",
     imageAlt: "Erectile dysfunction treatment options",
     updatedLabel: "Last Updated: September 2026",
     h1: "Best ED Treatments of 2026",
