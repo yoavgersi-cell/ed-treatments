@@ -78,7 +78,7 @@ export const edConfig: SiteConfig = {
         "Discreet, fast home delivery",
         "4-in-1 compounded formula for stronger results",
       ],
-      affiliateUrl: "#",
+      affiliateUrl: "https://track.revoffers.com/aff_c?offer_id=1530&aff_id=12904",
       ctaText: "Visit Site",
     },
     {
@@ -110,7 +110,7 @@ export const edConfig: SiteConfig = {
         "Discreet home delivery",
         "Value-minded, budget-friendly pricing",
       ],
-      affiliateUrl: "#",
+      affiliateUrl: "https://track.revoffers.com/aff_c?offer_id=1361&aff_id=12904",
       ctaText: "Visit Site",
     },
     {
@@ -126,7 +126,7 @@ export const edConfig: SiteConfig = {
         "Discreet, direct-to-door delivery",
         "Simple men's-health Rx platform",
       ],
-      affiliateUrl: "#",
+      affiliateUrl: "https://track.revoffers.com/aff_c?offer_id=1546&aff_id=12904",
       ctaText: "Visit Site",
     },
   ],
