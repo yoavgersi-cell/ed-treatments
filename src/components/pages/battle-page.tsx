@@ -21,7 +21,6 @@ import { PromoPopup } from "@/components/promo-popup";
 import { resolvePromoPopup } from "@/lib/promo-popups";
 import { TrustDisclosure } from "@/components/medical-sources";
 import { SourcesMethodology } from "@/components/sources-methodology";
-import { TrustProofBar } from "@/components/trust-proof-bar";
 import { ProductCarousel } from "@/components/product-carousel";
 import { RedditThreadCarousel, REDDIT_COMMUNITY_FEEDBACK } from "@/components/reddit-community";
 import { threeWayBySlug, THREE_WAY_COMPARISONS } from "@/lib/three-way";
@@ -524,9 +523,6 @@ export async function BattlePageView({ slug, ctx }: { slug: string; ctx: SiteCon
         </section>
 
         <div className="mx-auto max-w-[1100px] px-4 pt-10 pb-28 sm:px-6 sm:pb-10">
-          {/* ───── TRUST PROOF BAR (real numbers only) ───── */}
-          <TrustProofBar config={config} />
-
           {/* ───── THE VERDICT ─────
               The answer a searcher came for, above the fold, before any prose -
               in the site's editorial verdict-card style (matches the review
