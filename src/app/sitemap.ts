@@ -1,6 +1,7 @@
 import type { MetadataRoute } from "next";
 import { getConfig } from "@/lib/config-store";
 import { CONTENT_LAST_UPDATED, latestUpdate, NOINDEX_ARTICLE_SLUGS } from "@/lib/config";
+import { STATES } from "@/lib/states";
 
 const SITE_URL = "https://www.edtreatmenthub.com";
 const FALLBACK_DATE = new Date(CONTENT_LAST_UPDATED);
@@ -14,6 +15,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     { path: "/", priority: 1, changeFrequency: "weekly" },
     { path: "/reviews", priority: 0.9, changeFrequency: "weekly" },
     { path: "/articles", priority: 0.8, changeFrequency: "weekly" },
+    { path: "/online-ed-treatment", priority: 0.8, changeFrequency: "weekly" },
     { path: "/find-your-match", priority: 0.7, changeFrequency: "monthly" },
     { path: "/how-we-rank", priority: 0.6, changeFrequency: "monthly" },
     { path: "/about", priority: 0.3, changeFrequency: "monthly" },
@@ -47,6 +49,16 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
       lastModified: flooredLastModified(b.updatedAt),
       changeFrequency: "weekly",
       priority: 0.7,
+    });
+  }
+
+  // Programmatic per-state pages
+  for (const s of STATES) {
+    entries.push({
+      url: `${SITE_URL}/online-ed-treatment/${s.slug}`,
+      lastModified: FALLBACK_DATE,
+      changeFrequency: "monthly",
+      priority: 0.6,
     });
   }
 
