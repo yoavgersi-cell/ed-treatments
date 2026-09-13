@@ -812,7 +812,7 @@ export const edConfig: SiteConfig = {
       sections: [
         {
           heading: "The medicines that actually work",
-          body: `<p>When people ask for the "best ED medicine," they're almost always asking about <strong>PDE5 inhibitors</strong>, and for good reason — they're the most studied, most effective first-line ED medications. The two you'll encounter most:</p><ul><li><strong>Sildenafil</strong> (the active ingredient in Viagra) — short-acting, typically taken before activity, effective for a window of a few hours.</li><li><strong>Tadalafil</strong> (the active ingredient in Cialis) — long-acting, with an effect that can last well over a day, and available in a low daily dose some men prefer.</li></ul><p>Both are now widely available as affordable generics. There's no universal "best" between them — sildenafil suits men who want to dose as needed, while tadalafil suits those who prefer spontaneity or a daily routine.</p>`,
+          body: `<p>When people ask for the "best ED medicine," they're almost always asking about <strong>PDE5 inhibitors</strong>, and for good reason — they're the most studied, most effective first-line ED medications. The two you'll encounter most:</p><ul><li><strong>Sildenafil</strong> (the active ingredient in Viagra) — short-acting, typically taken before activity, effective for a window of a few hours.</li><li><strong>Tadalafil</strong> (the active ingredient in Cialis) — long-acting, with an effect that can last well over a day, and available in a low daily dose some men prefer.</li><li><strong>Vardenafil</strong> (the active ingredient in Levitra) — a third oral PDE5 inhibitor in the same family, another option some men discuss with a clinician if sildenafil or tadalafil isn't the right fit.</li></ul><p>All three are widely available as generics. There's no universal "best" among them — sildenafil suits men who want to dose as needed, tadalafil suits those who prefer spontaneity or a daily routine, and vardenafil is a further alternative to raise with your clinician.</p>`,
         },
         {
           heading: "Can ED be cured permanently?",
@@ -956,7 +956,7 @@ export const edConfig: SiteConfig = {
       sections: [
         {
           heading: "Same job, different timing",
-          body: `<p>Sildenafil (the active ingredient in Viagra) and tadalafil (the active ingredient in Cialis) are both <strong>PDE5 inhibitors</strong> — the same class of medication, working through the same mechanism of improving blood flow. The practical differences between them are mostly about <strong>timing</strong>, not whether they work. Both are widely available as affordable generics, and for many men either one is a reasonable option, which is exactly why comparing them on the details below is useful before you talk to a clinician.</p>`,
+          body: `<p>Sildenafil (the active ingredient in Viagra) and tadalafil (the active ingredient in Cialis) are both <strong>PDE5 inhibitors</strong> — the same class of medication, working through the same mechanism of improving blood flow. The practical differences between them are mostly about <strong>timing</strong>, not whether they work. Both are widely available as affordable generics, and for many men either one is a reasonable option, which is exactly why comparing them on the details below is useful before you talk to a clinician. It's worth knowing there is also a third oral option in the same class — <strong>vardenafil</strong> (the active ingredient in Levitra) — which works similarly and may come up as an alternative to discuss with your clinician.</p>`,
         },
         {
           heading: "Onset and duration",
@@ -1101,6 +1101,134 @@ export const edConfig: SiteConfig = {
         {
           heading: "How to compare fairly — and a note on figures",
           body: `<p>To compare honestly, work out the <strong>all-in cost per dose or per month</strong> for the specific medication and quantity you'd actually use, including any fees and shipping — then compare that number across providers. Don't compare a brand pill at one clinic to a generic at another and call it a fair fight.</p><p>One caution: prices and promotions in this space change constantly, so treat any specific figure — including ones you see quoted elsewhere — as approximate and <strong>confirm the current total at checkout</strong> before subscribing. You can line up licensed clinics side by side on our <a href="/">ED treatment comparison</a> and read the details in our <a href="/reviews">provider reviews</a>.</p><p><em>This article is general information, not medical advice, and not financial advice. Confirm current pricing directly with each provider.</em></p>`,
+        },
+      ],
+    },
+    {
+      slug: "over-the-counter-ed-treatment",
+      title: "Over-the-Counter ED Treatment: What Actually Works",
+      description:
+        "Is there an over-the-counter ED pill? The honest answer, what \"OTC ED\" products really are, the risks of unregulated supplements, and the legitimate route that works.",
+      category: "Treatments",
+      readTime: "7 min read",
+      publishedAt: "2026-09-13",
+      updatedAt: "2026-09-13",
+      heroColor: "#2a1a3a",
+      author: "ED Treatment Editorial Team",
+      keyTakeaways: [
+        "There is no FDA-approved over-the-counter oral ED drug in the U.S. — the medicines that actually work for ED are prescription-only.",
+        "Most products marketed as \"OTC ED\" are herbal supplements or \"gas station\" pills that are unregulated and not proven to treat ED.",
+        "The FDA has repeatedly warned that some of these products contain hidden, undisclosed prescription drug ingredients — a real safety risk.",
+        "The effective, legitimate path is a prescription treatment, which is now easy to access discreetly through licensed telehealth.",
+      ],
+      sections: [
+        {
+          heading: "Is there an over-the-counter ED pill?",
+          body: `<p>Let's answer the question directly, because a lot of marketing works hard to blur it: <strong>there is no FDA-approved over-the-counter oral ED drug in the United States.</strong> The medications with real, proven effectiveness for erectile dysfunction — the PDE5 inhibitors sildenafil, tadalafil and vardenafil — are all prescription-only. You cannot legally buy the effective ED medicines off a shelf without a clinician's involvement.</p><p>That doesn't stop stores and websites from selling things that <em>look</em> like an OTC solution. Understanding what those products actually are is the key to not wasting money — or risking your health.</p>`,
+        },
+        {
+          heading: "So what are \"OTC ED\" products, really?",
+          body: `<p>The items sold as over-the-counter ED help fall mostly into two buckets:</p><ul><li><strong>Herbal supplements</strong> — capsules featuring ingredients like L-arginine, Panax ginseng, horny goat weed, yohimbe or maca, sold as \"male enhancement.\" A few ingredients have modest supporting evidence for blood flow, but as sold these products are not proven treatments for ED and are regulated as supplements, not medicines.</li><li><strong>\"Gas station\" pills</strong> — single-serve \"male enhancement\" packets sold at convenience stores, gas stations and online with bold, fast-acting promises. These are the highest-risk category by far.</li></ul><p>The common thread is that none of these are held to the standard of an approved drug for either effectiveness or safety. A confident label is not the same thing as evidence.</p>`,
+        },
+        {
+          heading: "The real risks of unregulated products",
+          body: `<p>The biggest problem isn't just that these products may not work — it's what can be hidden inside them. The <strong>FDA has repeatedly issued public warnings</strong> that many \"male enhancement\" and \"herbal\" ED products sold over the counter contain <strong>undisclosed prescription drug ingredients</strong>, often the same active ingredients found in prescription ED pills, sometimes in unpredictable amounts.</p><p>Why that matters:</p><ul><li>A hidden active ingredient can interact dangerously with <strong>nitrate medications</strong> (for chest pain or heart conditions) or certain blood-pressure drugs, causing a sudden, dangerous drop in blood pressure.</li><li>You have no idea of the dose, purity or what else is in the capsule.</li><li>There is no clinician screening your health history for conditions that make these ingredients unsafe for you.</li></ul><p>In other words, an \"over-the-counter\" product can quietly expose you to a prescription-strength drug with none of the safeguards that make that drug safe.</p>`,
+        },
+        {
+          heading: "What about natural approaches?",
+          body: `<p>There is a legitimate, evidence-based version of \"natural\" — but it's about habits, not a pill off a shelf. Because erections depend on blood flow, the approaches with the strongest support are lifestyle changes: regular exercise, a heart-healthy diet, weight loss, better sleep, less alcohol and quitting smoking. These can genuinely help, especially for milder ED with a lifestyle cause. We cover the evidence, and the honest limits, in our guide to <a href="/articles/natural-ed-remedies">natural ED remedies</a>. What they are not is an over-the-counter drug that reliably produces an erection on demand.</p>`,
+        },
+        {
+          heading: "The route that actually works",
+          body: `<p>If you want a treatment that is both <strong>effective and safe</strong>, the legitimate path is a prescription — and the good news is that getting one no longer means an awkward in-person visit. Licensed telehealth clinics now make it straightforward and discreet: you complete an online intake, a licensed clinician reviews your health to make sure treatment is appropriate, and, if it is, medication ships to your door in plain packaging. That clinician review is exactly the safeguard the OTC products skip.</p><p>See how the process works step by step in our guide to <a href="/articles/how-to-get-ed-treatment-online">getting ED treatment online</a>, compare licensed clinics on our <a href="/">ED treatment comparison</a>, or browse our <a href="/reviews">provider reviews</a> to see how each option handles the intake and prescribing.</p>`,
+        },
+        {
+          heading: "The bottom line",
+          body: `<p>There is no genuine over-the-counter ED drug. What's sold that way is either an unproven supplement or a \"gas station\" pill that may hide undisclosed prescription ingredients — a real risk, not a shortcut. The medicines that work are prescription-only, and reaching them through a licensed clinician has never been easier or more discreet.</p><p><em>This article is general information, not medical advice. Talk to a licensed clinician before starting any ED treatment or supplement, especially if you take nitrates or have a heart condition.</em></p>`,
+        },
+      ],
+    },
+    {
+      slug: "trimix-for-ed",
+      title: "Trimix for ED: What It Is and How It Compares",
+      description:
+        "Trimix is a prescription compounded injectable for ED, typically used when oral pills don't work. What it is, how it compares to pills and compounded oral options.",
+      category: "Medications",
+      readTime: "6 min read",
+      publishedAt: "2026-09-13",
+      updatedAt: "2026-09-13",
+      heroColor: "#3a1a1a",
+      author: "ED Treatment Editorial Team",
+      keyTakeaways: [
+        "Trimix is a compounded injectable ED medication — typically a blend of alprostadil, papaverine and phentolamine — that is prescription-only and clinician-directed.",
+        "It is generally considered when oral PDE5 inhibitors (sildenafil, tadalafil, vardenafil) haven't worked well enough.",
+        "Because it is an injection, Trimix requires careful clinician guidance and training — it is not a self-start treatment.",
+        "For men who prefer to avoid injections, a compounded oral option is another route to discuss with a licensed clinician.",
+      ],
+      sections: [
+        {
+          heading: "What is Trimix?",
+          body: `<p><strong>Trimix</strong> is a <strong>compounded injectable</strong> medication for erectile dysfunction. As the name suggests, it combines three active ingredients — commonly <strong>alprostadil, papaverine and phentolamine</strong> — into one formulation prepared by a compounding pharmacy. Instead of acting through the PDE5 pathway that oral pills use, these ingredients work directly to relax blood vessels and increase blood flow.</p><p>It is <strong>prescription-only</strong> and, because it is compounded, it is prepared for the individual patient rather than mass-manufactured as an FDA-approved branded drug. That makes the prescribing clinician's role central.</p>`,
+        },
+        {
+          heading: "When is it typically used?",
+          body: `<p>Trimix is generally considered a <strong>second-line option</strong> — something a clinician may raise when oral PDE5 inhibitors have not worked well enough, aren't suitable, or aren't tolerated. Many men who reach that point have already tried one or more oral medications first.</p><p>Because it is delivered by injection, Trimix is very much a <strong>clinician-directed treatment</strong>. A provider evaluates whether it's appropriate, determines the formulation, and provides in-person training on proper technique and what to watch for. This article deliberately does <strong>not</strong> cover dosing or injection technique — those are things only your prescribing clinician should walk you through, for good safety reasons.</p>`,
+        },
+        {
+          heading: "How Trimix compares to oral pills",
+          body: `<p>The most important contrast is route and typical order of use:</p><ul><li><strong>Oral PDE5 inhibitors</strong> — sildenafil, tadalafil and vardenafil (Levitra) — are the first-line treatment for most men: pills, widely available as generics, taken by mouth. They're simple and well-studied, which is why clinicians usually start here.</li><li><strong>Trimix</strong> is an <strong>injectable</strong> generally reserved for when pills fall short. It can be effective for men who don't respond to oral medication, but the injection format and the need for hands-on clinician guidance make it a bigger commitment.</li></ul><p>Neither is simply \"better\" — they sit at different points in a treatment plan, and which (if either) fits you is a clinical decision.</p>`,
+        },
+        {
+          heading: "Compounded oral options for men who want to avoid needles",
+          body: `<p>Trimix isn't the only compounded route. If a single standard pill underperformed but the idea of an injection is a dealbreaker, a <strong>compounded oral medication</strong> is another possibility to raise with a licensed clinician. <a href="/reviews/quad">Quad by MEDVi</a>, for example, is a compounded, multi-ingredient <em>non-injectable</em> option delivered as a fast-dissolving dose through telehealth — a different way to combine several actives without a needle.</p><p>As with Trimix, compounded oral products are prepared by specialized pharmacies and are not FDA-approved the way brand or generic pills are, so the licensed-provider review is doing real work in deciding whether one is appropriate for you.</p>`,
+        },
+        {
+          heading: "How to explore Trimix or the alternatives",
+          body: `<p>Because Trimix is an injectable, clinician-directed treatment, the path starts with a proper medical conversation rather than an online cart — a provider needs to assess your history, confirm it's appropriate, and handle training. If you haven't yet tried first-line oral treatment, that's usually the place to begin. You can see how oral options compare in our guide to <a href="/articles/best-ed-medicine">the best ED medicine</a>, and compare licensed telehealth clinics on our <a href="/">ED treatment comparison</a>.</p><p><em>This article is general information, not medical advice, and does not include dosing or injection instructions. Only a licensed clinician can determine whether Trimix or any ED treatment is appropriate for you and provide proper guidance.</em></p>`,
+        },
+      ],
+    },
+    {
+      slug: "ed-treatment-near-me",
+      title: "ED Treatment Near You vs Online: How to Choose",
+      description:
+        "Searching \"ED treatment near me\"? Compare in-person clinics and urologists with online telehealth on discretion, speed, cost and convenience to choose what fits.",
+      category: "Guides",
+      readTime: "7 min read",
+      publishedAt: "2026-09-13",
+      updatedAt: "2026-09-13",
+      heroColor: "#12333a",
+      author: "ED Treatment Editorial Team",
+      keyTakeaways: [
+        "\"ED treatment near me\" has two good answers: a local in-person clinic, or a licensed online telehealth service — each with real trade-offs.",
+        "For many men, online is faster and more discreet; a licensed clinician still reviews your intake before anything is prescribed.",
+        "Telehealth availability depends on the state you live in, since clinicians must be licensed where you are.",
+        "Some situations still call for in-person care — complex cases, a physical exam, or when your clinician recommends it.",
+      ],
+      sections: [
+        {
+          heading: "Reframing \"ED treatment near me\"",
+          body: `<p>If you searched for <strong>ED treatment near you</strong>, you probably pictured driving to a local clinic. That's still a valid option — but it's no longer the only one. Today, \"near me\" really has two answers: a <strong>local in-person provider</strong>, or a <strong>licensed online telehealth service</strong> that treats you wherever you are. Both are legitimate, and the right one depends on what you value most: discretion, speed, cost or the reassurance of an in-person visit.</p><p>This guide compares the two honestly so you can choose with clear eyes.</p>`,
+        },
+        {
+          heading: "In-person options: clinics, urologists and men's-health practices",
+          body: `<p>Local, in-person care usually means one of a few places:</p><ul><li><strong>Your primary care doctor</strong> — a sensible first stop, especially since ED can be an early sign of an underlying condition worth checking.</li><li><strong>A urologist</strong> — a specialist for the urinary and male reproductive systems, appropriate for more complex or persistent cases.</li><li><strong>Men's-health clinics</strong> — practices focused specifically on ED and related concerns.</li></ul><p>The strengths of in-person care are a physical exam when one is warranted, direct face-to-face conversation, and continuity for complicated cases. The trade-offs are the ones men most often mention: booking and waiting for an appointment, travel time, and — for a sensitive topic — sitting in a waiting room and discussing it in person.</p>`,
+        },
+        {
+          heading: "Online telehealth: how it actually works",
+          body: `<p>Licensed online ED treatment follows a clear, real medical process — it is not \"pills with no oversight.\" You complete an online intake about your symptoms, health history and medications; a <strong>licensed clinician reviews it</strong> to decide whether treatment is appropriate and which option fits; and, if prescribed, medication ships to your door in discreet packaging with online follow-up available. The clinician review is the non-negotiable part — a site that skips it is a red flag. We walk through each step in our guide to <a href="/articles/how-to-get-ed-treatment-online">getting ED treatment online</a>.</p>`,
+        },
+        {
+          heading: "Comparing the two: discretion, speed, cost, convenience",
+          body: `<p>Here's how they tend to stack up on the things men actually weigh:</p><ul><li><strong>Discretion</strong> — Online usually wins. There's no waiting room, and delivery is in plain packaging.</li><li><strong>Speed</strong> — Online is often faster to start; intake and review can happen in a day or two rather than waiting for an appointment.</li><li><strong>Cost</strong> — Both vary. Online clinics tend to have transparent, bundled pricing that's easy to compare; in-person visits may involve separate appointment and pharmacy costs. Confirm actual figures either way.</li><li><strong>Convenience</strong> — Online removes travel and scheduling friction and offers automatic refills; in-person offers hands-on care when that's what a situation needs.</li></ul><p>The honest summary: <strong>for many men, online is the faster and more discreet route</strong> for straightforward ED — while in-person care remains the better call for complex cases or when a clinician recommends an exam.</p>`,
+        },
+        {
+          heading: "One thing to know: availability depends on your state",
+          body: `<p>Telehealth isn't limited by how far you'll drive, but it is shaped by <strong>where you live</strong>. Because a clinician must be licensed in your state to treat you, the exact services and medications available online can vary from state to state. When you start an intake, a legitimate provider confirms it can serve your location — and a licensed clinician reviews your information before anything is prescribed, wherever you are.</p>`,
+        },
+        {
+          heading: "How to choose — and where to start",
+          body: `<p>A simple way to decide: if your case is straightforward and you value discretion and speed, a licensed online service is often the most practical \"near me\" option. If you have a complex history, want a physical exam, or your provider advises it, in-person care is the right call — and the two aren't mutually exclusive, since you can start online and be referred on if needed.</p><p>To weigh licensed online clinics side by side, use our <a href="/">ED treatment comparison</a>, or read the full write-up of our <a href="/reviews/quad">top-rated provider</a> to see what a modern telehealth flow looks like.</p><p><em>This article is general information, not medical advice. A licensed clinician should decide what treatment, if any, is right for you.</em></p>`,
         },
       ],
     },
