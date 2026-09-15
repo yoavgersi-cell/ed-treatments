@@ -4,7 +4,7 @@ import { Mail } from "lucide-react";
 export const metadata: Metadata = {
   title: "Contact Us",
   description:
-    "Get in touch with the ED Treatment editorial team — corrections, feedback, provider and partnership inquiries for edtreatmenthub.com.",
+    "Get in touch with the ED Treatment editorial team - corrections, feedback, provider and partnership inquiries for edtreatmenthub.com.",
   alternates: { canonical: "https://www.edtreatmenthub.com/contact" },
 };
 
@@ -15,7 +15,7 @@ export default function ContactPage() {
       <div className="space-y-4 text-gray-600 leading-relaxed">
         <p>
           We&apos;re an independent editorial team that researches and compares online
-          erectile-dysfunction treatment providers. We&apos;d love to hear from you — whether you have
+          erectile-dysfunction treatment providers. We&apos;d love to hear from you - whether you have
           feedback, spotted something that needs correcting, or want to reach us about a partnership.
         </p>
 
@@ -33,10 +33,10 @@ export default function ContactPage() {
 
         <h2 className="pt-2 text-xl font-semibold text-[#191919]">What we can help with</h2>
         <ul className="ml-5 list-disc space-y-1">
-          <li><strong>Corrections &amp; feedback</strong> — see something inaccurate or out of date? Let us know and we&apos;ll review it.</li>
-          <li><strong>Editorial questions</strong> — how we research, score, and rank providers (see our{" "}
+          <li><strong>Corrections &amp; feedback</strong> - see something inaccurate or out of date? Let us know and we&apos;ll review it.</li>
+          <li><strong>Editorial questions</strong> - how we research, score, and rank providers (see our{" "}
             <a href="/how-we-rank" className="font-semibold text-[#111111] hover:underline">methodology</a>).</li>
-          <li><strong>Provider &amp; partnership inquiries</strong> — if you represent a provider and want to reach us.</li>
+          <li><strong>Provider &amp; partnership inquiries</strong> - if you represent a provider and want to reach us.</li>
         </ul>
 
         <h2 className="pt-4 text-xl font-semibold text-[#191919]">What we can&apos;t help with</h2>

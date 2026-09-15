@@ -77,8 +77,8 @@ export function ComparisonCard({ product, hideRank, pageType = "listing", source
               </li>
             ))}
             {product.highlights[3] && (
-              <li className="mt-1.5 inline-flex items-center gap-1.5 rounded-md bg-[#111111] px-2 py-1 text-[11.5px] font-semibold leading-[1.3] text-white">
-                <Star className="h-3.5 w-3.5 shrink-0 fill-[#EBA51E] text-[#EBA51E]" strokeWidth={2} />
+              <li className="mt-2 inline-flex items-center gap-1.5 whitespace-nowrap rounded-md bg-[#F5A623] px-2.5 py-1 text-[11.5px] font-bold leading-[1.3] text-[#3A2A06]">
+                <Star className="h-3.5 w-3.5 shrink-0 fill-[#3A2A06] text-[#3A2A06]" strokeWidth={2} />
                 {product.highlights[3]}
               </li>
             )}
@@ -138,8 +138,8 @@ export function ComparisonCard({ product, hideRank, pageType = "listing", source
             </li>
           ))}
           {product.highlights[3] && (
-            <li className="mt-2 inline-flex items-center gap-1.5 self-start rounded-md bg-[#111111] px-2.5 py-1.5 text-[13px] font-semibold leading-[1.3] text-white">
-              <Star className="h-4 w-4 shrink-0 fill-[#EBA51E] text-[#EBA51E]" strokeWidth={2} />
+            <li className="mt-2 inline-flex items-center gap-1.5 self-start whitespace-nowrap rounded-md bg-[#F5A623] px-3 py-1.5 text-[13px] font-bold leading-[1.3] text-[#3A2A06]">
+              <Star className="h-4 w-4 shrink-0 fill-[#3A2A06] text-[#3A2A06]" strokeWidth={2} />
               {product.highlights[3]}
             </li>
           )}

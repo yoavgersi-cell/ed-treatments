@@ -28,7 +28,7 @@ export async function generateMetadata({
   const url = `${SITE_URL}/online-ed-treatment/${s.slug}`;
   const title = `Online ED Treatment in ${s.name} (2026)`;
   const description =
-    `Compare licensed online ED treatment providers serving ${s.name}. Discreet delivery to every ${s.abbr} ZIP code — from generic sildenafil & tadalafil to compounded options like Quad by MEDVi.`;
+    `Compare licensed online ED treatment providers serving ${s.name}. Discreet delivery to every ${s.abbr} ZIP code - from generic sildenafil & tadalafil to compounded options like Quad by MEDVi.`;
   return {
     title: { absolute: `${title} | ED Treatment` },
     description,
@@ -82,11 +82,11 @@ export default async function StatePage({
   const faqs = [
     {
       question: `Is online ED treatment available in ${s.name}?`,
-      answer: `Yes. Licensed telehealth providers can evaluate and, when appropriate, prescribe ED medication for residents across ${s.name} — from ${citiesPhrase} to smaller towns and rural ZIP codes. A licensed clinician reviews your intake before anything is prescribed.`,
+      answer: `Yes. Licensed telehealth providers can evaluate and, when appropriate, prescribe ED medication for residents across ${s.name} - from ${citiesPhrase} to smaller towns and rural ZIP codes. A licensed clinician reviews your intake before anything is prescribed.`,
     },
     {
       question: `Do I need to visit a clinic in ${s.name} in person?`,
-      answer: `Usually not. Most men in ${s.name} can complete the entire process online — a confidential health questionnaire, a licensed clinician's review, and discreet home delivery — without an in-person visit. Some complex cases may still be referred for in-person care.`,
+      answer: `Usually not. Most men in ${s.name} can complete the entire process online - a confidential health questionnaire, a licensed clinician's review, and discreet home delivery - without an in-person visit. Some complex cases may still be referred for in-person care.`,
     },
     {
       question: `How discreet is delivery in ${s.name}?`,
@@ -94,7 +94,7 @@ export default async function StatePage({
     },
     {
       question: `How much does online ED treatment cost in ${s.name}?`,
-      answer: `Pricing depends on the provider, the medication (generic, brand, or compounded), and whether it's a subscription or per-dose plan — not on where you live in ${s.name}. Compare current pricing on each provider's own site before you decide.`,
+      answer: `Pricing depends on the provider, the medication (generic, brand, or compounded), and whether it's a subscription or per-dose plan - not on where you live in ${s.name}. Compare current pricing on each provider's own site before you decide.`,
     },
   ];
 
@@ -148,7 +148,7 @@ export default async function StatePage({
         updatedLabel="Last Updated: September 2026"
         h1={`Online ED Treatment in ${s.name}`}
         h2={`Compare licensed telehealth ED providers serving ${s.name}`}
-        description={`Discreet, doctor-reviewed ED treatment delivered to any ZIP code in ${s.name} — from generic pills to compounded options. Compare your options below.`}
+        description={`Discreet, doctor-reviewed ED treatment delivered to any ZIP code in ${s.name} - from generic pills to compounded options. Compare your options below.`}
       />
 
       {(author || reviewer) && (
@@ -188,7 +188,7 @@ export default async function StatePage({
           Getting ED Treatment in {s.name}
         </h2>
         <p className="mb-4">
-          If you live in {s.name} — whether in {citiesPhrase}, or a smaller community across {s.region} —
+          If you live in {s.name} - whether in {citiesPhrase}, or a smaller community across {s.region} -
           you no longer have to book an in-person appointment to get help with erectile dysfunction. Licensed
           online providers can evaluate you, and where appropriate prescribe treatment, entirely online, then
           ship it discreetly to your door. Below is how it works, what ships to {s.name}, and how to choose.
@@ -198,12 +198,12 @@ export default async function StatePage({
           How Online ED Treatment Works in {s.name}
         </h2>
         <ol className="mb-4 ml-5 list-decimal space-y-2">
-          <li><strong>Complete a confidential intake.</strong> You answer a private health questionnaire online — no waiting room.</li>
+          <li><strong>Complete a confidential intake.</strong> You answer a private health questionnaire online - no waiting room.</li>
           <li><strong>A licensed clinician reviews it.</strong> Providers work with clinicians licensed to treat patients in {s.name}; they decide whether treatment is safe and appropriate for you.</li>
           <li><strong>Your treatment ships to you.</strong> If prescribed, your medication is delivered in discreet, unbranded packaging to your {s.name} address.</li>
         </ol>
         <p className="mb-4">
-          Not sure where to start? {topName} is our current top pick — see the full{" "}
+          Not sure where to start? {topName} is our current top pick - see the full{" "}
           <Link href="/" className="font-semibold text-[#111111] hover:underline">comparison</Link>{" "}
           and our{" "}
           <Link href="/reviews" className="font-semibold text-[#111111] hover:underline">in-depth reviews</Link>.
@@ -213,7 +213,7 @@ export default async function StatePage({
           Shipping &amp; Delivery Across {s.name}
         </h2>
         <p className="mb-4">
-          The providers we compare ship to <strong>every ZIP code in {s.name}</strong> — from busy metros like{" "}
+          The providers we compare ship to <strong>every ZIP code in {s.name}</strong> - from busy metros like{" "}
           {c0} to rural addresses far from the nearest pharmacy. You simply enter your {s.abbr} ZIP code at
           checkout to confirm delivery. Orders arrive in plain, unmarked packaging for privacy, and most
           providers offer free, discreet shipping and easy refills so you never run out. For many men in{" "}
@@ -227,7 +227,7 @@ export default async function StatePage({
         <p className="mb-4">
           Yes. Telehealth is an established, legal way to receive care in {s.name} when a licensed clinician is
           involved. ED medications are prescription-only, so a clinician licensed for {s.name} must review your
-          information before anything can be prescribed — that safeguard is a feature, not a hurdle. Availability
+          information before anything can be prescribed - that safeguard is a feature, not a hurdle. Availability
           of a specific provider can vary by state, so the comparison above reflects options that serve {s.name}.
         </p>
 
@@ -237,7 +237,7 @@ export default async function StatePage({
         <p className="mb-4">
           Searching &quot;ED treatment near me&quot; in {s.name} will surface local urologists and men&apos;s-health
           clinics, and those are a good fit for complex cases or if you prefer to be seen in person. But for most
-          men, online treatment is faster, more private, and often less expensive — you skip the wait for an
+          men, online treatment is faster, more private, and often less expensive - you skip the wait for an
           appointment and the trip across town. We break the trade-offs down in our guide to{" "}
           <Link href="/articles/ed-treatment-near-me" className="font-semibold text-[#111111] hover:underline">
             ED treatment near you vs online

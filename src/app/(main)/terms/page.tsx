@@ -22,7 +22,7 @@ export default function TermsPage() {
           not use the Site.
         </p>
 
-        <h2 className="pt-4 text-xl font-semibold text-[#191919]">Informational Purpose Only — Not Medical Advice</h2>
+        <h2 className="pt-4 text-xl font-semibold text-[#191919]">Informational Purpose Only - Not Medical Advice</h2>
         <p>
           ED Treatment is an independent comparison and information publisher. All content is provided
           for general informational purposes only and is <strong>not medical advice</strong>. We are not
@@ -36,7 +36,7 @@ export default function TermsPage() {
         <p>
           The Site contains affiliate links. If you click a link to a provider and take a qualifying
           action, we may earn a commission at no additional cost to you. Our rankings and reviews are
-          determined independently — see our{" "}
+          determined independently - see our{" "}
           <a href="/disclaimer" className="font-semibold text-[#111111] hover:underline">disclosure</a>{" "}
           and{" "}
           <a href="/how-we-rank" className="font-semibold text-[#111111] hover:underline">ranking methodology</a>.
@@ -46,7 +46,7 @@ export default function TermsPage() {
         <p>
           We work to keep information accurate and current, but provider offerings, pricing, and
           policies change frequently. The Site is provided &quot;as is&quot; without warranties of any
-          kind. Always confirm current details — especially pricing and treatment terms — directly on
+          kind. Always confirm current details - especially pricing and treatment terms - directly on
           the provider&apos;s own website before making a decision.
         </p>
 

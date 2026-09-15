@@ -9,7 +9,7 @@ const SITE_URL = "https://www.edtreatmenthub.com";
 export const metadata: Metadata = {
   title: { absolute: "Online ED Treatment by State (2026) | ED Treatment" },
   description:
-    "Get ED treatment online in your state. Compare licensed telehealth providers with discreet, statewide delivery — pick your state to see options that ship to you.",
+    "Get ED treatment online in your state. Compare licensed telehealth providers with discreet, statewide delivery - pick your state to see options that ship to you.",
   alternates: { canonical: `${SITE_URL}/online-ed-treatment` },
   openGraph: {
     title: "Online ED Treatment by State (2026)",
@@ -25,7 +25,7 @@ export default function OnlineEdTreatmentIndex() {
       <h1 className="mb-4 text-3xl font-bold text-[#191919]">Online ED Treatment by State</h1>
       <p className="mb-4 max-w-2xl text-[16px] leading-[1.7] text-gray-700">
         Erectile-dysfunction treatment is available online in all 50 states through licensed telehealth
-        providers — with a confidential intake, a licensed clinician&apos;s review, and discreet delivery to
+        providers - with a confidential intake, a licensed clinician&apos;s review, and discreet delivery to
         your door. Because telehealth is licensed state by state, choose your state below to see the providers
         that serve your area and ship to every ZIP code in it.
       </p>

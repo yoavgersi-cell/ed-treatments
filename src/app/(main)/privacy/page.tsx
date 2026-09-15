@@ -42,15 +42,15 @@ export default function PrivacyPage() {
         </p>
         <ul className="ml-5 list-disc space-y-1">
           <li>
-            <strong>Analytics</strong> — we use analytics tools (which may include Google Analytics)
+            <strong>Analytics</strong> - we use analytics tools (which may include Google Analytics)
             to understand aggregate site traffic and usage.
           </li>
           <li>
-            <strong>Advertising/measurement pixels</strong> — we may use measurement pixels (which may
+            <strong>Advertising/measurement pixels</strong> - we may use measurement pixels (which may
             include the Meta Pixel) to understand the effectiveness of our content.
           </li>
           <li>
-            <strong>Affiliate tracking</strong> — when you click an outbound link to a provider, our
+            <strong>Affiliate tracking</strong> - when you click an outbound link to a provider, our
             affiliate partners may set cookies to attribute a referral to us.
           </li>
         </ul>
@@ -81,7 +81,7 @@ export default function PrivacyPage() {
           action, we may earn a commission at no additional cost to you. See our{" "}
           <a href="/disclaimer" className="font-semibold text-[#111111] hover:underline">disclosure</a>{" "}
           for details. We do not control, and are not responsible for, the privacy practices of the
-          third-party sites you visit through these links — please review their policies.
+          third-party sites you visit through these links - please review their policies.
         </p>
 
         <h2 className="pt-4 text-xl font-semibold text-[#191919]">Your Privacy Rights</h2>
