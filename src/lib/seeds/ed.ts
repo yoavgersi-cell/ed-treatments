@@ -724,7 +724,7 @@ export const edConfig: SiteConfig = {
       category: "Guides",
       readTime: "7 min read",
       publishedAt: "2026-09-11",
-      updatedAt: "2026-09-11",
+      updatedAt: "2026-09-15",
       heroColor: "#1a1a1a",
       author: "ED Treatment Editorial Team",
       keyTakeaways: [
@@ -748,7 +748,7 @@ export const edConfig: SiteConfig = {
         },
         {
           heading: "How to find your cause — and what to do next",
-          body: `<p>Because the causes overlap, the smart move is a proper evaluation rather than guesswork. A licensed provider can review your history, medications and symptoms and, where useful, order simple tests. Many men can start that process online: the licensed telehealth clinics on our <a href="/">ED treatment comparison</a> run an intake and a clinician review before any prescription.</p><p>The good news is that once the cause is understood, ED is highly treatable for most men — through lifestyle changes, treating the underlying condition, medication, or a combination. If you want to see how the leading online options compare, start with our <a href="/reviews/quad">top-rated provider review</a>.</p><p><em>This article is general information, not medical advice. Talk to a licensed clinician about your specific situation, especially before starting or stopping any medication.</em></p>`,
+          body: `<p>Because the causes overlap, the smart move is a proper evaluation rather than guesswork. A licensed provider can review your history, medications and symptoms and, where useful, order simple tests. Many men can start that process online: the licensed telehealth clinics on our <a href="/">ED treatment comparison</a> run an intake and a clinician review before any prescription.</p><p>The good news is that once the cause is understood, ED is highly treatable for most men — through lifestyle changes, treating the underlying condition, medication, or a combination. If you want to see how the leading online options compare, start with our <a href="/articles/best-ed-treatments-compared">best ED treatments compared</a> guide or our <a href="/reviews/quad">top-rated provider review</a>.</p><p><em>This article is general information, not medical advice. Talk to a licensed clinician about your specific situation, especially before starting or stopping any medication.</em></p>`,
         },
       ],
     },
@@ -760,7 +760,7 @@ export const edConfig: SiteConfig = {
       category: "Treatments",
       readTime: "8 min read",
       publishedAt: "2026-09-11",
-      updatedAt: "2026-09-11",
+      updatedAt: "2026-09-15",
       heroColor: "#0f2a43",
       author: "ED Treatment Editorial Team",
       keyTakeaways: [
@@ -788,7 +788,7 @@ export const edConfig: SiteConfig = {
         },
         {
           heading: "How to choose in 2026",
-          body: `<p>For most men the practical question isn't "what's the newest thing" but "what fits me": the standard generics are cheap and proven; a compounded multi-ingredient option like Quad is worth considering if a single pill underperformed; and format (pill, chewable, dissolvable) is a personal preference. Whatever you choose, a licensed provider should be in the loop.</p><p>To compare the leading licensed online options side by side, see our <a href="/">ED treatment comparison</a>. <em>This article is general information, not medical advice.</em></p>`,
+          body: `<p>For most men the practical question isn't "what's the newest thing" but "what fits me": the standard generics are cheap and proven; a compounded multi-ingredient option like Quad is worth considering if a single pill underperformed; and format (pill, chewable, dissolvable) is a personal preference. Whatever you choose, a licensed provider should be in the loop.</p><p>To compare the leading licensed online options side by side, see our <a href="/">ED treatment comparison</a>, and our full <a href="/articles/best-ed-treatments-compared">best ED treatments compared</a> guide walks through every category head to head. <em>This article is general information, not medical advice.</em></p>`,
         },
       ],
     },
@@ -800,7 +800,7 @@ export const edConfig: SiteConfig = {
       category: "Treatments",
       readTime: "8 min read",
       publishedAt: "2026-09-11",
-      updatedAt: "2026-09-11",
+      updatedAt: "2026-09-15",
       heroColor: "#1c1c1c",
       author: "ED Treatment Editorial Team",
       keyTakeaways: [
@@ -812,7 +812,7 @@ export const edConfig: SiteConfig = {
       sections: [
         {
           heading: "The medicines that actually work",
-          body: `<p>When people ask for the "best ED medicine," they're almost always asking about <strong>PDE5 inhibitors</strong>, and for good reason — they're the most studied, most effective first-line ED medications. The two you'll encounter most:</p><ul><li><strong>Sildenafil</strong> (the active ingredient in Viagra) — short-acting, typically taken before activity, effective for a window of a few hours.</li><li><strong>Tadalafil</strong> (the active ingredient in Cialis) — long-acting, with an effect that can last well over a day, and available in a low daily dose some men prefer.</li><li><strong>Vardenafil</strong> (the active ingredient in Levitra) — a third oral PDE5 inhibitor in the same family, another option some men discuss with a clinician if sildenafil or tadalafil isn't the right fit.</li></ul><p>All three are widely available as generics. There's no universal "best" among them — sildenafil suits men who want to dose as needed, tadalafil suits those who prefer spontaneity or a daily routine, and vardenafil is a further alternative to raise with your clinician.</p>`,
+          body: `<p>When people ask for the "best ED medicine," they're almost always asking about <strong>PDE5 inhibitors</strong>, and for good reason — they're the most studied, most effective first-line ED medications. The two you'll encounter most:</p><ul><li><strong>Sildenafil</strong> (the active ingredient in Viagra) — short-acting, typically taken before activity, effective for a window of a few hours.</li><li><strong>Tadalafil</strong> (the active ingredient in Cialis) — long-acting, with an effect that can last well over a day, and available in a low daily dose some men prefer.</li><li><strong>Vardenafil</strong> (the active ingredient in Levitra) — a third oral PDE5 inhibitor in the same family, another option some men discuss with a clinician if sildenafil or tadalafil isn't the right fit.</li></ul><p>All three are widely available as generics. There's no universal "best" among them — sildenafil suits men who want to dose as needed, tadalafil suits those who prefer spontaneity or a daily routine, and vardenafil is a further alternative to raise with your clinician. For a practical side-by-side of the two most common, see our guide to <a href="/articles/sildenafil-vs-cialis">sildenafil vs Cialis</a>, or compare every option in our <a href="/articles/best-ed-treatments-compared">best ED treatments compared</a> guide.</p>`,
         },
         {
           heading: "Can ED be cured permanently?",
@@ -832,11 +832,11 @@ export const edConfig: SiteConfig = {
       slug: "best-ed-treatments-compared",
       title: "Best ED Treatments in 2026, Compared",
       description:
-        "A side-by-side look at the best ED treatments in 2026 — from generic pills to compounded multi-ingredient options and the licensed telehealth clinics that prescribe them.",
+        "The definitive side-by-side guide to the best ED treatments in 2026 — oral pills, compounded multi-ingredient options, injectables and lifestyle — plus how to choose the right one for your situation and the licensed telehealth clinics that prescribe them.",
       category: "Guides",
-      readTime: "9 min read",
+      readTime: "12 min read",
       publishedAt: "2026-09-11",
-      updatedAt: "2026-09-11",
+      updatedAt: "2026-09-15",
       heroColor: "#0c3b2e",
       author: "ED Treatment Editorial Team",
       keyTakeaways: [
@@ -848,7 +848,15 @@ export const edConfig: SiteConfig = {
       sections: [
         {
           heading: "The main categories of ED treatment",
-          body: `<p>Before comparing brands, it helps to know the categories:</p><ul><li><strong>Standard generic pills</strong> — sildenafil and tadalafil, cheap, proven, first-line for most men.</li><li><strong>Compounded multi-ingredient medications</strong> — several actives in one dose (e.g. a "quad-blend"), aimed at men where a single pill underperformed; not FDA-approved the way generics are.</li><li><strong>Different formats</strong> — chewables and dissolvables, same medications in an easier-to-take form.</li><li><strong>Non-drug options</strong> — vacuum devices and, for specific cases, other treatments a specialist may raise.</li></ul>`,
+          body: `<p>Before comparing brands, it helps to know the categories:</p><ul><li><strong>Standard generic pills</strong> — sildenafil and tadalafil, cheap, proven, first-line for most men.</li><li><strong>Compounded multi-ingredient medications</strong> — several actives in one dose (e.g. a "quad-blend"), aimed at men where a single pill underperformed; not FDA-approved the way generics are.</li><li><strong>Different formats</strong> — chewables and dissolvables, same medications in an easier-to-take form.</li><li><strong>Injectables</strong> — like Trimix, a compounded injection usually reserved for when oral pills fall short.</li><li><strong>Non-drug options</strong> — vacuum devices and lifestyle changes, plus, for specific cases, other treatments a specialist may raise.</li></ul>`,
+        },
+        {
+          heading: "The main treatment categories side by side",
+          body: `<p>Here is how the main categories compare at a glance. None is universally "best" — they sit at different points in a treatment plan, and which one fits is a decision to make with a licensed clinician.</p><table><thead><tr><th>Treatment category</th><th>What it is</th><th>Often considered for</th><th>Good to know</th></tr></thead><tbody><tr><td>Oral PDE5 inhibitors</td><td>Sildenafil, tadalafil and vardenafil — pills that improve blood flow, widely available as affordable generics.</td><td>Most men, as the first-line starting point.</td><td>Well-studied and simple. Sildenafil is short-acting and taken on demand; tadalafil can be on-demand or a low daily dose.</td></tr><tr><td>Compounded / combination</td><td>A single dose blending several actives, such as the compounded 4-in-1 <a href="/reviews/quad">Quad by MEDVi</a>, often in a fast-dissolving format.</td><td>Men for whom a single standard pill underperformed.</td><td>Prepared by specialized pharmacies and not FDA-approved the way generics are, so the licensed-clinician review does real work here.</td></tr><tr><td>Injectables</td><td>Trimix — a compounded injection (commonly alprostadil, papaverine and phentolamine) that works outside the PDE5 pathway.</td><td>Typically a second-line option when oral pills have not worked well enough.</td><td>Requires hands-on clinician training and guidance; it is not a self-start treatment.</td></tr><tr><td>Lifestyle &amp; non-drug</td><td>Exercise, a heart-healthy diet, weight loss, better sleep, less alcohol, quitting smoking — plus vacuum devices.</td><td>Everyone, as a foundation; sometimes enough for milder ED with a lifestyle cause.</td><td>Improves the vascular health erections depend on, and works best alongside — not instead of — medical care for moderate-to-severe ED.</td></tr></tbody></table>`,
+        },
+        {
+          heading: "Oral pills, compounded doses, injectables and lifestyle — in depth",
+          body: `<p><strong>Oral PDE5 inhibitors</strong> are where most men start, and for good reason: sildenafil (the active ingredient in Viagra) and tadalafil (the active ingredient in Cialis) are the most studied ED medications and cost a fraction of the old brand names as generics. Vardenafil (Levitra) is a third option in the same family. The main practical difference between them is timing rather than whether they work, which we unpack in our guide to <a href="/articles/sildenafil-vs-cialis">sildenafil vs Cialis</a>.</p><p><strong>Daily vs on-demand</strong> is the dosing choice within oral treatment. On-demand means taking a dose when you plan to be active — the usual approach with sildenafil. A low daily dose of tadalafil, by contrast, keeps a small amount of medication always present so there is nothing to time; some men strongly prefer that for spontaneity, while others would rather not take a pill every day. Neither is "better" in general.</p><p><strong>Compounded, multi-ingredient options</strong> like <a href="/reviews/quad">Quad by MEDVi</a> blend several actives into one fast-dissolving dose and are marketed at men for whom a single standard pill did not do enough. Because compounded products do not go through the same FDA approval as generics, a licensed clinician deciding whether one is appropriate is an important safeguard, not a formality.</p><p><strong>Injectables</strong> such as Trimix sit further along the plan — generally raised only when oral options fall short — and require clinician training because they are delivered by injection. Our guide to <a href="/articles/trimix-for-ed">Trimix for ED</a> covers how it compares. <strong>Lifestyle changes</strong>, finally, are the foundation under all of this: because an erection is a blood-flow event, the habits that protect your heart tend to help erections too, as we cover in <a href="/articles/natural-ed-remedies">natural ED remedies</a>.</p>`,
         },
         {
           heading: "What actually differs between online clinics",
@@ -859,8 +867,12 @@ export const edConfig: SiteConfig = {
           body: `<p>We rank four licensed online options. <a href="/reviews/quad">Quad by MEDVi</a> is our top pick for its differentiated compounded 4-in-1 dissolvable formula. <a href="/reviews/hims">Hims</a> is the polished mainstream choice with both generics and chewables. <a href="/reviews/dudemeds">DudeMeds</a> is the value-minded pick for the standard medication at a low price. <a href="/reviews/braverx">BraveRX</a> rounds out the field as a straightforward online Rx platform. Full head-to-head detail lives on our <a href="/">comparison homepage</a>.</p>`,
         },
         {
-          heading: "How to choose",
-          body: `<p>Start with the standard generics if cost is your priority and you haven't tried treatment before; consider a compounded multi-ingredient option if a single pill underperformed; pick your format on preference; and lean toward clinics with careful provider review and honest pricing. See the full ranking and side-by-side details on our <a href="/">ED treatment comparison</a>.</p><p><em>This article is general information, not medical advice. A licensed clinician should decide what's appropriate for you.</em></p>`,
+          heading: "How to choose the best treatment for your situation",
+          body: `<p>The "best" ED treatment is the one matched to your body, your timing preferences and your health — which is a clinician's call, not a ranking. Still, your situation usually points toward a sensible starting point to raise in that conversation:</p><ul><li><strong>If you are a first-timer</strong> who hasn't tried treatment before: an affordable generic PDE5 inhibitor from a licensed telehealth clinic is the usual place to start, because it is cheap, proven and simple.</li><li><strong>If a single pill didn't work well enough</strong>: rather than just doubling down, it's worth discussing a dose or medication adjustment, addressing lifestyle and underlying-health factors, or considering a <a href="/reviews/quad">compounded multi-ingredient option like Quad</a> — and, in some cases, whether an injectable is appropriate.</li><li><strong>If you want spontaneity</strong>: a longer-acting option (tadalafil, including its low daily dose) removes the need to time anything, which many men prefer over planning around a shorter window.</li><li><strong>If budget is your priority</strong>: generic sildenafil and tadalafil are the most economical route, and clinics differ on how transparently they price them — favor honest, clearly stated pricing over hard-to-compare bundles.</li></ul><p>Whatever your situation, lean toward clinics with a careful provider review and honest pricing. See the full ranking and side-by-side details on our <a href="/">ED treatment comparison</a>, or read the full write-up of our <a href="/reviews/quad">top-rated provider</a>.</p>`,
+        },
+        {
+          heading: "Frequently asked questions",
+          body: `<div class="qa"><strong>What is the best ED treatment?</strong><p>There is no single best treatment for everyone. For most men an affordable generic PDE5 inhibitor (sildenafil or tadalafil) from a licensed telehealth clinic is the sensible first step; men for whom a single pill underperformed sometimes discuss a compounded multi-ingredient option, and injectables like Trimix are usually reserved for when oral pills fall short. The right choice depends on your health and preferences, which is a licensed clinician's call.</p></div><div class="qa"><strong>What is the most effective ED treatment?</strong><p>PDE5 inhibitors are the most-studied and most effective first-line ED medications for most men. Effectiveness still varies person to person, and some men respond better to one option, dose or format than another — a reason to work with a clinician rather than assume one product is strongest for everyone.</p></div><div class="qa"><strong>What is the safest ED treatment?</strong><p>Safety depends far more on proper screening than on which product you pick. PDE5 inhibitors are generally well tolerated for appropriate candidates, but they must not be combined with nitrate medications, and certain heart conditions and other drugs matter too. That is exactly why an honest medical intake and a licensed-clinician review are the real safety step — see our guide to <a href="/articles/ed-medication-side-effects">ED medication side effects</a>.</p></div><div class="qa"><strong>What is the best ED treatment for older men?</strong><p>Older men are more likely to have other health conditions and take other medications, so the emphasis is on a thorough intake and clinician review rather than a single "best" pill. The same PDE5 inhibitors are commonly used, but the appropriate option and dose is an individual medical decision — bring your full medication list and health history to the conversation.</p></div><div class="qa"><strong>What if pills don't work for me?</strong><p>A single standard pill helping only partially is common and doesn't mean nothing will work. Options to discuss with a clinician include adjusting the dose or medication, addressing lifestyle and underlying-health factors, a <a href="/reviews/quad">compounded multi-ingredient option</a>, or — when oral treatment falls short — an injectable like Trimix.</p></div><div class="qa"><strong>Can ED be cured permanently?</strong><p>ED medications treat and manage ED rather than permanently curing it. When ED is driven by a reversible cause — such as poor cardiovascular health, uncontrolled diabetes, excess weight, smoking or a psychological factor — treating that root cause can genuinely improve or resolve erectile function over time. Be skeptical of any product claiming a permanent one-time cure.</p></div><p><em>This article is general information, not medical advice. A licensed clinician should decide what's appropriate for you, especially if you take nitrates or have a heart condition.</em></p>`,
         },
       ],
     },
@@ -940,11 +952,11 @@ export const edConfig: SiteConfig = {
       slug: "sildenafil-vs-cialis",
       title: "Sildenafil vs Cialis (Tadalafil): How to Choose",
       description:
-        "Sildenafil vs Cialis (tadalafil): compare onset, duration, food effects and daily vs on-demand dosing to bring an informed question to your clinician.",
+        "Sildenafil vs Cialis (tadalafil): a practical side-by-side of onset, duration, food effects, side effects, daily vs on-demand dosing and cost — plus where vardenafil fits — to bring an informed question to your clinician.",
       category: "Medications",
-      readTime: "7 min read",
+      readTime: "10 min read",
       publishedAt: "2026-09-12",
-      updatedAt: "2026-09-12",
+      updatedAt: "2026-09-15",
       heroColor: "#14243a",
       author: "ED Treatment Editorial Team",
       keyTakeaways: [
@@ -959,6 +971,10 @@ export const edConfig: SiteConfig = {
           body: `<p>Sildenafil (the active ingredient in Viagra) and tadalafil (the active ingredient in Cialis) are both <strong>PDE5 inhibitors</strong> — the same class of medication, working through the same mechanism of improving blood flow. The practical differences between them are mostly about <strong>timing</strong>, not whether they work. Both are widely available as affordable generics, and for many men either one is a reasonable option, which is exactly why comparing them on the details below is useful before you talk to a clinician. It's worth knowing there is also a third oral option in the same class — <strong>vardenafil</strong> (the active ingredient in Levitra) — which works similarly and may come up as an alternative to discuss with your clinician.</p>`,
         },
         {
+          heading: "Sildenafil vs tadalafil at a glance",
+          body: `<p>Here is the practical comparison side by side. These are general characteristics, not a prescription — how you actually respond, and which is appropriate for you, is a clinician's call.</p><table><thead><tr><th>Factor</th><th>Sildenafil (Viagra)</th><th>Tadalafil (Cialis)</th></tr></thead><tbody><tr><td>Class</td><td>PDE5 inhibitor</td><td>PDE5 inhibitor</td></tr><tr><td>Duration</td><td>Short-acting — a window of a few hours</td><td>Long-acting — can work for well over a day</td></tr><tr><td>Typical timing</td><td>Taken shortly before activity</td><td>On-demand, or a low dose taken every day</td></tr><tr><td>Food effect</td><td>Can be slowed by a heavy or high-fat meal</td><td>Generally less affected by food</td></tr><tr><td>Dosing style</td><td>On-demand</td><td>On-demand or daily</td></tr><tr><td>Best suits</td><td>Planning around a specific occasion</td><td>Spontaneity over a longer stretch</td></tr><tr><td>Availability</td><td>Affordable generic</td><td>Affordable generic</td></tr></tbody></table>`,
+        },
+        {
           heading: "Onset and duration",
           body: `<p>The headline difference is how long each lasts:</p><ul><li><strong>Sildenafil</strong> is <strong>short-acting</strong>. It's typically taken shortly before activity and works within a window of a few hours.</li><li><strong>Tadalafil</strong> is <strong>long-acting</strong>. A single on-demand dose can remain effective for well over a day, which is why it's sometimes nicknamed "the weekend pill."</li></ul><p>If you prefer to plan around a specific occasion, the shorter window of sildenafil may be all you need. If you value spontaneity across a longer stretch, tadalafil's longer duration is often the draw.</p>`,
         },
@@ -967,12 +983,24 @@ export const edConfig: SiteConfig = {
           body: `<p>Food is a real, practical difference. <strong>Sildenafil</strong> can be slowed by a heavy or high-fat meal, so it's often taken on a relatively empty stomach for a more predictable onset. <strong>Tadalafil</strong> is generally less affected by what you eat. Both can cause similar side effects (headache, flushing, nasal congestion and others), and both share the same important safety considerations — most critically, neither should be combined with nitrate medications. We cover that in detail in our guide to <a href="/articles/ed-medication-side-effects">ED medication side effects</a>.</p>`,
         },
         {
+          heading: "Side effects at a high level",
+          body: `<p>Because they're the same class of medication, sildenafil and tadalafil share a similar side-effect profile — mostly mild and temporary, and related to the way these drugs act on blood vessels. The ones men most commonly notice include <strong>headache</strong>, <strong>facial flushing</strong>, <strong>nasal congestion</strong> and <strong>indigestion</strong>; back or muscle aches are reported a little more often with tadalafil. Rare but serious effects — such as an erection lasting more than four hours, or sudden vision or hearing changes — need prompt medical care. This is a high-level overview, not a full list: the more important point is that a licensed clinician screens your health and medications first, which is why our full <a href="/articles/ed-medication-side-effects">ED medication side effects</a> guide, and an honest intake, matter more than the molecule you choose.</p>`,
+        },
+        {
           heading: "Daily vs on-demand dosing",
           body: `<p>There's also a dosing-style difference. Sildenafil is essentially an <strong>on-demand</strong> medication — you take it when you plan to be active. Tadalafil can be taken on demand too, but it also comes in a <strong>low daily dose</strong>: a small amount taken every day so the medication is simply always present, removing the need to time anything. Some men strongly prefer that for spontaneity; others would rather not take a daily pill. Neither approach is "better" in general — it's a lifestyle-and-health decision to make with a clinician.</p>`,
         },
         {
+          heading: "Which suits which lifestyle",
+          body: `<p>Because both work well, the honest way to choose is to match the medication to how you want treatment to fit your life:</p><ul><li><strong>You like to plan ahead</strong> — if intimacy tends to be planned rather than spur-of-the-moment, sildenafil's shorter, take-it-before window may be all you need.</li><li><strong>You value spontaneity</strong> — if you'd rather not think about timing, tadalafil's long duration (or its low daily dose) keeps the medication present so there's nothing to plan around.</li><li><strong>You eat late or enjoy a big dinner out</strong> — since tadalafil is generally less affected by food, it can be the more predictable pick around heavy meals.</li><li><strong>You dislike taking a daily pill</strong> — then an on-demand option (sildenafil, or on-demand tadalafil) fits better than a daily routine.</li></ul><p>These are starting points for a conversation, not rules — a licensed clinician confirms which is appropriate for your health.</p>`,
+        },
+        {
           heading: "What about cost?",
           body: `<p>Both are inexpensive as generics, and the total you pay depends more on the provider, dose and quantity than on which molecule you pick. Online clinics price them per dose or as a monthly plan, and promotions change often — so treat any figure as approximate and confirm it at checkout. We break down the drivers in our guide to <a href="/articles/ed-treatment-cost">ED treatment cost</a>, and you can compare licensed clinics on our <a href="/">ED treatment comparison</a>.</p>`,
+        },
+        {
+          heading: "Frequently asked questions",
+          body: `<div class="qa"><strong>Which is better, sildenafil or Cialis?</strong><p>Neither is universally better — they're the same class of medication and both are effective for most men. Sildenafil is short-acting and suits planning around a specific occasion; tadalafil is long-acting and suits spontaneity or a daily routine. The "better" one is whichever fits your timing, health and response, which a licensed clinician helps confirm.</p></div><div class="qa"><strong>How long does each one last?</strong><p>Sildenafil is short-acting, with an effective window of a few hours, so it's typically taken shortly before activity. Tadalafil is long-acting — a single on-demand dose can remain effective for well over a day, which is why it's sometimes called "the weekend pill."</p></div><div class="qa"><strong>Can I switch between them?</strong><p>Many men try one and later discuss switching to the other with their clinician if the timing, food effects or side effects don't suit them. Don't start, stop or switch any medication on your own, though — do it through the licensed clinician who prescribes it, so your health and other medications are taken into account.</p></div><div class="qa"><strong>Which is cheaper?</strong><p>Both are inexpensive as generics, and there's no fixed answer to which costs less — the total depends more on the provider, dose and quantity than on the molecule. Because plans and promotions change often, compare the current price at each licensed clinic rather than assuming one is always cheaper.</p></div><div class="qa"><strong>What about vardenafil (Levitra)?</strong><p>Vardenafil is a third oral PDE5 inhibitor in the same family. It works similarly to sildenafil and tadalafil and is another option some men raise with a clinician if neither of the first two is the right fit.</p></div>`,
         },
         {
           heading: "How to choose",
@@ -988,7 +1016,7 @@ export const edConfig: SiteConfig = {
       category: "How It Works",
       readTime: "6 min read",
       publishedAt: "2026-09-12",
-      updatedAt: "2026-09-12",
+      updatedAt: "2026-09-15",
       heroColor: "#111111",
       author: "ED Treatment Editorial Team",
       keyTakeaways: [
@@ -1020,7 +1048,7 @@ export const edConfig: SiteConfig = {
         },
         {
           heading: "Comparing your options",
-          body: `<p>Once you know the process, choosing comes down to a few factors: price, the formats and medications offered, provider and support quality, and discretion. We compare licensed online clinics side by side on our <a href="/">ED treatment comparison</a>, and you can read the full write-up of our <a href="/reviews/quad">top-rated provider</a> or browse all our <a href="/reviews">provider reviews</a> to see how each one handles the steps above.</p><p><em>This article is general information, not medical advice. A licensed clinician should decide what treatment, if any, is right for you.</em></p>`,
+          body: `<p>Once you know the process, choosing comes down to a few factors: price, the formats and medications offered, provider and support quality, and discretion. We compare licensed online clinics side by side on our <a href="/">ED treatment comparison</a> and walk through every treatment category in our <a href="/articles/best-ed-treatments-compared">best ED treatments compared</a> guide, and you can read the full write-up of our <a href="/reviews/quad">top-rated provider</a> or browse all our <a href="/reviews">provider reviews</a> to see how each one handles the steps above.</p><p><em>This article is general information, not medical advice. A licensed clinician should decide what treatment, if any, is right for you.</em></p>`,
         },
       ],
     },
@@ -1112,7 +1140,7 @@ export const edConfig: SiteConfig = {
       category: "Treatments",
       readTime: "7 min read",
       publishedAt: "2026-09-13",
-      updatedAt: "2026-09-13",
+      updatedAt: "2026-09-15",
       heroColor: "#2a1a3a",
       author: "ED Treatment Editorial Team",
       keyTakeaways: [
@@ -1140,7 +1168,7 @@ export const edConfig: SiteConfig = {
         },
         {
           heading: "The route that actually works",
-          body: `<p>If you want a treatment that is both <strong>effective and safe</strong>, the legitimate path is a prescription — and the good news is that getting one no longer means an awkward in-person visit. Licensed telehealth clinics now make it straightforward and discreet: you complete an online intake, a licensed clinician reviews your health to make sure treatment is appropriate, and, if it is, medication ships to your door in plain packaging. That clinician review is exactly the safeguard the OTC products skip.</p><p>See how the process works step by step in our guide to <a href="/articles/how-to-get-ed-treatment-online">getting ED treatment online</a>, compare licensed clinics on our <a href="/">ED treatment comparison</a>, or browse our <a href="/reviews">provider reviews</a> to see how each option handles the intake and prescribing.</p>`,
+          body: `<p>If you want a treatment that is both <strong>effective and safe</strong>, the legitimate path is a prescription — and the good news is that getting one no longer means an awkward in-person visit. Licensed telehealth clinics now make it straightforward and discreet: you complete an online intake, a licensed clinician reviews your health to make sure treatment is appropriate, and, if it is, medication ships to your door in plain packaging. That clinician review is exactly the safeguard the OTC products skip.</p><p>See how the process works step by step in our guide to <a href="/articles/how-to-get-ed-treatment-online">getting ED treatment online</a>, weigh the options in our <a href="/articles/best-ed-treatments-compared">best ED treatments compared</a> guide, compare licensed clinics on our <a href="/">ED treatment comparison</a>, or browse our <a href="/reviews">provider reviews</a> to see how each option handles the intake and prescribing.</p>`,
         },
         {
           heading: "The bottom line",

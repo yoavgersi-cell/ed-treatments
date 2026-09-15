@@ -196,7 +196,11 @@ export function EditorialContent({ midSlot }: { midSlot?: React.ReactNode }) {
       <DrugTable rows={drugRows} />
       <p className="mb-8 text-[13.5px] text-gray-500">
         Onset and duration are general ranges and vary by person and dose. Only a licensed clinician
-        can tell you which option, if any, is appropriate for you. Compare the medicines in{" "}
+        can tell you which option, if any, is appropriate for you. For a full breakdown see{" "}
+        <Link href="/articles/sildenafil-vs-cialis" className="font-semibold text-[#111111] hover:underline">
+          sildenafil vs Cialis (tadalafil)
+        </Link>{" "}
+        and compare the medicines in{" "}
         <Link href="/articles/best-ed-medicine" className="font-semibold text-[#111111] hover:underline">
           best ED medicine: what actually works
         </Link>.
