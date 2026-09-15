@@ -140,7 +140,7 @@ export default async function HomePage() {
       />
 
       {(author || reviewer) && (
-        <section className="mx-auto max-w-[1200px] px-4 pt-5">
+        <section className="mx-auto max-w-[1200px] px-4 pt-3">
           <div className="flex flex-wrap items-center gap-x-3 gap-y-2">
             {author && <ExpertByline expert={author} label="Written by" />}
             {reviewer && <ExpertByline expert={reviewer} label="Reviewed by" />}
@@ -148,7 +148,7 @@ export default async function HomePage() {
         </section>
       )}
 
-      <section className="mx-auto max-w-[1200px] px-4 pt-6 pb-6">
+      <section className="mx-auto max-w-[1200px] px-4 pt-4 pb-6">
         <div className="flex gap-6 items-start">
           <div className="min-w-0 flex-1 space-y-4">
             {displayList.map((product, idx) => (
