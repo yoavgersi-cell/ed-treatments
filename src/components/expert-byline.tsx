@@ -15,17 +15,24 @@ export function ExpertByline({
   label = "Written by",
   href = "/about",
   showRole = false,
+  compact = false,
 }: {
   expert: Expert;
   label?: string;
   href?: string;
   showRole?: boolean;
+  /** Smaller avatar + text for a lower-weight metadata line. */
+  compact?: boolean;
 }) {
   const credit = expert.credentials ? `${expert.name}, ${expert.credentials}` : expert.name;
 
   return (
-    <Link href={href} className="group inline-flex items-center gap-2.5">
-      <span className="flex h-9 w-9 shrink-0 items-center justify-center overflow-hidden rounded-full bg-[#111111]/10 text-[12px] font-bold text-[#111111]">
+    <Link href={href} className={`group inline-flex items-center ${compact ? "gap-2" : "gap-2.5"}`}>
+      <span
+        className={`flex shrink-0 items-center justify-center overflow-hidden rounded-full bg-[#111111]/10 font-bold text-[#111111] ${
+          compact ? "h-7 w-7 text-[11px]" : "h-9 w-9 text-[12px]"
+        }`}
+      >
         {expert.avatar ? (
           // eslint-disable-next-line @next/next/no-img-element
           <img src={expert.avatar} alt={expert.name} className="h-full w-full object-cover" loading="lazy" decoding="async" />
@@ -33,7 +40,7 @@ export function ExpertByline({
           initials(expert.name)
         )}
       </span>
-      <span className="text-[14px] leading-tight text-gray-400">
+      <span className={`leading-tight text-gray-400 ${compact ? "text-[13px]" : "text-[14px]"}`}>
         {label}{" "}
         <span className="font-bold text-[#191919] group-hover:text-[#111111]">{credit}</span>
         {showRole && <span className="ml-1 font-medium text-gray-400">· {expert.role}</span>}
