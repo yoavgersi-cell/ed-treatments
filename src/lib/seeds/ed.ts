@@ -1369,12 +1369,8 @@ export const edConfig: SiteConfig = {
         "Consumer education",
       ],
     },
-    {
-      id: "medical-review",
-      name: "Clinical Review Team",
-      role: "Medical Review",
-      bio: "Our clinical review process checks health content for accuracy and safety, with an emphasis on avoiding overstated claims and flagging important safety considerations - such as medication interactions and when a reader should see a licensed clinician in person. This site provides general information, not medical advice.",
-    },
+    // "Reviewed by" (medical reviewer) intentionally omitted for now - re-add a
+    // real, credentialed clinician here to restore the "Reviewed by" byline.
   ],
 
   landingPages: [],
