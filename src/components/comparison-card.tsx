@@ -50,12 +50,12 @@ export function ComparisonCard({ product, hideRank, pageType = "listing", source
       {/* ===== DESKTOP LAYOUT ===== */}
       <div className="hidden sm:flex sm:flex-row sm:min-h-[196px]">
         {/* Column 1: Logo */}
-        <div className="flex items-center justify-center px-6 sm:w-[220px] sm:shrink-0">
+        <div className="flex items-center justify-center px-4 sm:w-[230px] sm:shrink-0">
           {/* eslint-disable-next-line @next/next/no-img-element */}
           <img
             src={product.logo}
             alt={`${product.name} logo`}
-            className="mx-auto block max-h-[56px] w-auto max-w-[160px] object-contain"
+            className="mx-auto block max-h-[84px] w-auto max-w-[190px] object-contain"
           />
         </div>
 
@@ -115,7 +115,7 @@ export function ComparisonCard({ product, hideRank, pageType = "listing", source
       <div className="flex flex-col sm:hidden p-5 pt-12">
         {/* Row 1: Logo left, Rating right */}
         <div className="flex items-start justify-between">
-          <div className="flex h-[54px] w-[150px] items-center justify-start">
+          <div className="flex h-[64px] w-[165px] items-center justify-start">
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
               src={product.logo}
