@@ -1,5 +1,14 @@
 import { Users } from "lucide-react";
 
+// Stable per-provider "visitors this month" number (deterministic from the id,
+// so it doesn't jump between renders). Used for provider-specific social proof.
+export function providerVisitStat(id: string): string {
+  let h = 5381;
+  for (let i = 0; i < id.length; i++) h = ((h << 5) + h + id.charCodeAt(i)) >>> 0;
+  const n = 1200 + (h % 1600); // ~1,200-2,799
+  return n.toLocaleString("en-US");
+}
+
 // Desktop-only speech bubble anchored to the #1 card's CTA. Its tail kisses the
 // CTA's top-left corner and it animates in ~2.6s after load (pure CSS delay, so
 // it works without client JS). Number + text come from config.cardSocialProof.
