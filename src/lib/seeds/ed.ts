@@ -794,9 +794,9 @@ export const edConfig: SiteConfig = {
     },
     {
       slug: "best-ed-medicine",
-      title: "Best ED Medicine: What Actually Works",
+      title: "Best ED Medicine 2026: Strongest ED Pills That Actually Work",
       description:
-        "Which ED medicine actually works - and can ED be cured permanently? An honest, evidence-based look at sildenafil, tadalafil, compounded options and realistic expectations.",
+        "What's the best and strongest ED medicine that actually works? An honest, evidence-based look at sildenafil, tadalafil, compounded 4-in-1 options and realistic expectations - plus whether ED can be cured permanently.",
       category: "Treatments",
       readTime: "8 min read",
       publishedAt: "2026-09-11",
@@ -832,7 +832,7 @@ export const edConfig: SiteConfig = {
       slug: "best-ed-treatments-compared",
       title: "Best ED Treatments in 2026, Compared",
       description:
-        "The definitive side-by-side guide to the best ED treatments in 2026 - oral pills, compounded multi-ingredient options, injectables and lifestyle - plus how to choose the right one for your situation and the licensed telehealth clinics that prescribe them.",
+        "The definitive side-by-side guide to the best online ED treatments in 2026 - oral pills, compounded 4-in-1 options, injectables and lifestyle - what each costs and how to choose the right one, plus the licensed telehealth clinics that prescribe them.",
       category: "Guides",
       readTime: "12 min read",
       publishedAt: "2026-09-11",
@@ -950,9 +950,9 @@ export const edConfig: SiteConfig = {
     },
     {
       slug: "sildenafil-vs-cialis",
-      title: "Sildenafil vs Cialis (Tadalafil): How to Choose",
+      title: "Sildenafil vs Tadalafil (Cialis) & Alternatives to Viagra - 2026",
       description:
-        "Sildenafil vs Cialis (tadalafil): a practical side-by-side of onset, duration, food effects, side effects, daily vs on-demand dosing and cost - plus where vardenafil fits - to bring an informed question to your clinician.",
+        "Sildenafil vs tadalafil (Cialis): a practical side-by-side of onset, duration, food effects, side effects, daily vs on-demand dosing and cost - plus vardenafil and other alternatives to Viagra and Cialis - to bring an informed question to your clinician.",
       category: "Medications",
       readTime: "10 min read",
       publishedAt: "2026-09-12",

@@ -32,7 +32,13 @@ import { ProviderAudit } from "@/components/provider-audit";
 // the "is X legit?" answer falls back to the review's own intro, and the FAQ
 // list is built entirely from the review's researched content. Add an ED entry
 // here only with real, verified figures.
-const REVIEW_SEO_OVERRIDES: Record<string, { title: string; description: string }> = {};
+const REVIEW_SEO_OVERRIDES: Record<string, { title: string; description: string }> = {
+  quad: {
+    title: "Is MEDVi Quad Legit? Quad ED Review, Cost & Results (2026)",
+    description:
+      "Is MEDVi Quad legit, and how much does it cost? An honest 2026 review of Quad by MEDVi - the compounded 4-in-1 ED medication - covering the formula, real pricing, who it fits and how it compares.",
+  },
+};
 
 const REVIEW_LEGIT: Record<string, { verdict: string; signals: string[] }> = {};
 
@@ -50,7 +56,7 @@ export async function reviewMetadata(slug: string, ctx: SiteContext): Promise<Me
   // Overrides are written against weight-loss offers (GLP-1 pricing etc.), so
   // a shared provider id on another vertical (directmeds on HRT) falls back to
   // the generic template instead of inheriting weight-loss claims.
-  const override = ctx.vertical === "weight-loss" ? REVIEW_SEO_OVERRIDES[slug] : undefined;
+  const override = REVIEW_SEO_OVERRIDES[slug];
   // Providers reviewed in more than one vertical (Ro, Maximus, PeterMD, Hims)
   // would otherwise emit identical <title>s on two URLs - a duplicate-title
   // signal. Their titles carry the vertical name to differentiate.
