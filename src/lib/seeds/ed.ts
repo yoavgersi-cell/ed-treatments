@@ -1009,6 +1009,110 @@ export const edConfig: SiteConfig = {
       ],
     },
     {
+      slug: "quad-vs-bluechew",
+      title: "Quad by MEDVi vs BlueChew (2026): Which ED Option Fits You?",
+      description:
+        "Quad by MEDVi vs BlueChew compared for 2026: a compounded 4-in-1 dissolvable vs chewable single-ingredient sildenafil and tadalafil - format, strength, who each fits, and how to choose.",
+      category: "Comparisons",
+      readTime: "9 min read",
+      publishedAt: "2026-09-16",
+      updatedAt: "2026-09-16",
+      heroColor: "#111111",
+      author: "ED Treatment Editorial Team",
+      keyTakeaways: [
+        "Quad by MEDVi is a compounded 4-in-1 dissolvable medication; BlueChew is a chewable single-ingredient generic (sildenafil or tadalafil). They solve the same problem in different ways.",
+        "BlueChew is the simpler, budget-friendly starting point for men who haven't tried a standard pill yet; Quad is aimed at men for whom a single generic underperformed and who want a stronger multi-ingredient option.",
+        "Both are prescription-only and run through a licensed-provider review before anything ships - neither is available without that step.",
+        "The right choice depends on your history, your budget and how your body responds, which a licensed clinician confirms.",
+      ],
+      sections: [
+        {
+          heading: "The short version",
+          body: `<p><a href="/reviews/quad">Quad by MEDVi</a> and BlueChew are both legitimate, prescription-only telehealth ED options - but they're built for different men. <strong>BlueChew</strong> is a <strong>chewable, single-ingredient</strong> medication (generic sildenafil or generic tadalafil) known for a simple, low-cost subscription and the convenience of not swallowing a pill. <strong>Quad by MEDVi</strong> is a <strong>compounded 4-in-1 dissolvable</strong> that blends several actives into one dose, aimed at men who found a single standard pill didn't do enough. If you've never tried an ED medication, BlueChew is an easy, affordable on-ramp; if a single generic underperformed, Quad's multi-ingredient formula is the reason it's our <a href="/">top-ranked option</a>.</p>`,
+        },
+        {
+          heading: "Quad vs BlueChew at a glance",
+          body: `<p>Here is the practical comparison side by side. These are general characteristics, not a prescription - which one is appropriate for you is a licensed clinician's call.</p><table><thead><tr><th>Factor</th><th>Quad by MEDVi</th><th>BlueChew</th></tr></thead><tbody><tr><td>Type</td><td>Compounded 4-in-1 medication</td><td>Single-ingredient generic</td></tr><tr><td>Active ingredients</td><td>Multi-ingredient "quad" blend in one dose</td><td>Sildenafil <em>or</em> tadalafil (one active)</td></tr><tr><td>Format</td><td>Fast-dissolving - no pill to swallow</td><td>Chewable tablet</td></tr><tr><td>Prescription</td><td>Rx-only after licensed-provider review</td><td>Rx-only after licensed-provider review</td></tr><tr><td>Best suits</td><td>Men where a single pill underperformed</td><td>First-timers wanting a simple, low-cost start</td></tr><tr><td>Pricing</td><td>Higher - a compounded telehealth plan</td><td>Budget-friendly subscription tiers</td></tr><tr><td>Delivery</td><td>Discreet home delivery</td><td>Discreet home delivery</td></tr></tbody></table><p><em>Pricing is approximate and changes often - confirm the current cost on each provider's own site before subscribing.</em></p>`,
+        },
+        {
+          heading: "Formula: multi-ingredient vs single-ingredient",
+          body: `<p>This is the core difference. <strong>BlueChew</strong> uses one proven active ingredient per tablet - <strong>sildenafil</strong> (the active ingredient in Viagra) or <strong>tadalafil</strong> (the active ingredient in Cialis) - the same well-studied PDE5 inhibitors most men start with. <strong>Quad by MEDVi</strong> is <strong>compounded</strong>: it combines several actives into a single dissolvable dose, on the premise that a multi-ingredient approach can help men for whom one ingredient alone fell short. Neither approach is universally "better." A single ingredient is proven, simple and cheaper; a compounded blend is more differentiated but sits outside the FDA-approval pathway that covers brand and generic pills, so the provider's sign-off matters more. We go deeper on this in our guide to the <a href="/articles/best-ed-medicine">best ED medicine</a>.</p>`,
+        },
+        {
+          heading: "Format: dissolvable vs chewable",
+          body: `<p>Both skip the traditional swallowed tablet, which many men prefer. <strong>Quad</strong> is <strong>fast-dissolving</strong> - it breaks down in the mouth. <strong>BlueChew</strong> is <strong>chewable</strong>. It's a small distinction, but if swallowing pills is a sticking point for you, both solve it, so format alone probably won't decide it - the formula and price will.</p>`,
+        },
+        {
+          heading: "Cost: what to actually expect",
+          body: `<p><strong>BlueChew</strong> is generally the more <strong>budget-friendly</strong> of the two, with subscription tiers built around single-ingredient generics and often a low introductory offer. <strong>Quad</strong>, as a compounded multi-ingredient telehealth plan, <strong>typically costs more</strong> - you're paying for the blended formula and the provider oversight that comes with it. Promotions and plan structures change frequently on both, so treat any figure you see as a starting point and confirm the current price at checkout. Our <a href="/articles/ed-treatment-cost">ED treatment cost</a> guide breaks down what drives the total.</p>`,
+        },
+        {
+          heading: "Who each one fits",
+          body: `<ul><li><strong>Choose BlueChew if</strong> you're new to ED medication, want the lowest-friction, lowest-cost way to try a proven single ingredient, and like the chewable format.</li><li><strong>Choose Quad by MEDVi if</strong> a standard single-ingredient pill underperformed for you, and you want a stronger, multi-ingredient dissolvable prescribed through a telehealth flow - the reason it's our top pick.</li></ul><p>Plenty of men reasonably start with a single-ingredient option and only consider a compounded blend if it isn't enough. Either way, a licensed clinician should confirm what's appropriate for your health.</p>`,
+        },
+        {
+          heading: "Frequently asked questions",
+          body: `<div class="qa"><strong>Is Quad by MEDVi better than BlueChew?</strong><p>Not in a universal sense - they're built for different men. BlueChew is a simple, affordable single-ingredient chewable that's a great starting point; Quad is a stronger compounded 4-in-1 dissolvable aimed at men for whom a single pill underperformed. "Better" is whichever matches your history, budget and how you respond, which a licensed clinician helps confirm.</p></div><div class="qa"><strong>Do both require a prescription?</strong><p>Yes. Both BlueChew and Quad are prescription-only and run through an online intake reviewed by a licensed provider before anything ships. A service that sells ED medication with no medical review is a red flag - see our guide on <a href="/articles/how-to-get-ed-treatment-online">how to get ED treatment online</a>.</p></div><div class="qa"><strong>Which is cheaper?</strong><p>BlueChew is usually the more budget-friendly option because it's built on single-ingredient generics; Quad, as a compounded multi-ingredient plan, typically costs more. Prices and promotions change often, so compare the current cost on each provider's own site rather than assuming.</p></div><div class="qa"><strong>Can I switch from BlueChew to Quad?</strong><p>Many men start with a single-ingredient option and later discuss a compounded blend with a clinician if it isn't enough. Don't switch on your own - do it through the licensed provider who prescribes it, so your health and other medications are accounted for.</p></div></div>`,
+        },
+        {
+          heading: "How to decide",
+          body: `<p>A simple way to frame it: if you want the cheapest, simplest way to try a proven single ingredient, BlueChew is a sensible on-ramp; if a single pill already underperformed and you want more, Quad's multi-ingredient dissolvable is the reason it tops our rankings. Compare both against the other licensed clinics on our <a href="/">ED treatment comparison</a>, or read the full <a href="/reviews/quad">Quad by MEDVi review</a>.</p><p><em>This article is general information, not medical advice. A licensed clinician should decide which treatment, if any, is right for you - especially if you take nitrates or have a heart condition.</em></p>`,
+        },
+      ],
+    },
+    {
+      slug: "quad-vs-rugiet",
+      title: "Quad by MEDVi vs Rugiet (2026): Two Compounded ED Options",
+      description:
+        "Quad by MEDVi vs Rugiet compared for 2026: two compounded, multi-ingredient dissolvable ED medications from telehealth clinics - formula, format, who each fits, and how to choose.",
+      category: "Comparisons",
+      readTime: "9 min read",
+      publishedAt: "2026-09-16",
+      updatedAt: "2026-09-16",
+      heroColor: "#14243a",
+      author: "ED Treatment Editorial Team",
+      keyTakeaways: [
+        "Quad by MEDVi and Rugiet are the closest comparison on this site: both are compounded, multi-ingredient, dissolvable ED medications prescribed through telehealth.",
+        "The differences are in the specific blend, the brand and provider experience, and pricing - not in the basic idea, which both share.",
+        "Both are prescription-only compounded products, so they sit outside the FDA-approval pathway that covers generics, and a licensed provider's sign-off is central.",
+        "Quad is our top-ranked option; Rugiet is a legitimate alternative in the same category worth knowing about.",
+      ],
+      sections: [
+        {
+          heading: "The short version",
+          body: `<p>Unlike most ED comparisons, this one is between two products in the <em>same</em> category. <a href="/reviews/quad">Quad by MEDVi</a> and Rugiet are both <strong>compounded, multi-ingredient, dissolvable</strong> ED medications prescribed through an online telehealth flow - both blend several actives into one dose you dissolve rather than swallow, both are aimed at men who want more than a single standard pill delivers, and both are prescription-only. So the choice isn't "pill vs blend" - it's which compounded program, brand and provider experience fits you. Quad is our <a href="/">top-ranked option</a>; Rugiet is a credible alternative in the same space.</p>`,
+        },
+        {
+          heading: "Quad vs Rugiet at a glance",
+          body: `<p>Here is the practical comparison side by side. Because both are compounded and telehealth-managed, the honest differences are more about brand, blend and price than about how they fundamentally work.</p><table><thead><tr><th>Factor</th><th>Quad by MEDVi</th><th>Rugiet</th></tr></thead><tbody><tr><td>Type</td><td>Compounded multi-ingredient</td><td>Compounded multi-ingredient</td></tr><tr><td>Formula</td><td>4-in-1 "quad" blend in one dose</td><td>Combination blend (typically sildenafil + tadalafil)</td></tr><tr><td>Format</td><td>Fast-dissolving</td><td>Dissolvable</td></tr><tr><td>Prescription</td><td>Rx-only after licensed-provider review</td><td>Rx-only after licensed-provider review</td></tr><tr><td>Best suits</td><td>Men where a single pill underperformed</td><td>Men wanting a customized compounded blend</td></tr><tr><td>Pricing</td><td>Compounded telehealth plan - confirm at checkout</td><td>Compounded telehealth plan - confirm at checkout</td></tr><tr><td>Delivery</td><td>Discreet home delivery</td><td>Discreet home delivery</td></tr></tbody></table><p><em>Pricing is approximate and changes often - confirm the current cost on each provider's own site before subscribing.</em></p>`,
+        },
+        {
+          heading: "Formula: two takes on a compounded blend",
+          body: `<p>Both start from the same idea - combine more than one active ingredient so the medication does more than a single generic - but the specific blend differs. <strong>Quad by MEDVi</strong> is marketed as a <strong>4-in-1</strong> formula bundled into one dissolvable dose. <strong>Rugiet</strong> is built around a <strong>combination of PDE5 inhibitors</strong> (typically sildenafil and tadalafil) and has historically offered customization of the mix with a provider. The important shared caveat: because these are <strong>compounded</strong> products, they aren't FDA-approved the way brand and generic pills are, so the licensed provider's assessment of whether the blend is appropriate for you is doing real work - it's not a formality. Our <a href="/articles/best-ed-medicine">best ED medicine</a> guide explains where compounded options fit relative to standard generics.</p>`,
+        },
+        {
+          heading: "Format and experience",
+          body: `<p>Both are <strong>dissolvable</strong>, so neither asks you to swallow a tablet - a genuine plus if that's a sticking point. On the experience side, both run the standard telehealth loop: an online intake, a licensed-provider review, and discreet delivery if prescribed, usually on a subscription with online follow-up. Differences here come down to brand polish, plan flexibility and support quality rather than the mechanics, which are similar.</p>`,
+        },
+        {
+          heading: "Cost: expect compounded pricing on both",
+          body: `<p>Because both are compounded, multi-ingredient telehealth plans, both <strong>cost more than a plain generic pill</strong> - you're paying for the blended formula plus provider oversight. Neither is the "cheap generic" option; if the lowest price is your priority, a single-ingredient generic from a licensed clinic will beat both, and we cover that trade-off in our <a href="/articles/ed-treatment-cost">ED treatment cost</a> guide. Between Quad and Rugiet specifically, plan structures and promotions shift often, so the only reliable move is to compare the current price on each provider's own site at checkout.</p>`,
+        },
+        {
+          heading: "Who each one fits",
+          body: `<ul><li><strong>Choose Quad by MEDVi if</strong> you want a compounded 4-in-1 dissolvable from a telehealth service we rank first overall for formula, process and value in this category.</li><li><strong>Choose Rugiet if</strong> you specifically want its combination blend or the option to customize the mix with a provider, and prefer its brand and plan.</li></ul><p>Since both are compounded multi-ingredient dissolvables, many men reasonably decide between them on price, provider experience and which brand they trust - after a clinician confirms a compounded option is appropriate at all.</p>`,
+        },
+        {
+          heading: "Frequently asked questions",
+          body: `<div class="qa"><strong>Are Quad and Rugiet the same thing?</strong><p>No, but they're close cousins. Both are compounded, multi-ingredient, dissolvable ED medications prescribed through telehealth, so they share the same basic idea. They differ in the specific blend, the brand and provider experience, and pricing - not in how they fundamentally work.</p></div><div class="qa"><strong>Is Quad by MEDVi legit compared to Rugiet?</strong><p>Both are legitimate compounded telehealth options that require a licensed-provider review before prescribing. Quad is our top-ranked option in this category; Rugiet is a credible alternative. You can read our full write-up in the <a href="/reviews/quad">Quad by MEDVi review</a>.</p></div><div class="qa"><strong>Which is cheaper?</strong><p>Both are compounded plans that cost more than a plain generic pill, and neither is reliably cheaper than the other - plan structures and promotions change often. Compare the current price on each provider's own site rather than assuming. If lowest cost is the priority, a single-ingredient generic will beat both.</p></div><div class="qa"><strong>Are compounded ED medications safe?</strong><p>Compounded products aren't FDA-approved the way brand and generic pills are, so appropriateness is very much a licensed clinician's decision based on your health and medications. That provider review is the safeguard - be skeptical of any service that skips it.</p></div></div>`,
+        },
+        {
+          heading: "How to decide",
+          body: `<p>Since Quad and Rugiet occupy the same category, decide on the details that actually differ: the specific blend, the brand and plan you trust, and the current price - after confirming with a clinician that a compounded option suits you at all. Compare both against every licensed clinic on our <a href="/">ED treatment comparison</a>, or read the full <a href="/reviews/quad">Quad by MEDVi review</a> to see why it tops our list.</p><p><em>This article is general information, not medical advice. A licensed clinician should decide which treatment, if any, is right for you - especially if you take nitrates or have a heart condition.</em></p>`,
+        },
+      ],
+    },
+    {
       slug: "how-to-get-ed-treatment-online",
       title: "How to Get ED Treatment Online: A Step-by-Step Guide",
       description:
