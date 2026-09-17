@@ -287,10 +287,12 @@ export async function ArticlePageView({ slug, ctx }: { slug: string; ctx: SiteCo
       )}
 
       <div className="min-h-screen bg-gray-50">
-        {/* Hero band */}
+        {/* Hero band - light background for readable dark text; the article's
+            heroColor is repurposed as a slim top accent so each piece keeps its
+            color without hurting contrast. */}
         <div
-          className="w-full"
-          style={{ backgroundColor: article.heroColor }}
+          className="w-full border-b border-gray-200 bg-white"
+          style={{ borderTop: `4px solid ${article.heroColor}` }}
         >
           <div className="mx-auto max-w-[1100px] px-4 py-7 sm:px-6 sm:py-12">
             <Breadcrumbs
