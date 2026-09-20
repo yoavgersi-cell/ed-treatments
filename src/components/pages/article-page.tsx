@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { Clock, ArrowLeft, ArrowRight, ArrowUpRight, Check } from "lucide-react";
+import { Clock, ArrowLeft, ArrowRight, Check } from "lucide-react";
 import { getConfig } from "@/lib/config-store";
 import { NOINDEX_ARTICLE_SLUGS, latestUpdate, AFFILIATE_PROVIDER_IDS } from "@/lib/config";
 import { PRODUCT_CATALOG } from "@/lib/product-catalog";
@@ -12,6 +12,7 @@ import { MedicalSources } from "@/components/medical-sources";
 import { ProductCarousel } from "@/components/product-carousel";
 import { TrustpilotCarousel } from "@/components/trustpilot-carousel";
 import { TopProvidersBlock } from "@/components/top-providers-block";
+import { TopProviderCards } from "@/components/top-provider-cards";
 import { RedditThreadCarousel, REDDIT_COMMUNITY_FEEDBACK } from "@/components/reddit-community";
 import { notFound, permanentRedirect } from "next/navigation";
 
@@ -530,28 +531,14 @@ export async function ArticlePageView({ slug, ctx }: { slug: string; ctx: SiteCo
                     reviewed provider's competitors undermines the article's
                     credibility and cannibalizes its own conversion. */}
                 {i === 1 && !/^is-.+-legit$/.test(slug) && topProviders.length > 0 && (
-                  <div className="my-8 rounded-lg border border-gray-200 bg-white px-5 py-4">
-                    <p className="mb-3 text-[13px] font-bold uppercase tracking-wider text-gray-400">Top-Rated Providers</p>
-                    <div className="space-y-2.5">
-                      {topProviders.slice(0, 3).map((tp) => (
-                        <a
-                          key={tp.id}
-                          href={tp.affiliateUrl}
-                          className="flex items-center justify-between rounded-lg border border-gray-100 bg-[#fafbfc] px-4 py-3 transition-colors hover:border-[#111111]/20 hover:bg-[#111111]/[0.02]"
-                        >
-                          <div className="flex items-center gap-3">
-                            {/* eslint-disable-next-line @next/next/no-img-element */}
-                            <img src={tp.logo} alt={tp.name} className="h-[24px] w-[80px] object-contain object-left" />
-                            <span className="text-[13px] text-gray-500">{tp.tagline}</span>
-                          </div>
-                          <ArrowUpRight className="h-4 w-4 shrink-0 text-[#111111]" strokeWidth={1.5} />
-                        </a>
-                      ))}
-                    </div>
-                    <Link href={hubLink(ctx, "/find-your-match")} className="mt-3 block text-center text-[13px] font-semibold text-[#111111] hover:underline">
-                      Not sure? Take our free matching quiz →
-                    </Link>
-                  </div>
+                  <TopProviderCards
+                    config={config}
+                    limit={3}
+                    quizHref={hubLink(ctx, "/find-your-match")}
+                    linkPrefix=""
+                    pageType="listing"
+                    sourceFlow="main_comparison"
+                  />
                 )}
               </div>
             ))}
