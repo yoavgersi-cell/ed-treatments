@@ -96,6 +96,43 @@ export const edConfig: SiteConfig = {
       ],
       affiliateUrl: "#",
       ctaText: "Visit Site",
+      // Real Trustpilot reviews transcribed from Hims' Trustpilot profile.
+      // Aggregate rating/count intentionally omitted (not verified) - the
+      // carousel falls back to a "Source: Trustpilot" label without them.
+      trustpilotReviews: [
+        {
+          title: "It has been great so far",
+          text: "It has been great so far. I'm only missing one package delivery but other than that I love the results I'm getting.",
+          name: "Annina Swayze",
+          location: "US",
+          rating: 5,
+          date: "Sep 20, 2026",
+        },
+        {
+          title: "Prompt & Helpful",
+          text: "Prompt, helpful response.",
+          name: "Steven",
+          location: "US",
+          rating: 5,
+          date: "Sep 19, 2026",
+        },
+        {
+          title: "Consistent and regular check-ins",
+          text: "Consistent and regular check-ins along with easy to use application are the key features I like best.",
+          name: "Alan R",
+          location: "US",
+          rating: 5,
+          date: "Sep 19, 2026",
+        },
+        {
+          title: "Really good stuff",
+          text: "Really good stuff been working really good thank you looking forward to my next batch!!!!",
+          name: "Dennis",
+          location: "US",
+          rating: 5,
+          date: "Sep 17, 2026",
+        },
+      ],
     },
     {
       id: "dudemeds",
