@@ -128,6 +128,59 @@ export const edConfig: SiteConfig = {
       ],
       affiliateUrl: "https://track.revoffers.com/aff_c?offer_id=1546&aff_id=12904",
       ctaText: "Visit Site",
+      // Real Trustpilot reviews transcribed from BraveRX's Trustpilot profile.
+      // Aggregate rating/count intentionally omitted (not verified) - the
+      // carousel falls back to a "Source: Trustpilot" label without them.
+      trustpilotReviews: [
+        {
+          title: "A really positive experience",
+          text: "A really positive experience and not just with the product (which is epic). I had a shipping issue - I'd typed in the wrong street - but I emailed in and spoke with Kyle and he was great and helped me sort it out in a matter of minutes. Just started my second month and will be a lifer.",
+          name: "Jeff Gonzales",
+          location: "US",
+          rating: 5,
+          date: "Jul 10, 2026",
+        },
+        {
+          title: "My husband and I ordered it after date night",
+          text: "My husband and I ordered it after our date night and it got here a few days later. Ended up switching dosage type for the mints which took a few more days but no complaints for either of us ;)",
+          name: "Rachel & Gary",
+          location: "US",
+          rating: 4,
+          date: "Jun 22, 2026",
+        },
+        {
+          title: "Really impressed with BraveRX",
+          text: "Really impressed with BraveRX from start to finish. Signing up was easy, the consultation was quick, and shipping was faster than expected. The product does exactly what it's supposed to. It's the kind of service that just works the way it should. Five stars and I'll definitely be a repeat customer!",
+          name: "Nathan",
+          location: "US",
+          rating: 5,
+          date: "Apr 21, 2026",
+        },
+        {
+          title: "It has been great so far",
+          text: "It has been great so far, the product works wonders for me and my wife. I've been with Brave for a few months and have had a better experience than with any similar products.",
+          name: "William Vermette",
+          location: "US",
+          rating: 5,
+          date: "Feb 24, 2026",
+        },
+        {
+          title: "Fast and effective",
+          text: "Fast, effective product, simple website to use. And I really like the new dissolving mints.",
+          name: "Robert",
+          location: "US",
+          rating: 5,
+          date: "Feb 13, 2026",
+        },
+        {
+          title: "Consistently delivers!",
+          text: "I've tried a few different options, but this is the first one that consistently delivers. Also them being based out of the US adds a lot of confidence to the product's quality.",
+          name: "Jayme Tharp",
+          location: "US",
+          rating: 5,
+          date: "Jan 22, 2026",
+        },
+      ],
     },
   ],
 
