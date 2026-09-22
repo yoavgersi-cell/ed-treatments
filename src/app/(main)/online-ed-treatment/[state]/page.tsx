@@ -76,6 +76,7 @@ export default async function StatePage({
     });
 
   const topName = displayList[0]?.name ?? "our top-rated provider";
+  const topSlug = displayList[0]?.id ?? "";
   const [c0, c1, c2] = s.cities;
   const citiesPhrase = s.cities.length >= 3 ? `${c0}, ${c1}, and ${c2}` : s.cities.join(" and ");
 
@@ -203,10 +204,21 @@ export default async function StatePage({
           <li><strong>Your treatment ships to you.</strong> If prescribed, your medication is delivered in discreet, unbranded packaging to your {s.name} address.</li>
         </ol>
         <p className="mb-4">
-          Not sure where to start? {topName} is our current top pick - see the full{" "}
-          <Link href="/" className="font-semibold text-[#111111] hover:underline">comparison</Link>{" "}
-          and our{" "}
-          <Link href="/reviews" className="font-semibold text-[#111111] hover:underline">in-depth reviews</Link>.
+          Not sure where to start? {topName} is our current top pick - read our{" "}
+          {topSlug ? (
+            <Link href={`/reviews/${topSlug}`} className="font-semibold text-[#111111] hover:underline">
+              full {topName} review
+            </Link>
+          ) : (
+            <Link href="/reviews" className="font-semibold text-[#111111] hover:underline">in-depth reviews</Link>
+          )}
+          , see the full{" "}
+          <Link href="/" className="font-semibold text-[#111111] hover:underline">ED treatment comparison</Link>, or
+          browse our{" "}
+          <Link href="/articles/best-ed-treatments-compared" className="font-semibold text-[#111111] hover:underline">
+            best ED treatments compared
+          </Link>{" "}
+          guide.
         </p>
 
         <h2 className="mb-4 mt-8 text-[24px] font-bold text-[#191919]">
