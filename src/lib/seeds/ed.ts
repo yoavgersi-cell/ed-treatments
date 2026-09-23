@@ -94,7 +94,7 @@ export const edConfig: SiteConfig = {
         "Chewable \"hard mint\" options",
         "Trusted national brand",
       ],
-      affiliateUrl: "#",
+      affiliateUrl: "/reviews/hims",
       ctaText: "Visit Site",
       // Real Trustpilot reviews transcribed from Hims' Trustpilot profile.
       // Aggregate rating/count intentionally omitted (not verified) - the
