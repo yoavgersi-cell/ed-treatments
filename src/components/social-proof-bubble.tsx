@@ -3,9 +3,16 @@ import { Users } from "lucide-react";
 // Stable per-provider "visitors this month" number (deterministic from the id,
 // so it doesn't jump between renders). Used for provider-specific social proof.
 export function providerVisitStat(id: string): string {
+  // Hand-picked, non-round numbers for specific providers so they read as real
+  // traffic rather than a rounded estimate. Others fall back to the hash below.
+  const OVERRIDES: Record<string, number> = {
+    quad: 1843,
+  };
+  if (OVERRIDES[id] != null) return OVERRIDES[id].toLocaleString("en-US");
   let h = 5381;
   for (let i = 0; i < id.length; i++) h = ((h << 5) + h + id.charCodeAt(i)) >>> 0;
-  const n = 1200 + (h % 1600); // ~1,200-2,799
+  // Bias toward non-round values (avoid clean hundreds) so it looks organic.
+  const n = 1211 + (h % 1589); // ~1,211-2,799
   return n.toLocaleString("en-US");
 }
 
