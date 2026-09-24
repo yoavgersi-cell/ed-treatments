@@ -553,18 +553,12 @@ export async function ArticlePageView({ slug, ctx }: { slug: string; ctx: SiteCo
               See how top providers stack up on pricing, medical support, and
               treatment options.
             </p>
-            <div className="mt-5 flex flex-col gap-3 sm:flex-row sm:justify-center">
+            <div className="mt-5 flex justify-center">
               <Link
                 href={hubLink(ctx, "/")}
                 className="inline-flex h-[44px] items-center justify-center rounded-lg bg-[#111111] px-6 text-[14px] font-bold text-white transition-colors hover:bg-[#000000]"
               >
                 Compare Providers
-              </Link>
-              <Link
-                href={hubLink(ctx, "/find-your-match")}
-                className="inline-flex h-[44px] items-center justify-center rounded-lg border border-gray-200 bg-white px-6 text-[14px] font-semibold text-[#191919] transition-colors hover:bg-gray-50"
-              >
-                Take the Quiz
               </Link>
             </div>
           </div>
