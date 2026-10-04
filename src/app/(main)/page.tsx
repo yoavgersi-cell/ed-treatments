@@ -97,7 +97,7 @@ export default async function HomePage() {
     inLanguage: "en-US",
     datePublished: "2026-06-01",
     dateModified: CONTENT_LAST_UPDATED,
-    isPartOf: { "@type": "WebSite", name: "ED Treatment", url: SITE_URL },
+    isPartOf: { "@type": "WebSite", name: "ED Treatment Hub", url: SITE_URL },
     about: { "@type": "Thing", name: "Erectile dysfunction treatment providers" },
     ...(author && {
       author: { "@type": "Organization", name: author.name, url: `${SITE_URL}/about` },
@@ -105,7 +105,7 @@ export default async function HomePage() {
     ...(reviewer && { reviewedBy: { "@type": "Organization", name: reviewer.name } }),
     publisher: {
       "@type": "Organization",
-      name: "ED Treatment",
+      name: "ED Treatment Hub",
       url: SITE_URL,
       logo: { "@type": "ImageObject", url: `${SITE_URL}/icon.png` },
     },

@@ -7,7 +7,7 @@ export const revalidate = 60;
 const SITE_URL = "https://www.edtreatmenthub.com";
 
 export const metadata: Metadata = {
-  title: { absolute: "Online ED Treatment by State (2026) | ED Treatment" },
+  title: { absolute: "Online ED Treatment by State (2026) | ED Treatment Hub" },
   description:
     "Get ED treatment online in your state. Compare licensed telehealth providers with discreet, statewide delivery - pick your state to see options that ship to you.",
   alternates: { canonical: `${SITE_URL}/online-ed-treatment` },

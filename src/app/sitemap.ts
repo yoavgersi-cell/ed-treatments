@@ -2,6 +2,7 @@ import type { MetadataRoute } from "next";
 import { getConfig } from "@/lib/config-store";
 import { CONTENT_LAST_UPDATED, latestUpdate, NOINDEX_ARTICLE_SLUGS } from "@/lib/config";
 import { STATES } from "@/lib/states";
+import { CITIES } from "@/lib/cities";
 
 const SITE_URL = "https://www.edtreatmenthub.com";
 const FALLBACK_DATE = new Date(CONTENT_LAST_UPDATED);
@@ -59,6 +60,16 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
       lastModified: FALLBACK_DATE,
       changeFrequency: "monthly",
       priority: 0.6,
+    });
+  }
+
+  // Programmatic per-city pages (nested under their state)
+  for (const c of CITIES) {
+    entries.push({
+      url: `${SITE_URL}/online-ed-treatment/${c.stateSlug}/${c.slug}`,
+      lastModified: FALLBACK_DATE,
+      changeFrequency: "monthly",
+      priority: 0.55,
     });
   }
 

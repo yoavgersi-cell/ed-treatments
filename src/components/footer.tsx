@@ -66,7 +66,7 @@ export async function Footer() {
           {/* Brand blurb */}
           <div className="col-span-2 sm:col-span-3 lg:col-span-1">
             <p className="text-[13px] leading-relaxed text-gray-500">
-              <span className="font-bold text-[#111111]">ED Treatment</span> is an independent comparison
+              <span className="font-bold text-[#111111]">ED Treatment Hub</span> is an independent comparison
               publisher for online erectile-dysfunction treatments.
             </p>
           </div>
@@ -87,13 +87,13 @@ export async function Footer() {
 
         <div className="mt-8 border-t border-gray-100 pt-5">
           <p className="mb-4 text-xs text-gray-400">
-            <strong className="text-gray-500">Affiliate Disclosure:</strong> ED Treatment may earn a commission
+            <strong className="text-gray-500">Affiliate Disclosure:</strong> ED Treatment Hub may earn a commission
             when you click on links and make a purchase. This does not affect our rankings or reviews. We are
             committed to providing honest, independent comparisons to help you make informed decisions.
           </p>
           <div className="flex flex-col items-start justify-between gap-3 sm:flex-row sm:items-center">
             <p className="text-[12px] text-gray-400">
-              &copy; {new Date().getFullYear()} ED Treatment. All rights reserved.
+              &copy; {new Date().getFullYear()} ED Treatment Hub. All rights reserved.
             </p>
             <p className="text-[11px] text-gray-300">
               edtreatmenthub.com is not a medical provider. Always consult a licensed physician.

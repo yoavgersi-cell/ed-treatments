@@ -17,10 +17,10 @@ export function Header() {
   return (
     <header className="border-b-2 border-[#D5D5D5] bg-white">
       <div className="mx-auto flex max-w-6xl items-center justify-between px-4 py-4">
-        <Link href="/" className="flex items-baseline gap-1.5" aria-label="ED Treatment home">
+        <Link href="/" className="flex items-baseline gap-1.5" aria-label="ED Treatment Hub home">
           <span className="text-[20px] font-extrabold tracking-tight text-[#111111]">ED Treatment</span>
           <span className="text-[11px] font-semibold uppercase tracking-wider text-[#8A8A8A]">
-            .com
+            Hub
           </span>
         </Link>
 

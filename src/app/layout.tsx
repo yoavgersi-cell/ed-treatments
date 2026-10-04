@@ -17,8 +17,8 @@ const SITE_URL = "https://www.edtreatmenthub.com";
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
   title: {
-    default: "ED Treatment - Compare the Best Online ED Treatment Providers & Prices",
-    template: "%s | ED Treatment",
+    default: "ED Treatment Hub - Compare the Best Online ED Treatment Providers & Prices",
+    template: "%s | ED Treatment Hub",
   },
   description:
     "Compare the best online erectile-dysfunction treatments of 2026 - licensed telehealth providers ranked by treatment options, price and real support, from generic pills to compounded formulas.",
@@ -33,17 +33,17 @@ export const metadata: Metadata = {
     "erectile dysfunction providers",
   ],
   openGraph: {
-    title: "ED Treatment - Compare the Best Online ED Treatment Providers & Prices",
+    title: "ED Treatment Hub - Compare the Best Online ED Treatment Providers & Prices",
     description:
       "Independent, side-by-side comparisons of top online erectile-dysfunction treatment providers - ranked on treatment, price and support.",
     type: "website",
-    siteName: "ED Treatment",
+    siteName: "ED Treatment Hub",
     locale: "en_US",
     url: SITE_URL,
   },
   twitter: {
     card: "summary_large_image",
-    title: "ED Treatment - Compare the Best Online ED Treatment Providers & Prices",
+    title: "ED Treatment Hub - Compare the Best Online ED Treatment Providers & Prices",
     description:
       "Independent, side-by-side comparisons of top online erectile-dysfunction treatment providers.",
   },
@@ -87,7 +87,7 @@ export default function RootLayout({
             __html: JSON.stringify({
               "@context": "https://schema.org",
               "@type": "Organization",
-              name: "ED Treatment",
+              name: "ED Treatment Hub",
               url: SITE_URL,
               areaServed: { "@type": "Country", name: "United States" },
               description:
@@ -102,7 +102,7 @@ export default function RootLayout({
             __html: JSON.stringify({
               "@context": "https://schema.org",
               "@type": "WebSite",
-              name: "ED Treatment",
+              name: "ED Treatment Hub",
               url: SITE_URL,
               description:
                 "Compare trusted online erectile-dysfunction treatment providers side by side.",

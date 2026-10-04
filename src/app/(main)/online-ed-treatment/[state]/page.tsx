@@ -8,6 +8,7 @@ import { ExpertByline } from "@/components/expert-byline";
 import { getConfig } from "@/lib/config-store";
 import { CONTENT_LAST_UPDATED } from "@/lib/config";
 import { STATES, STATE_BY_SLUG, type StateInfo } from "@/lib/states";
+import { citiesForState } from "@/lib/cities";
 
 export const revalidate = 60;
 
@@ -30,7 +31,7 @@ export async function generateMetadata({
   const description =
     `Compare licensed online ED treatment providers serving ${s.name}. Discreet delivery to every ${s.abbr} ZIP code - from generic sildenafil & tadalafil to compounded options like Quad by MEDVi.`;
   return {
-    title: { absolute: `${title} | ED Treatment` },
+    title: { absolute: `${title} | ED Treatment Hub` },
     description,
     alternates: { canonical: url },
     openGraph: { title, description, url, type: "website" },
@@ -77,6 +78,7 @@ export default async function StatePage({
 
   const topName = displayList[0]?.name ?? "our top-rated provider";
   const topSlug = displayList[0]?.id ?? "";
+  const stateCities = citiesForState(s.slug);
   const [c0, c1, c2] = s.cities;
   const citiesPhrase = s.cities.length >= 3 ? `${c0}, ${c1}, and ${c2}` : s.cities.join(" and ");
 
@@ -111,7 +113,7 @@ export default async function StatePage({
     url,
     inLanguage: "en-US",
     dateModified: CONTENT_LAST_UPDATED,
-    isPartOf: { "@type": "WebSite", name: "ED Treatment", url: SITE_URL },
+    isPartOf: { "@type": "WebSite", name: "ED Treatment Hub", url: SITE_URL },
     about: { "@type": "Thing", name: `Erectile dysfunction treatment in ${s.name}` },
     ...(author && { author: { "@type": "Organization", name: author.name, url: `${SITE_URL}/about` } }),
     ...(reviewer && { reviewedBy: { "@type": "Organization", name: reviewer.name } }),
@@ -255,6 +257,29 @@ export default async function StatePage({
             ED treatment near you vs online
           </Link>.
         </p>
+
+        {stateCities.length > 0 && (
+          <>
+            <h2 className="mb-4 mt-8 text-[24px] font-bold text-[#191919]">
+              Online ED Treatment by City in {s.name}
+            </h2>
+            <p className="mb-4">
+              Looking for something closer to home? See our city guides for{" "}
+              {stateCities.map((city, i) => (
+                <span key={city.slug}>
+                  <Link
+                    href={`/online-ed-treatment/${city.stateSlug}/${city.slug}`}
+                    className="font-semibold text-[#111111] hover:underline"
+                  >
+                    ED treatment in {city.name}
+                  </Link>
+                  {i < stateCities.length - 2 ? ", " : i === stateCities.length - 2 ? " and " : ""}
+                </span>
+              ))}
+              .
+            </p>
+          </>
+        )}
 
         <p className="mt-8 text-[13.5px] text-gray-500">
           This page is general information, not medical advice. Erectile-dysfunction treatments are prescription

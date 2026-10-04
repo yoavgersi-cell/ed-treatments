@@ -21,7 +21,7 @@ import type { SiteConfig } from "@/lib/config";
 const UPDATED = "2026-09-11";
 
 export const edConfig: SiteConfig = {
-  siteName: "ED Treatment",
+  siteName: "ED Treatment Hub",
   disclosureText:
     "Some providers featured on this site may compensate us. This may affect the order and placement of listings but does not influence our editorial ratings or reviews.",
 
