@@ -57,10 +57,10 @@ export const edConfig: SiteConfig = {
   ranking: {
     providerOrder: ["quad", "hims", "dudemeds", "braverx"],
     positions: [
-      { score: 9.6, starRating: 5, label: "Exceptional", badge: "Our Top Pick" },
-      { score: 9.2, starRating: 5, label: "Excellent" },
+      { score: 9.8, starRating: 5, label: "Exceptional", badge: "Our Top Pick" },
+      { score: 9.6, starRating: 5, label: "Excellent" },
+      { score: 9.3, starRating: 5, label: "Excellent" },
       { score: 8.9, starRating: 4, label: "Very Good" },
-      { score: 8.6, starRating: 4, label: "Very Good" },
     ],
   },
 
