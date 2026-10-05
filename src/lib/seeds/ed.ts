@@ -1211,6 +1211,54 @@ export const edConfig: SiteConfig = {
       ],
     },
     {
+      slug: "best-4-in-1-ed-medication",
+      title: "Best 4-in-1 ED Medications Compared (2026)",
+      description:
+        "The best 4-in-1 ED medications compared for 2026 - Quad by MEDVi vs Rugiet Ready, Qmax, Quattro, Major Factor and BlueChew Gold. What a 4-in-1 blend is, how they differ, cost, safety and how to choose.",
+      category: "Comparisons",
+      readTime: "10 min read",
+      publishedAt: "2026-10-05",
+      updatedAt: "2026-10-05",
+      heroColor: "#1f2d3a",
+      author: "ED Treatment Editorial Team",
+      keyTakeaways: [
+        "A \"4-in-1\" ED medication is a compounded, multi-ingredient dose - several actives blended into one (usually dissolvable) treatment, aimed at men for whom a single standard pill underperformed.",
+        "Our top pick is Quad by MEDVi: a compounded 4-in-1 dissolvable prescribed through licensed telehealth.",
+        "Rugiet Ready, Qmax, Quattro and Major Factor are other multi-ingredient compounded options in the same category; exact formulas and pricing vary, so confirm them with each provider.",
+        "All compounded 4-in-1 products sit outside the FDA-approval pathway that covers generics, so a licensed clinician's sign-off is the key safeguard.",
+      ],
+      sections: [
+        {
+          heading: "What is a 4-in-1 ED medication?",
+          body: `<p>A <strong>\"4-in-1\" ED medication</strong> is a <strong>compounded, multi-ingredient</strong> treatment: instead of a single active like sildenafil, a compounding pharmacy blends several actives into one dose - often a fast-dissolving tablet or troche. The pitch is a stronger, more flexible response for men for whom a standard single-ingredient pill didn't do enough. These are prescription-only and prescribed through telehealth after a licensed-clinician review. Because they're compounded, they are <strong>not FDA-approved the way brand and generic pills are</strong> - which isn't a scandal (compounding is legal and long-established), but it does make the clinician's assessment central. For the broader picture of where these fit, see our <a href="/articles/best-ed-medicine">best ED medicine</a> guide.</p>`,
+        },
+        {
+          heading: "The best 4-in-1 ED medications at a glance",
+          body: `<p>Here's how the leading multi-ingredient options compare. Exact formulas and prices change and vary by provider, so treat this as an orientation, not a spec sheet - and confirm the current details on each provider's own site.</p><table><thead><tr><th>Product</th><th>What it is</th><th>Format</th><th>Good to know</th></tr></thead><tbody><tr><td><a href="/reviews/quad">Quad by MEDVi</a> <strong>(our pick)</strong></td><td>Compounded 4-in-1 blend via MEDVi telehealth</td><td>Fast-dissolving</td><td>Our top-ranked option for formula, process and value.</td></tr><tr><td>Rugiet Ready</td><td>Compounded combination (commonly sildenafil + tadalafil)</td><td>Dissolvable</td><td>Established compounded brand; see our <a href="/articles/quad-vs-rugiet">Quad vs Rugiet</a> comparison.</td></tr><tr><td>Qmax</td><td>Compounded multi-ingredient ED blend</td><td>Dissolvable/troche</td><td>Marketed as a \"quad\"-style blend; confirm the exact formula with the provider.</td></tr><tr><td>Quattro</td><td>Compounded four-ingredient ED blend</td><td>Dissolvable</td><td>Positioned as a 4-in-1; availability and formula vary by clinic.</td></tr><tr><td>Major Factor</td><td>Compounded multi-ingredient ED treatment</td><td>Dissolvable</td><td>Another 4-in-1-style telehealth option; verify pricing per month.</td></tr><tr><td>BlueChew Gold</td><td>Chewable single-ingredient (sildenafil/tadalafil)</td><td>Chewable</td><td>Not a true 4-in-1 - a single-ingredient chewable; see <a href="/articles/quad-vs-bluechew">Quad vs BlueChew</a>.</td></tr></tbody></table><p><em>Pricing is approximate and changes often - confirm the current cost on each provider's own site before subscribing.</em></p>`,
+        },
+        {
+          heading: "Quad by MEDVi - our top pick",
+          body: `<p><a href="/reviews/quad">Quad by MEDVi</a> is our highest-rated 4-in-1. It blends several actives into a single fast-dissolving dose, prescribed through MEDVi's licensed telehealth flow: an online intake, a clinician review, and discreet delivery if appropriate. It's our pick in this category for the combination of a genuinely differentiated multi-ingredient formula, a straightforward prescribing process, and competitive value against the other compounded options. Read the full write-up in our <a href="/reviews/quad">Quad by MEDVi review</a>, or see it against the single-ingredient route in <a href="/articles/quad-vs-bluechew">Quad vs BlueChew</a>.</p>`,
+        },
+        {
+          heading: "Rugiet Ready, Qmax, Quattro and Major Factor",
+          body: `<p>These are the closest competitors to Quad - all <strong>compounded, multi-ingredient</strong> ED treatments prescribed through telehealth. <strong>Rugiet Ready</strong> is the most established, typically a combination of sildenafil and tadalafil; we compare it directly in <a href="/articles/quad-vs-rugiet">Quad vs Rugiet</a>. <strong>Qmax</strong>, <strong>Quattro</strong> and <strong>Major Factor</strong> are marketed as \"quad\"-style four-ingredient blends. Because they're compounded, the exact actives, doses and formats differ by pharmacy and clinic, and they change over time - so rather than trust a marketing label, confirm the current formula and monthly price directly with each provider before deciding. On the essentials they share the same shape: prescription-only, clinician-reviewed, dissolvable, and aimed at men who wanted more than a single pill delivered.</p>`,
+        },
+        {
+          heading: "A note on BlueChew Gold and \"chewables\"",
+          body: `<p>One product that often comes up in these searches isn't actually a 4-in-1: <strong>BlueChew</strong> (including its tiers) is a <strong>single-ingredient chewable</strong> - generic sildenafil or tadalafil in a chewable form, not a multi-ingredient compound. It's a legitimate, budget-friendly option, but it's a different category: a convenient format of one proven ingredient rather than a blended dose. If you specifically want a multi-ingredient 4-in-1, a chewable single-ingredient product isn't the same thing. We lay out that exact trade-off in <a href="/articles/quad-vs-bluechew">Quad vs BlueChew</a>.</p>`,
+        },
+        {
+          heading: "How to choose a 4-in-1 - and the safety caveat",
+          body: `<p>Since the leading 4-in-1s are all compounded and telehealth-prescribed, the honest way to choose between them is on <strong>brand and provider you trust, the specific blend, and the current monthly price</strong> - after a clinician confirms a compounded option suits you at all. The one caveat that applies to every product on this page: <strong>compounded medications are not FDA-approved the way brand and generic pills are</strong>, so the licensed-clinician review is doing real safety work, not ticking a box - especially screening for nitrates and heart conditions. If a single standard generic hasn't failed you yet, an affordable generic from a licensed clinic is still the sensible first step; a 4-in-1 is the considered next move when it has. Compare the leading licensed clinics on our <a href="/">ED treatment comparison</a>, or weigh other routes in <a href="/articles/alternatives-to-viagra-and-cialis">alternatives to Viagra and Cialis</a>.</p><p><em>This article is general information, not medical advice. A licensed clinician should decide which treatment, if any, is right for you - especially if you take nitrates or have a heart condition.</em></p>`,
+        },
+        {
+          heading: "Frequently asked questions",
+          body: `<div class="qa"><strong>What is the best 4-in-1 ED medication?</strong><p>Our top pick is Quad by MEDVi - a compounded 4-in-1 dissolvable prescribed through licensed telehealth - for its differentiated formula, straightforward process and value. Rugiet Ready, Qmax, Quattro and Major Factor are other compounded options in the same category. The best one for you is a licensed clinician's call.</p></div><div class="qa"><strong>Which is best: Rugiet Ready, Qmax or MEDVi Quad?</strong><p>All three are compounded multi-ingredient ED treatments prescribed via telehealth. We rank Quad by MEDVi first overall; Rugiet Ready is the most established alternative (compared directly in our Quad vs Rugiet guide), and Qmax is another \"quad\"-style blend. They differ mainly on brand, exact formula and price - confirm current specifics with each provider.</p></div><div class="qa"><strong>Are 4-in-1 ED medications FDA-approved?</strong><p>No. Compounded 4-in-1 products are prepared by compounding pharmacies and are not FDA-approved the way brand and generic pills are. That's why a licensed clinician deciding whether one is appropriate for you is the important safeguard.</p></div><div class="qa"><strong>How much does a 4-in-1 ED treatment cost?</strong><p>Compounded multi-ingredient plans typically cost more than a plain generic pill and are usually billed as a monthly telehealth subscription. Promotions and plan structures change often, so compare the current monthly price on each provider's own site.</p></div><div class="qa"><strong>Are 4-in-1 ED pills safe?</strong><p>For appropriate candidates, when prescribed and monitored by a licensed clinician, compounded ED medications are used routinely - but \"safe\" depends on proper screening. They should never be combined with nitrates, and certain heart conditions and medications matter, which is exactly what the clinician review is for. Avoid any product sold without that review.</p></div>`,
+        },
+      ],
+    },
+    {
       slug: "quad-vs-rugiet",
       title: "Quad by MEDVi vs Rugiet (2026): Two Compounded ED Options",
       description:
@@ -1388,13 +1436,13 @@ export const edConfig: SiteConfig = {
     },
     {
       slug: "over-the-counter-ed-treatment",
-      title: "Over-the-Counter ED Treatment: What Actually Works",
+      title: "Over-the-Counter ED Pills: What Actually Works (2026)",
       description:
-        "Is there an over-the-counter ED pill? The honest answer, what \"OTC ED\" products really are, the risks of unregulated supplements, and the legitimate route that works.",
+        "Are there over-the-counter ED pills that actually work - at Walmart, CVS or gas stations? The honest answer on \"OTC ED\" products, whether any are FDA-approved, the hidden-ingredient and heart risks, and the legitimate route that works.",
       category: "Treatments",
-      readTime: "7 min read",
+      readTime: "9 min read",
       publishedAt: "2026-09-13",
-      updatedAt: "2026-09-15",
+      updatedAt: "2026-10-05",
       heroColor: "#2a1a3a",
       author: "ED Treatment Editorial Team",
       keyTakeaways: [
@@ -1421,8 +1469,28 @@ export const edConfig: SiteConfig = {
           body: `<p>There is a legitimate, evidence-based version of \"natural\" - but it's about habits, not a pill off a shelf. Because erections depend on blood flow, the approaches with the strongest support are lifestyle changes: regular exercise, a heart-healthy diet, weight loss, better sleep, less alcohol and quitting smoking. These can genuinely help, especially for milder ED with a lifestyle cause. We cover the evidence, and the honest limits, in our guide to <a href="/articles/natural-ed-remedies">natural ED remedies</a>. What they are not is an over-the-counter drug that reliably produces an erection on demand.</p>`,
         },
         {
+          heading: "Do any over-the-counter ED pills actually work?",
+          body: `<p>This is the honest heart of it: <strong>no over-the-counter pill is a proven, reliable ED treatment the way the prescription PDE5 inhibitors are.</strong> Some supplement ingredients (L-arginine, Panax ginseng, L-citrulline) have modest evidence for supporting blood flow, but the finished \"male enhancement\" products sold OTC aren't standardized or tested as ED drugs, so results are inconsistent at best. The uncomfortable twist is that when an OTC product <em>does</em> seem to \"work\" strongly, it's often because it was secretly spiked with an undisclosed prescription ingredient - which means you got a prescription-strength drug with none of the safety screening. If you want something that genuinely works, a licensed clinician and a real prescription is the route with actual evidence behind it.</p>`,
+        },
+        {
+          heading: "Are there OTC ED pills at Walmart, CVS or gas stations?",
+          body: `<p>You'll certainly <em>find</em> products on the shelf at Walmart, CVS, Walgreens and gas stations labeled for \"male enhancement\" or \"stamina\" - but it's important to know what they are. These are <strong>dietary supplements, not approved ED medications</strong>. A big-box or pharmacy shelf gives them an air of legitimacy, yet they're regulated as supplements, so the retailer stocking them is not a sign they've been proven to treat ED. The \"gas station\" single-serve pills are the riskiest of all - they're the category the FDA most often finds spiked with hidden drugs. So the answer to \"is there an OTC ED pill at Walmart?\" is: there are products sold there, but none is an FDA-approved ED drug, and the effective medicines still require a prescription.</p>`,
+        },
+        {
+          heading: "Are any over-the-counter ED pills FDA-approved?",
+          body: `<p>No. <strong>No over-the-counter ED pill is FDA-approved to treat erectile dysfunction.</strong> The FDA approves the prescription PDE5 inhibitors (sildenafil, tadalafil, vardenafil) and a handful of other prescription ED treatments - all of which require a clinician. Supplements marketed for ED are not FDA-approved drugs; the FDA reviews them only as supplements, and has in fact issued ongoing warnings about OTC \"male enhancement\" products hiding undeclared drug ingredients. If a product claims to be an \"FDA-approved over-the-counter Viagra alternative,\" treat that as a red flag, not a feature.</p>`,
+        },
+        {
+          heading: "OTC ED products and your heart: the nitrate warning",
+          body: `<p>This is the risk that matters most if you have a heart condition. ED and heart disease often travel together, and many men who look for OTC help also take <strong>nitrate medications</strong> (like nitroglycerin) for chest pain. PDE5 inhibitors must never be combined with nitrates - together they can cause a sudden, dangerous drop in blood pressure. The danger with OTC \"male enhancement\" products is precisely that a <strong>hidden, undisclosed PDE5 ingredient</strong> could interact with your nitrates without you ever knowing it was in the capsule. That's exactly why the clinician review in a legitimate prescription flow exists - to screen your heart health and medications <em>before</em> anything is prescribed. If you have any heart condition or take nitrates, steer clear of unregulated OTC products and go through a licensed provider.</p>`,
+        },
+        {
           heading: "The route that actually works",
           body: `<p>If you want a treatment that is both <strong>effective and safe</strong>, the legitimate path is a prescription - and the good news is that getting one no longer means an awkward in-person visit. Licensed telehealth clinics now make it straightforward and discreet: you complete an online intake, a licensed clinician reviews your health to make sure treatment is appropriate, and, if it is, medication ships to your door in plain packaging. That clinician review is exactly the safeguard the OTC products skip.</p><p>See how the process works step by step in our guide to <a href="/articles/how-to-get-ed-treatment-online">getting ED treatment online</a>, weigh the options in our <a href="/articles/best-ed-treatments-compared">best ED treatments compared</a> guide, compare licensed clinics on our <a href="/">ED treatment comparison</a>, or browse our <a href="/reviews">provider reviews</a> to see how each option handles the intake and prescribing.</p>`,
+        },
+        {
+          heading: "Frequently asked questions",
+          body: `<div class="qa"><strong>Are there over-the-counter ED pills that actually work?</strong><p>No OTC pill is a proven, reliable ED treatment the way prescription PDE5 inhibitors are. A few supplement ingredients have modest blood-flow evidence, but the finished products aren't standardized or tested as ED drugs. When an OTC product seems to work strongly, it's often because it was spiked with an undisclosed prescription ingredient - effective but unsafe.</p></div><div class="qa"><strong>Is there an over-the-counter ED pill at Walmart or CVS?</strong><p>You'll find \"male enhancement\" supplements on those shelves, but none is an FDA-approved ED medication - they're regulated as supplements, not drugs. The effective ED medicines still require a prescription.</p></div><div class="qa"><strong>Are any OTC ED pills FDA-approved?</strong><p>No. No over-the-counter ED pill is FDA-approved to treat erectile dysfunction. Only prescription medications like sildenafil, tadalafil and vardenafil are. Be skeptical of anything claiming to be an \"FDA-approved OTC Viagra.\"</p></div><div class="qa"><strong>Are over-the-counter ED pills safe if I have a heart condition?</strong><p>They can be especially risky. If a product secretly contains a PDE5 ingredient and you take nitrates for your heart, the combination can cause a dangerous drop in blood pressure. If you have any heart condition or take nitrates, avoid unregulated OTC products and go through a licensed clinician who can screen your health first.</p></div><div class="qa"><strong>What's the best legitimate alternative to OTC ED pills?</strong><p>A prescription treatment through a licensed telehealth clinic - an online intake, a clinician's review, and discreet delivery. Compare the leading options on our <a href="/">ED treatment comparison</a>, or read about <a href="/articles/alternatives-to-viagra-and-cialis">alternatives to Viagra and Cialis</a>.</p></div>`,
         },
         {
           heading: "The bottom line",
