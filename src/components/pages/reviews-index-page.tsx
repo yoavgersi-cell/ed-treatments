@@ -4,6 +4,8 @@ import { getConfig } from "@/lib/config-store";
 import { VERTICALS } from "@/lib/config";
 import { type SiteContext, canonicalUrl, hubLink } from "@/lib/site-context";
 import { RatingBadge } from "@/components/rating-badge";
+import { MedicalReviewBar } from "@/components/medical-review-bar";
+import { pageReviewSchema } from "@/data/reviewers";
 
 function verticalName(id: string): string {
   return VERTICALS.find((v) => v.id === id)?.name ?? "Treatment";
@@ -72,6 +74,7 @@ export async function ReviewsIndexView({ ctx }: { ctx: SiteContext }) {
     "@type": "ItemList",
     name: `${vName} Provider Reviews`,
     description: `Expert reviews of top online ${vName.toLowerCase()} providers.`,
+    ...pageReviewSchema("/reviews"),
     numberOfItems: items.length,
     itemListElement: items.map(({ review, provider }, i) => ({
       "@type": "ListItem",
@@ -104,6 +107,9 @@ export async function ReviewsIndexView({ ctx }: { ctx: SiteContext }) {
             Read our expert analysis of each to find the best fit for your goals,
             budget, and lifestyle.
           </p>
+          <div className="mx-auto mt-5 max-w-[640px] text-left">
+            <MedicalReviewBar path="/reviews" compact />
+          </div>
         </div>
 
         <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">

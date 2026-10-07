@@ -5,6 +5,8 @@ import { HeroSection } from "@/components/hero-section";
 import { ComparisonCard } from "@/components/comparison-card";
 import { FaqAccordion } from "@/components/faq-accordion";
 import { ExpertByline } from "@/components/expert-byline";
+import { MedicalReviewBar } from "@/components/medical-review-bar";
+import { pageReviewSchema } from "@/data/reviewers";
 import { getConfig } from "@/lib/config-store";
 import { CONTENT_LAST_UPDATED } from "@/lib/config";
 import { STATES, STATE_BY_SLUG, type StateInfo } from "@/lib/states";
@@ -117,6 +119,7 @@ export default async function StatePage({
     about: { "@type": "Thing", name: `Erectile dysfunction treatment in ${s.name}` },
     ...(author && { author: { "@type": "Organization", name: author.name, url: `${SITE_URL}/about` } }),
     ...(reviewer && { reviewedBy: { "@type": "Organization", name: reviewer.name } }),
+    ...pageReviewSchema(`/online-ed-treatment/${s.slug}`),
   };
 
   const faqSchema = {
@@ -153,6 +156,10 @@ export default async function StatePage({
         h2={`Compare licensed telehealth ED providers serving ${s.name}`}
         description={`Discreet, doctor-reviewed ED treatment delivered to any ZIP code in ${s.name} - from generic pills to compounded options. Compare your options below.`}
       />
+
+      <section className="mx-auto max-w-[1200px] px-4 pt-5">
+        <MedicalReviewBar path={`/online-ed-treatment/${s.slug}`} className="max-w-[760px]" />
+      </section>
 
       {(author || reviewer) && (
         <section className="mx-auto max-w-[1200px] px-4 pt-5">

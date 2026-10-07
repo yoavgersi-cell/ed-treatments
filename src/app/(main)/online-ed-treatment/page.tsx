@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { STATES } from "@/lib/states";
+import { MedicalReviewBar } from "@/components/medical-review-bar";
+import { pageReviewSchema } from "@/data/reviewers";
 
 export const revalidate = 60;
 
@@ -20,9 +22,21 @@ export const metadata: Metadata = {
 };
 
 export default function OnlineEdTreatmentIndex() {
+  const collectionSchema = {
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    "@id": `${SITE_URL}/online-ed-treatment`,
+    url: `${SITE_URL}/online-ed-treatment`,
+    name: "Online ED Treatment by State",
+    isPartOf: { "@type": "WebSite", name: "ED Treatment Hub", url: SITE_URL },
+    ...pageReviewSchema("/online-ed-treatment"),
+  };
+
   return (
     <div className="mx-auto max-w-[1000px] px-4 py-12">
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(collectionSchema) }} />
       <h1 className="mb-4 text-3xl font-bold text-[#191919]">Online ED Treatment by State</h1>
+      <MedicalReviewBar path="/online-ed-treatment" className="mb-5 max-w-[760px]" compact />
       <p className="mb-4 max-w-2xl text-[16px] leading-[1.7] text-gray-700">
         Erectile-dysfunction treatment is available online in all 50 states through licensed telehealth
         providers - with a confidential intake, a licensed clinician&apos;s review, and discreet delivery to

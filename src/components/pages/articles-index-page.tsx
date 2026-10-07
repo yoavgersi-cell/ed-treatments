@@ -4,6 +4,8 @@ import { Clock, ArrowRight, Trophy } from "lucide-react";
 import { getConfig } from "@/lib/config-store";
 import { VERTICALS } from "@/lib/config";
 import { type SiteContext, canonicalUrl, hubLink } from "@/lib/site-context";
+import { MedicalReviewBar } from "@/components/medical-review-bar";
+import { pageReviewSchema } from "@/data/reviewers";
 
 function verticalName(id: string): string {
   return VERTICALS.find((v) => v.id === id)?.name ?? "Treatment";
@@ -82,6 +84,7 @@ export async function ArticlesIndexView({ ctx }: { ctx: SiteContext }) {
   const collectionSchema = {
     "@context": "https://schema.org",
     "@type": "CollectionPage",
+    ...pageReviewSchema("/articles"),
     name: `${vName} Articles - Research, Guides & Expert Insights`,
     description: `Evidence-based ${vName.toLowerCase()} guides and research - treatment options, what to expect, and choosing the right online provider.`,
     url: canonicalUrl(ctx, "/articles"),
@@ -124,6 +127,7 @@ export async function ArticlesIndexView({ ctx }: { ctx: SiteContext }) {
             Evidence-based {vName.toLowerCase()} guides - treatment options, what
             to expect, and making informed decisions about your health.
           </p>
+          <MedicalReviewBar path="/articles" className="mt-4 max-w-[760px]" compact />
         </div>
 
         {/* Featured article (first one) */}

@@ -6,6 +6,8 @@ import { Sidebar } from "@/components/sidebar";
 import { EditorialContent } from "@/components/editorial-content";
 import { FaqAccordion } from "@/components/faq-accordion";
 import { ExpertByline } from "@/components/expert-byline";
+import { MedicalReviewBar } from "@/components/medical-review-bar";
+import { pageReviewSchema } from "@/data/reviewers";
 import { getConfig } from "@/lib/config-store";
 import { CONTENT_LAST_UPDATED } from "@/lib/config";
 
@@ -103,6 +105,7 @@ export default async function HomePage() {
       author: { "@type": "Organization", name: author.name, url: `${SITE_URL}/about` },
     }),
     ...(reviewer && { reviewedBy: { "@type": "Organization", name: reviewer.name } }),
+    ...pageReviewSchema("/"),
     publisher: {
       "@type": "Organization",
       name: "ED Treatment Hub",
@@ -138,6 +141,11 @@ export default async function HomePage() {
         h2={config.hero.h2}
         description={config.hero.description}
       />
+
+      {/* E-E-A-T byline strip - medical review status for a YMYL topic */}
+      <section className="mx-auto max-w-[1200px] px-4 pt-3">
+        <MedicalReviewBar path="/" className="max-w-[760px]" />
+      </section>
 
       {(author || reviewer) && (
         <section className="mx-auto max-w-[1200px] px-4 pt-3">

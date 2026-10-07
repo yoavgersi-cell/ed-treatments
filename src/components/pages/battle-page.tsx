@@ -9,6 +9,8 @@ import { ComparisonLayout } from "@/components/comparison-layout";
 import { EditorialContent } from "@/components/editorial-content";
 import { LandingEditorial } from "@/components/landing-editorial";
 import { Breadcrumbs } from "@/components/breadcrumbs";
+import { MedicalReviewBar } from "@/components/medical-review-bar";
+import { pageReviewSchema } from "@/data/reviewers";
 import { notFound, permanentRedirect } from "next/navigation";
 import { ArrowRight, Check, Minus, ShieldCheck, Sparkles, Star } from "lucide-react";
 import { LastUpdated } from "@/components/last-updated";
@@ -211,6 +213,7 @@ export async function BattlePageView({ slug, ctx }: { slug: string; ctx: SiteCon
       url: canonicalUrl(ctx, `/${landing.slug}`),
       dateModified: landing.updatedAt || CONTENT_LAST_UPDATED,
       publisher: { "@type": "Organization", name: ctx.brandDomain, url: ctx.origin },
+      ...pageReviewSchema(`/${landing.slug}`),
     };
 
     const itemListSchema = {
@@ -437,6 +440,7 @@ export async function BattlePageView({ slug, ctx }: { slug: string; ctx: SiteCon
     author: { "@type": "Organization", name: ctx.brandTeam, url: ctx.origin },
     publisher: { "@type": "Organization", name: ctx.brandDomain, url: ctx.origin },
     mainEntityOfPage: canonicalUrl(ctx, `/${battle.slug}`),
+    ...pageReviewSchema(`/${battle.slug}`),
   };
 
   const battleBreadcrumbSchema = {
@@ -518,6 +522,7 @@ export async function BattlePageView({ slug, ctx }: { slug: string; ctx: SiteCon
               <span className="text-gray-300">·</span>
               <LastUpdated date={battleUpdatedAt} />
             </div>
+            <MedicalReviewBar path={`/${battle.slug}`} className="mt-4 max-w-[760px]" />
             <TrustDisclosure disclaimerHref={hubLink(ctx, "/disclaimer")} />
           </div>
         </section>

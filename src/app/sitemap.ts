@@ -19,6 +19,8 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     { path: "/online-ed-treatment", priority: 0.8, changeFrequency: "weekly" },
     { path: "/find-your-match", priority: 0.7, changeFrequency: "monthly" },
     { path: "/how-we-rank", priority: 0.6, changeFrequency: "monthly" },
+    { path: "/reviewers/francheska-capistrano", priority: 0.4, changeFrequency: "monthly" },
+    { path: "/medical-review-policy", priority: 0.3, changeFrequency: "monthly" },
     { path: "/about", priority: 0.3, changeFrequency: "monthly" },
     { path: "/contact", priority: 0.3, changeFrequency: "monthly" },
     { path: "/disclaimer", priority: 0.2, changeFrequency: "monthly" },

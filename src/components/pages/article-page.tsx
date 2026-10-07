@@ -8,6 +8,8 @@ import { enhanceArticleHtml } from "@/components/prose";
 import { type SiteContext, canonicalUrl, hubLink } from "@/lib/site-context";
 import { Breadcrumbs } from "@/components/breadcrumbs";
 import { ExpertByline } from "@/components/expert-byline";
+import { MedicalReviewBar } from "@/components/medical-review-bar";
+import { pageReviewSchema } from "@/data/reviewers";
 import { MedicalSources } from "@/components/medical-sources";
 import { ProductCarousel } from "@/components/product-carousel";
 import { TrustpilotCarousel } from "@/components/trustpilot-carousel";
@@ -64,6 +66,9 @@ const categoryColors: Record<string, string> = {
   Advice: "bg-amber-50 text-amber-700",
   Wellness: "bg-purple-50 text-purple-700",
 };
+
+// Article categories that carry medical content (see the schema note below).
+const MEDICAL_CATEGORIES = new Set(["Guides", "Guide", "Safety", "Treatments", "Science"]);
 
 function slugifyHeading(heading: string): string {
   return heading
@@ -208,9 +213,14 @@ export async function ArticlePageView({ slug, ctx }: { slug: string; ctx: SiteCo
         url: `${ctx.origin}/logo-mark.png`,
       },
     },
+    // Medical guides are typed as a MedicalWebPage so reviewedBy /
+    // lastReviewed sit on the page entity, where schema.org defines them
+    // (they are not Article properties). Provider-business pages (cost,
+    // legitimacy, comparisons) stay a plain WebPage.
     mainEntityOfPage: {
-      "@type": "WebPage",
+      "@type": MEDICAL_CATEGORIES.has(article.category) ? "MedicalWebPage" : "WebPage",
       "@id": canonicalUrl(ctx, `/articles/${slug}`),
+      ...pageReviewSchema(`/articles/${slug}`),
     },
     keywords: [
       "erectile dysfunction",
@@ -339,6 +349,7 @@ export async function ArticlePageView({ slug, ctx }: { slug: string; ctx: SiteCo
               )}
               <span className="text-[12px] text-gray-400">Updated {formattedDate}</span>
             </div>
+            <MedicalReviewBar path={`/articles/${slug}`} className="mt-4 max-w-[760px]" />
           </div>
         </div>
 
