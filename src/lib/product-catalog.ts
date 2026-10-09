@@ -13,8 +13,10 @@ export type CatalogProduct = {
   /** Short corner chip label, e.g. "4-in-1". Omit for no chip. */
   chip?: string;
   format: "injection" | "drops" | "tablet" | "sublingual";
-  /** Headline monthly price, digits only after $ (used for sorting + schema). */
+  /** Headline price, e.g. "$114" or "$1.63". */
   price: string;
+  /** Price unit shown after the price, e.g. "mo" (default) or "tablet". */
+  unit?: string;
   /** Struck-through regular price when the headline is promotional. */
   regularPrice?: string;
   /** The honest condition attached to the price. */
@@ -40,6 +42,18 @@ export const PRODUCT_CATALOG: CatalogProduct[] = [
     priceNote: "Starting price - confirm the current rate at MEDVi",
     shipping: "Free rush shipping",
     image: "/products/quad.webp",
+  },
+  {
+    id: "dudemeds-generics",
+    providerId: "dudemeds",
+    name: "DudeMeds Sildenafil & Tadalafil",
+    chip: "Generics",
+    format: "tablet",
+    price: "$1.63",
+    unit: "tablet",
+    priceNote: "Starting per-tablet price - confirm the current rate at DudeMeds",
+    shipping: "Free shipping",
+    image: "/products/dudemeds.webp",
   },
 ];
 
