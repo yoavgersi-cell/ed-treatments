@@ -24,6 +24,7 @@ import { resolvePromoPopup } from "@/lib/promo-popups";
 import { TrustDisclosure } from "@/components/medical-sources";
 import { SourcesMethodology } from "@/components/sources-methodology";
 import { ProductCarousel } from "@/components/product-carousel";
+import { PRODUCT_CATALOG } from "@/lib/product-catalog";
 import { RedditThreadCarousel, REDDIT_COMMUNITY_FEEDBACK } from "@/components/reddit-community";
 import { threeWayBySlug, THREE_WAY_COMPARISONS } from "@/lib/three-way";
 import { ThreeWayPageView, threeWayMetadata } from "@/components/pages/three-way-page";
@@ -1002,17 +1003,17 @@ export async function BattlePageView({ slug, ctx }: { slug: string; ctx: SiteCon
           {/* ───── PRODUCT CAROUSEL ─────
               Shopping-style product cards for THIS matchup's two providers
               only - a battle page sells the contenders, not the whole market.
-              Weight-loss only (the catalog is a WL registry). */}
-          {ctx.vertical === "weight-loss" && (
+              Renders only for providers that have a catalog entry (returns null
+              otherwise). No Product/Offer schema: the ED prices are promotional
+              and must not become stale structured-data claims. */}
+          {PRODUCT_CATALOG.some((p) => p.providerId === p1.id || p.providerId === p2.id) && (
             <div className="mb-12">
               <ProductCarousel
                 providers={config.providers}
                 title={`Shop ${p1.name} and ${p2.name} plans`}
-                subtitle="Both contenders' published plans, cheapest first - conditions under every price."
+                subtitle="Published plans for this matchup, cheapest first - conditions under every price."
                 onlyProviderIds={[p1.id, p2.id]}
                 pageType="battle"
-                withSchema
-                pageUrl={canonicalUrl(ctx, `/${slug}`)}
               />
             </div>
           )}

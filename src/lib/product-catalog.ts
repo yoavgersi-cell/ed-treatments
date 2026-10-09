@@ -8,10 +8,11 @@
 export type CatalogProduct = {
   id: string;
   providerId: string;
-  /** Shopping-card product title, e.g. "Compounded Semaglutide Injection". */
+  /** Shopping-card product title, e.g. "Quad by MEDVi 4-in-1 Dissolvable". */
   name: string;
-  medication: "semaglutide" | "tirzepatide";
-  format: "injection" | "drops" | "tablet";
+  /** Short corner chip label, e.g. "4-in-1". Omit for no chip. */
+  chip?: string;
+  format: "injection" | "drops" | "tablet" | "sublingual";
   /** Headline monthly price, digits only after $ (used for sorting + schema). */
   price: string;
   /** Struck-through regular price when the headline is promotional. */
@@ -22,12 +23,25 @@ export type CatalogProduct = {
   image: string | null;
 };
 
-// Empty on this single-vertical ED build. The shopping carousel renders only
-// from real, operator-supplied product creatives with verified prices; there
-// are none to fabricate for ED, so the catalog is empty and every ProductCarousel
-// renders nothing (items.length === 0 -> null). Add an ED entry here only with a
-// real product image and a verified price.
-export const PRODUCT_CATALOG: CatalogProduct[] = [];
+// Operator-supplied product creatives + prices only - never fabricate a shot or
+// a figure. Prices here are as published by the provider and can change, so the
+// priceNote carries the honest "confirm current rate" condition and the ED
+// product carousel renders these cards WITHOUT Product/Offer schema (a
+// promotional price must never become a stale structured-data claim).
+export const PRODUCT_CATALOG: CatalogProduct[] = [
+  {
+    id: "quad-4in1",
+    providerId: "quad",
+    name: "Quad by MEDVi 4-in-1 Dissolvable",
+    chip: "4-in-1",
+    format: "sublingual",
+    price: "$114",
+    regularPrice: "$179",
+    priceNote: "Starting price - confirm the current rate at MEDVi",
+    shipping: "Free rush shipping",
+    image: "/products/quad.webp",
+  },
+];
 
 /** Numeric value for sorting ("from $179" → 179). */
 export function productPriceValue(p: CatalogProduct): number {

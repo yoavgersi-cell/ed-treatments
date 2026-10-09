@@ -21,6 +21,7 @@ import { resolvePromoPopup } from "@/lib/promo-popups";
 import { TrustDisclosure } from "@/components/medical-sources";
 import { SourcesMethodology } from "@/components/sources-methodology";
 import { ProductCarousel } from "@/components/product-carousel";
+import { PRODUCT_CATALOG } from "@/lib/product-catalog";
 import { notFound } from "next/navigation";
 import { REDDIT_COMMUNITY_FEEDBACK as REVIEW_COMMUNITY_FEEDBACK, RedditMark } from "@/components/reddit-community";
 import { YoutubeReviewSection } from "@/components/youtube-review";
@@ -375,8 +376,9 @@ export async function ReviewPageView({ slug, ctx }: { slug: string; ctx: SiteCon
           </div>
         )}
 
-        {/* This provider's products, shopping-style (weight-loss catalog only) */}
-        {ctx.vertical === "weight-loss" && (
+        {/* This provider's products, shopping-style. Renders only when the
+            provider has a catalog entry (otherwise no empty section). */}
+        {PRODUCT_CATALOG.some((p) => p.providerId === provider.id) && (
           <div className="mb-8">
             <ProductCarousel
               providers={config.providers}

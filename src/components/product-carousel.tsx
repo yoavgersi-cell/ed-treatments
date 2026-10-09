@@ -11,21 +11,15 @@ import { AFFILIATE_PROVIDER_IDS } from "@/lib/config";
 // CTA. Cards without a supplied product image render a provider-logo tile
 // rather than an invented product shot.
 
-// Medication chip on the image corner: similar vials from one provider (or
-// one shared creative) read as duplicates without a fast visual differentiator.
-const MEDICATION_CHIP: Record<string, { label: string; className: string }> = {
-  semaglutide: { label: "Semaglutide", className: "bg-sky-50 text-sky-700 ring-sky-200" },
-  tirzepatide: { label: "Tirzepatide", className: "bg-violet-50 text-violet-700 ring-violet-200" },
-};
-
-function chipFor(product: CatalogProduct): { label: string; className: string } {
-  if (product.format === "drops")
-    return { label: `${product.medication === "semaglutide" ? "Sema" : "Tirz"} drops`, className: "bg-teal-50 text-teal-700 ring-teal-200" };
+// Corner chip on the image: a fast visual differentiator (e.g. "4-in-1"), taken
+// from the catalog entry's own `chip` label, with a format fallback.
+function chipFor(product: CatalogProduct): { label: string; className: string } | null {
+  if (product.chip) return { label: product.chip, className: "bg-sky-50 text-sky-700 ring-sky-200" };
+  if (product.format === "drops" || product.format === "sublingual")
+    return { label: "Dissolvable", className: "bg-teal-50 text-teal-700 ring-teal-200" };
   if (product.format === "tablet")
     return { label: "Tablets", className: "bg-teal-50 text-teal-700 ring-teal-200" };
-  if (product.id === "sprout-wegovy")
-    return { label: "Brand-name", className: "bg-amber-50 text-amber-700 ring-amber-200" };
-  return MEDICATION_CHIP[product.medication];
+  return null;
 }
 
 function ProductCard({
