@@ -18,7 +18,7 @@ import type { SiteConfig } from "@/lib/config";
 //    claims are asserted - its exact lineup was not confirmed.
 // ─────────────────────────────────────────────────────────────────────────────
 
-const UPDATED = "2026-09-11";
+const UPDATED = "2026-10-09";
 
 export const edConfig: SiteConfig = {
   siteName: "ED Treatment Hub",

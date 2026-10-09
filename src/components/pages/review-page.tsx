@@ -44,7 +44,52 @@ const REVIEW_SEO_OVERRIDES: Record<string, { title: string; description: string 
 
 const REVIEW_LEGIT: Record<string, { verdict: string; signals: string[] }> = {};
 
-const REVIEW_EXTRA_FAQS: Record<string, { question: string; answer: string }[]> = {};
+// Extra, query-shaped FAQs for high-demand branded sub-intents that Search
+// Console shows driving thousands of impressions (ingredients, dosage, cost
+// per month, "does it work", "is it safe", drops/liquid format). Specifics are
+// deliberately hedged - Quad is a compounded product whose exact formula, dose
+// and price are set at prescribing and vary, so we point to MEDVi to confirm
+// rather than assert unverified figures. These feed the visible FAQ + FAQPage
+// schema (featured-snippet / PAA eligible).
+const REVIEW_EXTRA_FAQS: Record<string, { question: string; answer: string }[]> = {
+  quad: [
+    {
+      question: "What is in Quad by MEDVi?",
+      answer:
+        "Quad by MEDVi is a compounded, multi-ingredient (\"4-in-1\") ED medication - it blends several active ingredients into a single dose rather than relying on one. Because it is compounded and prescription-only, the exact actives and strengths are determined by the prescribing clinician for your intake; confirm the specific formulation with MEDVi before starting.",
+    },
+    {
+      question: "What is the Quad by MEDVi dosage?",
+      answer:
+        "There is no one-size-fits-all dose. As a compounded medication, Quad's strength and how often you take it are set by the licensed clinician who reviews your health questionnaire, and can be adjusted over time. Follow the dosing on your prescription and the guidance from MEDVi's providers rather than a generic dosage chart.",
+    },
+    {
+      question: "How much does Quad by MEDVi cost per month?",
+      answer:
+        "Quad is billed as a monthly telehealth plan rather than a per-pill price, and compounded multi-ingredient programs typically cost more than a plain generic pill. Promotions and plan tiers change often, so treat any figure you see as approximate and confirm the current monthly cost on MEDVi's own site before subscribing.",
+    },
+    {
+      question: "Is Quad by MEDVi a liquid, drops or dissolvable?",
+      answer:
+        "Quad is delivered in a fast-dissolving format rather than a traditional pill you swallow - which is why it's sometimes searched for as \"quad drops\" or \"quad liquid.\" The dissolvable format is a convenience for men who dislike swallowing tablets; the medication inside is still a prescription compound.",
+    },
+    {
+      question: "Does Quad by MEDVi work?",
+      answer:
+        "For appropriate candidates, the active ingredients in compounded ED medications like Quad work the same way proven ED medicines do - by improving blood flow - and the multi-ingredient approach is aimed at men for whom a single standard pill underperformed. Individual results vary, and whether it's right for you is a licensed clinician's decision based on your health.",
+    },
+    {
+      question: "Is Quad by MEDVi safe?",
+      answer:
+        "Compounded ED medications are used routinely for appropriate candidates when prescribed and monitored by a licensed clinician - but \"safe\" depends on that screening. Quad should never be combined with nitrate medications, and certain heart conditions and other drugs matter, which is exactly what MEDVi's provider review is for. Compounded products are not FDA-approved the way brand and generic pills are, so the clinician's sign-off is the key safeguard.",
+    },
+    {
+      question: "Is Quad by MEDVi FDA-approved?",
+      answer:
+        "No. Quad is a compounded medication prepared by a compounding pharmacy, so it does not go through the FDA approval process that covers brand-name and generic drugs. That isn't unusual or illegal - compounding is long-established - but it's why a licensed clinician deciding whether it's appropriate for you does real safety work.",
+    },
+  ],
+};
 
 
 export async function reviewMetadata(slug: string, ctx: SiteContext): Promise<Metadata> {
@@ -167,10 +212,10 @@ export async function ReviewPageView({ slug, ctx }: { slug: string; ctx: SiteCon
       ? { question: `Who is ${provider.name} best for?`, answer: `${provider.name} is best for ${review.bestFor.join("; ")}.` }
       : null,
     { question: `Is ${provider.name} worth it?`, answer: review.finalVerdict },
-    // Extra FAQs are all researched against weight-loss offers, so they only
-    // apply there - a provider id shared across verticals (e.g. directmeds on
-    // HRT) must not inherit another vertical's prices and shipping claims.
-    ...(ctx.vertical === "weight-loss" ? REVIEW_EXTRA_FAQS[slug] ?? [] : []),
+    // Extra, query-shaped FAQs for this provider's branded sub-intents
+    // (ingredients, dosage, cost, format, safety). Single-vertical ED build, so
+    // no cross-vertical price/claim bleed to guard against.
+    ...(REVIEW_EXTRA_FAQS[slug] ?? []),
   ].filter((f): f is { question: string; answer: string } => !!f && !!f.answer);
 
   const faqSchema = {
