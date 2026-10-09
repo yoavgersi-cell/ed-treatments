@@ -36,9 +36,9 @@ import { ProviderAudit } from "@/components/provider-audit";
 // here only with real, verified figures.
 const REVIEW_SEO_OVERRIDES: Record<string, { title: string; description: string }> = {
   quad: {
-    title: "Is MEDVi Quad Legit? Quad ED Review, Cost & Results (2026)",
+    title: "Quad by MEDVi Review 2026: Cost, Ingredients & Is It Legit?",
     description:
-      "Is MEDVi Quad legit, and how much does it cost? An honest 2026 review of Quad by MEDVi - the compounded 4-in-1 ED medication - covering the formula, real pricing, who it fits and how it compares.",
+      "An honest, independent review of Quad by MEDVi - the compounded 4-in-1 dissolvable ED medication. What's in it, how much it costs per month, who it's best for, and whether it's legit and worth it in 2026.",
   },
 };
 
@@ -280,7 +280,7 @@ export async function ReviewPageView({ slug, ctx }: { slug: string; ctx: SiteCon
               </div>
               <div>
                 <h1 className="text-[24px] font-bold text-[#191919] sm:text-[28px]">
-                  {provider.name} Reviews
+                  {provider.name} Review 2026
                 </h1>
                 <p className="mt-0.5 text-[14px] text-gray-700">
                   {provider.tagline}
