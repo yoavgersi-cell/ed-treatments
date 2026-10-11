@@ -171,7 +171,7 @@ export const SITE_REVIEWER_SLUG = "francheska-capistrano";
 
 // ───── Review log ─────
 // Keyed by the site path (e.g. "/", "/reviews/hims", "/articles/what-is-ed",
-// "/hims-vs-ro", "/online-ed-treatment/texas").
+// "/hims-vs-braverx").
 // An entry means the named reviewer actually reviewed that page on that date.
 // Entries are added ONLY when the operator confirms she reviewed the page.
 // Never backfill dates. Until a page has an entry, its review bar names her as

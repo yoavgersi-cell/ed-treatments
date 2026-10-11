@@ -14,7 +14,6 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     { path: "/", priority: 1, changeFrequency: "weekly" },
     { path: "/reviews", priority: 0.9, changeFrequency: "weekly" },
     { path: "/articles", priority: 0.8, changeFrequency: "weekly" },
-    { path: "/online-ed-treatment", priority: 0.8, changeFrequency: "weekly" },
     { path: "/find-your-match", priority: 0.7, changeFrequency: "monthly" },
     { path: "/how-we-rank", priority: 0.6, changeFrequency: "monthly" },
     { path: "/reviewers/francheska-capistrano", priority: 0.4, changeFrequency: "monthly" },

@@ -22,7 +22,6 @@ const COLUMNS: { title: string; links: { label: string; href: string }[] }[] = [
       { label: "Latest ED Treatments", href: "/articles/latest-ed-treatments" },
       { label: "Best ED Medicine", href: "/articles/best-ed-medicine" },
       { label: "Natural ED Remedies", href: "/articles/natural-ed-remedies" },
-      { label: "ED Treatment by State", href: "/online-ed-treatment" },
       { label: "All Guides", href: "/articles" },
     ],
   },
