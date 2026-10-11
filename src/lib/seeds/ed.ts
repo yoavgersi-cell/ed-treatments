@@ -390,6 +390,28 @@ export const edConfig: SiteConfig = {
       ],
       trustBadges: ["Licensed US providers", "Discreet shipping", "Well-known brand"],
       updatedAt: UPDATED,
+      sections: [
+        {
+          heading: "What Hims is",
+          body: `<p>Hims is one of the largest and most recognizable <strong>men's-health telehealth brands</strong> in the United States - part of the publicly traded Hims &amp; Hers Health - and its ED offering is among the broadest you'll find. Rather than a single compounded blend, Hims sells the <strong>proven single-ingredient options</strong>: generic <strong>sildenafil</strong> (the active in Viagra), generic <strong>tadalafil</strong> (the active in Cialis), the brand-name versions, and its own chewable <strong>&ldquo;hard mint&rdquo;</strong> format. The experience is polished and fully online: you complete an intake, a licensed provider reviews it, and, if appropriate, treatment ships discreetly on a subscription. Because these are FDA-approved generics and brand drugs rather than a compounded product, Hims sits at the opposite end of the spectrum from a four-in-one like <a href="/reviews/quad">Quad by MEDVi</a> - proven and simple versus differentiated and blended.</p>`,
+        },
+        {
+          heading: "What Hims offers for ED",
+          body: `<p>Hims covers the main bases of oral ED treatment in one place:</p><ul><li><strong>Generic sildenafil</strong> - short-acting, taken before activity; the most economical starting point.</li><li><strong>Generic tadalafil</strong> - long-acting, available as an on-demand dose or a low daily dose some men prefer for spontaneity.</li><li><strong>Brand-name Viagra and Cialis</strong> - for men who specifically want the brand.</li><li><strong>Chewable &ldquo;hard mints&rdquo;</strong> - the same class of medication in a chewable format for men who dislike swallowing a tablet.</li></ul><p>That range is Hims's real advantage: you can start on an affordable generic and switch molecule, dose or format with the provider without changing platforms. For the underlying choice between the two main generics, see our guide to <a href="/articles/sildenafil-vs-cialis">sildenafil vs tadalafil</a>.</p>`,
+        },
+        {
+          heading: "What Hims costs",
+          body: `<p>Pricing depends entirely on which option you choose. <strong>Generic sildenafil and tadalafil are inexpensive</strong>, often priced per dose or as a low monthly plan, while brand-name pills and some chewable formats cost more. Hims runs frequent promotions and the total can rise with add-ons and higher-dose plans, so treat any headline figure as a starting point and <strong>confirm the current price on Hims's own site</strong>. As a rule, if budget is the priority, Hims's generic plans are competitive with any value provider; what you're paying for beyond the medication is the brand's polish and support.</p>`,
+        },
+        {
+          heading: "Who Hims is - and isn't - for",
+          body: `<p>Hims is a strong fit for the <strong>mainstream first-timer</strong>: someone who wants a recognizable, trusted brand, the reassurance of FDA-approved generics, a choice of medication and format, and a smooth app-like experience. It also suits men who value having ED care on the same platform as other men's-health needs (hair, mental health, skincare) Hims also offers.</p><p>It's a weaker fit if you specifically want a <strong>compounded multi-ingredient dose</strong> - that's not what Hims does; a four-in-one like <a href="/reviews/quad">Quad</a> or a three-in-one like <a href="/reviews/braverx">BraveRX</a> is the route there. And if the single lowest per-pill price is your only criterion, a bare-bones value provider like <a href="/reviews/dudemeds">DudeMeds</a> may undercut it. Like all PDE5 medication, Hims's options are not appropriate for men who take nitrates or have certain heart conditions - which the intake screens for.</p>`,
+        },
+        {
+          heading: "Safety and the bottom line",
+          body: `<p>Because Hims dispenses standard PDE5 inhibitors, the safety picture is the well-understood one: common side effects are headache, flushing, nasal congestion and indigestion, and the medication <strong>must never be combined with nitrates</strong>. The advantage over compounded options is that Hims's generics and brand drugs are <strong>FDA-approved</strong>, a reassurance some men specifically want. Overall, Hims is the polished, mainstream default for proven single-ingredient ED treatment - broad, trusted and easy - and the sensible pick unless you specifically want a compounded blend or the rock-bottom price. Compare it against every licensed clinic on our <a href="/">ED treatment comparison</a>, or head-to-head in <a href="/quad-vs-hims">Quad vs Hims</a>.</p><p><em>This review is general information, not medical advice. A licensed clinician decides whether any ED treatment is appropriate for you - especially if you take nitrates or have a heart condition.</em></p>`,
+        },
+      ],
     },
     {
       slug: "dudemeds",
@@ -448,6 +470,28 @@ export const edConfig: SiteConfig = {
       ],
       trustBadges: ["Value-minded", "Licensed providers", "Discreet shipping"],
       updatedAt: UPDATED,
+      sections: [
+        {
+          heading: "What DudeMeds is",
+          body: `<p>DudeMeds is a <strong>value-minded men's-health telehealth service</strong> focused on the essentials: the proven generic ED pills, a simple sign-up, and a low price. There's no compounded blend and no elaborate product line - just <strong>generic sildenafil</strong> (the active in Viagra) and <strong>generic tadalafil</strong> (the active in Cialis), the two best-studied ED medications, prescribed online after a licensed-clinician review and shipped discreetly. If Hims is the polished mainstream brand and Quad is the differentiated compounded option, DudeMeds is the <strong>no-frills budget pick</strong> - and it leans into that, with per-tablet pricing that undercuts most competitors.</p>`,
+        },
+        {
+          heading: "What DudeMeds offers - and what it costs",
+          body: `<p>The lineup is deliberately simple: generic <strong>sildenafil</strong> and <strong>tadalafil</strong> tablets, the same active ingredients found in Viagra and Cialis. The appeal is the price - DudeMeds advertises tablets from around <strong>$1.63 each</strong> with free shipping, which is about as low as licensed online ED medication gets. As always, the exact total depends on the medication, dose and quantity, and promotions change, so confirm the current per-tablet price and any plan terms on DudeMeds's own site before ordering. There's no compounded "4-in-1," chewable or brand-name option here - the trade-off for the low price is a narrow menu. Our <a href="/articles/ed-treatment-cost">ED treatment cost</a> guide puts that in context.</p>`,
+        },
+        {
+          heading: "How it works",
+          body: `<p>The process is the standard, legitimate telehealth flow: you complete an online health questionnaire, a licensed clinician reviews it and decides whether treatment is appropriate, and, if so, your medication ships in discreet packaging. The clinician review is the non-negotiable safeguard that separates a real provider from a "no-prescription" pill site - and DudeMeds keeps it, even at its budget price point.</p>`,
+        },
+        {
+          heading: "Who DudeMeds is - and isn't - for",
+          body: `<p>DudeMeds is the right call for a specific, sensible buyer: the <strong>price-focused man who wants proven generics and nothing extra</strong>. If you already know sildenafil or tadalafil works for you and you just want the lowest legitimate price with a simple reorder, it's hard to beat.</p><p>It's a weaker fit if you want <strong>choice of formats</strong> (chewables, dissolvables), a <strong>compounded multi-ingredient dose</strong> for when a single pill underperformed, or a broader support experience - for those, look at <a href="/reviews/quad">Quad by MEDVi</a>, <a href="/reviews/braverx">BraveRX</a> or <a href="/reviews/hims">Hims</a>. And, like all PDE5 medication, DudeMeds's generics aren't appropriate for men who take nitrates or have certain heart conditions, which the intake is there to catch.</p>`,
+        },
+        {
+          heading: "Safety and the bottom line",
+          body: `<p>Because DudeMeds dispenses standard generic PDE5 inhibitors, the safety profile is the familiar one: mostly mild, temporary side effects (headache, flushing, congestion, indigestion) and the firm rule that it <strong>must never be combined with nitrates</strong>. These are <strong>FDA-approved generic medications</strong>, not a compounded product, so there's no compounding caveat here. The bottom line: DudeMeds is a genuinely good value pick for men who want proven generics at the lowest honest price and don't need formats or a blend. Compare it against every option on our <a href="/">ED treatment comparison</a>.</p><p><em>This review is general information, not medical advice. A licensed clinician decides whether any ED treatment is appropriate for you - especially if you take nitrates or have a heart condition.</em></p>`,
+        },
+      ],
     },
     {
       slug: "braverx",
