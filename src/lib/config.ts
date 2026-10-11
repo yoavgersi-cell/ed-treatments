@@ -374,6 +374,7 @@ export const AFFILIATE_PROVIDER_IDS = [
   "dudemeds",
   "braverx",
   "petermd",
+  "shed",
 ];
 
 // Operator policy (Aug 2026): index everything that can honestly be indexed -

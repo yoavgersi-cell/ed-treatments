@@ -55,13 +55,14 @@ export const edConfig: SiteConfig = {
   },
 
   ranking: {
-    providerOrder: ["quad", "hims", "dudemeds", "braverx", "petermd"],
+    providerOrder: ["quad", "hims", "dudemeds", "braverx", "petermd", "shed"],
     positions: [
       { score: 9.8, starRating: 5, label: "Exceptional", badge: "Our Top Pick" },
       { score: 9.6, starRating: 5, label: "Excellent" },
       { score: 9.3, starRating: 5, label: "Excellent" },
       { score: 8.9, starRating: 4, label: "Very Good" },
       { score: 8.7, starRating: 4, label: "Very Good" },
+      { score: 8.5, starRating: 4, label: "Very Good" },
     ],
   },
 
@@ -234,6 +235,22 @@ export const edConfig: SiteConfig = {
         "Discreet home delivery",
       ],
       affiliateUrl: "https://track.revoffers.com/aff_c?offer_id=1344&aff_id=12904&url_id=10961",
+      ctaText: "Visit Site",
+    },
+    {
+      id: "shed",
+      name: "SHED",
+      tagline:
+        "A men's-health telehealth brand whose ED product, Roxus, is an intranasal vardenafil nasal spray rather than a pill",
+      logo: "/logo-shed.svg",
+      smallLogo: "/logo-shed.svg",
+      highlights: [
+        "Nasal-spray format (no pill to swallow)",
+        "Contains vardenafil, a PDE5 inhibitor",
+        "Fully online visit and checkout",
+        "Discreet, direct-to-door delivery",
+      ],
+      affiliateUrl: "https://track.revoffers.com/aff_c?offer_id=1516&aff_id=12904&url_id=12720",
       ctaText: "Visit Site",
     },
   ],
@@ -620,6 +637,67 @@ export const edConfig: SiteConfig = {
         },
       ],
       trustBadges: ["Licensed clinicians", "Men's-health platform", "Discreet shipping"],
+      updatedAt: UPDATED,
+    },
+    {
+      slug: "shed",
+      providerId: "shed",
+      shortSummary:
+        "A men's-health telehealth brand whose ED product, Roxus, is an intranasal vardenafil nasal spray rather than a pill - prescribed online after a licensed-provider review, and pitched on fast, on-demand onset.",
+      reviewIntro:
+        "SHED is a men's-health telehealth brand that treats ED online, but its ED product stands out from almost every clinic we cover: instead of a tablet, SHED prescribes Roxus, an intranasal vardenafil nasal spray. Vardenafil is an established PDE5 inhibitor (the same drug class as sildenafil and tadalafil); SHED's angle is the delivery route - a spray absorbed through the nose, which the brand markets as working faster than a swallowed pill. It is prescription-only: you complete an online intake, a licensed U.S. provider decides whether treatment is appropriate, and it ships discreetly to your door. This review covers what SHED offers for ED and who it fits.",
+      keyFeatures: [
+        "Roxus: an intranasal vardenafil nasal spray (no pill to swallow)",
+        "Vardenafil is an established PDE5 inhibitor for ED",
+        "Prescribed online after a licensed-provider review",
+        "Fast on-demand onset (a brand claim - see below)",
+        "Discreet, direct-to-door delivery with online follow-up",
+      ],
+      pricingSummary:
+        "As published by SHED and subject to change - confirm at checkout. SHED prices Roxus on a subscription: the headline plan is listed around $199/month for 14 doses, with the per-month cost falling on longer commitments (for example roughly $99.50/month on a two-month plan, or about $166/month on a three-month plan). Because these are promotional subscription prices that move, treat any figure as a starting point and confirm the current rate on SHED's own site before subscribing.",
+      treatmentOptions: [
+        "Roxus intranasal vardenafil nasal spray (SHED's ED product)",
+        "Provider-directed dosing after an online review",
+        "Subscription plans in 1-, 2- and 3-month commitments",
+      ],
+      pros: [
+        "A genuinely different format - a nasal spray for men who dislike swallowing pills",
+        "Uses vardenafil, a well-established PDE5 inhibitor",
+        "Fully online, discreet prescribing flow with a licensed U.S. provider",
+      ],
+      cons: [
+        "Intranasal ED medication is uncommon, so there's less independent long-term data than for standard oral pills",
+        "The faster-onset messaging is a brand claim, not something we've independently verified",
+        "Subscription pricing starts higher than generic oral options and is best confirmed directly",
+      ],
+      bestFor: [
+        "Men who want to avoid swallowing a pill and are drawn to a nasal-spray format",
+        "Anyone looking for fast, on-demand ED dosing who's comfortable with vardenafil",
+        "Men who want a fully online, discreet process",
+      ],
+      finalVerdict:
+        "SHED is worth a look mainly for its format: Roxus is one of the few intranasal ED treatments available online, and vardenafil behind it is a legitimate, established PDE5 inhibitor. The trade-off is that intranasal delivery is uncommon, so there's less independent evidence than for ordinary oral pills, and SHED's faster-than-a-pill messaging is a brand claim we haven't independently verified. If the nasal-spray format appeals to you, it's a credible, differentiated option - but confirm current pricing on SHED's site and, as always, let a licensed clinician decide whether it's right for you. This is especially important if you take nitrates or have a heart condition. This review is general information, not medical advice.",
+      howItWorks: [
+        {
+          timing: "Step 1",
+          title: "Complete an online intake",
+          detail:
+            "Answer questions about your health, medications and history. Be thorough - this is what the licensed provider uses to decide whether Roxus is safe for you, particularly around heart conditions and nitrate use.",
+        },
+        {
+          timing: "Step 2",
+          title: "Licensed provider review",
+          detail:
+            "A licensed U.S. provider reviews your intake and decides whether intranasal vardenafil is appropriate and at what dose.",
+        },
+        {
+          timing: "Step 3",
+          title: "Discreet delivery",
+          detail:
+            "If prescribed, your Roxus spray ships to your door in plain packaging, with online follow-up available.",
+        },
+      ],
+      trustBadges: ["Licensed U.S. providers", "Prescription-only", "Discreet shipping"],
       updatedAt: UPDATED,
     },
   ],
