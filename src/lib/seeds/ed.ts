@@ -55,12 +55,13 @@ export const edConfig: SiteConfig = {
   },
 
   ranking: {
-    providerOrder: ["quad", "hims", "dudemeds", "braverx"],
+    providerOrder: ["quad", "hims", "dudemeds", "braverx", "petermd"],
     positions: [
       { score: 9.8, starRating: 5, label: "Exceptional", badge: "Our Top Pick" },
       { score: 9.6, starRating: 5, label: "Excellent" },
       { score: 9.3, starRating: 5, label: "Excellent" },
       { score: 8.9, starRating: 4, label: "Very Good" },
+      { score: 8.7, starRating: 4, label: "Very Good" },
     ],
   },
 
@@ -218,6 +219,22 @@ export const edConfig: SiteConfig = {
           date: "Jan 22, 2026",
         },
       ],
+    },
+    {
+      id: "petermd",
+      name: "Peter MD",
+      tagline:
+        "A men's-health telehealth brand offering ED treatment online alongside TRT and wider men's care",
+      logo: "/logo-petermd.svg",
+      smallLogo: "/logo-petermd.svg",
+      highlights: [
+        "Fully online men's-health platform",
+        "Licensed clinicians review your intake",
+        "Generic sildenafil and tadalafil options",
+        "Discreet home delivery",
+      ],
+      affiliateUrl: "https://track.revoffers.com/aff_c?offer_id=1344&aff_id=12904&url_id=10961",
+      ctaText: "Visit Site",
     },
   ],
 
@@ -468,6 +485,67 @@ export const edConfig: SiteConfig = {
       finalVerdict:
         "BraveRX offers the standard, convenient telehealth path to ED treatment: online consultation, licensed-clinician review and discreet delivery. Because we haven't independently verified its specific medications or pricing, confirm those details on the BraveRX site and compare them against our top-ranked providers before deciding. This review is general information, not medical advice.",
       trustBadges: ["Licensed clinicians", "Online consultation", "Discreet shipping"],
+      updatedAt: UPDATED,
+    },
+    {
+      slug: "petermd",
+      providerId: "petermd",
+      shortSummary:
+        "A broad men's-health telehealth brand that treats ED online - typically generic sildenafil and tadalafil - alongside TRT and other men's services, after a licensed-clinician review.",
+      reviewIntro:
+        "Peter MD is a men's-health telehealth company whose remit runs wider than ED alone - it also offers testosterone therapy and other men's services - with erectile dysfunction treatment prescribed online. The ED path is the familiar one: you complete an online intake, a licensed clinician reviews whether treatment is appropriate, and, if so, medication ships discreetly to your door. This review covers what it offers for ED and who it fits.",
+      keyFeatures: [
+        "Fully online men's-health platform (ED plus TRT and more)",
+        "ED treatment prescribed after a licensed-clinician review",
+        "Typically generic sildenafil and tadalafil",
+        "Discreet home delivery",
+        "One account for several men's-health needs",
+      ],
+      pricingSummary:
+        "Approximate only - confirm at checkout. Peter MD prices ED medication as a telehealth plan, and the exact cost depends on the medication, dose and quantity. Because we haven't independently verified its current ED pricing, treat any figure as a starting point and confirm it on Peter MD's own site before subscribing.",
+      treatmentOptions: [
+        "Generic sildenafil (Viagra's active ingredient)",
+        "Generic tadalafil (Cialis's active ingredient)",
+        "Provider-directed dosing and follow-up",
+      ],
+      pros: [
+        "One platform for ED and broader men's health (including TRT)",
+        "Standard, licensed online prescribing flow",
+        "Discreet, direct-to-door delivery",
+      ],
+      cons: [
+        "Single-ingredient generics rather than a compounded multi-blend",
+        "Requires an online medical review (as any legitimate provider should)",
+        "Specific ED pricing is best confirmed directly on the site",
+      ],
+      bestFor: [
+        "Men who want ED treatment on the same platform as TRT or other men's-health care",
+        "Anyone comfortable with the standard generic PDE5 options",
+        "Men who want a fully online, discreet process",
+      ],
+      finalVerdict:
+        "Peter MD is a credible pick if you want ED treatment inside a broader men's-health platform rather than an ED-only service, and you're comfortable with the standard generics. Because we haven't independently verified its specific ED medications and pricing, confirm those on the Peter MD site and weigh them against our top-ranked providers - a compounded option like Quad, or a value pick like DudeMeds - before deciding. This review is general information, not medical advice.",
+      howItWorks: [
+        {
+          timing: "Step 1",
+          title: "Complete an online intake",
+          detail:
+            "Answer questions about your health, medications and history. Be thorough - this is what the clinician uses to decide whether treatment is safe for you.",
+        },
+        {
+          timing: "Step 2",
+          title: "Licensed clinician review",
+          detail:
+            "A licensed provider reviews your intake and decides whether ED treatment is appropriate, and which option fits.",
+        },
+        {
+          timing: "Step 3",
+          title: "Discreet delivery",
+          detail:
+            "If prescribed, your medication ships to your door in plain packaging, with online follow-up available.",
+        },
+      ],
+      trustBadges: ["Licensed clinicians", "Men's-health platform", "Discreet shipping"],
       updatedAt: UPDATED,
     },
   ],
