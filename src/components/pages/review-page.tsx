@@ -25,7 +25,7 @@ import { PRODUCT_CATALOG } from "@/lib/product-catalog";
 import { notFound } from "next/navigation";
 import { REDDIT_COMMUNITY_FEEDBACK as REVIEW_COMMUNITY_FEEDBACK, RedditMark } from "@/components/reddit-community";
 import { YoutubeReviewSection } from "@/components/youtube-review";
-import { ReadableProse } from "@/components/prose";
+import { ReadableProse, enhanceArticleHtml } from "@/components/prose";
 import { ProviderAudit } from "@/components/provider-audit";
 
 // Per-provider SEO overrides, "is X legit?" trust blocks, and extra FAQs were a
@@ -609,6 +609,21 @@ export async function ReviewPageView({ slug, ctx }: { slug: string; ctx: SiteCon
             ))}
           </ul>
         </Section>
+
+        {/* In-depth editorial deep-dive (long-form, rendered when present) */}
+        {review.sections && review.sections.length > 0 && (
+          <article className="mb-8 space-y-8 border-t border-gray-200 pt-8">
+            {review.sections.map((section, i) => (
+              <section key={i}>
+                <h2 className="mb-3 text-[20px] font-bold text-[#191919]">{section.heading}</h2>
+                <div
+                  className="article-body text-[16px] leading-[1.75] text-gray-800 [&_a]:text-[#111111] [&_a]:font-medium [&_a]:underline [&_a]:underline-offset-2 hover:[&_a]:text-[#000000]"
+                  dangerouslySetInnerHTML={{ __html: enhanceArticleHtml(section.body) }}
+                />
+              </section>
+            ))}
+          </article>
+        )}
 
         {/* Trustpilot Reviews */}
         {(provider.trustpilotReviews?.length ?? 0) > 0 && (

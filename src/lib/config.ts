@@ -97,6 +97,15 @@ export interface ReviewData {
   pricingPlans?: ReviewPricingPlan[];
   howItWorks?: ReviewHowItWorksStep[];
   trustBadges?: string[];
+  // Long-form editorial deep-dive: hand-written HTML section bodies (same
+  // authoring model as articles). Rendered as the in-depth review body when
+  // present. Keep it specific and compliant - no cure/guarantee claims.
+  sections?: ReviewSection[];
+}
+
+export interface ReviewSection {
+  heading: string;
+  body: string;
 }
 
 export interface FaqItem {
