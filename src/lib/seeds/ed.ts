@@ -1472,7 +1472,7 @@ export const edConfig: SiteConfig = {
       category: "Treatments",
       readTime: "9 min read",
       publishedAt: "2026-09-13",
-      updatedAt: "2026-10-05",
+      updatedAt: "2026-10-11",
       heroColor: "#2a1a3a",
       author: "ED Treatment Editorial Team",
       keyTakeaways: [
@@ -1483,8 +1483,8 @@ export const edConfig: SiteConfig = {
       ],
       sections: [
         {
-          heading: "Is there an over-the-counter ED pill?",
-          body: `<p>Let's answer the question directly, because a lot of marketing works hard to blur it: <strong>there is no FDA-approved over-the-counter oral ED drug in the United States.</strong> The medications with real, proven effectiveness for erectile dysfunction - the PDE5 inhibitors sildenafil, tadalafil and vardenafil - are all prescription-only. You cannot legally buy the effective ED medicines off a shelf without a clinician's involvement.</p><p>That doesn't stop stores and websites from selling things that <em>look</em> like an OTC solution. Understanding what those products actually are is the key to not wasting money - or risking your health.</p>`,
+          heading: "What is over-the-counter ED treatment?",
+          body: `<p>&ldquo;Over-the-counter&rdquo; (OTC) describes any product you can buy <strong>without a prescription</strong> - off a pharmacy or store shelf, at a gas station, or online - with no clinician involved. So <strong>&ldquo;over-the-counter ED treatment&rdquo; is the catch-all term for any pill, supplement or remedy a man hopes to buy for erectile dysfunction without seeing a doctor.</strong></p><p>It's worth being precise about the term, because the honest answer is not what most advertising implies: <strong>there is no FDA-approved over-the-counter ED drug in the United States.</strong> The medicines with real, proven effectiveness for ED - the PDE5 inhibitors <strong>sildenafil</strong> (the active ingredient in Viagra), <strong>tadalafil</strong> (Cialis) and <strong>vardenafil</strong> (Levitra) - are all <strong>prescription-only</strong>. You cannot legally buy the effective ED medicines off a shelf without a clinician's involvement.</p><p>That doesn't stop stores and websites from selling products that <em>look</em> like an OTC solution. The rest of this guide explains what those products actually are, whether any are worth considering, the safety risks that matter most, and the legitimate route to treatment that genuinely works.</p>`,
         },
         {
           heading: "So what are \"OTC ED\" products, really?",
