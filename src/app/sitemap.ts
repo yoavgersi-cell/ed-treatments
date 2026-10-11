@@ -1,8 +1,6 @@
 import type { MetadataRoute } from "next";
 import { getConfig } from "@/lib/config-store";
 import { CONTENT_LAST_UPDATED, latestUpdate, NOINDEX_ARTICLE_SLUGS } from "@/lib/config";
-import { STATES } from "@/lib/states";
-import { CITIES } from "@/lib/cities";
 
 const SITE_URL = "https://www.edtreatmenthub.com";
 const FALLBACK_DATE = new Date(CONTENT_LAST_UPDATED);
@@ -55,25 +53,12 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     });
   }
 
-  // Programmatic per-state pages
-  for (const s of STATES) {
-    entries.push({
-      url: `${SITE_URL}/online-ed-treatment/${s.slug}`,
-      lastModified: FALLBACK_DATE,
-      changeFrequency: "monthly",
-      priority: 0.6,
-    });
-  }
-
-  // Programmatic per-city pages (nested under their state)
-  for (const c of CITIES) {
-    entries.push({
-      url: `${SITE_URL}/online-ed-treatment/${c.stateSlug}/${c.slug}`,
-      lastModified: FALLBACK_DATE,
-      changeFrequency: "monthly",
-      priority: 0.55,
-    });
-  }
+  // NOTE: Programmatic per-state and per-city pages are deliberately NOT in the
+  // sitemap and are marked noindex,follow. For a nationwide telehealth affiliate
+  // there's no genuinely location-specific content, so they'd be near-duplicate
+  // boilerplate (doorway/thin-content risk that drags down site-wide quality).
+  // They stay live for users and internal linking only. To promote a flagship
+  // state later, give it real unique content, drop its noindex, and re-add it here.
 
   // Articles / guides
   for (const a of cfg.articles ?? []) {

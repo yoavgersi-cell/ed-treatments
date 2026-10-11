@@ -37,6 +37,11 @@ export async function generateMetadata({
     description,
     alternates: { canonical: url },
     openGraph: { title, description, url, type: "website" },
+    // Nationwide telehealth has no genuinely state-specific content, so these
+    // programmatic location pages are near-duplicate boilerplate. Kept live for
+    // users and internal linking, but noindex,follow so they don't count against
+    // the site's quality assessment (helpful-content / doorway-page risk).
+    robots: { index: false, follow: true },
   };
 }
 
