@@ -294,7 +294,7 @@ export interface LandingPageData {
 
 // Stable fallback "last updated" date for schema when an item has no CMS
 // updatedAt. Avoids emitting today's date on every request (fake freshness).
-export const CONTENT_LAST_UPDATED = "2026-10-04";
+export const CONTENT_LAST_UPDATED = "2026-10-12";
 
 // Floor date for battle, review and article pages: the shared page templates
 // were last reworked on this date (quick answer, fit finder, accordions,
