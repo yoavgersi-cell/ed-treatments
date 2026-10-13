@@ -55,14 +55,15 @@ export const edConfig: SiteConfig = {
   },
 
   ranking: {
-    providerOrder: ["quad", "hims", "dudemeds", "braverx", "petermd", "shed"],
+    providerOrder: ["quad", "directmeds", "hims", "dudemeds", "braverx", "petermd", "shed"],
     positions: [
       { score: 9.8, starRating: 5, label: "Exceptional", badge: "Our Top Pick" },
       { score: 9.6, starRating: 5, label: "Excellent" },
       { score: 9.3, starRating: 5, label: "Excellent" },
-      { score: 8.9, starRating: 4, label: "Very Good" },
-      { score: 8.7, starRating: 4, label: "Very Good" },
-      { score: 8.5, starRating: 4, label: "Very Good" },
+      { score: 9.1, starRating: 5, label: "Excellent" },
+      { score: 8.8, starRating: 4, label: "Very Good" },
+      { score: 8.6, starRating: 4, label: "Very Good" },
+      { score: 8.4, starRating: 4, label: "Very Good" },
     ],
   },
 
@@ -81,6 +82,22 @@ export const edConfig: SiteConfig = {
         "Stronger 4-in-1 formula",
       ],
       affiliateUrl: "https://track.revoffers.com/aff_c?offer_id=1530&aff_id=12904",
+      ctaText: "Visit Site",
+    },
+    {
+      id: "directmeds",
+      name: "DirectMeds",
+      tagline:
+        "An online telehealth service that prescribes ED treatment after a licensed-clinician review, with discreet direct-to-door delivery",
+      logo: "/logo-directmeds.svg",
+      smallLogo: "/logo-directmeds.svg",
+      highlights: [
+        "Fully online consultation and checkout",
+        "Licensed clinicians review your intake",
+        "Common ED medications prescribed online",
+        "Discreet, direct-to-door delivery",
+      ],
+      affiliateUrl: "https://www.vyrov30g.com/45LC6KK/9WQFXBK/",
       ctaText: "Visit Site",
     },
     {
@@ -729,6 +746,67 @@ export const edConfig: SiteConfig = {
           body: `<p>SHED doesn't have a direct equivalent among the clinics we rank, which is exactly its point - it's the only intranasal option here. Against a <strong>single generic pill</strong> (the cheapest route), SHED trades a higher subscription price for its nasal-spray format and fast-onset claim. Against a <strong>compounded multi-ingredient dose</strong> like <a href="/reviews/quad">Quad by MEDVi</a> or <a href="/reviews/braverx">BraveRX</a>, the comparison is really format-versus-formula: those blend several actives into one dissolvable tablet for a multi-mechanism effect, while SHED keeps a single proven drug (vardenafil) and changes how it's delivered. There's no single winner - it comes down to whether you value <strong>not swallowing a pill</strong> and speed, or a stronger blended formula, or the lowest price. Weigh all of them on our <a href="/">ED treatment comparison</a>.</p><p><em>This review is general information, not medical advice. A licensed clinician decides whether SHED's Roxus, or any ED treatment, is appropriate for you - especially if you take nitrates or have a heart condition.</em></p>`,
         },
       ],
+    },
+    {
+      slug: "directmeds",
+      providerId: "directmeds",
+      shortSummary:
+        "An online telehealth service that prescribes ED treatment after a licensed-clinician review and ships it discreetly to your door - the familiar online flow, with the specific medications and pricing best confirmed on its own site.",
+      reviewIntro:
+        "DirectMeds is an online telehealth service that treats erectile dysfunction through the now-standard route: you complete an online intake, a licensed clinician reviews whether treatment is appropriate, and, if so, medication is shipped discreetly to your door - no in-person visit. It sits in the same lane as the other licensed online clinics we rank, competing on process, price and convenience rather than on a single headline product. This review covers what it offers for ED and who it fits. Because we haven't independently verified its exact ED medications and current pricing, we flag those clearly as things to confirm on DirectMeds' own site rather than asserting figures we can't stand behind.",
+      keyFeatures: [
+        "Fully online intake, consultation and checkout",
+        "ED treatment prescribed only after a licensed-clinician review",
+        "Common ED medications prescribed online (confirm the current lineup on-site)",
+        "Discreet, direct-to-door delivery",
+        "Online follow-up and refills",
+      ],
+      pricingSummary:
+        "Approximate only - confirm at checkout. DirectMeds prices ED treatment as an online telehealth plan, and the exact cost depends on the medication, dose and quantity. Because we haven't independently verified its current ED pricing, treat any figure as a starting point and confirm it on DirectMeds' own site before subscribing.",
+      treatmentOptions: [
+        "Common prescription ED medications after a clinician review",
+        "Provider-directed dosing and follow-up",
+        "Confirm the exact medications and plans on DirectMeds' site",
+      ],
+      pros: [
+        "Standard, licensed online prescribing flow with a clinician review",
+        "Fully online and discreet, with direct-to-door delivery",
+        "A credible additional option to compare against our top-ranked clinics",
+      ],
+      cons: [
+        "We haven't independently verified its specific ED medications and pricing - confirm on-site",
+        "Requires an online medical review (as any legitimate provider should)",
+        "No single differentiated product like a compounded 4-in-1 or a nasal spray",
+      ],
+      bestFor: [
+        "Men who want a straightforward, fully online ED treatment flow",
+        "Anyone comfortable with the standard prescription ED options",
+        "Men who want to compare another licensed clinic against our top picks",
+      ],
+      finalVerdict:
+        "DirectMeds is a credible licensed online option that runs the familiar, safe telehealth flow - online intake, clinician review, discreet delivery. Because we haven't independently verified its specific ED medications and pricing, confirm those on the DirectMeds site and weigh them against our top-ranked providers - a compounded option like Quad, or a value pick like DudeMeds - before deciding. This review is general information, not medical advice.",
+      howItWorks: [
+        {
+          timing: "Step 1",
+          title: "Complete an online intake",
+          detail:
+            "Answer questions about your health, medications and history. Be thorough - this is what the clinician uses to decide whether treatment is safe for you.",
+        },
+        {
+          timing: "Step 2",
+          title: "Licensed clinician review",
+          detail:
+            "A licensed provider reviews your intake and decides whether ED treatment is appropriate, and which option fits.",
+        },
+        {
+          timing: "Step 3",
+          title: "Discreet delivery",
+          detail:
+            "If prescribed, your medication ships to your door in plain packaging, with online follow-up available.",
+        },
+      ],
+      trustBadges: ["Licensed clinicians", "Prescription-only", "Discreet shipping"],
+      updatedAt: UPDATED,
     },
   ],
 
