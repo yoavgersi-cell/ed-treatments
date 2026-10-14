@@ -193,6 +193,7 @@ const REVIEWED_2026_10_14: string[] = [
   "/reviews",
   "/articles",
   "/how-we-rank",
+  "/ed-cost-index",
   // Provider reviews
   "/reviews/quad",
   "/reviews/directmeds",
