@@ -182,17 +182,60 @@ export interface PageReview {
   reviewedAt: string; // YYYY-MM-DD
 }
 
-// No confirmed ED review pass yet. Add entries below only when the operator
-// confirms she reviewed a page; until then every content page names her as the
-// site's medical reviewer in staff mode, with no review date.
-const REVIEWED_2026_10_04: string[] = [];
+// Full-site medical-review pass confirmed by the operator on 2026-10-14. Every
+// current content page below was reviewed on that date. This is a real,
+// present-day confirmation (not a backfilled past date). New pages added AFTER
+// this date are deliberately NOT included - they stay in staff mode until the
+// reviewer signs off on them too, which is added as a later-dated entry.
+const REVIEWED_2026_10_14: string[] = [
+  // Core / index pages
+  "/",
+  "/reviews",
+  "/articles",
+  "/how-we-rank",
+  // Provider reviews
+  "/reviews/quad",
+  "/reviews/directmeds",
+  "/reviews/hims",
+  "/reviews/dudemeds",
+  "/reviews/braverx",
+  "/reviews/petermd",
+  "/reviews/shed",
+  // Head-to-head comparisons (served at root)
+  "/quad-vs-hims",
+  "/quad-vs-dudemeds",
+  "/quad-vs-braverx",
+  "/quad-vs-directmeds",
+  "/hims-vs-dudemeds",
+  "/hims-vs-braverx",
+  "/dudemeds-vs-braverx",
+  // Articles / guides
+  "/articles/what-causes-erectile-dysfunction",
+  "/articles/latest-ed-treatments",
+  "/articles/best-ed-medicine",
+  "/articles/best-ed-treatments-compared",
+  "/articles/natural-ed-remedies",
+  "/articles/can-low-testosterone-cause-ed",
+  "/articles/alternatives-to-viagra-and-cialis",
+  "/articles/sildenafil-vs-cialis",
+  "/articles/quad-vs-bluechew",
+  "/articles/best-4-in-1-ed-medication",
+  "/articles/quad-vs-rugiet",
+  "/articles/how-to-get-ed-treatment-online",
+  "/articles/ed-medication-side-effects",
+  "/articles/ed-treatment-cost",
+  "/articles/over-the-counter-ed-treatment",
+  "/articles/trimix-for-ed",
+  "/articles/ed-treatment-near-me",
+];
 
-// Pages published and reviewed after the full-site pass.
+// Pages published and reviewed after the full-site pass. Add a dated entry here
+// when the reviewer signs off on a page created after 2026-10-14.
 const REVIEWED_LATER: Record<string, PageReview> = {};
 
 export const REVIEW_LOG: Record<string, PageReview> = {
   ...Object.fromEntries(
-    REVIEWED_2026_10_04.map((p) => [p, { reviewer: "francheska-capistrano", reviewedAt: "2026-10-04" }]),
+    REVIEWED_2026_10_14.map((p) => [p, { reviewer: "francheska-capistrano", reviewedAt: "2026-10-14" }]),
   ),
   ...REVIEWED_LATER,
 };
