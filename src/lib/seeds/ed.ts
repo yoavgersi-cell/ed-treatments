@@ -361,7 +361,7 @@ export const edConfig: SiteConfig = {
         },
         {
           heading: "How Quad compares",
-          body: `<p>Against a <strong>single generic pill</strong>, Quad's advantage is breadth - two PDE5 inhibitors plus two other mechanisms in one dissolvable dose - at a higher monthly cost and without FDA-approved-drug status. Against its closest peer, <strong>Rugiet</strong> (another compounded multi-ingredient option), the two are more alike than different, and the decision comes down to formula, brand and price; we put them side by side in <a href="/articles/quad-vs-rugiet">Quad vs Rugiet</a>, and against a single-ingredient chewable in <a href="/articles/quad-vs-bluechew">Quad vs BlueChew</a>. If you're still deciding between routes entirely, our guide to <a href="/articles/alternatives-to-viagra-and-cialis">alternatives to Viagra and Cialis</a> maps the full landscape, and you can see how every licensed clinic we track stacks up on our <a href="/">ED treatment comparison</a>.</p><p><em>This review is general information, not medical advice. A licensed clinician decides whether Quad, or any ED treatment, is appropriate for you - especially if you take nitrates or have a heart condition.</em></p>`,
+          body: `<p>Against a <strong>single generic pill</strong>, Quad's advantage is breadth - two PDE5 inhibitors plus two other mechanisms in one dissolvable dose - at a higher monthly cost and without FDA-approved-drug status. Against its closest peer, <strong>Rugiet</strong> (another compounded multi-ingredient option), the two are more alike than different, and the decision comes down to formula, brand and price; we put them side by side in <a href="/articles/quad-vs-rugiet">Quad vs Rugiet</a>, and against a single-ingredient chewable in <a href="/articles/quad-vs-bluechew">Quad vs BlueChew</a>. Against a general online clinic, see <a href="/quad-vs-directmeds">Quad vs DirectMeds</a>. If you're still deciding between routes entirely, our guide to <a href="/articles/alternatives-to-viagra-and-cialis">alternatives to Viagra and Cialis</a> maps the full landscape, and you can see how every licensed clinic we track stacks up on our <a href="/">ED treatment comparison</a>.</p><p><em>This review is general information, not medical advice. A licensed clinician decides whether Quad, or any ED treatment, is appropriate for you - especially if you take nitrates or have a heart condition.</em></p>`,
         },
       ],
     },
@@ -967,6 +967,65 @@ export const edConfig: SiteConfig = {
           explanation:
             "Quad's product and format are clearly defined; BraveRX's specific medications and pricing we have not verified here.",
           supportingPoints: ["Defined 4-in-1 formula", "Details unverified for BraveRX"],
+        },
+        {
+          name: "Format options",
+          winner: "provider1",
+          explanation: "Quad's dissolvable format is a distinct alternative to a standard pill.",
+          supportingPoints: ["Dissolvable dose", "Pill-free option"],
+        },
+        {
+          name: "Medical oversight",
+          winner: "tie",
+          explanation: "Both rely on a licensed clinician reviewing your online intake before prescribing.",
+          supportingPoints: ["Licensed-provider review at both", "Fully online"],
+        },
+        {
+          name: "Discreet delivery",
+          winner: "tie",
+          explanation: "Both ship treatment discreetly to your door.",
+          supportingPoints: ["Plain packaging", "Direct-to-door"],
+        },
+      ],
+      features: [
+        { feature: "Formula", provider1Value: "4-in-1 compounded", provider2Value: "See site", highlight: "provider1" },
+        { feature: "Format", provider1Value: "Dissolvable", provider2Value: "See site", highlight: "provider1" },
+        { feature: "Provider review", provider1Value: "Yes", provider2Value: "Yes", highlight: "both" },
+        { feature: "Pricing", provider1Value: "See site (approx.)", provider2Value: "See site", highlight: "none" },
+      ],
+      updatedAt: UPDATED,
+    },
+    {
+      slug: "quad-vs-directmeds",
+      provider1Id: "quad",
+      provider2Id: "directmeds",
+      title: "Quad by MEDVi vs DirectMeds",
+      matchupLabel: "Quad by MEDVi vs DirectMeds",
+      subtitle: "A defined, differentiated 4-in-1 formula vs a general online Rx service",
+      description:
+        "Compare Quad by MEDVi and DirectMeds for online ED treatment - what's known about each, how they prescribe, and which fits you best.",
+      intro:
+        "Quad by MEDVi is a specific, differentiated product - a compounded 4-in-1 dissolvable dose - while DirectMeds is an online telehealth service that prescribes ED treatment after a licensed-clinician review. We have full detail on Quad's formula and format; for DirectMeds we describe the general model and point you to its site for the exact medications and pricing. Here's how they compare.",
+      verdict:
+        "Quad is our pick here because its offering is clearly defined and differentiated, whereas DirectMeds' specific lineup and pricing we haven't independently verified. Both run a licensed-provider flow with discreet delivery; check DirectMeds' site directly for its medications and current cost before deciding. Confirm current pricing on each provider's site.",
+      verdictWinnerPoints: [
+        "Clearly defined, differentiated 4-in-1 formula",
+        "Dissolvable format with a specific use case",
+        "Detailed, transparent offering",
+      ],
+      verdictLoserPoints: [
+        "Convenient, fully online consultation and checkout",
+        "Licensed clinicians review your intake",
+        "Discreet, direct-to-door delivery",
+      ],
+      winnerId: "quad",
+      categories: [
+        {
+          name: "Offering clarity",
+          winner: "provider1",
+          explanation:
+            "Quad's product and format are clearly defined; DirectMeds' specific medications and pricing we haven't verified here.",
+          supportingPoints: ["Defined 4-in-1 formula", "Details to confirm for DirectMeds"],
         },
         {
           name: "Format options",
