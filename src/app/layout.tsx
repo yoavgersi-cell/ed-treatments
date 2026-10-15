@@ -104,6 +104,7 @@ export default function RootLayout({
               "@type": "WebSite",
               name: "ED Treatment Hub",
               url: SITE_URL,
+              inLanguage: "en-US",
               description:
                 "Compare trusted online erectile-dysfunction treatment providers side by side.",
             }),
