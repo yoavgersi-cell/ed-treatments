@@ -91,8 +91,8 @@ export function EditorialContent({ midSlot }: { midSlot?: React.ReactNode }) {
           in-depth provider reviews
         </Link>{" "}
         or a head-to-head like{" "}
-        <Link href="/quad-vs-hims" className="font-semibold text-[#111111] hover:underline">
-          Quad by MEDVi vs Hims
+        <Link href="/quad-vs-dudemeds" className="font-semibold text-[#111111] hover:underline">
+          Quad by MEDVi vs DudeMeds
         </Link>.
       </p>
 
@@ -248,7 +248,7 @@ export function EditorialContent({ midSlot }: { midSlot?: React.ReactNode }) {
       <p className="mb-8">
         Want to see how specific providers stack up? Read our reviews of{" "}
         <Link href="/reviews/quad" className="font-semibold text-[#111111] hover:underline">Quad by MEDVi</Link>,{" "}
-        <Link href="/reviews/hims" className="font-semibold text-[#111111] hover:underline">Hims</Link>,{" "}
+        <Link href="/reviews/directmeds" className="font-semibold text-[#111111] hover:underline">DirectMeds</Link>,{" "}
         <Link href="/reviews/dudemeds" className="font-semibold text-[#111111] hover:underline">DudeMeds</Link>{" "}
         and{" "}
         <Link href="/reviews/braverx" className="font-semibold text-[#111111] hover:underline">BraveRx</Link>.
