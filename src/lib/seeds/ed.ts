@@ -593,7 +593,7 @@ export const edConfig: SiteConfig = {
         },
         {
           heading: "How BraveRX compares",
-          body: `<p>BraveRX's natural comparison is <a href="/reviews/quad">Quad by MEDVi</a>: both are compounded, dissolvable, multi-ingredient doses that share sildenafil, tadalafil and apomorphine - Quad adds a fourth ingredient (L-citrulline), which is the main formula difference, after which it comes down to brand, plan and price. Against a <strong>single generic pill</strong>, BraveRX's edge is the multi-mechanism blend and dissolvable format, at a higher monthly cost and without FDA-approved-drug status. You can see BraveRX head-to-head in <a href="/hims-vs-braverx">Hims vs BraveRX</a> and <a href="/quad-vs-braverx">Quad vs BraveRX</a>, or weigh every licensed clinic on our <a href="/">ED treatment comparison</a>.</p><p><em>This review is general information, not medical advice. A licensed clinician decides whether BraveRX, or any ED treatment, is appropriate for you - especially if you take nitrates or have a heart condition.</em></p>`,
+          body: `<p>BraveRX's natural comparison is <a href="/reviews/quad">Quad by MEDVi</a>: both are compounded, dissolvable, multi-ingredient doses that share sildenafil, tadalafil and apomorphine - Quad adds a fourth ingredient (L-citrulline), which is the main formula difference, after which it comes down to brand, plan and price. Against a <strong>single generic pill</strong>, BraveRX's edge is the multi-mechanism blend and dissolvable format, at a higher monthly cost and without FDA-approved-drug status. You can see BraveRX head-to-head in <a href="/quad-vs-braverx">Quad vs BraveRX</a> and <a href="/dudemeds-vs-braverx">DudeMeds vs BraveRX</a>, or weigh every licensed clinic on our <a href="/">ED treatment comparison</a>.</p><p><em>This review is general information, not medical advice. A licensed clinician decides whether BraveRX, or any ED treatment, is appropriate for you - especially if you take nitrates or have a heart condition.</em></p>`,
         },
       ],
     },
@@ -1383,7 +1383,7 @@ export const edConfig: SiteConfig = {
         },
         {
           heading: "Our top-ranked providers",
-          body: `<p>We rank four licensed online options. <a href="/reviews/quad">Quad by MEDVi</a> is our top pick for its differentiated compounded 4-in-1 dissolvable formula. <a href="/reviews/hims">Hims</a> is the polished mainstream choice with both generics and chewables. <a href="/reviews/dudemeds">DudeMeds</a> is the value-minded pick for the standard medication at a low price. <a href="/reviews/braverx">BraveRX</a> rounds out the field as a straightforward online Rx platform. Full head-to-head detail lives on our <a href="/">comparison homepage</a>.</p>`,
+          body: `<p>We rank several licensed online options. <a href="/reviews/quad">Quad by MEDVi</a> is our top pick for its differentiated compounded 4-in-1 dissolvable formula. <a href="/reviews/directmeds">DirectMeds</a> and <a href="/reviews/dudemeds">DudeMeds</a> cover the standard online-prescribing route, with DudeMeds the value-minded pick for the standard medication at a low price. <a href="/reviews/braverx">BraveRX</a> is a compounded 3-in-1 alternative, <a href="/reviews/petermd">Peter MD</a> bundles ED into a broader men's-health platform, and <a href="/reviews/shed">SHED</a> offers the only intranasal option (its Roxus nasal spray). Full head-to-head detail lives on our <a href="/">comparison homepage</a>.</p>`,
         },
         {
           heading: "How to choose the best treatment for your situation",
@@ -1759,7 +1759,7 @@ export const edConfig: SiteConfig = {
       sections: [
         {
           heading: "Why so many men start online",
-          body: `<p>Telehealth has become the default way to get ED treatment for a simple reason: it removes the most awkward barrier - the in-person visit - while keeping the essential part, a licensed clinician's oversight. Done through a legitimate service, the online path is convenient, private and safe for appropriate candidates. The key is knowing what a real process looks like so you can tell a trustworthy provider from a risky one.</p>`,
+          body: `<p>Telehealth has become the default way to get ED treatment for a simple reason: it removes the most awkward barrier - the in-person visit - while keeping the essential part, a licensed clinician's oversight. Done through a legitimate service, the online path is convenient, private and safe for appropriate candidates. The key is knowing what a real process looks like so you can tell a trustworthy provider from a risky one. If you're weighing a local clinic instead, our guide to <a href="/articles/ed-treatment-near-me">ED treatment near you vs online</a> breaks down the trade-offs.</p>`,
         },
         {
           heading: "Step 1: Complete an online intake",
