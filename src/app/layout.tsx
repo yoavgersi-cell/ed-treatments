@@ -16,6 +16,7 @@ const SITE_URL = "https://www.edtreatmenthub.com";
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
+  applicationName: "ED Treatment Hub",
   title: {
     default: "ED Treatment Hub - Compare the Best Online ED Treatment Providers & Prices",
     template: "%s | ED Treatment Hub",

@@ -17,13 +17,13 @@ const SITE_URL = "https://www.edtreatmenthub.com";
 
 export const metadata: Metadata = {
   title: {
-    absolute: "Best ED Treatments of 2026 - Compare Top Online Providers",
+    absolute: "ED Treatment Hub: Best Online ED Treatments Compared (2026)",
   },
   description:
     "Compare the best erectile-dysfunction treatments of 2026. Top online ED providers ranked by treatment options, pricing, medical support and value - find your best fit.",
   alternates: { canonical: SITE_URL },
   openGraph: {
-    title: "Best ED Treatments of 2026 - Compare Top Online Providers",
+    title: "ED Treatment Hub: Best Online ED Treatments Compared (2026)",
     description:
       "Compare the best ED treatments of 2026 - top online providers ranked by treatment, price, support and value.",
     url: SITE_URL,
