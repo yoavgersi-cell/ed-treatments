@@ -57,7 +57,7 @@ export const edConfig: SiteConfig = {
   ranking: {
     // Hims temporarily removed from the ranked comparison (chart + top-3). Its
     // review and battle pages stay live; re-add "hims" here to restore it.
-    providerOrder: ["quad", "directmeds", "dudemeds", "braverx", "petermd", "shed"],
+    providerOrder: ["directmeds", "quad", "dudemeds", "braverx", "petermd", "shed"],
     positions: [
       { score: 9.8, starRating: 5, label: "Exceptional", badge: "Our Top Pick" },
       { score: 9.6, starRating: 5, label: "Excellent" },
