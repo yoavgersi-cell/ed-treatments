@@ -232,7 +232,9 @@ const REVIEWED_2026_10_14: string[] = [
 
 // Pages published and reviewed after the full-site pass. Add a dated entry here
 // when the reviewer signs off on a page created after 2026-10-14.
-const REVIEWED_LATER: Record<string, PageReview> = {};
+const REVIEWED_LATER: Record<string, PageReview> = {
+  "/articles/online-ed-treatment-guide": { reviewer: "francheska-capistrano", reviewedAt: "2026-10-18" },
+};
 
 export const REVIEW_LOG: Record<string, PageReview> = {
   ...Object.fromEntries(

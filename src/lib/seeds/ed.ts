@@ -1,4 +1,5 @@
 import type { SiteConfig } from "@/lib/config";
+import { onlineEdTreatmentGuide } from "@/lib/articles/online-ed-treatment-guide";
 
 // ─────────────────────────────────────────────────────────────────────────────
 // Erectile Dysfunction (ED) vertical content - edtreatmenthub.com
@@ -1266,6 +1267,7 @@ export const edConfig: SiteConfig = {
   ],
 
   articles: [
+    onlineEdTreatmentGuide,
     {
       slug: "what-causes-erectile-dysfunction",
       title: "What Causes Erectile Dysfunction? Main Causes Explained",
