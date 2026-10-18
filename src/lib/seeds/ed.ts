@@ -90,14 +90,14 @@ export const edConfig: SiteConfig = {
       id: "directmeds",
       name: "DirectMeds",
       tagline:
-        "An online telehealth service that prescribes ED treatment after a licensed-clinician review, with discreet direct-to-door delivery",
+        "A men's-health telehealth brand whose DirectMax is a compounded 3-in-1 rapid-dissolve tablet - sildenafil, tadalafil and apomorphine in one dose",
       logo: "/logo-directmeds.svg",
       smallLogo: "/logo-directmeds.svg",
       highlights: [
-        "Fully online consultation and checkout",
-        "Licensed clinicians review your intake",
-        "Common ED medications prescribed online",
-        "Discreet, direct-to-door delivery",
+        "DirectMax 3-in-1 rapid-dissolve sublingual tablet",
+        "Sildenafil + tadalafil + apomorphine in one dose",
+        "Rx-only after a licensed-clinician review",
+        "Discreet delivery, typically in 1-2 days",
       ],
       affiliateUrl: "https://www.vyrov30g.com/45LC6KK/9WQFXBK/",
       ctaText: "Visit Site",
@@ -313,7 +313,7 @@ export const edConfig: SiteConfig = {
         "Men who want a fully online, discreet process",
       ],
       finalVerdict:
-        "Quad by MEDVi is our top pick because it does something the single-ingredient options don't: combine several actives into one fast-dissolving dose, prescribed through a real telehealth flow. It suits men who tried a standard pill and wanted more, or who simply prefer a dissolvable format. The honest caveats are that compounded medications sit outside the FDA-approval pathway that covers brand and generic pills, and that they typically cost more - so the licensed-provider review matters, and confirm current pricing before you commit. This review is general information, not medical advice.",
+        "Quad by MEDVi is one of our top-ranked options because it does something the single-ingredient options don't: combine several actives into one fast-dissolving dose, prescribed through a real telehealth flow. It suits men who tried a standard pill and wanted more, or who simply prefer a dissolvable format. The honest caveats are that compounded medications sit outside the FDA-approval pathway that covers brand and generic pills, and that they typically cost more - so the licensed-provider review matters, and confirm current pricing before you commit. This review is general information, not medical advice.",
       howItWorks: [
         {
           timing: "Step 1",
@@ -753,62 +753,93 @@ export const edConfig: SiteConfig = {
       slug: "directmeds",
       providerId: "directmeds",
       shortSummary:
-        "An online telehealth service that prescribes ED treatment after a licensed-clinician review and ships it discreetly to your door - the familiar online flow, with the specific medications and pricing best confirmed on its own site.",
+        "DirectMeds' DirectMax is a compounded 3-in-1 rapid-dissolve ED tablet - sildenafil, tadalafil and apomorphine in one sublingual dose - prescribed online after a licensed-clinician review, priced per dose from around $7.45 and rated 4.6/5 on Trustpilot. Our top-ranked pick for a strong multi-mechanism formula at a competitive per-dose price.",
       reviewIntro:
-        "DirectMeds is an online telehealth service that treats erectile dysfunction through the now-standard route: you complete an online intake, a licensed clinician reviews whether treatment is appropriate, and, if so, medication is shipped discreetly to your door - no in-person visit. It sits in the same lane as the other licensed online clinics we rank, competing on process, price and convenience rather than on a single headline product. This review covers what it offers for ED and who it fits. Because we haven't independently verified its exact ED medications and current pricing, we flag those clearly as things to confirm on DirectMeds' own site rather than asserting figures we can't stand behind.",
+        "DirectMeds is a men's-health telehealth brand built around a specific product: DirectMax, a compounded, multi-ingredient erectile-dysfunction tablet taken as a fast-dissolving sublingual rather than a swallowed pill. Rather than a single active, it blends three - sildenafil, tadalafil and apomorphine - into one dose, aiming at more than one pathway at once. It's prescription-only: you complete an online intake, a licensed clinician reviews whether it's appropriate, and, if so, it ships discreetly to your door, typically in 1-2 days, from licensed 503A compounding pharmacies. It's our top-ranked pick for the combination of a genuinely differentiated 3-in-1 formula, a competitive per-dose price, and a strong public review record. This review covers what it is, what it costs, who it fits, and the honest caveats.",
       keyFeatures: [
-        "Fully online intake, consultation and checkout",
-        "ED treatment prescribed only after a licensed-clinician review",
-        "Common ED medications prescribed online (confirm the current lineup on-site)",
-        "Discreet, direct-to-door delivery",
-        "Online follow-up and refills",
+        "DirectMax: a compounded 3-in-1 rapid-dissolve sublingual tablet",
+        "Combines sildenafil, tadalafil and apomorphine in one dose",
+        "Three strength tiers, priced per dose from around $7.45",
+        "Rx-only after a licensed-clinician review; made at 503A compounding pharmacies",
+        "Discreet, unmarked delivery, typically in 1-2 days",
       ],
       pricingSummary:
-        "Approximate only - confirm at checkout. DirectMeds prices ED treatment as an online telehealth plan, and the exact cost depends on the medication, dose and quantity. Because we haven't independently verified its current ED pricing, treat any figure as a starting point and confirm it on DirectMeds' own site before subscribing.",
+        "DirectMax is priced per dose, not as a flat monthly plan, across three strength tiers - starting around $7.45/dose (low), $7.95/dose (medium) and $9.45/dose (high) by DirectMeds' published pricing, with a promotional discount often advertised. Because it's a compounded product dosed per use, your real monthly cost depends on how often you use it - a few times a month works out cheaper than a fixed daily or monthly plan. Prices and promotions change, so confirm the current per-dose rate on DirectMeds' own site before subscribing.",
       treatmentOptions: [
-        "Common prescription ED medications after a clinician review",
-        "Provider-directed dosing and follow-up",
-        "Confirm the exact medications and plans on DirectMeds' site",
+        "DirectMax 3-in-1 sublingual (sildenafil + tadalafil + apomorphine)",
+        "Low / medium / high strength tiers set by the prescribing clinician",
+        "Provider-directed dosing - maximum one dose per 24 hours",
       ],
       pros: [
-        "Standard, licensed online prescribing flow with a clinician review",
-        "Fully online and discreet, with direct-to-door delivery",
-        "A credible additional option to compare against our top-ranked clinics",
+        "Multi-mechanism 3-in-1 formula - two PDE5 inhibitors plus apomorphine for the arousal pathway",
+        "Fast-dissolving sublingual format - no pill to swallow, and marketed as fast-acting",
+        "Transparent per-dose pricing that can undercut fixed monthly compounded plans",
+        "Strong public review record (4.6/5 across 16,000+ Trustpilot reviews, per Trustpilot)",
       ],
       cons: [
-        "We haven't independently verified its specific ED medications and pricing - confirm on-site",
-        "Requires an online medical review (as any legitimate provider should)",
-        "No single differentiated product like a compounded 4-in-1 or a nasal spray",
+        "Compounded, so not FDA-approved the way brand and generic pills are - the clinician's sign-off is the real safeguard",
+        "Apomorphine can cause nausea in some men",
+        "Some reviewers report shipping delays or portal/communication issues",
       ],
       bestFor: [
-        "Men who want a straightforward, fully online ED treatment flow",
-        "Anyone comfortable with the standard prescription ED options",
-        "Men who want to compare another licensed clinic against our top picks",
+        "Men who want a stronger, multi-ingredient dose rather than a single standard pill",
+        "Anyone who prefers a fast-dissolving tablet to swallowing a pill",
+        "Men who use ED treatment occasionally and want per-dose pricing, not a fixed monthly plan",
       ],
       finalVerdict:
-        "DirectMeds is a credible licensed online option that runs the familiar, safe telehealth flow - online intake, clinician review, discreet delivery. Because we haven't independently verified its specific ED medications and pricing, confirm those on the DirectMeds site and weigh them against our top-ranked providers - a compounded option like Quad, or a value pick like DudeMeds - before deciding. This review is general information, not medical advice.",
+        "DirectMeds' DirectMax is our top-ranked pick because it pairs a genuinely differentiated 3-in-1 dissolvable formula with transparent per-dose pricing that can beat fixed monthly compounded plans, backed by a strong public review record. The honest caveats apply to every compounded option: it isn't FDA-approved the way generics are, so the licensed-clinician review is doing real work, and the apomorphine component can cause nausea in some men. If you want a stronger multi-mechanism dose and like paying per use, it's an excellent first choice. This review is general information, not medical advice - a licensed clinician decides whether it's right for you, especially if you take nitrates or have a heart condition.",
       howItWorks: [
         {
           timing: "Step 1",
           title: "Complete an online intake",
           detail:
-            "Answer questions about your health, medications and history. Be thorough - this is what the clinician uses to decide whether treatment is safe for you.",
+            "Answer questions about your health, medications and history. Be thorough - this is what the clinician uses to decide whether DirectMax is safe for you, particularly around heart conditions and nitrate use.",
         },
         {
           timing: "Step 2",
           title: "Licensed clinician review",
           detail:
-            "A licensed provider reviews your intake and decides whether ED treatment is appropriate, and which option fits.",
+            "A licensed provider reviews your intake and decides whether the 3-in-1 formula is appropriate and at what strength tier.",
         },
         {
           timing: "Step 3",
           title: "Discreet delivery",
           detail:
-            "If prescribed, your medication ships to your door in plain packaging, with online follow-up available.",
+            "If prescribed, DirectMax ships to your door in discreet, unmarked packaging - typically in 1-2 days - with online follow-up available.",
         },
       ],
-      trustBadges: ["Licensed clinicians", "Prescription-only", "Discreet shipping"],
+      trustBadges: ["Licensed clinicians", "Prescription-only", "4.6/5 on Trustpilot"],
       updatedAt: UPDATED,
+      sections: [
+        {
+          heading: "What DirectMeds and DirectMax actually are",
+          body: `<p>DirectMeds is a men's-health telehealth brand, and its erectile-dysfunction product is <strong>DirectMax</strong> - a <strong>compounded, three-in-one tablet</strong> taken as a fast-dissolving sublingual rather than a swallowed pill. Its pitch is a single dose that works on more than one pathway at once: two established PDE5 inhibitors for blood flow, plus a third ingredient that acts centrally on arousal. Treatment is prescription-only - you complete an online intake, a licensed clinician reviews it, and, if appropriate, DirectMax ships discreetly to your door, typically in 1-2 days, from <strong>licensed 503A compounding pharmacies</strong>.</p><p>As with any compounded medication, the formula is prepared by a compounding pharmacy and is <strong>not FDA-approved the way brand-name or generic ED drugs are</strong>. That's legal and common, but it puts real weight on the licensed-clinician review deciding the blend and strength are right for you. The closest products we rank are <a href="/reviews/quad">Quad by MEDVi</a> (a four-in-one that adds L-citrulline) and <a href="/reviews/braverx">BraveRX</a> (the same three actives) - we compare them below.</p>`,
+        },
+        {
+          heading: "Inside the 3-in-1 formula",
+          body: `<p>DirectMax combines three actives - two of them the same PDE5 inhibitors in the most-prescribed ED pills, plus apomorphine:</p><table><thead><tr><th>Ingredient</th><th>Role</th></tr></thead><tbody><tr><td><strong>Sildenafil</strong></td><td>PDE5 inhibitor (the active in Viagra) - supports nitric-oxide-driven blood flow to get harder faster.</td></tr><tr><td><strong>Tadalafil</strong></td><td>PDE5 inhibitor (the active in Cialis) - long-acting, which is where the "stay ready longer" framing comes from.</td></tr><tr><td><strong>Apomorphine</strong></td><td>A dopamine agonist that acts on the brain's arousal pathway rather than on blood vessels directly - a different mechanism than the PDE5 pair.</td></tr></tbody></table><p>Pairing a short-acting (sildenafil) and a long-acting (tadalafil) PDE5 inhibitor is the core of the blend, with apomorphine layered on for the central, arousal side. It's the same three-active approach as <a href="/reviews/braverx">BraveRX</a>; <a href="/reviews/quad">Quad by MEDVi</a> adds a fourth ingredient (L-citrulline). Exact strengths are set at prescribing, so confirm your specifics with DirectMeds.</p>`,
+        },
+        {
+          heading: "Strength tiers and what DirectMax costs",
+          body: `<p>Unlike a flat monthly subscription, DirectMax is <strong>priced per dose</strong> across three strength tiers. By DirectMeds' own published pricing:</p><table><thead><tr><th>Tier</th><th>Formula (approx.)</th><th>Starting price</th></tr></thead><tbody><tr><td>Low</td><td>Sildenafil 40mg · Tadalafil 14mg · Apomorphine 2mg</td><td>~$7.45 / dose</td></tr><tr><td>Medium</td><td>Sildenafil 65mg · Tadalafil 14mg · Apomorphine 2mg</td><td>~$7.95 / dose</td></tr><tr><td>High</td><td>Sildenafil 80mg · Tadalafil 16mg · Apomorphine 3mg</td><td>~$9.45 / dose</td></tr></tbody></table><p>Per-dose pricing is the real advantage here: a man who uses ED treatment a few times a month can pay less than a fixed monthly compounded plan like <a href="/reviews/quad">Quad</a> or <a href="/reviews/braverx">BraveRX</a>, while someone who uses it often should do the monthly math. DirectMeds frequently advertises a promotional discount (e.g. a limited-time percentage off), so <strong>confirm the current per-dose rate at checkout</strong>. See where this sits against every route in our <a href="/articles/ed-treatment-cost">ED treatment cost</a> guide and the <a href="/ed-cost-index">ED Treatment Cost Index</a>.</p>`,
+        },
+        {
+          heading: "Format, onset and how you take it",
+          body: `<p>DirectMax is a <strong>rapid-dissolve sublingual tablet</strong> you let melt rather than swallow, which many men prefer and which can feel faster to act. DirectMeds markets it as working in <strong>15 minutes or less</strong> and as "3x" the power of standard generics - plausible given the fast sildenafil / long tadalafil pairing, though those are the brand's figures, not a guarantee, and individual onset varies. The dosing rule to know: <strong>a maximum of one dose per 24 hours</strong>. Like all ED medication, it supports an erection in response to arousal rather than producing one automatically, and timing, food and alcohol still matter. Follow the strength and dosing your clinician sets.</p>`,
+        },
+        {
+          heading: "What customers say",
+          body: `<p>DirectMeds has a strong public review record: <strong>4.6 out of 5 across more than 16,000 reviews on Trustpilot</strong> (per Trustpilot), and the brand says it has served over 300,000 customers. In the positive reviews, men most often praise <strong>responsive customer support</strong> (real humans reachable by phone and email), <strong>clear per-dose pricing</strong>, and the combined triple-action formula. It's worth reading the criticism too: some reviewers report <strong>shipping delays, packages arriving warm, or login/portal and communication issues</strong>. That's a fair picture - a well-reviewed service that, like most telehealth brands, has logistics complaints as well. Check the current <a href="https://www.trustpilot.com/review/directmeds.com" target="_blank" rel="noopener noreferrer">DirectMeds Trustpilot profile</a> for the latest.</p>`,
+        },
+        {
+          heading: "Safety, side effects and the compounding caveat",
+          body: `<p>Because two of DirectMax's three ingredients are PDE5 inhibitors, its common side effects mirror theirs - <strong>headache, flushing, nasal congestion and indigestion</strong>, usually mild and temporary - while the apomorphine component is associated with <strong>nausea</strong> in some men. The non-negotiable rule applies: <strong>never combine PDE5 medication with nitrates</strong>, and clear any heart condition or other medications with the prescribing clinician first. Rare but urgent effects - an erection lasting over four hours, or sudden vision or hearing changes - need prompt care. And the honest caveat worth repeating: DirectMax is <strong>compounded</strong>, so it does not carry FDA-approved-drug status; the clinician's sign-off is the real safeguard. Our <a href="/articles/ed-medication-side-effects">ED medication side effects</a> guide covers this in depth.</p>`,
+        },
+        {
+          heading: "How DirectMeds compares",
+          body: `<p>DirectMax's natural comparisons are the other compounded dissolvables we rank. Against <a href="/reviews/braverx">BraveRX</a>, it uses the <strong>same three actives</strong> (sildenafil, tadalafil, apomorphine), so the decision comes down to pricing model and brand - DirectMeds' per-dose pricing is the differentiator. Against <a href="/reviews/quad">Quad by MEDVi</a>, Quad adds a fourth ingredient (L-citrulline) and bills as a monthly plan, while DirectMax keeps three actives and charges per dose - we put them head-to-head in <a href="/quad-vs-directmeds">Quad vs DirectMeds</a>. Against a <strong>single generic pill</strong>, DirectMax's edge is the multi-mechanism blend and dissolvable format, at a higher per-dose cost and without FDA-approved-drug status. Weigh every licensed clinic on our <a href="/">ED treatment comparison</a>.</p><p><em>This review is general information, not medical advice. A licensed clinician decides whether DirectMax, or any ED treatment, is appropriate for you - especially if you take nitrates or have a heart condition.</em></p>`,
+        },
+      ],
     },
   ],
 
@@ -1003,56 +1034,56 @@ export const edConfig: SiteConfig = {
       provider2Id: "directmeds",
       title: "Quad by MEDVi vs DirectMeds",
       matchupLabel: "Quad by MEDVi vs DirectMeds",
-      subtitle: "A defined, differentiated 4-in-1 formula vs a general online Rx service",
+      subtitle: "Two compounded dissolvables: a 4-in-1 monthly plan vs a 3-in-1 priced per dose",
       description:
-        "Compare Quad by MEDVi and DirectMeds for online ED treatment - what's known about each, how they prescribe, and which fits you best.",
+        "Compare Quad by MEDVi and DirectMeds (DirectMax) for online ED treatment - formula, format, pricing model and which fits you best.",
       intro:
-        "Quad by MEDVi is a specific, differentiated product - a compounded 4-in-1 dissolvable dose - while DirectMeds is an online telehealth service that prescribes ED treatment after a licensed-clinician review. We have full detail on Quad's formula and format; for DirectMeds we describe the general model and point you to its site for the exact medications and pricing. Here's how they compare.",
+        "This is a close one between two compounded, multi-ingredient dissolvables. Quad by MEDVi is a 4-in-1 (sildenafil, tadalafil, apomorphine and L-citrulline) billed as a monthly plan; DirectMeds' DirectMax is a 3-in-1 (sildenafil, tadalafil, apomorphine) priced per dose from around $7.45. Both are prescribed online after a licensed-clinician review and ship discreetly. Here's how they compare.",
       verdict:
-        "Quad is our pick here because its offering is clearly defined and differentiated, whereas DirectMeds' specific lineup and pricing we haven't independently verified. Both run a licensed-provider flow with discreet delivery; check DirectMeds' site directly for its medications and current cost before deciding. Confirm current pricing on each provider's site.",
+        "DirectMeds (DirectMax) is our pick here, narrowly: it delivers a strong 3-in-1 multi-mechanism dose with transparent per-dose pricing that can undercut a fixed monthly plan, backed by a 4.6/5 Trustpilot record across 16,000+ reviews. Quad's edge is its fourth ingredient (L-citrulline) and a flat monthly price that can suit frequent users. Both are compounded (not FDA-approved like generics), so a clinician's sign-off matters. Confirm current pricing on each provider's site.",
       verdictWinnerPoints: [
-        "Clearly defined, differentiated 4-in-1 formula",
-        "Dissolvable format with a specific use case",
-        "Detailed, transparent offering",
+        "3-in-1 multi-mechanism dose, priced per use from ~$7.45",
+        "Per-dose pricing can beat a fixed monthly plan for occasional users",
+        "Strong public review record (4.6/5 on Trustpilot, 16,000+ reviews)",
       ],
       verdictLoserPoints: [
-        "Convenient, fully online consultation and checkout",
-        "Licensed clinicians review your intake",
-        "Discreet, direct-to-door delivery",
+        "Adds a fourth ingredient (L-citrulline) to the blend",
+        "Flat monthly plan that can suit very frequent users",
+        "Compounded dissolvable with a clear, detailed formula",
       ],
-      winnerId: "quad",
+      winnerId: "directmeds",
       categories: [
         {
-          name: "Offering clarity",
-          winner: "provider1",
+          name: "Formula",
+          winner: "tie",
           explanation:
-            "Quad's product and format are clearly defined; DirectMeds' specific medications and pricing we haven't verified here.",
-          supportingPoints: ["Defined 4-in-1 formula", "Details to confirm for DirectMeds"],
+            "Both are compounded multi-ingredient dissolvables sharing sildenafil, tadalafil and apomorphine; Quad adds a fourth ingredient (L-citrulline), DirectMax keeps three well-chosen actives.",
+          supportingPoints: ["Shared 3-active core", "Quad adds L-citrulline"],
         },
         {
-          name: "Format options",
-          winner: "provider1",
-          explanation: "Quad's dissolvable format is a distinct alternative to a standard pill.",
-          supportingPoints: ["Dissolvable dose", "Pill-free option"],
+          name: "Pricing",
+          winner: "provider2",
+          explanation: "DirectMax is priced per dose (from ~$7.45), which can undercut Quad's fixed monthly plan for men who don't use treatment daily.",
+          supportingPoints: ["Per-dose from ~$7.45", "Quad bills monthly"],
         },
         {
-          name: "Medical oversight",
+          name: "Review record",
+          winner: "provider2",
+          explanation: "DirectMeds carries a strong, public 4.6/5 Trustpilot record across 16,000+ reviews.",
+          supportingPoints: ["4.6/5 on Trustpilot", "16,000+ reviews"],
+        },
+        {
+          name: "Medical oversight & delivery",
           winner: "tie",
-          explanation: "Both rely on a licensed clinician reviewing your online intake before prescribing.",
-          supportingPoints: ["Licensed-provider review at both", "Fully online"],
-        },
-        {
-          name: "Discreet delivery",
-          winner: "tie",
-          explanation: "Both ship treatment discreetly to your door.",
-          supportingPoints: ["Plain packaging", "Direct-to-door"],
+          explanation: "Both rely on a licensed clinician reviewing your intake and ship discreetly to your door.",
+          supportingPoints: ["Licensed-provider review at both", "Discreet delivery"],
         },
       ],
       features: [
-        { feature: "Formula", provider1Value: "4-in-1 compounded", provider2Value: "See site", highlight: "provider1" },
-        { feature: "Format", provider1Value: "Dissolvable", provider2Value: "See site", highlight: "provider1" },
-        { feature: "Provider review", provider1Value: "Yes", provider2Value: "Yes", highlight: "both" },
-        { feature: "Pricing", provider1Value: "See site (approx.)", provider2Value: "See site", highlight: "none" },
+        { feature: "Formula", provider1Value: "4-in-1 compounded", provider2Value: "3-in-1 compounded", highlight: "both" },
+        { feature: "Format", provider1Value: "Dissolvable", provider2Value: "Rapid-dissolve sublingual", highlight: "both" },
+        { feature: "Pricing", provider1Value: "Monthly plan (~$114/mo)", provider2Value: "Per dose (~$7.45+)", highlight: "provider2" },
+        { feature: "Review record", provider1Value: "—", provider2Value: "4.6/5 Trustpilot (16k+)", highlight: "provider2" },
       ],
       updatedAt: UPDATED,
     },
@@ -1267,7 +1298,7 @@ export const edConfig: SiteConfig = {
         },
         {
           heading: "How to find your cause - and what to do next",
-          body: `<p>Because the causes overlap, the smart move is a proper evaluation rather than guesswork. A licensed provider can review your history, medications and symptoms and, where useful, order simple tests. Many men can start that process online: the licensed telehealth clinics on our <a href="/">ED treatment comparison</a> run an intake and a clinician review before any prescription.</p><p>The good news is that once the cause is understood, ED is highly treatable for most men - through lifestyle changes, treating the underlying condition, medication, or a combination. If you want to see how the leading online options compare, start with our <a href="/articles/best-ed-treatments-compared">best ED treatments compared</a> guide or our <a href="/reviews/quad">top-rated provider review</a>.</p><p><em>This article is general information, not medical advice. Talk to a licensed clinician about your specific situation, especially before starting or stopping any medication.</em></p>`,
+          body: `<p>Because the causes overlap, the smart move is a proper evaluation rather than guesswork. A licensed provider can review your history, medications and symptoms and, where useful, order simple tests. Many men can start that process online: the licensed telehealth clinics on our <a href="/">ED treatment comparison</a> run an intake and a clinician review before any prescription.</p><p>The good news is that once the cause is understood, ED is highly treatable for most men - through lifestyle changes, treating the underlying condition, medication, or a combination. If you want to see how the leading online options compare, start with our <a href="/articles/best-ed-treatments-compared">best ED treatments compared</a> guide or our <a href="/reviews/directmeds">top-rated provider review</a>.</p><p><em>This article is general information, not medical advice. Talk to a licensed clinician about your specific situation, especially before starting or stopping any medication.</em></p>`,
         },
       ],
     },
@@ -1383,11 +1414,11 @@ export const edConfig: SiteConfig = {
         },
         {
           heading: "Our top-ranked providers",
-          body: `<p>We rank several licensed online options. <a href="/reviews/quad">Quad by MEDVi</a> is our top pick for its differentiated compounded 4-in-1 dissolvable formula. <a href="/reviews/directmeds">DirectMeds</a> and <a href="/reviews/dudemeds">DudeMeds</a> cover the standard online-prescribing route, with DudeMeds the value-minded pick for the standard medication at a low price. <a href="/reviews/braverx">BraveRX</a> is a compounded 3-in-1 alternative, <a href="/reviews/petermd">Peter MD</a> bundles ED into a broader men's-health platform, and <a href="/reviews/shed">SHED</a> offers the only intranasal option (its Roxus nasal spray). Full head-to-head detail lives on our <a href="/">comparison homepage</a>.</p>`,
+          body: `<p>We rank several licensed online options. <a href="/reviews/directmeds">DirectMeds</a> is our top pick - its DirectMax is a compounded 3-in-1 dissolvable (sildenafil, tadalafil and apomorphine) priced per dose. <a href="/reviews/quad">Quad by MEDVi</a> is our runner-up, a compounded 4-in-1 that adds L-citrulline on a monthly plan. <a href="/reviews/dudemeds">DudeMeds</a> is the value-minded pick for the standard medication at a low price. <a href="/reviews/braverx">BraveRX</a> is another compounded 3-in-1 alternative, <a href="/reviews/petermd">Peter MD</a> bundles ED into a broader men's-health platform, and <a href="/reviews/shed">SHED</a> offers the only intranasal option (its Roxus nasal spray). Full head-to-head detail lives on our <a href="/">comparison homepage</a>.</p>`,
         },
         {
           heading: "How to choose the best treatment for your situation",
-          body: `<p>The "best" ED treatment is the one matched to your body, your timing preferences and your health - which is a clinician's call, not a ranking. Still, your situation usually points toward a sensible starting point to raise in that conversation:</p><ul><li><strong>If you are a first-timer</strong> who hasn't tried treatment before: an affordable generic PDE5 inhibitor from a licensed telehealth clinic is the usual place to start, because it is cheap, proven and simple.</li><li><strong>If a single pill didn't work well enough</strong>: rather than just doubling down, it's worth discussing a dose or medication adjustment, addressing lifestyle and underlying-health factors, or considering a <a href="/reviews/quad">compounded multi-ingredient option like Quad</a> - and, in some cases, whether an injectable is appropriate.</li><li><strong>If you want spontaneity</strong>: a longer-acting option (tadalafil, including its low daily dose) removes the need to time anything, which many men prefer over planning around a shorter window.</li><li><strong>If budget is your priority</strong>: generic sildenafil and tadalafil are the most economical route, and clinics differ on how transparently they price them - favor honest, clearly stated pricing over hard-to-compare bundles.</li></ul><p>Whatever your situation, lean toward clinics with a careful provider review and honest pricing. See the full ranking and side-by-side details on our <a href="/">ED treatment comparison</a>, or read the full write-up of our <a href="/reviews/quad">top-rated provider</a>.</p>`,
+          body: `<p>The "best" ED treatment is the one matched to your body, your timing preferences and your health - which is a clinician's call, not a ranking. Still, your situation usually points toward a sensible starting point to raise in that conversation:</p><ul><li><strong>If you are a first-timer</strong> who hasn't tried treatment before: an affordable generic PDE5 inhibitor from a licensed telehealth clinic is the usual place to start, because it is cheap, proven and simple.</li><li><strong>If a single pill didn't work well enough</strong>: rather than just doubling down, it's worth discussing a dose or medication adjustment, addressing lifestyle and underlying-health factors, or considering a <a href="/reviews/quad">compounded multi-ingredient option like Quad</a> - and, in some cases, whether an injectable is appropriate.</li><li><strong>If you want spontaneity</strong>: a longer-acting option (tadalafil, including its low daily dose) removes the need to time anything, which many men prefer over planning around a shorter window.</li><li><strong>If budget is your priority</strong>: generic sildenafil and tadalafil are the most economical route, and clinics differ on how transparently they price them - favor honest, clearly stated pricing over hard-to-compare bundles.</li></ul><p>Whatever your situation, lean toward clinics with a careful provider review and honest pricing. See the full ranking and side-by-side details on our <a href="/">ED treatment comparison</a>, or read the full write-up of our <a href="/reviews/directmeds">top-rated provider</a>.</p>`,
         },
         {
           heading: "Frequently asked questions",
@@ -1463,7 +1494,7 @@ export const edConfig: SiteConfig = {
         },
         {
           heading: "How most ED is actually treated",
-          body: `<p>Regardless of testosterone level, the first-line treatment for most ED remains <strong>PDE5 inhibitors</strong> - sildenafil and tadalafil - which act on blood flow directly. Many men with low-T <em>and</em> ED are treated with both a PDE5 inhibitor and, where appropriate, testosterone. The way to sort out which applies to you is a proper evaluation: a licensed provider can review your symptoms and, if warranted, check your levels.</p><p>You can start that process online - the licensed clinics on our <a href="/">ED treatment comparison</a> run an intake and clinician review, and our <a href="/reviews/quad">top-rated provider review</a> shows what a modern telehealth flow looks like.</p><p><em>This article is general information, not medical advice. A licensed clinician should evaluate your symptoms and decide what's appropriate for you.</em></p>`,
+          body: `<p>Regardless of testosterone level, the first-line treatment for most ED remains <strong>PDE5 inhibitors</strong> - sildenafil and tadalafil - which act on blood flow directly. Many men with low-T <em>and</em> ED are treated with both a PDE5 inhibitor and, where appropriate, testosterone. The way to sort out which applies to you is a proper evaluation: a licensed provider can review your symptoms and, if warranted, check your levels.</p><p>You can start that process online - the licensed clinics on our <a href="/">ED treatment comparison</a> run an intake and clinician review, and our <a href="/reviews/directmeds">top-rated provider review</a> shows what a modern telehealth flow looks like.</p><p><em>This article is general information, not medical advice. A licensed clinician should evaluate your symptoms and decide what's appropriate for you.</em></p>`,
         },
       ],
     },
@@ -1519,7 +1550,7 @@ export const edConfig: SiteConfig = {
         },
         {
           heading: "How to choose the right alternative for you",
-          body: `<p>Match the alternative to <em>why</em> you're switching:</p><ul><li><strong>If cost is the issue</strong> - move from the brand to <strong>generic sildenafil or tadalafil</strong>; it's the same medicine for far less.</li><li><strong>If timing didn't suit you</strong> - switch between short-acting sildenafil and long-acting tadalafil (or its low daily dose).</li><li><strong>If sildenafil and tadalafil both fell flat</strong> - ask about <strong>vardenafil (Levitra)</strong>, or a <a href="/reviews/quad">compounded 4-in-1 like Quad</a>.</li><li><strong>If you dislike swallowing pills</strong> - a chewable or dissolvable format.</li><li><strong>If oral pills haven't worked at all</strong> - discuss <strong>Trimix</strong> or another second-line option with a clinician.</li></ul><p>Whatever the reason, the safe path is the same: a licensed clinician reviews your health and decides what's appropriate. Compare the leading licensed clinics on our <a href="/">ED treatment comparison</a>, or read the full write-up of our <a href="/reviews/quad">top-rated provider</a>.</p><p><em>This article is general information, not medical advice. Do not start, stop or switch any ED medication without a licensed clinician - especially if you take nitrates or have a heart condition.</em></p>`,
+          body: `<p>Match the alternative to <em>why</em> you're switching:</p><ul><li><strong>If cost is the issue</strong> - move from the brand to <strong>generic sildenafil or tadalafil</strong>; it's the same medicine for far less.</li><li><strong>If timing didn't suit you</strong> - switch between short-acting sildenafil and long-acting tadalafil (or its low daily dose).</li><li><strong>If sildenafil and tadalafil both fell flat</strong> - ask about <strong>vardenafil (Levitra)</strong>, or a <a href="/reviews/quad">compounded 4-in-1 like Quad</a>.</li><li><strong>If you dislike swallowing pills</strong> - a chewable or dissolvable format.</li><li><strong>If oral pills haven't worked at all</strong> - discuss <strong>Trimix</strong> or another second-line option with a clinician.</li></ul><p>Whatever the reason, the safe path is the same: a licensed clinician reviews your health and decides what's appropriate. Compare the leading licensed clinics on our <a href="/">ED treatment comparison</a>, or read the full write-up of our <a href="/reviews/directmeds">top-rated provider</a>.</p><p><em>This article is general information, not medical advice. Do not start, stop or switch any ED medication without a licensed clinician - especially if you take nitrates or have a heart condition.</em></p>`,
         },
         {
           heading: "Frequently asked questions",
@@ -1779,7 +1810,7 @@ export const edConfig: SiteConfig = {
         },
         {
           heading: "Comparing your options",
-          body: `<p>Once you know the process, choosing comes down to a few factors: price, the formats and medications offered, provider and support quality, and discretion. We compare licensed online clinics side by side on our <a href="/">ED treatment comparison</a> and walk through every treatment category in our <a href="/articles/best-ed-treatments-compared">best ED treatments compared</a> guide, and you can read the full write-up of our <a href="/reviews/quad">top-rated provider</a> or browse all our <a href="/reviews">provider reviews</a> to see how each one handles the steps above.</p><p><em>This article is general information, not medical advice. A licensed clinician should decide what treatment, if any, is right for you.</em></p>`,
+          body: `<p>Once you know the process, choosing comes down to a few factors: price, the formats and medications offered, provider and support quality, and discretion. We compare licensed online clinics side by side on our <a href="/">ED treatment comparison</a> and walk through every treatment category in our <a href="/articles/best-ed-treatments-compared">best ED treatments compared</a> guide, and you can read the full write-up of our <a href="/reviews/directmeds">top-rated provider</a> or browse all our <a href="/reviews">provider reviews</a> to see how each one handles the steps above.</p><p><em>This article is general information, not medical advice. A licensed clinician should decide what treatment, if any, is right for you.</em></p>`,
         },
       ],
     },
@@ -2007,7 +2038,7 @@ export const edConfig: SiteConfig = {
         },
         {
           heading: "How to choose - and where to start",
-          body: `<p>A simple way to decide: if your case is straightforward and you value discretion and speed, a licensed online service is often the most practical \"near me\" option. If you have a complex history, want a physical exam, or your provider advises it, in-person care is the right call - and the two aren't mutually exclusive, since you can start online and be referred on if needed.</p><p>To weigh licensed online clinics side by side, use our <a href="/">ED treatment comparison</a>, or read the full write-up of our <a href="/reviews/quad">top-rated provider</a> to see what a modern telehealth flow looks like.</p><p><em>This article is general information, not medical advice. A licensed clinician should decide what treatment, if any, is right for you.</em></p>`,
+          body: `<p>A simple way to decide: if your case is straightforward and you value discretion and speed, a licensed online service is often the most practical \"near me\" option. If you have a complex history, want a physical exam, or your provider advises it, in-person care is the right call - and the two aren't mutually exclusive, since you can start online and be referred on if needed.</p><p>To weigh licensed online clinics side by side, use our <a href="/">ED treatment comparison</a>, or read the full write-up of our <a href="/reviews/directmeds">top-rated provider</a> to see what a modern telehealth flow looks like.</p><p><em>This article is general information, not medical advice. A licensed clinician should decide what treatment, if any, is right for you.</em></p>`,
         },
       ],
     },

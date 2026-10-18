@@ -117,6 +117,17 @@ export const COST_INDEX: CostEntry[] = [
   },
   // ---- Compounded multi-ingredient programs ----
   {
+    name: "DirectMeds - DirectMax (3-in-1 compounded)",
+    category: "Compounded (multi-ingredient)",
+    format: "Rapid-dissolve sublingual",
+    headline: "$7.45-9.45 / dose",
+    perMonthLow: 60,
+    perMonthHigh: 76,
+    basis: "verified",
+    source: "DirectMeds published per-dose pricing (low/medium/high tiers)",
+    href: "/reviews/directmeds",
+  },
+  {
     name: "Quad by MEDVi (4-in-1 compounded)",
     category: "Compounded (multi-ingredient)",
     format: "Dissolvable",
