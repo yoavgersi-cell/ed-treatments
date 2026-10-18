@@ -1459,7 +1459,7 @@ export const edConfig: SiteConfig = {
         },
         {
           heading: "When does TRT help ED?",
-          body: `<p>Testosterone replacement therapy (TRT) can improve erectile function - but mainly in men whose ED is actually caused by clinically low testosterone, confirmed by proper testing. In that specific group, correcting the deficiency can help. <strong>TRT is not a general-purpose ED treatment.</strong> If your testosterone is normal, taking testosterone won't fix an erection problem caused by something else, and it means taking on a monitored medical therapy for an effect it won't reliably deliver in that situation. The right first step is finding out whether you're genuinely low.</p>`,
+          body: `<p>Testosterone replacement therapy (TRT) can improve erectile function - but mainly in men whose ED is actually caused by clinically low testosterone, confirmed by proper testing. In that specific group, correcting the deficiency can help. <strong>TRT is not a general-purpose ED treatment.</strong> If your testosterone is normal, taking testosterone won't fix an erection problem caused by something else, and it means taking on a monitored medical therapy for an effect it won't reliably deliver in that situation. The right first step is finding out whether you're genuinely low - and if you are, our sister site Treatments Hub <a href="https://www.treatmentshub.com/trt">compares the online TRT clinics</a> separately from ED care.</p>`,
         },
         {
           heading: "How most ED is actually treated",
