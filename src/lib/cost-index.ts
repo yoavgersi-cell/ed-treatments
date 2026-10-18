@@ -121,10 +121,10 @@ export const COST_INDEX: CostEntry[] = [
     category: "Compounded (multi-ingredient)",
     format: "Rapid-dissolve sublingual",
     headline: "$7.45-9.45 / dose",
-    perMonthLow: 60,
-    perMonthHigh: 76,
+    perMonthLow: 53,
+    perMonthHigh: 65,
     basis: "verified",
-    source: "DirectMeds published per-dose pricing (low/medium/high tiers)",
+    source: "DirectMeds published pricing (~$52.68-64.68/mo at 6 doses, low/med/high tiers)",
     href: "/reviews/directmeds",
   },
   {

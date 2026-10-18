@@ -764,7 +764,7 @@ export const edConfig: SiteConfig = {
         "Discreet, unmarked delivery, typically in 1-2 days",
       ],
       pricingSummary:
-        "DirectMax is priced per dose, not as a flat monthly plan, across three strength tiers - starting around $7.45/dose (low), $7.95/dose (medium) and $9.45/dose (high) by DirectMeds' published pricing, with a promotional discount often advertised. Because it's a compounded product dosed per use, your real monthly cost depends on how often you use it - a few times a month works out cheaper than a fixed daily or monthly plan. Prices and promotions change, so confirm the current per-dose rate on DirectMeds' own site before subscribing.",
+        "DirectMax is priced per dose across three strength tiers - starting around $7.45/dose (low), $7.95/dose (medium) and $9.45/dose (high) by DirectMeds' published pricing, which works out to roughly $53, $56 and $65 per month at about six doses. A promotional discount is often advertised. Because it's dosed per use, your real monthly cost depends on how often you use it - and even at the high tier it lands well under a fixed monthly compounded plan. Prices and promotions change, so confirm the current rate on DirectMeds' own site before subscribing.",
       treatmentOptions: [
         "DirectMax 3-in-1 sublingual (sildenafil + tadalafil + apomorphine)",
         "Low / medium / high strength tiers set by the prescribing clinician",

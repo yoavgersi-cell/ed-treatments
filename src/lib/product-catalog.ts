@@ -32,6 +32,18 @@ export type CatalogProduct = {
 // promotional price must never become a stale structured-data claim).
 export const PRODUCT_CATALOG: CatalogProduct[] = [
   {
+    id: "directmax-3in1",
+    providerId: "directmeds",
+    name: "DirectMeds DirectMax 3-in-1 Rapid Dissolve",
+    chip: "3-in-1",
+    format: "sublingual",
+    price: "$7.45",
+    unit: "dose",
+    priceNote: "Starting per-dose price (low tier) - confirm the current rate at DirectMeds",
+    shipping: "Discreet delivery, 1-2 days",
+    image: "/products/directmax.webp",
+  },
+  {
     id: "quad-4in1",
     providerId: "quad",
     name: "Quad by MEDVi 4-in-1 Dissolvable",
