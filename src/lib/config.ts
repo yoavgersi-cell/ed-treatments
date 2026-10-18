@@ -315,7 +315,7 @@ export const latestUpdate = (updatedAt?: string) =>
 // "Sources & methodology" block ("Checked August 2026"). Bump this only when
 // the data behind the comparisons is actually re-verified - it is a claim, not
 // a render timestamp.
-export const PROVIDER_DATA_CHECKED = "September 2026";
+export const PROVIDER_DATA_CHECKED = "October 2026";
 
 // ── Verticals ────────────────────────────────────────────────────────────────
 // The hub (treatmentshub.com) is split into fully-separated verticals. Each one
@@ -435,7 +435,7 @@ export interface SiteConfig {
 // providers" query cluster, which GSC shows getting zero impressions on this
 // page. The blob merge in config-store applies this over any CMS-saved hero.
 export const WEIGHT_LOSS_HERO_TEXT = {
-  updatedLabel: "Last Updated: September 2026",
+  updatedLabel: "Last Updated: October 2026",
   h1: "Best GLP-1 Weight Loss Providers of 2026",
   h2: "The top online GLP-1 weight loss programs, ranked and verified",
   description:

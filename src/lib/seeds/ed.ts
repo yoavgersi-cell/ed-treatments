@@ -28,7 +28,7 @@ export const edConfig: SiteConfig = {
   hero: {
     backgroundImageUrl: "",
     imageAlt: "Erectile dysfunction treatment options",
-    updatedLabel: "Last Updated: September 2026",
+    updatedLabel: "Last Updated: October 2026",
     h1: "Best ED Treatments of 2026",
     h2: "The top online ED treatment providers, ranked and reviewed",
     description:
