@@ -85,8 +85,11 @@ export function EditorialContent({ midSlot }: { midSlot?: React.ReactNode }) {
       </p>
       <p className="mb-8">
         This page is a practical, evidence-based overview of what ED is, what causes it, how the main
-        treatments differ, and how to pick a provider you can trust. Prefer to jump straight to the
-        comparison? See our{" "}
+        treatments differ, and how to pick a provider you can trust. For the full picture, read our{" "}
+        <Link href="/articles/online-ed-treatment-guide" className="font-semibold text-[#111111] hover:underline">
+          complete guide to online ED treatment
+        </Link>
+        . Prefer to jump straight to the comparison? See our{" "}
         <Link href="/reviews" className="font-semibold text-[#111111] hover:underline">
           in-depth provider reviews
         </Link>{" "}
