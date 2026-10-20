@@ -1,5 +1,6 @@
 import type { SiteConfig } from "@/lib/config";
 import { onlineEdTreatmentGuide } from "@/lib/articles/online-ed-treatment-guide";
+import { bestEdTreatment } from "@/lib/articles/best-ed-treatment";
 
 // ─────────────────────────────────────────────────────────────────────────────
 // Erectile Dysfunction (ED) vertical content - edtreatmenthub.com
@@ -1268,6 +1269,7 @@ export const edConfig: SiteConfig = {
 
   articles: [
     onlineEdTreatmentGuide,
+    bestEdTreatment,
     {
       slug: "what-causes-erectile-dysfunction",
       title: "What Causes Erectile Dysfunction? Main Causes Explained",
@@ -1420,7 +1422,7 @@ export const edConfig: SiteConfig = {
         },
         {
           heading: "How to choose the best treatment for your situation",
-          body: `<p>The "best" ED treatment is the one matched to your body, your timing preferences and your health - which is a clinician's call, not a ranking. For the full picture - causes, every option, costs and safety - see our <a href="/articles/online-ed-treatment-guide">complete guide to online ED treatment</a>. Still, your situation usually points toward a sensible starting point to raise in that conversation:</p><ul><li><strong>If you are a first-timer</strong> who hasn't tried treatment before: an affordable generic PDE5 inhibitor from a licensed telehealth clinic is the usual place to start, because it is cheap, proven and simple.</li><li><strong>If a single pill didn't work well enough</strong>: rather than just doubling down, it's worth discussing a dose or medication adjustment, addressing lifestyle and underlying-health factors, or considering a <a href="/reviews/quad">compounded multi-ingredient option like Quad</a> - and, in some cases, whether an injectable is appropriate.</li><li><strong>If you want spontaneity</strong>: a longer-acting option (tadalafil, including its low daily dose) removes the need to time anything, which many men prefer over planning around a shorter window.</li><li><strong>If budget is your priority</strong>: generic sildenafil and tadalafil are the most economical route, and clinics differ on how transparently they price them - favor honest, clearly stated pricing over hard-to-compare bundles.</li></ul><p>Whatever your situation, lean toward clinics with a careful provider review and honest pricing. See the full ranking and side-by-side details on our <a href="/">ED treatment comparison</a>, or read the full write-up of our <a href="/reviews/directmeds">top-rated provider</a>.</p>`,
+          body: `<p>The "best" ED treatment is the one matched to your body, your timing preferences and your health - which is a clinician's call, not a ranking. For the full picture - causes, every option, costs and safety - see our <a href="/articles/online-ed-treatment-guide">complete guide to online ED treatment</a>, and for a buyer-focused breakdown by category and budget see our guide to the <a href="/articles/best-ed-treatment">best ED treatment in 2026</a>. Still, your situation usually points toward a sensible starting point to raise in that conversation:</p><ul><li><strong>If you are a first-timer</strong> who hasn't tried treatment before: an affordable generic PDE5 inhibitor from a licensed telehealth clinic is the usual place to start, because it is cheap, proven and simple.</li><li><strong>If a single pill didn't work well enough</strong>: rather than just doubling down, it's worth discussing a dose or medication adjustment, addressing lifestyle and underlying-health factors, or considering a <a href="/reviews/quad">compounded multi-ingredient option like Quad</a> - and, in some cases, whether an injectable is appropriate.</li><li><strong>If you want spontaneity</strong>: a longer-acting option (tadalafil, including its low daily dose) removes the need to time anything, which many men prefer over planning around a shorter window.</li><li><strong>If budget is your priority</strong>: generic sildenafil and tadalafil are the most economical route, and clinics differ on how transparently they price them - favor honest, clearly stated pricing over hard-to-compare bundles.</li></ul><p>Whatever your situation, lean toward clinics with a careful provider review and honest pricing. See the full ranking and side-by-side details on our <a href="/">ED treatment comparison</a>, or read the full write-up of our <a href="/reviews/directmeds">top-rated provider</a>.</p>`,
         },
         {
           heading: "Frequently asked questions",

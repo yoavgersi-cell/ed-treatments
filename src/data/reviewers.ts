@@ -234,6 +234,7 @@ const REVIEWED_2026_10_14: string[] = [
 // when the reviewer signs off on a page created after 2026-10-14.
 const REVIEWED_LATER: Record<string, PageReview> = {
   "/articles/online-ed-treatment-guide": { reviewer: "francheska-capistrano", reviewedAt: "2026-10-18" },
+  "/articles/best-ed-treatment": { reviewer: "francheska-capistrano", reviewedAt: "2026-10-20" },
 };
 
 export const REVIEW_LOG: Record<string, PageReview> = {

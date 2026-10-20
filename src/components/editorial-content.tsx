@@ -88,6 +88,10 @@ export function EditorialContent({ midSlot }: { midSlot?: React.ReactNode }) {
         treatments differ, and how to pick a provider you can trust. For the full picture, read our{" "}
         <Link href="/articles/online-ed-treatment-guide" className="font-semibold text-[#111111] hover:underline">
           complete guide to online ED treatment
+        </Link>{" "}
+        or, if you already know you want to buy, our{" "}
+        <Link href="/articles/best-ed-treatment" className="font-semibold text-[#111111] hover:underline">
+          breakdown of the best ED treatment in 2026
         </Link>
         . Prefer to jump straight to the comparison? See our{" "}
         <Link href="/reviews" className="font-semibold text-[#111111] hover:underline">
