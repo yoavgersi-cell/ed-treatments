@@ -37,9 +37,9 @@ import { ProviderAudit } from "@/components/provider-audit";
 // here only with real, verified figures.
 const REVIEW_SEO_OVERRIDES: Record<string, { title: string; description: string }> = {
   quad: {
-    title: "Quad by MEDVi Review 2026: Cost, Ingredients & Is It Legit?",
+    title: "Quad by MEDVi Reviews 2026: Cost, Ingredients & Is It Legit?",
     description:
-      "An honest, independent review of Quad by MEDVi - the compounded 4-in-1 dissolvable ED medication. What's in it, how much it costs per month, who it's best for, and whether it's legit and worth it in 2026.",
+      "An honest, independent review of Quad by MEDVi - the compounded 4-in-1 dissolvable ED medication. What real users say, common complaints, what's in it, how much it costs per month, who it's best for, and whether it's legit and worth it in 2026.",
   },
 };
 
@@ -88,6 +88,16 @@ const REVIEW_EXTRA_FAQS: Record<string, { question: string; answer: string }[]> 
       question: "Is Quad by MEDVi FDA-approved?",
       answer:
         "No. Quad is a compounded medication prepared by a compounding pharmacy, so it does not go through the FDA approval process that covers brand-name and generic drugs. That isn't unusual or illegal - compounding is long-established - but it's why a licensed clinician deciding whether it's appropriate for you does real safety work.",
+    },
+    {
+      question: "What do real Quad by MEDVi reviews say?",
+      answer:
+        "Public feedback on Quad by MEDVi skews toward the convenience of the dissolvable format and the appeal of a multi-ingredient compound for men a single standard pill didn't fully help. As with any telehealth ED brand, the most useful reviews are the specific ones - onset, how it felt, billing clarity, and support responsiveness - rather than star averages. We weigh verified, detailed accounts over anonymous one-liners, and we treat a brand's own testimonials as marketing, not independent evidence. Because experiences vary with your health and dose, read reviews as directional and confirm the current plan and formulation with MEDVi.",
+    },
+    {
+      question: "Are there common Quad by MEDVi complaints?",
+      answer:
+        "The recurring themes in ED-telehealth complaints generally - not unique to Quad - are subscription billing that's easier to start than to pause, promotional pricing that changes after the first order, and the fact that compounded products aren't FDA-approved the way brand and generic pills are. None of these make a provider illegitimate, but they're worth checking before you subscribe: read the cancellation terms, confirm the real monthly cost after any intro offer on MEDVi's own site, and make sure a licensed clinician has reviewed your health and current medications first.",
     },
   ],
 };

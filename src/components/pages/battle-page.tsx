@@ -39,7 +39,16 @@ const BATTLE_COST_MATH: Record<
   { rows: [string, string, string][]; note: string }
 > = {};
 
-const BATTLE_SEO_OVERRIDES: Record<string, { title: string; description: string }> = {};
+const BATTLE_SEO_OVERRIDES: Record<string, { title: string; description: string }> = {
+  // quad-vs-dudemeds drives ~2k GSC impressions at ~pos 9 with near-zero clicks
+  // (navigational-leaning). A decision-framing hook ("Premium Blend or Cheap
+  // Generics?") gives the SERP snippet a reason to click vs the uniform tail.
+  "quad-vs-dudemeds": {
+    title: "Quad by MEDVi vs DudeMeds (2026): Premium Blend or Cheap Generics?",
+    description:
+      "Quad by MEDVi vs DudeMeds for online ED treatment in 2026: a compounded 4-in-1 dissolvable vs value-priced generic pills. Formula, real cost per month, and which one fits your priorities.",
+  },
+};
 
 // Category word used in the uniform battle SERP title, per vertical. Verticals
 // not listed fall back to a category-free title.
@@ -125,7 +134,9 @@ export async function battleMetadata(slug: string, ctx: SiteContext): Promise<Me
   // an override fall back to the uniform, competitor-style neutral pattern
   // "{A} vs {B} (2026): {Category} Cost, Plans & Meds Compared". DESCRIPTIONS
   // are always the bespoke override (real prices) when present.
-  const override = ctx.vertical === "weight-loss" ? BATTLE_SEO_OVERRIDES[slug] : undefined;
+  // Per-matchup overrides apply on any vertical now (the map is keyed by unique
+  // battle slug). Weight-loss overrides were the original use; ED adds its own.
+  const override = BATTLE_SEO_OVERRIDES[slug];
   const baseLabel = (battle.matchupLabel ?? battle.title.split(":")[0]).trim();
   const battleCategory = BATTLE_CATEGORY_BY_VERTICAL[ctx.vertical];
   const metaTitle = override?.title
