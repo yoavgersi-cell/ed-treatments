@@ -1670,7 +1670,7 @@ export const edConfig: SiteConfig = {
         },
         {
           heading: "How to decide",
-          body: `<p>A simple way to frame it: if you want the cheapest, simplest way to try a proven single ingredient, BlueChew is a sensible on-ramp; if a single pill already underperformed and you want more, Quad's multi-ingredient dissolvable is the reason it tops our rankings. Compare both against the other licensed clinics on our <a href="/">ED treatment comparison</a>, or read the full <a href="/reviews/quad">Quad by MEDVi review</a>.</p><p><em>This article is general information, not medical advice. A licensed clinician should decide which treatment, if any, is right for you - especially if you take nitrates or have a heart condition.</em></p>`,
+          body: `<p>A simple way to frame it: if you want the cheapest, simplest way to try a proven single ingredient, BlueChew is a sensible on-ramp; if a single pill already underperformed and you want more, Quad's multi-ingredient dissolvable is the reason it tops our rankings. Compare both against the other licensed clinics on our <a href="/">ED treatment comparison</a>, or read the full <a href="/reviews/quad">Quad by MEDVi review</a>. Specifically weighing BlueChew's combination tier? See our <a href="/articles/bluechew-gold-vs-quad">BlueChew Gold vs Quad</a> breakdown.</p><p><em>This article is general information, not medical advice. A licensed clinician should decide which treatment, if any, is right for you - especially if you take nitrates or have a heart condition.</em></p>`,
         },
       ],
     },
@@ -1770,7 +1770,7 @@ export const edConfig: SiteConfig = {
         },
         {
           heading: "How to decide",
-          body: `<p>Since Quad and Rugiet occupy the same category, decide on the details that actually differ: the specific blend, the brand and plan you trust, and the current price - after confirming with a clinician that a compounded option suits you at all. Compare both against every licensed clinic on our <a href="/">ED treatment comparison</a>, or read the full <a href="/reviews/quad">Quad by MEDVi review</a> to see why it tops our list.</p><p><em>This article is general information, not medical advice. A licensed clinician should decide which treatment, if any, is right for you - especially if you take nitrates or have a heart condition.</em></p>`,
+          body: `<p>Since Quad and Rugiet occupy the same category, decide on the details that actually differ: the specific blend, the brand and plan you trust, and the current price - after confirming with a clinician that a compounded option suits you at all. Compare both against every licensed clinic on our <a href="/">ED treatment comparison</a>, or read the full <a href="/reviews/quad">Quad by MEDVi review</a> to see why it tops our list. Want a third option in the mix? See our three-way <a href="/articles/quad-vs-rugiet-vs-qmax">Quad vs Rugiet vs Qmax</a> comparison.</p><p><em>This article is general information, not medical advice. A licensed clinician should decide which treatment, if any, is right for you - especially if you take nitrates or have a heart condition.</em></p>`,
         },
       ],
     },
