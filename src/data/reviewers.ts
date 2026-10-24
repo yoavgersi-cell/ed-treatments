@@ -237,6 +237,7 @@ const REVIEWED_LATER: Record<string, PageReview> = {
   "/articles/best-ed-treatment": { reviewer: "francheska-capistrano", reviewedAt: "2026-10-20" },
   "/articles/quad-vs-rugiet-vs-qmax": { reviewer: "francheska-capistrano", reviewedAt: "2026-10-21" },
   "/articles/bluechew-gold-vs-quad": { reviewer: "francheska-capistrano", reviewedAt: "2026-10-21" },
+  "/articles/ozempic-and-erectile-dysfunction": { reviewer: "francheska-capistrano", reviewedAt: "2026-10-24" },
 };
 
 export const REVIEW_LOG: Record<string, PageReview> = {

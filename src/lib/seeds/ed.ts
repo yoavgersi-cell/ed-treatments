@@ -1,6 +1,7 @@
 import type { SiteConfig } from "@/lib/config";
 import { onlineEdTreatmentGuide } from "@/lib/articles/online-ed-treatment-guide";
 import { bestEdTreatment } from "@/lib/articles/best-ed-treatment";
+import { ozempicAndEd } from "@/lib/articles/ozempic-and-erectile-dysfunction";
 
 // ─────────────────────────────────────────────────────────────────────────────
 // Erectile Dysfunction (ED) vertical content - edtreatmenthub.com
@@ -1270,6 +1271,7 @@ export const edConfig: SiteConfig = {
   articles: [
     onlineEdTreatmentGuide,
     bestEdTreatment,
+    ozempicAndEd,
     {
       slug: "what-causes-erectile-dysfunction",
       title: "What Causes Erectile Dysfunction? Main Causes Explained",
@@ -1302,7 +1304,7 @@ export const edConfig: SiteConfig = {
         },
         {
           heading: "How to find your cause - and what to do next",
-          body: `<p>Because the causes overlap, the smart move is a proper evaluation rather than guesswork. A licensed provider can review your history, medications and symptoms and, where useful, order simple tests. Many men can start that process online: the licensed telehealth clinics on our <a href="/">ED treatment comparison</a> run an intake and a clinician review before any prescription.</p><p>The good news is that once the cause is understood, ED is highly treatable for most men - through lifestyle changes, treating the underlying condition, medication, or a combination. If you want to see how the leading online options compare, start with our <a href="/articles/best-ed-treatments-compared">best ED treatments compared</a> guide or our <a href="/reviews/directmeds">top-rated provider review</a>.</p><p><em>This article is general information, not medical advice. Talk to a licensed clinician about your specific situation, especially before starting or stopping any medication.</em></p>`,
+          body: `<p>Because the causes overlap, the smart move is a proper evaluation rather than guesswork. A licensed provider can review your history, medications and symptoms and, where useful, order simple tests. Many men can start that process online: the licensed telehealth clinics on our <a href="/">ED treatment comparison</a> run an intake and a clinician review before any prescription.</p><p>The good news is that once the cause is understood, ED is highly treatable for most men - through lifestyle changes, treating the underlying condition, medication, or a combination. If you want to see how the leading online options compare, start with our <a href="/articles/best-ed-treatments-compared">best ED treatments compared</a> guide or our <a href="/reviews/directmeds">top-rated provider review</a>. And because so much ED is rooted in metabolic and vascular health, it's worth understanding how today's weight-loss drugs fit in - see our guide to <a href="/articles/ozempic-and-erectile-dysfunction">Ozempic, GLP-1 drugs and erectile dysfunction</a>.</p><p><em>This article is general information, not medical advice. Talk to a licensed clinician about your specific situation, especially before starting or stopping any medication.</em></p>`,
         },
       ],
     },
@@ -1462,7 +1464,7 @@ export const edConfig: SiteConfig = {
         },
         {
           heading: "Where natural approaches fit",
-          body: `<p>Natural approaches are a genuinely good foundation and, for mild ED with a lifestyle cause, sometimes enough. For moderate-to-severe ED, they usually work best <em>alongside</em> - not instead of - medical treatment. The sensible plan is to build the healthy habits and get a proper evaluation, so you know your cause. Licensed telehealth clinics on our <a href="/">ED treatment comparison</a> can handle that evaluation online.</p><p><em>This article is general information, not medical advice. Check with a licensed clinician before starting supplements, especially alongside other medications.</em></p>`,
+          body: `<p>Natural approaches are a genuinely good foundation and, for mild ED with a lifestyle cause, sometimes enough. For moderate-to-severe ED, they usually work best <em>alongside</em> - not instead of - medical treatment. The sensible plan is to build the healthy habits and get a proper evaluation, so you know your cause. Licensed telehealth clinics on our <a href="/">ED treatment comparison</a> can handle that evaluation online.</p><p>Weight loss in particular has strong evidence for improving erections - and for men using GLP-1 medications like Ozempic or Mounjaro to lose weight, the sexual-health effects are a question worth understanding; our guide to <a href="/articles/ozempic-and-erectile-dysfunction">GLP-1 drugs and erectile dysfunction</a> covers what the research actually shows.</p><p><em>This article is general information, not medical advice. Check with a licensed clinician before starting supplements, especially alongside other medications.</em></p>`,
         },
       ],
     },
@@ -1498,7 +1500,7 @@ export const edConfig: SiteConfig = {
         },
         {
           heading: "How most ED is actually treated",
-          body: `<p>Regardless of testosterone level, the first-line treatment for most ED remains <strong>PDE5 inhibitors</strong> - sildenafil and tadalafil - which act on blood flow directly. Many men with low-T <em>and</em> ED are treated with both a PDE5 inhibitor and, where appropriate, testosterone. The way to sort out which applies to you is a proper evaluation: a licensed provider can review your symptoms and, if warranted, check your levels.</p><p>You can start that process online - the licensed clinics on our <a href="/">ED treatment comparison</a> run an intake and clinician review, and our <a href="/reviews/directmeds">top-rated provider review</a> shows what a modern telehealth flow looks like.</p><p><em>This article is general information, not medical advice. A licensed clinician should evaluate your symptoms and decide what's appropriate for you.</em></p>`,
+          body: `<p>Regardless of testosterone level, the first-line treatment for most ED remains <strong>PDE5 inhibitors</strong> - sildenafil and tadalafil - which act on blood flow directly. Many men with low-T <em>and</em> ED are treated with both a PDE5 inhibitor and, where appropriate, testosterone. The way to sort out which applies to you is a proper evaluation: a licensed provider can review your symptoms and, if warranted, check your levels.</p><p>You can start that process online - the licensed clinics on our <a href="/">ED treatment comparison</a> run an intake and clinician review, and our <a href="/reviews/directmeds">top-rated provider review</a> shows what a modern telehealth flow looks like.</p><p>One emerging wrinkle worth knowing: because obesity lowers testosterone, significant weight loss tends to raise it - and early research on GLP-1 weight-loss drugs (Ozempic, Mounjaro and the like) has even found improvements in testosterone and erectile function in some men. We cover that fast-moving story in our guide to <a href="/articles/ozempic-and-erectile-dysfunction">Ozempic, GLP-1 drugs and erectile dysfunction</a>.</p><p><em>This article is general information, not medical advice. A licensed clinician should evaluate your symptoms and decide what's appropriate for you.</em></p>`,
         },
       ],
     },
