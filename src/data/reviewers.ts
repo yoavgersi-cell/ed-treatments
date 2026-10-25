@@ -240,6 +240,7 @@ const REVIEWED_LATER: Record<string, PageReview> = {
   "/articles/ozempic-and-erectile-dysfunction": { reviewer: "francheska-capistrano", reviewedAt: "2026-10-24" },
   "/articles/ed-meds-without-prescription": { reviewer: "francheska-capistrano", reviewedAt: "2026-10-25" },
   "/reviews/rexmd": { reviewer: "francheska-capistrano", reviewedAt: "2026-10-25" },
+  "/directmeds-vs-rexmd": { reviewer: "francheska-capistrano", reviewedAt: "2026-10-25" },
 };
 
 export const REVIEW_LOG: Record<string, PageReview> = {

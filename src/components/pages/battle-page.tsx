@@ -48,6 +48,11 @@ const BATTLE_SEO_OVERRIDES: Record<string, { title: string; description: string 
     description:
       "Quad by MEDVi vs DudeMeds for online ED treatment in 2026: a compounded 4-in-1 dissolvable vs value-priced generic pills. Formula, real cost per month, and which one fits your priorities.",
   },
+  "directmeds-vs-rexmd": {
+    title: "DirectMeds vs Rex MD (2026): 3-in-1 Dose or Big-Brand Menu?",
+    description:
+      "DirectMeds vs Rex MD for online ED treatment in 2026: a focused compounded 3-in-1 rapid-dissolve tablet vs an established brand with the widest menu and the Ignite gummy. Formula, pricing, billing and which fits you.",
+  },
 };
 
 // Category word used in the uniform battle SERP title, per vertical. Verticals

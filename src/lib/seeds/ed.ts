@@ -591,7 +591,7 @@ export const edConfig: SiteConfig = {
         },
         {
           heading: "Who Rex MD is - and isn't - for",
-          body: `<p><strong>Rex MD is a good fit if</strong> you want a big, established brand with the widest range of options - brand-name and generic pills, a daily option, and the exclusive Ignite gummy - and you're comfortable managing a subscription. The brand recognition, menu breadth and strong Trustpilot record are real strengths.</p><p><strong>It's a weaker fit if</strong> your top priority is the rock-bottom price on proven generics (a value-focused clinic like <a href="/reviews/dudemeds">DudeMeds</a> will undercut the branded options), or if you want to avoid subscription billing entirely. For a differentiated compounded dose, compare our top picks <a href="/reviews/directmeds">DirectMeds</a> and <a href="/reviews/quad">Quad by MEDVi</a>. And, like all PDE5 medication, Rex MD's ED treatments aren't appropriate for men who take nitrates or have certain heart conditions - which the intake is there to catch.</p>`,
+          body: `<p><strong>Rex MD is a good fit if</strong> you want a big, established brand with the widest range of options - brand-name and generic pills, a daily option, and the exclusive Ignite gummy - and you're comfortable managing a subscription. The brand recognition, menu breadth and strong Trustpilot record are real strengths.</p><p><strong>It's a weaker fit if</strong> your top priority is the rock-bottom price on proven generics (a value-focused clinic like <a href="/reviews/dudemeds">DudeMeds</a> will undercut the branded options), or if you want to avoid subscription billing entirely. For a differentiated compounded dose, compare our top picks <a href="/reviews/directmeds">DirectMeds</a> and <a href="/reviews/quad">Quad by MEDVi</a> - and see the head-to-head in our <a href="/directmeds-vs-rexmd">DirectMeds vs Rex MD</a> comparison. And, like all PDE5 medication, Rex MD's ED treatments aren't appropriate for men who take nitrates or have certain heart conditions - which the intake is there to catch.</p>`,
         },
         {
           heading: "Safety and the bottom line",
@@ -1056,6 +1056,84 @@ export const edConfig: SiteConfig = {
         { feature: "Provider review", provider1Value: "Yes", provider2Value: "Yes", highlight: "both" },
         { feature: "Brand recognition", provider1Value: "Newer", provider2Value: "Very high", highlight: "provider2" },
         { feature: "Pricing", provider1Value: "See site (approx. higher)", provider2Value: "See site (approx. lower)", highlight: "provider2" },
+      ],
+      updatedAt: UPDATED,
+    },
+    {
+      slug: "directmeds-vs-rexmd",
+      provider1Id: "directmeds",
+      provider2Id: "rexmd",
+      title: "DirectMeds vs Rex MD",
+      matchupLabel: "DirectMeds vs Rex MD",
+      subtitle: "A focused 3-in-1 compounded dose vs a big-brand, full-menu platform",
+      description:
+        "DirectMeds vs Rex MD for online ED treatment in 2026 - a compounded 3-in-1 rapid-dissolve tablet vs an established brand with the widest menu. Formula, pricing, billing and which fits you.",
+      intro:
+        "DirectMeds and Rex MD are both legitimate men's-health telehealth brands, but they're built differently. DirectMeds is focused: its DirectMax is a compounded 3-in-1 rapid-dissolve tablet (sildenafil, tadalafil and apomorphine in one dose), priced transparently per dose. Rex MD is the broad, established brand - branded and generic Viagra and Cialis, daily tadalafil, and its exclusive Ignite gummy - with a strong Trustpilot record but a subscription-billing model worth watching. Here's how they compare.",
+      verdict:
+        "Both are legitimate online options, and this is a close call. DirectMeds is our top pick and edges it for the man who wants a differentiated, multi-mechanism dose with clean, transparent per-dose pricing and no subscription surprises. Rex MD wins if you value brand recognition, the widest menu of options (including the Ignite gummy) and a large Trustpilot track record - just manage the auto-refill billing. Confirm current pricing on each provider's site.",
+      verdictWinnerPoints: [
+        "3-in-1 compounded dose - sildenafil, tadalafil and apomorphine in one",
+        "Transparent per-dose pricing, no subscription surprises",
+        "Rapid-dissolve format for faster onset",
+      ],
+      verdictLoserPoints: [
+        "Widest menu: brand + generic pills, daily, and the Ignite gummy",
+        "Large, established brand with a 4.7 Trustpilot across 5,000+ reviews",
+        "Free 2-day delivery and ongoing message-based care",
+      ],
+      winnerId: "directmeds",
+      categories: [
+        {
+          name: "Formula & format",
+          winner: "provider1",
+          explanation:
+            "DirectMax combines three actives (sildenafil, tadalafil, apomorphine) in one rapid-dissolve tablet; Rex MD's core menu is single-ingredient pills, plus its Ignite gummy combines two.",
+          supportingPoints: [
+            "3-in-1 multi-mechanism dose at DirectMeds",
+            "Rapid-dissolve sublingual format",
+            "Rex MD offers generics, brand pills and a 2-in-1 gummy",
+          ],
+        },
+        {
+          name: "Menu & options",
+          winner: "provider2",
+          explanation:
+            "Rex MD carries one of the widest ED menus we rank - branded and generic Viagra and Cialis, low-dose daily tadalafil, and the exclusive Ignite gummy.",
+          supportingPoints: ["Brand + generic options", "Daily tadalafil option", "Exclusive Ignite ED gummy"],
+        },
+        {
+          name: "Brand recognition",
+          winner: "provider2",
+          explanation:
+            "Rex MD is a large, established national brand with a 4.7 Trustpilot rating across more than 5,000 reviews.",
+          supportingPoints: ["Well-known national brand", "5,000+ Trustpilot reviews"],
+        },
+        {
+          name: "Pricing & billing transparency",
+          winner: "provider1",
+          explanation:
+            "DirectMeds prices its 3-in-1 transparently per dose with no subscription surprises; Rex MD's generics are cheaper per dose, but its subscription model draws recurring auto-refill and cancellation complaints.",
+          supportingPoints: [
+            "Transparent per-dose pricing at DirectMeds",
+            "Rex MD generics are cheaper, but watch the auto-refill billing",
+          ],
+        },
+        {
+          name: "Medical oversight",
+          winner: "tie",
+          explanation: "Both require an online intake and a licensed-provider review before prescribing.",
+          supportingPoints: ["Provider review at both", "Fully online, discreet delivery"],
+        },
+      ],
+      features: [
+        { feature: "Signature product", provider1Value: "DirectMax 3-in-1", provider2Value: "Ignite gummy + full pill menu", highlight: "provider1" },
+        { feature: "Formula", provider1Value: "3-in-1 compounded", provider2Value: "Generics, brand, 2-in-1 gummy", highlight: "provider1" },
+        { feature: "Menu breadth", provider1Value: "Focused", provider2Value: "Widest", highlight: "provider2" },
+        { feature: "Pricing", provider1Value: "~$7.45-9.45 / dose (transparent)", provider2Value: "Generics from ~$1.60 / dose (subscription)", highlight: "both" },
+        { feature: "Billing", provider1Value: "Per-dose, no surprises", provider2Value: "Subscription - watch auto-refills", highlight: "provider1" },
+        { feature: "Brand recognition", provider1Value: "Newer", provider2Value: "Very high", highlight: "provider2" },
+        { feature: "Provider review", provider1Value: "Yes", provider2Value: "Yes", highlight: "both" },
       ],
       updatedAt: UPDATED,
     },
