@@ -92,6 +92,17 @@ export const COST_INDEX: CostEntry[] = [
     source: "DudeMeds published starting price",
     href: "/reviews/dudemeds",
   },
+  {
+    name: "Rex MD (generic Viagra / Cialis)",
+    category: "Generic pill",
+    format: "Oral tablet",
+    headline: "from ~$1.60 / dose",
+    perMonthLow: 13,
+    perMonthHigh: 40,
+    basis: "verified",
+    source: "Rex MD published pricing (generic from ~$1.60/dose; branded and Ignite gummy priced higher)",
+    href: "/reviews/rexmd",
+  },
   // ---- Brand pills (the expensive reference point) ----
   {
     name: "Brand Viagra",

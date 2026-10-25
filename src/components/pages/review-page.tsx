@@ -41,6 +41,11 @@ const REVIEW_SEO_OVERRIDES: Record<string, { title: string; description: string 
     description:
       "An honest, independent review of Quad by MEDVi - the compounded 4-in-1 dissolvable ED medication. What real users say, common complaints, what's in it, how much it costs per month, who it's best for, and whether it's legit and worth it in 2026.",
   },
+  rexmd: {
+    title: "Rex MD Reviews 2026: Cost, Ignite Gummy & Is It Legit?",
+    description:
+      "An honest, independent Rex MD review - the national men's-health brand with branded and generic Viagra & Cialis and its exclusive Ignite ED gummy. Real pricing, what users say, the subscription-billing complaints to know about, and whether it's legit and worth it in 2026.",
+  },
 };
 
 const REVIEW_LEGIT: Record<string, { verdict: string; signals: string[] }> = {};

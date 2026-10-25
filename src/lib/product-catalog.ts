@@ -67,6 +67,18 @@ export const PRODUCT_CATALOG: CatalogProduct[] = [
     shipping: "Free shipping",
     image: "/products/dudemeds.webp",
   },
+  {
+    id: "rexmd-generic",
+    providerId: "rexmd",
+    name: "Rex MD Generic Viagra & Cialis",
+    chip: "Brand + Generic",
+    format: "tablet",
+    price: "$1.60",
+    unit: "dose",
+    priceNote: "Starting per-dose price on generics (brand and Ignite gummy cost more) - billed as a subscription; confirm the current rate and refill terms at Rex MD",
+    shipping: "Free 2-day delivery",
+    image: null,
+  },
 ];
 
 /** Numeric value for sorting ("from $179" → 179). */

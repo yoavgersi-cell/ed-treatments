@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 64" role="img" aria-label="Rex MD">
+  <!-- crown accent above the wordmark -->
+  <g fill="#E0342A">
+    <path d="M12 16 L18 24 L24 14 L30 24 L36 16 L34 30 L14 30 Z"/>
+  </g>
+  <!-- wordmark -->
+  <text x="10" y="52" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="800" letter-spacing="-0.5">
+    <tspan fill="#1B2A4A">REX</tspan><tspan fill="#E0342A"> MD</tspan>
+  </text>
+</svg>
