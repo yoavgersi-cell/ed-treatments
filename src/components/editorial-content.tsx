@@ -100,7 +100,12 @@ export function EditorialContent({ midSlot }: { midSlot?: React.ReactNode }) {
         or a head-to-head like{" "}
         <Link href="/quad-vs-dudemeds" className="font-semibold text-[#111111] hover:underline">
           Quad by MEDVi vs DudeMeds
-        </Link>.
+        </Link>
+        . Looking to avoid a prescription? Read{" "}
+        <Link href="/articles/ed-meds-without-prescription" className="font-semibold text-[#111111] hover:underline">
+          can you get ED meds without a prescription
+        </Link>{" "}
+        first.
       </p>
 
       <hr className="mb-8 border-gray-200" />
