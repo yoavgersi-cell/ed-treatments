@@ -32,15 +32,12 @@ function LinkedInMark({ className }: { className?: string }) {
 
 export function MedicalReviewBar({
   path,
-  writer = "ED Treatment Editorial Team",
   className = "",
   compact = false,
   schema = true,
 }: {
   /** Site path used for the review-log lookup, e.g. "/reviews/hims". */
   path: string;
-  /** Author credit shown alongside the reviewer. */
-  writer?: string;
   className?: string;
   /** Single-line variant for index pages. */
   compact?: boolean;
@@ -127,10 +124,6 @@ export function MedicalReviewBar({
             ) : (
               <>Reviews this site&rsquo;s health content for scientific accuracy · </>
             )}
-            <span className="hidden sm:inline">
-              Written by {writer}
-              {" · "}
-            </span>
             {policy}
           </p>
         )}

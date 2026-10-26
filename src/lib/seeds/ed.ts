@@ -40,7 +40,7 @@ export const edConfig: SiteConfig = {
   },
 
   sidebar: {
-    socialProofNumber: "23,891+",
+    socialProofNumber: "23,891",
     socialProofText: "men compared ED treatments on our platform this month.",
     secureTitle: "Secure & Confidential",
     secureText:
@@ -54,7 +54,7 @@ export const edConfig: SiteConfig = {
   },
 
   cardSocialProof: {
-    number: "23,891+",
+    number: "23,891",
     text: "men compared ED treatments this month",
   },
 

@@ -147,10 +147,9 @@ export default async function HomePage() {
         <MedicalReviewBar path="/" className="max-w-[760px]" />
       </section>
 
-      {(author || reviewer) && (
+      {reviewer && (
         <section className="mx-auto max-w-[1200px] px-4 pt-3">
           <div className="flex flex-wrap items-center gap-x-3 gap-y-2">
-            {author && <ExpertByline expert={author} label="Written by" />}
             {reviewer && <ExpertByline expert={reviewer} label="Reviewed by" />}
           </div>
         </section>
