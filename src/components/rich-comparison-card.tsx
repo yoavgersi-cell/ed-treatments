@@ -184,7 +184,7 @@ export function RichComparisonCard({
                 position={product.rank}
                 pageType="listing"
                 sourceFlow="main_comparison"
-                className="flex h-[48px] w-full items-center justify-center gap-1.5 rounded-xl bg-[#111111] text-[15px] font-bold text-white transition-colors hover:bg-[#000000] sm:h-[50px]"
+                className="flex h-[48px] w-full items-center justify-center gap-1.5 rounded-xl bg-[#4B5563] text-[15px] font-bold text-white transition-colors hover:bg-[#374151] sm:h-[50px]"
               >
                 Visit Site
                 <ArrowUpRight className="h-4 w-4" strokeWidth={2.5} />

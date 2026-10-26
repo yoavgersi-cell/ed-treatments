@@ -358,7 +358,7 @@ export default async function HowWeRankPage() {
           <div className="flex flex-col items-center gap-3 sm:flex-row sm:justify-center">
             <Link
               href="/"
-              className="inline-flex h-[44px] items-center justify-center rounded-lg bg-[#111111] px-6 text-[14px] font-bold text-white transition-colors hover:bg-[#000000]"
+              className="inline-flex h-[44px] items-center justify-center rounded-lg bg-[#4B5563] px-6 text-[14px] font-bold text-white transition-colors hover:bg-[#374151]"
             >
               Compare Providers
             </Link>

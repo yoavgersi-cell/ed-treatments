@@ -33,10 +33,10 @@ export const edConfig: SiteConfig = {
     backgroundImageUrl: "",
     imageAlt: "Erectile dysfunction treatment options",
     updatedLabel: "Last Updated: October 2026",
-    h1: "Best ED Treatments of 2026",
-    h2: "The top online ED treatment providers, ranked and reviewed",
+    h1: "Best Erectile Dysfunction Treatments in 2026",
+    h2: "Your path to better performance starts here",
     description:
-      "Compare licensed online ED clinics by treatment, price and real support - from generic pills to compounded multi-ingredient options.",
+      "Compare top-rated treatments designed to restore confidence, boost vitality and last longer in bed.",
   },
 
   sidebar: {

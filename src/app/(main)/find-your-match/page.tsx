@@ -273,7 +273,7 @@ export default function FindYourMatchPage() {
                 setTimeout(() => setPhaseTransitioning(false), 30);
               }, 280);
             }}
-            className="mt-8 inline-flex h-[46px] w-full max-w-[280px] items-center justify-center rounded-xl bg-[#111111] text-[15px] font-bold text-white shadow-lg transition-all hover:bg-[#000000] hover:shadow-xl sm:mt-10 sm:h-[50px] sm:w-auto sm:px-14 sm:text-[18px]"
+            className="mt-8 inline-flex h-[46px] w-full max-w-[280px] items-center justify-center rounded-xl bg-[#4B5563] text-[15px] font-bold text-white shadow-lg transition-all hover:bg-[#374151] hover:shadow-xl sm:mt-10 sm:h-[50px] sm:w-auto sm:px-14 sm:text-[18px]"
           >
             {quiz.welcomeCta || "Find My Match"}
           </button>
@@ -562,7 +562,7 @@ export default function FindYourMatchPage() {
                 <button
                   onClick={() => startLoading()}
                   disabled={!answers[currentQ?.id || ""]}
-                  className="mt-4 flex w-full items-center justify-center gap-2 rounded-xl bg-[#111111] py-3.5 text-[16px] font-bold text-white transition-all hover:bg-[#000000] disabled:opacity-40 sm:mt-5 sm:py-4 sm:text-[18px]"
+                  className="mt-4 flex w-full items-center justify-center gap-2 rounded-xl bg-[#4B5563] py-3.5 text-[16px] font-bold text-white transition-all hover:bg-[#374151] disabled:opacity-40 sm:mt-5 sm:py-4 sm:text-[18px]"
                 >
                   Get My Results
                   <ArrowRight className="h-4 w-4" strokeWidth={2.5} />

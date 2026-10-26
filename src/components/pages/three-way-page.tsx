@@ -143,7 +143,7 @@ export async function ThreeWayPageView({ trio, ctx }: { trio: ThreeWayComparison
                 providerSlug={p.id}
                 pageType="battle"
                 sourceFlow="battle_page"
-                className="flex h-[42px] items-center justify-center gap-1.5 rounded-xl bg-[#111111] text-[13.5px] font-bold text-white transition-colors hover:bg-[#000000]"
+                className="flex h-[42px] items-center justify-center gap-1.5 rounded-xl bg-[#4B5563] text-[13.5px] font-bold text-white transition-colors hover:bg-[#374151]"
               >
                 Visit {p.name}
                 <ArrowRight className="h-3.5 w-3.5" strokeWidth={2.5} />

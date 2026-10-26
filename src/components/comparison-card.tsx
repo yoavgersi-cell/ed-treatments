@@ -97,7 +97,7 @@ export function ComparisonCard({ product, hideRank, pageType = "listing", source
               position={product.rank}
               pageType={pageType}
               sourceFlow={sourceFlow}
-              className="flex h-[42px] w-full items-center justify-center gap-2 rounded-lg bg-[#111111] text-[15px] font-bold text-white transition-colors hover:bg-[#000000]"
+              className="flex h-[42px] w-full items-center justify-center gap-2 rounded-lg bg-[#4B5563] text-[15px] font-bold text-white transition-colors hover:bg-[#374151]"
             >
               Visit Site
               {arrowSvg}
@@ -157,7 +157,7 @@ export function ComparisonCard({ product, hideRank, pageType = "listing", source
           position={product.rank}
           pageType={pageType}
           sourceFlow={sourceFlow}
-          className="mt-5 flex h-[48px] w-full items-center justify-center gap-2 rounded-lg bg-[#111111] text-[16px] font-bold text-white transition-colors hover:bg-[#000000]"
+          className="mt-5 flex h-[48px] w-full items-center justify-center gap-2 rounded-lg bg-[#4B5563] text-[16px] font-bold text-white transition-colors hover:bg-[#374151]"
         >
           Visit Site
           {arrowSvg}

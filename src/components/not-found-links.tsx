@@ -25,7 +25,7 @@ export function NotFoundLinks({
       <div className="mt-8 flex flex-col gap-3 sm:flex-row">
         <Link
           href={href("/")}
-          className="inline-flex h-[46px] items-center justify-center gap-2 rounded-xl bg-[#111111] px-6 text-[14px] font-bold text-white transition-colors hover:bg-[#000000]"
+          className="inline-flex h-[46px] items-center justify-center gap-2 rounded-xl bg-[#4B5563] px-6 text-[14px] font-bold text-white transition-colors hover:bg-[#374151]"
         >
           <Home className="h-4 w-4" strokeWidth={2} />
           Compare all providers
