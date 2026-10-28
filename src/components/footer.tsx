@@ -69,7 +69,11 @@ export async function Footer() {
           <div className="col-span-2 sm:col-span-3 lg:col-span-1">
             <p className="text-[13px] leading-relaxed text-gray-500">
               <span className="font-bold text-[#111111]">ED Treatment Hub</span> is an independent comparison
-              publisher for online erectile-dysfunction treatments.
+              publisher for online erectile-dysfunction treatments in the United States.
+            </p>
+            <p className="mt-2 text-[12px] leading-relaxed text-gray-400">
+              Based in the United States. The telehealth providers we compare are US-licensed clinics that
+              serve US residents only.
             </p>
           </div>
 
