@@ -61,7 +61,7 @@ export const edConfig: SiteConfig = {
   ranking: {
     // Hims temporarily removed from the ranked comparison (chart + top-3). Its
     // review and battle pages stay live; re-add "hims" here to restore it.
-    providerOrder: ["directmeds", "quad", "rexmd", "dudemeds", "braverx", "petermd", "shed"],
+    providerOrder: ["directmeds", "quad", "rexmd", "dudemeds", "braverx", "petermd", "shed", "hims"],
     positions: [
       { score: 9.8, starRating: 5, label: "Exceptional", badge: "Our Top Pick" },
       { score: 9.6, starRating: 5, label: "Excellent" },
@@ -70,6 +70,7 @@ export const edConfig: SiteConfig = {
       { score: 8.8, starRating: 4, label: "Very Good" },
       { score: 8.6, starRating: 4, label: "Very Good" },
       { score: 8.4, starRating: 4, label: "Very Good" },
+      { score: 8.2, starRating: 4, label: "Very Good" },
     ],
   },
 
@@ -174,7 +175,9 @@ export const edConfig: SiteConfig = {
         "Chewable \"hard mint\" options",
         "Trusted national brand",
       ],
-      affiliateUrl: "/reviews/hims",
+      // PLACEHOLDER: points to the live Hims site so the chart CTA works.
+      // Replace with the real Hims affiliate tracking link to earn commission.
+      affiliateUrl: "https://www.hims.com/",
       ctaText: "Visit Site",
       // Real Trustpilot reviews transcribed from Hims' Trustpilot profile.
       // Aggregate rating/count intentionally omitted (not verified) - the
