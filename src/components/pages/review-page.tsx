@@ -105,6 +105,99 @@ const REVIEW_EXTRA_FAQS: Record<string, { question: string; answer: string }[]> 
         "The recurring themes in ED-telehealth complaints generally - not unique to Quad - are subscription billing that's easier to start than to pause, promotional pricing that changes after the first order, and the fact that compounded products aren't FDA-approved the way brand and generic pills are. None of these make a provider illegitimate, but they're worth checking before you subscribe: read the cancellation terms, confirm the real monthly cost after any intro offer on MEDVi's own site, and make sure a licensed clinician has reviewed your health and current medications first.",
     },
   ],
+  directmeds: [
+    {
+      question: "What is in DirectMeds DirectMax?",
+      answer:
+        "DirectMax is DirectMeds' compounded, 3-in-1 rapid-dissolve tablet that blends three active ingredients in a single dose - sildenafil and tadalafil (the two best-studied PDE5 inhibitors) plus apomorphine, which acts on arousal signaling in the brain rather than on blood flow alone. Because it is compounded and prescription-only, the exact strengths are set by the prescribing clinician for your intake; confirm the specific formulation with DirectMeds before starting.",
+    },
+    {
+      question: "Does DirectMeds DirectMax work?",
+      answer:
+        "For appropriate candidates, the ingredients in DirectMax work through proven pathways - sildenafil and tadalafil improve blood flow, and apomorphine targets central arousal - and the multi-mechanism approach is aimed at men who wanted more than a single standard pill delivered. Individual results vary, and whether it's right for you is a licensed clinician's decision based on your health.",
+    },
+    {
+      question: "How fast does DirectMax work?",
+      answer:
+        "DirectMax uses a rapid-dissolve sublingual format, which is designed to be absorbed faster than a tablet you swallow - part of its appeal for on-demand use. Actual onset varies by person and dose, so follow the guidance on your prescription rather than assuming a fixed timing.",
+    },
+    {
+      question: "Is DirectMeds DirectMax FDA-approved and safe?",
+      answer:
+        "DirectMax is a compounded medication, so the finished product does not go through the FDA approval process that covers brand-name and generic drugs - though its individual active ingredients are well established. Compounded ED medications are used routinely for appropriate candidates when prescribed and monitored by a licensed clinician, which is exactly what the DirectMeds intake is for. It should never be combined with nitrate medications, and certain heart conditions and other drugs matter, so the clinician's review is the key safeguard.",
+    },
+    {
+      question: "What do DirectMeds reviews say?",
+      answer:
+        "Public feedback on DirectMeds tends to focus on the convenience of the dissolvable 3-in-1 format and transparent per-dose pricing. As with any telehealth ED brand, the most useful reviews are specific ones - onset, how it felt, billing clarity and support - rather than star averages, and a brand's own testimonials are marketing, not independent evidence. Because experiences vary with your health and dose, read reviews as directional and confirm the current price and formulation with DirectMeds.",
+    },
+  ],
+  rexmd: [
+    {
+      question: "What is Rex MD Ignite?",
+      answer:
+        "Ignite is Rex MD's exclusive ED gummy - a chewable compound that combines sildenafil and tadalafil in one dose, a format you can't get from the standard brands. As a compounded, prescription-only product, it isn't FDA-approved the way the standalone generics are, so a licensed clinician's review is the safeguard; confirm the current formulation and price with Rex MD.",
+    },
+    {
+      question: "Does Rex MD work?",
+      answer:
+        "Rex MD prescribes proven ED medications - branded and generic Viagra and Cialis, daily tadalafil, and its Ignite gummy - all of which work through the established PDE5 pathway to improve blood flow. For appropriate candidates these are effective, though individual results vary and a licensed clinician decides what's suitable for you.",
+    },
+    {
+      question: "How do I cancel Rex MD or avoid surprise refill charges?",
+      answer:
+        "Rex MD bills on a subscription, and the most common complaint in its public reviews is auto-refills being charged after a customer believed they had cancelled. Before ordering, confirm the refill schedule and cancellation policy on Rex MD's own site, set a reminder before your next billing date, and keep an eye on your statements. This is sensible with any telehealth subscription and especially worth doing here.",
+    },
+    {
+      question: "Is Rex MD safe and legit?",
+      answer:
+        "Rex MD is a large, established men's-health telehealth brand that prescribes after a US-licensed provider review, so it is legitimate. Safety follows the usual ED-medication rules: it should never be combined with nitrates, and heart conditions and other medications matter, which the intake is there to catch. The main thing to manage is the subscription billing rather than the medical legitimacy.",
+    },
+    {
+      question: "What do Rex MD reviews say?",
+      answer:
+        "Rex MD holds a strong rating - about 4.7 across more than 5,000 Trustpilot reviews - with many customers praising the support team by name. The recurring criticism is subscription billing: surprise auto-refill charges and cancellation friction. The experience clearly varies, so read specific, recent reviews, and confirm the plan terms before you subscribe.",
+    },
+  ],
+  braverx: [
+    {
+      question: "What is BraveRX?",
+      answer:
+        "BraveRX is a men's-health telehealth brand that offers ED treatment online through the standard legitimate model: you complete an online consultation, a licensed clinician reviews your information, and, if appropriate, treatment is prescribed and shipped discreetly. It's less widely known than the biggest national brands, so confirm its current medication lineup and pricing on the BraveRX site.",
+    },
+    {
+      question: "Does BraveRX work, and is it safe?",
+      answer:
+        "BraveRX prescribes ED medication after a licensed-clinician review, and the medications it provides work through proven pathways to improve blood flow. Safety follows the usual rules - never combine ED medication with nitrates, and certain heart conditions and drugs matter - which the provider review is designed to screen for. Individual results vary, and a clinician decides what's appropriate.",
+    },
+    {
+      question: "What do BraveRX reviews say?",
+      answer:
+        "BraveRX is a smaller, less widely known brand than the biggest national names, and we have not independently verified its current medication lineup or pricing. So the most useful step is to read recent, specific customer reviews and confirm the plans, formats and costs directly on the BraveRX site before signing up.",
+    },
+  ],
+  shed: [
+    {
+      question: "What is SHED, and how does the nasal spray work?",
+      answer:
+        "SHED is a no-pill ED treatment delivered as an intranasal spray (its Roxus product) rather than a tablet you swallow. The intranasal route is marketed for fast, on-demand onset and for men who prefer not to take a pill. It remains a prescription treatment delivered after a licensed-clinician review; confirm the specific medication and instructions with the provider.",
+    },
+    {
+      question: "Does SHED work, and how fast?",
+      answer:
+        "SHED's nasal-spray format is designed and marketed for quicker onset than a swallowed pill, which is its main point of difference. Actual results and timing vary by person and by the specific medication prescribed, so treat marketing claims about speed as approximate and follow the guidance on your prescription.",
+    },
+    {
+      question: "Is SHED safe and legit?",
+      answer:
+        "SHED is a legitimate option as long as a licensed clinician reviews your health before prescribing - that review is the safeguard, and a service that skips it is the real red flag. As with all ED treatment, it should not be combined with nitrate medications, and heart conditions and other drugs matter. Because it's a newer, niche no-pill option, confirm the current details and pricing on the provider's own site.",
+    },
+    {
+      question: "What do SHED reviews say?",
+      answer:
+        "SHED is a newer, niche entry in the no-pill ED category, so there's less long-term public feedback than for the big pill brands. The most useful approach is to read recent, specific reviews about onset, the spray experience and support, rather than rely on averages, and to confirm the current product and price with the provider before ordering.",
+    },
+  ],
 };
 
 
