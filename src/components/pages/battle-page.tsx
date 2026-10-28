@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { Fragment } from "react";
 import Link from "next/link";
 import { getConfig } from "@/lib/config-store";
-import { CONTENT_LAST_UPDATED, latestUpdate, NOINDEX_WL_BATTLE_SLUGS } from "@/lib/config";
+import { CONTENT_LAST_UPDATED, latestUpdate, NOINDEX_WL_BATTLE_SLUGS, NOINDEX_ED_BATTLE_SLUGS } from "@/lib/config";
 import { splitSentences, BoldKeyFacts, ReadableProse } from "@/components/prose";
 import { type SiteContext, canonicalUrl, hubLink } from "@/lib/site-context";
 import { ComparisonLayout } from "@/components/comparison-layout";
@@ -151,7 +151,9 @@ export async function battleMetadata(slug: string, ctx: SiteContext): Promise<Me
 
   // Thin, low-demand matchups (Tier-2-brand pairs) are noindex,follow so crawl
   // budget concentrates on the money battles - see NOINDEX_WL_BATTLE_SLUGS.
-  const isThinNoindex = ctx.vertical === "weight-loss" && NOINDEX_WL_BATTLE_SLUGS.has(slug);
+  const isThinNoindex =
+    (ctx.vertical === "weight-loss" && NOINDEX_WL_BATTLE_SLUGS.has(slug)) ||
+    (ctx.vertical === "ed" && NOINDEX_ED_BATTLE_SLUGS.has(slug));
 
   return {
     title: metaTitle,

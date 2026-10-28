@@ -1,6 +1,6 @@
 import type { MetadataRoute } from "next";
 import { getConfig } from "@/lib/config-store";
-import { CONTENT_LAST_UPDATED, latestUpdate, NOINDEX_ARTICLE_SLUGS } from "@/lib/config";
+import { CONTENT_LAST_UPDATED, latestUpdate, NOINDEX_ARTICLE_SLUGS, NOINDEX_ED_BATTLE_SLUGS, NOINDEX_WL_BATTLE_SLUGS } from "@/lib/config";
 
 const SITE_URL = "https://www.edtreatmenthub.com";
 const FALLBACK_DATE = new Date(CONTENT_LAST_UPDATED);
@@ -43,8 +43,10 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     });
   }
 
-  // Head-to-head battle pages (served at the root)
+  // Head-to-head battle pages (served at the root). Thin tier-2 ED matchups are
+  // noindex,follow, so keep them out of the sitemap.
   for (const b of cfg.battles ?? []) {
+    if (NOINDEX_ED_BATTLE_SLUGS.has(b.slug) || NOINDEX_WL_BATTLE_SLUGS.has(b.slug)) continue;
     entries.push({
       url: `${SITE_URL}/${b.slug}`,
       lastModified: flooredLastModified(b.updatedAt),

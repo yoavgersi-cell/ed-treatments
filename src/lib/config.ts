@@ -406,6 +406,16 @@ export const NOINDEX_WL_REVIEW_SLUGS = new Set<string>([]);
 // crawl-budget bloat on a young domain).
 export const NOINDEX_WL_BATTLE_SLUGS = new Set<string>([]);
 
+// Thin tier-2 ED battle pages (small-brand vs small-brand, near-zero demand).
+// noindex,follow + dropped from the sitemap so Google's site-level quality
+// assessment isn't dragged down by low-value templated comparison pages, while
+// link equity still flows through them. The money matchups stay indexed.
+export const NOINDEX_ED_BATTLE_SLUGS = new Set<string>([
+  "dudemeds-vs-braverx",
+  "hims-vs-braverx",
+  "hims-vs-dudemeds",
+]);
+
 export interface SiteConfig {
   providers: Provider[];
   faqs: FaqItem[];
