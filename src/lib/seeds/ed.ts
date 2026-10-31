@@ -3,6 +3,7 @@ import { onlineEdTreatmentGuide } from "@/lib/articles/online-ed-treatment-guide
 import { bestEdTreatment } from "@/lib/articles/best-ed-treatment";
 import { ozempicAndEd } from "@/lib/articles/ozempic-and-erectile-dysfunction";
 import { edYoungMen } from "@/lib/articles/erectile-dysfunction-young-men";
+import { shockwaveTherapyEd } from "@/lib/articles/shockwave-therapy-for-ed";
 
 // ─────────────────────────────────────────────────────────────────────────────
 // Erectile Dysfunction (ED) vertical content - edtreatmenthub.com
@@ -1502,6 +1503,7 @@ export const edConfig: SiteConfig = {
     bestEdTreatment,
     ozempicAndEd,
     edYoungMen,
+    shockwaveTherapyEd,
     {
       slug: "what-causes-erectile-dysfunction",
       title: "What Causes Erectile Dysfunction? Main Causes Explained",
@@ -1570,7 +1572,7 @@ export const edConfig: SiteConfig = {
         },
         {
           heading: "What about devices and other options?",
-          body: `<p>Beyond pills, established non-drug options still exist - vacuum erection devices, and for specific cases, injections or other treatments a specialist may discuss. Various clinics also market wellness add-ons; treat bold claims skeptically and lean on evidence-based options. The mainstream, best-supported first step for most men remains a PDE5 inhibitor under provider guidance.</p>`,
+          body: `<p>Beyond pills, established non-drug options still exist - vacuum erection devices, and for specific cases, injections or other treatments a specialist may discuss. Various clinics also market wellness add-ons; treat bold claims skeptically and lean on evidence-based options. The most heavily-marketed newcomer is <a href="/articles/shockwave-therapy-for-ed">shockwave therapy (Li-ESWT / GAINSWave)</a> - our honest, evidence-based breakdown explains what it really does, who it helps, what it costs, and why it's still investigational. The mainstream, best-supported first step for most men remains a PDE5 inhibitor under provider guidance.</p>`,
         },
         {
           heading: "How to choose in 2026",
