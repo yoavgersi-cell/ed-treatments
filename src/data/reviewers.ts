@@ -243,6 +243,7 @@ const REVIEWED_LATER: Record<string, PageReview> = {
   "/directmeds-vs-rexmd": { reviewer: "francheska-capistrano", reviewedAt: "2026-10-25" },
   "/articles/erectile-dysfunction-young-men": { reviewer: "francheska-capistrano", reviewedAt: "2026-10-26" },
   "/articles/shockwave-therapy-for-ed": { reviewer: "francheska-capistrano", reviewedAt: "2026-10-31" },
+  "/articles/erectile-dysfunction-statistics": { reviewer: "francheska-capistrano", reviewedAt: "2026-11-02" },
 };
 
 export const REVIEW_LOG: Record<string, PageReview> = {

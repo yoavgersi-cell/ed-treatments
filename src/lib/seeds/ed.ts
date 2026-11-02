@@ -4,6 +4,7 @@ import { bestEdTreatment } from "@/lib/articles/best-ed-treatment";
 import { ozempicAndEd } from "@/lib/articles/ozempic-and-erectile-dysfunction";
 import { edYoungMen } from "@/lib/articles/erectile-dysfunction-young-men";
 import { shockwaveTherapyEd } from "@/lib/articles/shockwave-therapy-for-ed";
+import { edStatistics } from "@/lib/articles/erectile-dysfunction-statistics";
 
 // ─────────────────────────────────────────────────────────────────────────────
 // Erectile Dysfunction (ED) vertical content - edtreatmenthub.com
@@ -1504,6 +1505,7 @@ export const edConfig: SiteConfig = {
     ozempicAndEd,
     edYoungMen,
     shockwaveTherapyEd,
+    edStatistics,
     {
       slug: "what-causes-erectile-dysfunction",
       title: "What Causes Erectile Dysfunction? Main Causes Explained",
@@ -1536,7 +1538,7 @@ export const edConfig: SiteConfig = {
         },
         {
           heading: "How to find your cause - and what to do next",
-          body: `<p>Because the causes overlap, the smart move is a proper evaluation rather than guesswork. A licensed provider can review your history, medications and symptoms and, where useful, order simple tests. Many men can start that process online: the licensed telehealth clinics on our <a href="/">ED treatment comparison</a> run an intake and a clinician review before any prescription.</p><p>The good news is that once the cause is understood, ED is highly treatable for most men - through lifestyle changes, treating the underlying condition, medication, or a combination. If you want to see how the leading online options compare, start with our <a href="/articles/best-ed-treatments-compared">best ED treatments compared</a> guide or our <a href="/reviews/directmeds">top-rated provider review</a>. And because so much ED is rooted in metabolic and vascular health, it's worth understanding how today's weight-loss drugs fit in - see our guide to <a href="/articles/ozempic-and-erectile-dysfunction">Ozempic, GLP-1 drugs and erectile dysfunction</a>. Younger? The causes skew differently - see our guide to <a href="/articles/erectile-dysfunction-young-men">erectile dysfunction in young men</a>.</p><p><em>This article is general information, not medical advice. Talk to a licensed clinician about your specific situation, especially before starting or stopping any medication.</em></p>`,
+          body: `<p>Because the causes overlap, the smart move is a proper evaluation rather than guesswork. A licensed provider can review your history, medications and symptoms and, where useful, order simple tests. Many men can start that process online: the licensed telehealth clinics on our <a href="/">ED treatment comparison</a> run an intake and a clinician review before any prescription.</p><p>The good news is that once the cause is understood, ED is highly treatable for most men - through lifestyle changes, treating the underlying condition, medication, or a combination. If you want to see how the leading online options compare, start with our <a href="/articles/best-ed-treatments-compared">best ED treatments compared</a> guide or our <a href="/reviews/directmeds">top-rated provider review</a>. And because so much ED is rooted in metabolic and vascular health, it's worth understanding how today's weight-loss drugs fit in - see our guide to <a href="/articles/ozempic-and-erectile-dysfunction">Ozempic, GLP-1 drugs and erectile dysfunction</a>. Younger? The causes skew differently - see our guide to <a href="/articles/erectile-dysfunction-young-men">erectile dysfunction in young men</a>. And for the full data on how common ED is - by age, cause and country - see our <a href="/articles/erectile-dysfunction-statistics">erectile dysfunction statistics guide</a>.</p><p><em>This article is general information, not medical advice. Talk to a licensed clinician about your specific situation, especially before starting or stopping any medication.</em></p>`,
         },
       ],
     },
