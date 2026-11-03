@@ -63,12 +63,13 @@ export const edConfig: SiteConfig = {
   ranking: {
     // Hims temporarily removed from the ranked comparison (chart + top-3). Its
     // review and battle pages stay live; re-add "hims" here to restore it.
-    providerOrder: ["directmeds", "quad", "rexmd", "dudemeds", "braverx", "petermd", "shed", "hims"],
+    providerOrder: ["directmeds", "quad", "hone", "rexmd", "dudemeds", "braverx", "petermd", "shed", "hims"],
     positions: [
       { score: 9.8, starRating: 5, label: "Exceptional", badge: "Our Top Pick" },
       { score: 9.6, starRating: 5, label: "Excellent" },
-      { score: 9.3, starRating: 5, label: "Excellent" },
-      { score: 9.1, starRating: 5, label: "Excellent" },
+      { score: 9.4, starRating: 5, label: "Excellent" },
+      { score: 9.2, starRating: 5, label: "Excellent" },
+      { score: 9.0, starRating: 5, label: "Excellent" },
       { score: 8.8, starRating: 4, label: "Very Good" },
       { score: 8.6, starRating: 4, label: "Very Good" },
       { score: 8.4, starRating: 4, label: "Very Good" },
@@ -161,6 +162,61 @@ export const edConfig: SiteConfig = {
           location: "US",
           rating: 1,
           date: "Aug 12, 2026",
+        },
+      ],
+    },
+    {
+      id: "hone",
+      name: "Hone Health",
+      tagline:
+        "A hormone-optimization and men's-health telehealth that treats ED two ways - standard PDE5 pills and, when low testosterone is the root cause, physician-guided TRT - built on real lab testing",
+      logo: "/logo-hone.svg",
+      smallLogo: "/logo-hone.svg",
+      highlights: [
+        "Real bloodwork (40+ biomarkers) + licensed physician consult",
+        "Treats the root cause: ED pills and, where indicated, TRT",
+        "Sildenafil ~$40/mo, tadalafil from ~$25/mo + membership",
+        "4.8 Trustpilot across 12,000+ reviews",
+      ],
+      affiliateUrl: "https://track.revoffers.com/aff_c?offer_id=1291&aff_id=12904&url_id=10790",
+      ctaText: "Visit Site",
+      trustpilotRating: "4.8",
+      trustpilotReviewCount: "12,482",
+      // Real reviews transcribed from Hone Health's Trustpilot profile (Nov 2026),
+      // chosen to reflect the recurring themes - lab-driven consults and strong
+      // support - while keeping one that voices the common app/billing friction.
+      trustpilotReviews: [
+        {
+          title: "The doctor was really informative",
+          text: "The doctor was really informative. Told me the results of my bloodwork, told me what I need to improve on, and he made me feel good.",
+          name: "Rhiannon Jimenez",
+          location: "US",
+          rating: 5,
+          date: "Oct 27, 2026",
+        },
+        {
+          title: "Hone customer support is unparalleled",
+          text: "Hone customer support is unparalleled. They are efficient, kind, caring, thorough and communicative. Every interaction has been outstanding. I would recommend this company 100%.",
+          name: "AAustin",
+          location: "US",
+          rating: 5,
+          date: "Oct 30, 2026",
+        },
+        {
+          title: "Flexible around my travel schedule",
+          text: "I travel quite a bit and am gone for long periods. Hone customer service reps are always willing to match my schedule with expedited shipping and flexible payment processing. Can't recommend them enough.",
+          name: "Frank",
+          location: "US",
+          rating: 5,
+          date: "Oct 27, 2026",
+        },
+        {
+          title: "My doctor was very thorough",
+          text: "My doctor was very thorough and explained everything in a way that I could completely understand. But getting on the app can be frustrating - I put in my email and password and it keeps telling me it's not correct until I finally get on.",
+          name: "Donna",
+          location: "US",
+          rating: 4,
+          date: "Oct 29, 2026",
         },
       ],
     },
@@ -601,7 +657,100 @@ export const edConfig: SiteConfig = {
         },
         {
           heading: "Safety and the bottom line",
-          body: `<p>Rex MD dispenses standard PDE5 medication (and its compounded Ignite gummy) after a licensed-provider review, so the safety profile is the familiar one: mostly mild, temporary side effects (headache, flushing, congestion), and the firm rule that ED medication <strong>must never be combined with nitrates</strong>. The provider review is the safeguard that screens for that.</p><p>The bottom line: Rex MD is a legitimate, well-established men's-health brand with excellent menu breadth, a unique gummy option and a strong Trustpilot record - a credible top-tier choice, placed third in our rankings. Its one real asterisk is subscription billing, so manage your plan actively. Compare it against every option on our <a href="/">ED treatment comparison</a>.</p><p><em>This review is general information, not medical advice. A licensed clinician decides whether any ED treatment is appropriate for you - especially if you take nitrates or have a heart condition.</em></p>`,
+          body: `<p>Rex MD dispenses standard PDE5 medication (and its compounded Ignite gummy) after a licensed-provider review, so the safety profile is the familiar one: mostly mild, temporary side effects (headache, flushing, congestion), and the firm rule that ED medication <strong>must never be combined with nitrates</strong>. The provider review is the safeguard that screens for that.</p><p>The bottom line: Rex MD is a legitimate, well-established men's-health brand with excellent menu breadth, a unique gummy option and a strong Trustpilot record - a credible top-tier choice, placed fourth in our rankings. Its one real asterisk is subscription billing, so manage your plan actively. Compare it against every option on our <a href="/">ED treatment comparison</a>.</p><p><em>This review is general information, not medical advice. A licensed clinician decides whether any ED treatment is appropriate for you - especially if you take nitrates or have a heart condition.</em></p>`,
+        },
+      ],
+    },
+    {
+      slug: "hone",
+      providerId: "hone",
+      shortSummary:
+        "A hormone-optimization and men's-health telehealth that stands apart by running real bloodwork before treating ED - prescribing standard PDE5 pills when that's all you need, and physician-guided testosterone therapy when low T is the underlying cause. Backed by a 4.8 Trustpilot score across 12,000+ reviews, with a membership model and billing terms worth understanding up front.",
+      reviewIntro:
+        "Hone Health is a different kind of entry on this list. Most of the providers we rank hand you an ED pill after a questionnaire; Hone starts with a blood test. It's a hormone-optimization platform - best known for testosterone therapy and broader men's and women's hormone care - that also treats erectile dysfunction, and it treats it two ways: with the same proven PDE5 medications everyone else offers, and, when the real driver is low testosterone, with physician-guided TRT aimed at the root cause. That lab-first, root-cause model is genuinely useful for a specific kind of man, and it's why Hone earns a top-tier slot - but it also costs more and moves slower than a pure pill clinic, which is exactly the trade-off this review spells out.",
+      keyFeatures: [
+        "Lab-first model: 40+ biomarker blood test before treatment",
+        "Licensed physician reviews your results on a real consult",
+        "ED treated with PDE5 pills and/or root-cause testosterone therapy",
+        "Membership tiers (Basic ~$25/mo, Premium ~$149/mo); meds billed separately",
+        "4.8 Trustpilot across 12,000+ reviews",
+      ],
+      pricingSummary:
+        "Approximate - confirm at checkout. Hone's model is a membership plus medication, not a single per-dose price. A blood test (around $65 for 40+ biomarkers) and a physician consult come first; ongoing care runs on a membership (Basic around $25/mo, Premium around $149/mo). Medication is billed separately: sildenafil around $40/mo, tadalafil from about $25/mo, testosterone injections from about $28/mo and cream from about $60/mo, each on top of the membership. For a man who just wants a cheap generic pill, that stacks up higher than a pill-only clinic; for a man who wants labs, a hormone work-up and a real physician relationship, it's priced like what it is. Confirm the current membership, lab and medication costs - and the cancellation terms - on Hone's own site before ordering.",
+      treatmentOptions: [
+        "Generic sildenafil and tadalafil (standard PDE5 pills)",
+        "Testosterone therapy - injections or cream - when low T drives the ED",
+        "Lab testing and ongoing hormone optimization",
+        "Broader men's-health and longevity care",
+      ],
+      pros: [
+        "The only provider we rank that tests your bloodwork before treating",
+        "Treats root-cause low-T ED, not just the symptom",
+        "Real licensed-physician consults, praised repeatedly by name in reviews",
+        "Very strong 4.8 Trustpilot score across 12,000+ reviews",
+        "One platform for ED, testosterone and wider men's-health care",
+      ],
+      cons: [
+        "Membership + labs + medication costs well above a pill-only clinic",
+        "Slower to first dose: labs and a consult come before any prescription",
+        "A prescription isn't guaranteed - it depends on your results and the physician",
+        "Recurring complaints about billing, cancellation and the app login",
+        "Overkill if all you want is an occasional generic ED pill",
+      ],
+      bestFor: [
+        "Men who suspect low testosterone is behind their ED and want it checked",
+        "Men who want a lab-based, root-cause work-up rather than a quick pill",
+        "Those who value an ongoing physician relationship and are fine paying for it",
+      ],
+      finalVerdict:
+        "Hone Health earns its third-place spot by doing something none of the pill-first clinics on this list do: it looks for the cause before it treats the symptom. If your ED may be rooted in low testosterone - or you simply want real bloodwork, a physician consult and the option of either PDE5 pills or TRT - Hone is the most thorough, highest-touch option we rank, and its 4.8 Trustpilot score across 12,000+ reviews reflects that. The honest trade-offs are cost and speed: you pay a membership on top of labs and medication, you wait for results before a first dose, and a prescription is never guaranteed. There are also enough billing, cancellation and app complaints that you should confirm the terms and watch your statements. If you just want an affordable generic pill in a day or two, a pill-first clinic like our top picks will be cheaper and faster. But for root-cause, lab-driven care, Hone is in a class of its own here. This review is general information, not medical advice.",
+      howItWorks: [
+        {
+          timing: "Step 1",
+          title: "Blood test",
+          detail: "You complete a 40+ biomarker blood panel (at-home kit or a lab draw) so treatment is based on your actual hormone and health markers.",
+        },
+        {
+          timing: "Step 2",
+          title: "Physician consult",
+          detail: "A licensed physician reviews your results with you, explains what they mean, and recommends a plan - PDE5 pills, testosterone therapy, or both - if appropriate.",
+        },
+        {
+          timing: "Step 3",
+          title: "Treatment & ongoing care",
+          detail: "If prescribed, medication ships discreetly, and your membership covers follow-up, retesting and adjustments over time.",
+        },
+      ],
+      trustBadges: ["Lab-based care", "Licensed US physicians", "4.8 Trustpilot (12,000+)"],
+      updatedAt: UPDATED,
+      sections: [
+        {
+          heading: "What Hone Health is",
+          body: `<p>Hone Health is a <strong>hormone-optimization and men's-health telehealth platform</strong>, best known for <strong>testosterone therapy</strong> and broader hormone care for both men and women. It's not a pure ED clinic - and that's the point. Where most of the services we rank treat erectile dysfunction by mailing you a pill after a questionnaire, Hone starts with a <strong>blood test (40+ biomarkers)</strong> and a <strong>licensed-physician consult</strong>, then treats ED based on what your results actually show. For many men that means the same <strong>PDE5 medication</strong> (sildenafil, tadalafil) everyone else prescribes; for men whose ED is driven by <strong>low testosterone</strong>, it can mean addressing that directly with physician-guided <strong>TRT</strong>. It carries a <strong>4.8 Trustpilot rating across more than 12,000 reviews</strong>, one of the strongest records on this site.</p>`,
+        },
+        {
+          heading: "Why a hormone platform is on an ED list",
+          body: `<p>It's a fair question, so here's the honest answer. Most ED is vascular, and for most men a PDE5 pill is the right first-line treatment - which is why our top picks are pill-first clinics. But a real subset of ED, especially in men with low energy, low libido, weight gain or poor sleep, is driven at least partly by <strong>low testosterone</strong>. For those men, a pill treats the symptom while the underlying cause goes unchecked. Hone is the one provider we rank that will actually <strong>measure your testosterone and related markers</strong> and treat accordingly. That doesn't make it the right choice for everyone - it makes it the right choice for the man who wants to know <em>why</em>, not just get a workaround. If you want the background on this link, see our guide to <a href="/articles/can-low-testosterone-cause-ed">whether low testosterone causes ED</a>.</p>`,
+        },
+        {
+          heading: "How it works",
+          body: `<p>Hone's flow is deliberately more involved than a pill clinic's: <strong>(1) a blood test</strong> covering 40+ biomarkers, done with an at-home kit or a lab draw; <strong>(2) a consult with a licensed physician</strong> who reviews your results, explains what they mean and recommends a plan; and <strong>(3) treatment and ongoing care</strong> - if a prescription is appropriate, it ships discreetly, and your membership covers follow-up, retesting and dose adjustments. The upside is real medical oversight and a plan built on data. The downside is that it's <strong>slower to a first dose</strong> and a <strong>prescription is never guaranteed</strong> - the physician may decide medication isn't right, which is a sign of genuine gatekeeping, not a bug.</p>`,
+        },
+        {
+          heading: "Products and pricing",
+          body: `<p>Hone prices like a membership service, not a per-dose shop, so compare it on that basis:</p><table><thead><tr><th>Item</th><th>Approx. cost</th><th>Notes</th></tr></thead><tbody><tr><td>Blood test</td><td>~$65 (40+ biomarkers)</td><td>Up-front, before treatment</td></tr><tr><td>Membership</td><td>Basic ~$25/mo · Premium ~$149/mo</td><td>Covers consults, follow-up, retesting</td></tr><tr><td>Sildenafil</td><td>~$40/mo</td><td>On top of membership</td></tr><tr><td>Tadalafil</td><td>from ~$25/mo</td><td>On top of membership</td></tr><tr><td>Testosterone (injection)</td><td>from ~$28/mo</td><td>Root-cause route when indicated</td></tr><tr><td>Testosterone (cream)</td><td>from ~$60/mo</td><td>Alternative TRT format</td></tr></tbody></table><p>The honest read: for a man who just wants an occasional generic ED pill, this is <strong>more expensive and more involved</strong> than a pill-only clinic - our <a href="/ed-cost-index">ED Cost Index</a> shows how the per-dose options compare. For a man who wants labs, a hormone work-up and a physician relationship, you're paying for a different, higher-touch product. Prices are approximate and change, so confirm the current membership, lab and medication costs on Hone's site before ordering.</p>`,
+        },
+        {
+          heading: "The honest caveats: billing, cancellation and the app",
+          body: `<p>Hone's Trustpilot score is excellent, and the praise is consistent - doctors who listen, explain lab results and build a real plan. But we'd be doing you a disservice not to flag the recurring complaints, which cluster around <strong>billing and cancellation</strong> (membership charges, lab fees, and difficulty cancelling), occasional <strong>delays between paying and receiving medication</strong>, and a <strong>finicky app login</strong>. None of this makes Hone illegitimate - it's a real, physician-staffed service with a very strong overall record - but the membership model has more moving parts than a simple per-order purchase. Go in with your eyes open: <strong>confirm what the membership, labs and medication each cost, understand the cancellation terms, and keep an eye on your statements.</strong></p>`,
+        },
+        {
+          heading: "Who Hone is - and isn't - for",
+          body: `<p><strong>Hone is a strong fit if</strong> you suspect low testosterone is part of your problem, you want real bloodwork and a physician consult rather than a one-question checkout, and you value treating the root cause - with the option of either PDE5 pills or TRT. The lab-first model and the ongoing relationship are the product, and the reviews show it lands well for the men it suits.</p><p><strong>It's a weaker fit if</strong> you just want an affordable generic pill quickly and cheaply - there, a pill-first clinic like <a href="/reviews/directmeds">DirectMeds</a>, <a href="/reviews/quad">Quad by MEDVi</a> or a value option like <a href="/reviews/dudemeds">DudeMeds</a> will be simpler, faster and cheaper. And as with all testosterone therapy, TRT has its own considerations (including effects on fertility) that the physician consult exists to work through. Compare the whole field on our <a href="/">ED treatment comparison</a>.</p>`,
+        },
+        {
+          heading: "Safety and the bottom line",
+          body: `<p>Hone's ED medications are the standard PDE5 inhibitors, so the familiar safety rules apply: mostly mild, temporary side effects (headache, flushing, congestion), and the absolute rule that ED medication <strong>must never be combined with nitrates</strong>. Testosterone therapy adds its own monitoring needs - which is exactly why the <strong>bloodwork and physician oversight</strong> that define Hone's model are a safety feature, not red tape.</p><p>The bottom line: Hone Health earns its third-place ranking by being the one provider here that diagnoses before it treats. If you want root-cause, lab-driven care and don't mind paying a membership for it, it's the most thorough option on this list. If you want a cheap pill fast, look higher up the pill-first rankings. Either way, compare it against every option on our <a href="/">ED treatment comparison</a>.</p><p><em>This review is general information, not medical advice. A licensed clinician decides whether any ED or testosterone treatment is appropriate for you - especially if you take nitrates or have a heart condition.</em></p>`,
         },
       ],
     },

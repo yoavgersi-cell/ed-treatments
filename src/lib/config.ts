@@ -372,6 +372,7 @@ export const AFFILIATE_PROVIDER_IDS = [
   "quad",
   "directmeds",
   "rexmd",
+  "hone",
   "hims",
   "dudemeds",
   "braverx",

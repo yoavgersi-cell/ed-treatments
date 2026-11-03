@@ -1,3 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 48" role="img" aria-label="Hone Health">
-  <text x="2" y="35" font-family="Arial, Helvetica, sans-serif" font-size="30" font-weight="800" letter-spacing="-0.5" fill="#191919">Hone Health</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 72" role="img" aria-label="Hone Health">
+  <!-- wordmark, centered to match the normalized provider-logo system -->
+  <text x="150" y="54" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="46" font-weight="700" letter-spacing="8" fill="#11151f">HONE</text>
 </svg>

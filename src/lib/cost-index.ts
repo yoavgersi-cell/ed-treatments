@@ -103,6 +103,17 @@ export const COST_INDEX: CostEntry[] = [
     source: "Rex MD published pricing (generic from ~$1.60/dose; branded and Ignite gummy priced higher)",
     href: "/reviews/rexmd",
   },
+  {
+    name: "Hone Health (sildenafil / tadalafil + membership)",
+    category: "Generic pill",
+    format: "Oral tablet",
+    headline: "from ~$25/mo + membership",
+    perMonthLow: 50,
+    perMonthHigh: 190,
+    basis: "verified",
+    source: "Hone Health published pricing (tadalafil from ~$25/mo, sildenafil ~$40/mo, on top of a membership; lab-based hormone model, TRT also available)",
+    href: "/reviews/hone",
+  },
   // ---- Brand pills (the expensive reference point) ----
   {
     name: "Brand Viagra",

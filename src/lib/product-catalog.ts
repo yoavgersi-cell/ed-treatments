@@ -79,6 +79,18 @@ export const PRODUCT_CATALOG: CatalogProduct[] = [
     shipping: "Free 2-day delivery",
     image: null,
   },
+  {
+    id: "hone-ed",
+    providerId: "hone",
+    name: "Hone Health ED & Testosterone Care",
+    chip: "Lab-based",
+    format: "tablet",
+    price: "$25",
+    unit: "mo",
+    priceNote: "Medication price from ~$25/mo (tadalafil) on top of a membership; starts with a blood test and physician consult, with TRT available when low T is the cause - confirm current membership, lab and medication costs at Hone",
+    shipping: "Discreet delivery",
+    image: null,
+  },
 ];
 
 /** Numeric value for sorting ("from $179" → 179). */
