@@ -104,6 +104,17 @@ export const COST_INDEX: CostEntry[] = [
     href: "/reviews/rexmd",
   },
   {
+    name: "Rodeo Men's Health (compounded 4-in-1 sublingual)",
+    category: "Compounded (multi-ingredient)",
+    format: "Sublingual",
+    headline: "~$9.90-13.20 / dose",
+    perMonthLow: 66,
+    perMonthHigh: 99,
+    basis: "verified",
+    source: "Rodeo Men's Health published pricing (5 doses ~$66/mo, 10 doses ~$99/mo; final price confirmed after questionnaire)",
+    href: "/reviews/rodeo",
+  },
+  {
     name: "Hone Health (sildenafil / tadalafil + membership)",
     category: "Generic pill",
     format: "Oral tablet",

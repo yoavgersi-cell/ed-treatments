@@ -61,9 +61,9 @@ export const edConfig: SiteConfig = {
   },
 
   ranking: {
-    // Hims temporarily removed from the ranked comparison (chart + top-3). Its
-    // review and battle pages stay live; re-add "hims" here to restore it.
-    providerOrder: ["directmeds", "quad", "hone", "rexmd", "dudemeds", "braverx", "petermd", "shed", "hims"],
+    // Display order for the ranked comparison (chart + top picks). Each entry
+    // maps by index to the matching `positions` row below.
+    providerOrder: ["directmeds", "rodeo", "quad", "hone", "rexmd", "dudemeds", "braverx", "petermd", "shed", "hims"],
     positions: [
       { score: 9.8, starRating: 5, label: "Exceptional", badge: "Our Top Pick" },
       { score: 9.6, starRating: 5, label: "Excellent" },
@@ -74,6 +74,7 @@ export const edConfig: SiteConfig = {
       { score: 8.6, starRating: 4, label: "Very Good" },
       { score: 8.4, starRating: 4, label: "Very Good" },
       { score: 8.2, starRating: 4, label: "Very Good" },
+      { score: 8.0, starRating: 4, label: "Very Good" },
     ],
   },
 
@@ -108,6 +109,22 @@ export const edConfig: SiteConfig = {
         "Discreet delivery, typically in 1-2 days",
       ],
       affiliateUrl: "https://www.vyrov30g.com/45LC6KK/9WQFXBK/",
+      ctaText: "Visit Site",
+    },
+    {
+      id: "rodeo",
+      name: "Rodeo Men's Health",
+      tagline:
+        "A men's-health telehealth brand built around a compounded sublingual 4-in-1 ED formula - a single under-the-tongue dose combining PDE5 inhibitors with apomorphine and L-citrulline",
+      logo: "/logo-rodeo.svg",
+      smallLogo: "/logo-rodeo.svg",
+      highlights: [
+        "Compounded 4-in-1 sublingual (under-the-tongue) formula",
+        "Combines sildenafil + tadalafil with apomorphine + L-citrulline",
+        "Rx-only after a licensed-provider questionnaire review",
+        "Competitive per-dose pricing (~$9.90-13.20/dose)",
+      ],
+      affiliateUrl: "https://track.revoffers.com/aff_c?offer_id=1548&aff_id=12904&url_id=12169",
       ctaText: "Visit Site",
     },
     {
@@ -657,7 +674,100 @@ export const edConfig: SiteConfig = {
         },
         {
           heading: "Safety and the bottom line",
-          body: `<p>Rex MD dispenses standard PDE5 medication (and its compounded Ignite gummy) after a licensed-provider review, so the safety profile is the familiar one: mostly mild, temporary side effects (headache, flushing, congestion), and the firm rule that ED medication <strong>must never be combined with nitrates</strong>. The provider review is the safeguard that screens for that.</p><p>The bottom line: Rex MD is a legitimate, well-established men's-health brand with excellent menu breadth, a unique gummy option and a strong Trustpilot record - a credible top-tier choice, placed fourth in our rankings. Its one real asterisk is subscription billing, so manage your plan actively. Compare it against every option on our <a href="/">ED treatment comparison</a>.</p><p><em>This review is general information, not medical advice. A licensed clinician decides whether any ED treatment is appropriate for you - especially if you take nitrates or have a heart condition.</em></p>`,
+          body: `<p>Rex MD dispenses standard PDE5 medication (and its compounded Ignite gummy) after a licensed-provider review, so the safety profile is the familiar one: mostly mild, temporary side effects (headache, flushing, congestion), and the firm rule that ED medication <strong>must never be combined with nitrates</strong>. The provider review is the safeguard that screens for that.</p><p>The bottom line: Rex MD is a legitimate, well-established men's-health brand with excellent menu breadth, a unique gummy option and a strong Trustpilot record - a credible top-tier choice in our rankings. Its one real asterisk is subscription billing, so manage your plan actively. Compare it against every option on our <a href="/">ED treatment comparison</a>.</p><p><em>This review is general information, not medical advice. A licensed clinician decides whether any ED treatment is appropriate for you - especially if you take nitrates or have a heart condition.</em></p>`,
+        },
+      ],
+    },
+    {
+      slug: "rodeo",
+      providerId: "rodeo",
+      shortSummary:
+        "A men's-health telehealth brand built around a compounded sublingual 4-in-1 ED formula - one under-the-tongue dose combining PDE5 inhibitors with apomorphine and L-citrulline, at competitive per-dose pricing. A strong, differentiated option in the compounded multi-ingredient class, with the usual compounded caveats.",
+      reviewIntro:
+        "Rodeo Men's Health competes directly with our top compounded picks, and it does it with a distinctive product: a sublingual 4-in-1 ED formula taken under the tongue rather than swallowed. The idea is to combine more than one mechanism in a single, faster-absorbing dose - typically sildenafil and tadalafil alongside apomorphine and L-citrulline - and to price it competitively per dose. It runs the standard, legitimate telehealth flow (online questionnaire, licensed-provider review, discreet delivery), which is what earns it a top-tier slot. As with every compounded multi-ingredient product, the trade-off is that these blends aren't FDA-approved the way standalone generics are, so the clinician sign-off carries real weight - and the exact formula and format can vary, so it's worth confirming at checkout.",
+      keyFeatures: [
+        "Compounded sublingual 4-in-1 ED formula (under the tongue)",
+        "Combines PDE5 inhibitors with apomorphine and L-citrulline",
+        "Faster-absorbing sublingual format vs a swallowed tablet",
+        "Licensed-provider review before prescribing",
+        "Competitive per-dose pricing (~$9.90-13.20/dose)",
+      ],
+      pricingSummary:
+        "Approximate - confirm at checkout. Rodeo's published pricing works out to roughly $13.20 per dose on a 5-dose monthly plan (about $66/mo) and around $9.90 per dose on a 10-dose plan (about $99/mo), with promotional plans sometimes lower; the final price is confirmed after you complete the medical questionnaire. That puts it competitively among compounded multi-ingredient options. Prices and plan structures change, and the exact formula and format (vial or troche) can vary, so verify the current cost, ingredients and refill terms on Rodeo's own site before ordering.",
+      treatmentOptions: [
+        "Compounded sublingual 4-in-1 ED formula",
+        "Sildenafil + tadalafil (PDE5 inhibitors)",
+        "Apomorphine + L-citrulline in the same dose",
+        "Online provider evaluation and follow-up",
+      ],
+      pros: [
+        "Differentiated sublingual 4-in-1 format in one dose",
+        "Multi-mechanism blend aimed at men a single pill underwhelms",
+        "Faster absorption than a swallowed tablet for some men",
+        "Competitive per-dose pricing in the compounded class",
+        "Legitimate flow: licensed-provider review before prescribing",
+      ],
+      cons: [
+        "Compounded blends aren't FDA-approved like standalone generics",
+        "Exact formula and format can vary - confirm what you're getting",
+        "Apomorphine can cause nausea in some men",
+        "No large, verified independent review record yet (newer brand)",
+        "Billed as a plan - confirm refill schedule and cancellation terms",
+      ],
+      bestFor: [
+        "Men who want a multi-ingredient dose and a non-swallowed format",
+        "Those a single standard pill didn't fully help",
+        "Buyers comparing compounded 4-in-1 options on price and format",
+      ],
+      finalVerdict:
+        "Rodeo Men's Health is a credible, differentiated entry in the compounded multi-ingredient class - a sublingual 4-in-1 formula at competitive per-dose pricing, delivered through the standard legitimate telehealth flow, which is why it ranks near the top of our list. The honest caveats are the ones that apply to every compounded blend: these products aren't FDA-approved the way standalone generics are, the exact formula and format can vary, and apomorphine can cause nausea in some men - so the licensed-provider review is the safeguard that matters. It's also a newer brand without the long, verified review record the biggest names carry. If you want a multi-mechanism dose in a fast-absorbing sublingual format, Rodeo is well worth comparing against our other top picks; if you simply want the cheapest proven generic, a value clinic will undercut it. This review is general information, not medical advice.",
+      howItWorks: [
+        {
+          timing: "Step 1",
+          title: "Online questionnaire",
+          detail: "Complete a confidential medical intake covering your symptoms, health history and medications - the safety screen before any prescription.",
+        },
+        {
+          timing: "Step 2",
+          title: "Licensed-provider review",
+          detail: "A licensed provider reviews your intake and, if appropriate, prescribes Rodeo's compounded sublingual formula and confirms your price.",
+        },
+        {
+          timing: "Step 3",
+          title: "Discreet delivery",
+          detail: "If prescribed, your treatment ships discreetly to your door, typically on a plan you can manage online.",
+        },
+      ],
+      trustBadges: ["Compounded 4-in-1", "Licensed-provider review", "Sublingual format"],
+      updatedAt: UPDATED,
+      sections: [
+        {
+          heading: "What Rodeo Men's Health is",
+          body: `<p>Rodeo Men's Health is a <strong>men's-health telehealth brand</strong> built around a single hero product: a <strong>compounded sublingual 4-in-1 ED formula</strong>. Instead of a pill you swallow, Rodeo's treatment is taken <strong>under the tongue</strong>, where it absorbs through the lining of the mouth - a format designed for faster onset. The formula combines more than one mechanism in one dose, typically the PDE5 inhibitors <strong>sildenafil and tadalafil</strong> alongside <strong>apomorphine</strong> (which acts on the brain's erection pathway) and <strong>L-citrulline</strong> (a blood-flow precursor). It's prescribed the legitimate way - after an online intake and a <strong>licensed-provider review</strong> - and priced competitively per dose, which places it right alongside the compounded multi-blend leaders we rank.</p>`,
+        },
+        {
+          heading: "The sublingual 4-in-1: Rodeo's differentiator",
+          body: `<p>Rodeo's point of difference is the <strong>format and the blend together</strong>. Most ED medication is a swallowed tablet with one active ingredient; Rodeo packs several actives into a <strong>single sublingual dose</strong>. The multi-mechanism approach is aimed squarely at men for whom a single standard pill underperforms - combining the vascular action of PDE5 inhibitors with apomorphine's central effect and L-citrulline's blood-flow support. The sublingual route can also mean <strong>faster absorption</strong> than a pill that has to pass through the stomach. If a multi-ingredient, non-swallowed dose is what appeals to you, it's worth comparing directly against the other compounded options - our <a href="/reviews/directmeds">DirectMeds (DirectMax)</a> and <a href="/reviews/quad">Quad by MEDVi</a> reviews cover the closest competitors, and our <a href="/articles/best-4-in-1-ed-medication">best 4-in-1 ED medication</a> guide compares the field.</p>`,
+        },
+        {
+          heading: "Products and pricing",
+          body: `<p>Rodeo's pricing is plan-based and works out competitively per dose:</p><table><thead><tr><th>Plan</th><th>Approx. cost</th><th>Per dose</th></tr></thead><tbody><tr><td>5 doses / month</td><td>~$66 / mo</td><td>~$13.20 / dose</td></tr><tr><td>10 doses / month</td><td>~$99 / mo</td><td>~$9.90 / dose</td></tr><tr><td>Promotional plans</td><td>sometimes lower</td><td>confirm at checkout</td></tr></tbody></table><p>The final price is confirmed <strong>after you complete the medical questionnaire</strong>, and promotions change, so treat these as a guide and verify on Rodeo's own site. As a compounded product, the exact formula and format (a liquid vial or a troche) can vary between listings - another reason to confirm exactly what you're getting and the refill terms before you order. See how the per-dose cost compares across the market in our <a href="/ed-cost-index">ED Cost Index</a> and <a href="/articles/ed-treatment-cost">ED treatment cost</a> guide.</p>`,
+        },
+        {
+          heading: "How it works",
+          body: `<p>Rodeo uses the standard, legitimate telehealth flow: you <strong>complete a confidential online questionnaire</strong> about your symptoms, health history and medications; a <strong>licensed provider reviews it</strong> and, if treatment is appropriate, prescribes the compounded formula and confirms your price; and your <strong>treatment ships discreetly</strong> to your door, typically on a plan you manage online. That licensed-provider review is the non-negotiable safeguard that separates a legitimate service from the "no-prescription" sellers we warn about in our guide to <a href="/articles/ed-meds-without-prescription">ED meds without a prescription</a> - and it's especially important with a multi-ingredient compounded product.</p>`,
+        },
+        {
+          heading: "The honest caveats: compounded, and newer",
+          body: `<p>Two things to go in aware of. First, like every compounded multi-ingredient blend (including our top picks), Rodeo's formula is <strong>not FDA-approved the way standalone generic sildenafil or tadalafil are</strong>. Compounding is legal and widely used, but it means the specific combination hasn't been through the FDA's drug-approval process, so the <strong>licensed-provider review carries more weight</strong>, and the <strong>apomorphine component can cause nausea</strong> in some men. Second, Rodeo is a <strong>newer brand</strong> without the long, independently verified review record that the biggest names carry - so there's less public track record to lean on. Neither is a dealbreaker, but both are reasons to confirm the formula, the price and the cancellation terms up front. For the full picture on compounded blends, see our <a href="/articles/alternatives-to-viagra-and-cialis">alternatives to Viagra and Cialis</a> guide.</p>`,
+        },
+        {
+          heading: "Who Rodeo is - and isn't - for",
+          body: `<p><strong>Rodeo is a good fit if</strong> you want a multi-mechanism dose in a fast-absorbing sublingual format - especially if a single standard pill hasn't fully worked for you - and you like the idea of combining several actives in one under-the-tongue dose at a competitive per-dose price.</p><p><strong>It's a weaker fit if</strong> you simply want the lowest price on a proven single generic (a value clinic like <a href="/reviews/dudemeds">DudeMeds</a> will undercut any compounded blend), or if you specifically prefer an FDA-approved standalone medication. For the closest head-to-head on format and formula, compare it with <a href="/reviews/directmeds">DirectMeds</a> and <a href="/reviews/quad">Quad by MEDVi</a>, and weigh the whole field on our <a href="/">ED treatment comparison</a>. As with all PDE5 medication, Rodeo's formula isn't appropriate for men who take nitrates or have certain heart conditions - which the intake is there to catch.</p>`,
+        },
+        {
+          heading: "Safety and the bottom line",
+          body: `<p>Rodeo's formula is built on standard PDE5 inhibitors plus apomorphine and L-citrulline, so the core safety rules are the familiar ones: mostly mild, temporary side effects (headache, flushing, congestion, and - from the apomorphine - possible nausea), and the absolute rule that ED medication <strong>must never be combined with nitrates</strong>. The licensed-provider review is the safeguard that screens for that and decides whether a compounded multi-ingredient product is right for you.</p><p>The bottom line: Rodeo Men's Health is a credible, differentiated compounded option - a sublingual 4-in-1 at competitive pricing, delivered the legitimate way - which is why it ranks near the top of our list. Go in aware that it's a compounded, newer product, confirm exactly what you're getting, and it's well worth comparing. See how it stacks up against every option on our <a href="/">ED treatment comparison</a>.</p><p><em>This review is general information, not medical advice. A licensed clinician decides whether any ED treatment is appropriate for you - especially if you take nitrates or have a heart condition.</em></p>`,
         },
       ],
     },
@@ -703,7 +813,7 @@ export const edConfig: SiteConfig = {
         "Those who value an ongoing physician relationship and are fine paying for it",
       ],
       finalVerdict:
-        "Hone Health earns its third-place spot by doing something none of the pill-first clinics on this list do: it looks for the cause before it treats the symptom. If your ED may be rooted in low testosterone - or you simply want real bloodwork, a physician consult and the option of either PDE5 pills or TRT - Hone is the most thorough, highest-touch option we rank, and its 4.8 Trustpilot score across 12,000+ reviews reflects that. The honest trade-offs are cost and speed: you pay a membership on top of labs and medication, you wait for results before a first dose, and a prescription is never guaranteed. There are also enough billing, cancellation and app complaints that you should confirm the terms and watch your statements. If you just want an affordable generic pill in a day or two, a pill-first clinic like our top picks will be cheaper and faster. But for root-cause, lab-driven care, Hone is in a class of its own here. This review is general information, not medical advice.",
+        "Hone Health earns its place near the top of this list by doing something none of the pill-first clinics do: it looks for the cause before it treats the symptom. If your ED may be rooted in low testosterone - or you simply want real bloodwork, a physician consult and the option of either PDE5 pills or TRT - Hone is the most thorough, highest-touch option we rank, and its 4.8 Trustpilot score across 12,000+ reviews reflects that. The honest trade-offs are cost and speed: you pay a membership on top of labs and medication, you wait for results before a first dose, and a prescription is never guaranteed. There are also enough billing, cancellation and app complaints that you should confirm the terms and watch your statements. If you just want an affordable generic pill in a day or two, a pill-first clinic like our top picks will be cheaper and faster. But for root-cause, lab-driven care, Hone is in a class of its own here. This review is general information, not medical advice.",
       howItWorks: [
         {
           timing: "Step 1",
@@ -750,7 +860,7 @@ export const edConfig: SiteConfig = {
         },
         {
           heading: "Safety and the bottom line",
-          body: `<p>Hone's ED medications are the standard PDE5 inhibitors, so the familiar safety rules apply: mostly mild, temporary side effects (headache, flushing, congestion), and the absolute rule that ED medication <strong>must never be combined with nitrates</strong>. Testosterone therapy adds its own monitoring needs - which is exactly why the <strong>bloodwork and physician oversight</strong> that define Hone's model are a safety feature, not red tape.</p><p>The bottom line: Hone Health earns its third-place ranking by being the one provider here that diagnoses before it treats. If you want root-cause, lab-driven care and don't mind paying a membership for it, it's the most thorough option on this list. If you want a cheap pill fast, look higher up the pill-first rankings. Either way, compare it against every option on our <a href="/">ED treatment comparison</a>.</p><p><em>This review is general information, not medical advice. A licensed clinician decides whether any ED or testosterone treatment is appropriate for you - especially if you take nitrates or have a heart condition.</em></p>`,
+          body: `<p>Hone's ED medications are the standard PDE5 inhibitors, so the familiar safety rules apply: mostly mild, temporary side effects (headache, flushing, congestion), and the absolute rule that ED medication <strong>must never be combined with nitrates</strong>. Testosterone therapy adds its own monitoring needs - which is exactly why the <strong>bloodwork and physician oversight</strong> that define Hone's model are a safety feature, not red tape.</p><p>The bottom line: Hone Health earns its high ranking by being the one provider here that diagnoses before it treats. If you want root-cause, lab-driven care and don't mind paying a membership for it, it's the most thorough option on this list. If you want a cheap pill fast, look higher up the pill-first rankings. Either way, compare it against every option on our <a href="/">ED treatment comparison</a>.</p><p><em>This review is general information, not medical advice. A licensed clinician decides whether any ED or testosterone treatment is appropriate for you - especially if you take nitrates or have a heart condition.</em></p>`,
         },
       ],
     },

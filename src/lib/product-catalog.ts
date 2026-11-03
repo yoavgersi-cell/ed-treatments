@@ -80,6 +80,18 @@ export const PRODUCT_CATALOG: CatalogProduct[] = [
     image: null,
   },
   {
+    id: "rodeo-4in1",
+    providerId: "rodeo",
+    name: "Rodeo Men's Health 4-in-1 Sublingual",
+    chip: "4-in-1",
+    format: "sublingual",
+    price: "$9.90",
+    unit: "dose",
+    priceNote: "Per-dose on the 10-dose monthly plan (5-dose plan ~$13.20/dose); compounded sublingual formula, final price confirmed after the questionnaire - verify current pricing and formula at Rodeo",
+    shipping: "Discreet delivery",
+    image: null,
+  },
+  {
     id: "hone-ed",
     providerId: "hone",
     name: "Hone Health ED & Testosterone Care",
