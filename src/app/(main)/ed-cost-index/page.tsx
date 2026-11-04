@@ -286,7 +286,7 @@ export default function EdCostIndexPage() {
             <Link href="/reviews/quad" className="font-semibold text-[#111111] hover:underline">
               Quad by MEDVi review
             </Link>{" "}
-            (our top pick), or browse all{" "}
+            (our top 4-in-1 pick), or browse all{" "}
             <Link href="/reviews" className="font-semibold text-[#111111] hover:underline">
               provider reviews
             </Link>
