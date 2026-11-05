@@ -246,6 +246,7 @@ const REVIEWED_LATER: Record<string, PageReview> = {
   "/articles/erectile-dysfunction-statistics": { reviewer: "francheska-capistrano", reviewedAt: "2026-11-02" },
   "/reviews/hone": { reviewer: "francheska-capistrano", reviewedAt: "2026-11-03" },
   "/reviews/rodeo": { reviewer: "francheska-capistrano", reviewedAt: "2026-11-03" },
+  "/articles/erectile-dysfunction-and-heart-disease": { reviewer: "francheska-capistrano", reviewedAt: "2026-11-05" },
 };
 
 export const REVIEW_LOG: Record<string, PageReview> = {

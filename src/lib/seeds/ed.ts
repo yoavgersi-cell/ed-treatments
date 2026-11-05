@@ -5,6 +5,7 @@ import { ozempicAndEd } from "@/lib/articles/ozempic-and-erectile-dysfunction";
 import { edYoungMen } from "@/lib/articles/erectile-dysfunction-young-men";
 import { shockwaveTherapyEd } from "@/lib/articles/shockwave-therapy-for-ed";
 import { edStatistics } from "@/lib/articles/erectile-dysfunction-statistics";
+import { edAndHeartDisease } from "@/lib/articles/erectile-dysfunction-and-heart-disease";
 
 // ─────────────────────────────────────────────────────────────────────────────
 // Erectile Dysfunction (ED) vertical content - edtreatmenthub.com
@@ -1765,6 +1766,7 @@ export const edConfig: SiteConfig = {
     edYoungMen,
     shockwaveTherapyEd,
     edStatistics,
+    edAndHeartDisease,
     {
       slug: "what-causes-erectile-dysfunction",
       title: "What Causes Erectile Dysfunction? Main Causes Explained",
@@ -1785,7 +1787,7 @@ export const edConfig: SiteConfig = {
       sections: [
         {
           heading: "What is the main cause of ED?",
-          body: `<p>There isn't a single "main cause" that fits every man - but if you had to name the biggest one, it's <strong>blood flow</strong>. An erection is fundamentally a cardiovascular event: arousal triggers blood vessels in the penis to relax and fill with blood, and anything that narrows or damages those vessels makes an erection harder to get or keep. That's why the leading causes of ED overlap so heavily with the causes of heart disease - a link both the <a href="https://www.niddk.nih.gov/health-information/urologic-diseases/erectile-dysfunction" target="_blank" rel="noopener noreferrer">NIH's NIDDK</a> and the <a href="https://www.mayoclinic.org/diseases-conditions/erectile-dysfunction/symptoms-causes/syc-20355776" target="_blank" rel="noopener noreferrer">Mayo Clinic</a> emphasize.</p><p>The practical takeaway: ED is rarely "just in your head," and it's rarely one thing. Most men have a mix of contributing factors, which is exactly why figuring out the cause matters before choosing a treatment.</p>`,
+          body: `<p>There isn't a single "main cause" that fits every man - but if you had to name the biggest one, it's <strong>blood flow</strong>. An erection is fundamentally a cardiovascular event: arousal triggers blood vessels in the penis to relax and fill with blood, and anything that narrows or damages those vessels makes an erection harder to get or keep. That's why the leading causes of ED overlap so heavily with the causes of heart disease - a link both the <a href="https://www.niddk.nih.gov/health-information/urologic-diseases/erectile-dysfunction" target="_blank" rel="noopener noreferrer">NIH's NIDDK</a> and the <a href="https://www.mayoclinic.org/diseases-conditions/erectile-dysfunction/symptoms-causes/syc-20355776" target="_blank" rel="noopener noreferrer">Mayo Clinic</a> emphasize.</p><p>The practical takeaway: ED is rarely "just in your head," and it's rarely one thing. Most men have a mix of contributing factors, which is exactly why figuring out the cause matters before choosing a treatment. And because the vascular cause is shared with the heart, new ED is worth taking seriously as a health signal - see our guide to <a href="/articles/erectile-dysfunction-and-heart-disease">erectile dysfunction and heart disease</a>.</p>`,
         },
         {
           heading: "Physical causes",
