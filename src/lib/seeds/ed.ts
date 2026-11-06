@@ -64,7 +64,9 @@ export const edConfig: SiteConfig = {
   ranking: {
     // Display order for the ranked comparison (chart + top picks). Each entry
     // maps by index to the matching `positions` row below.
-    providerOrder: ["hone", "directmeds", "rodeo", "quad", "rexmd", "dudemeds", "braverx", "petermd", "shed", "hims"],
+    // Hims is removed from the ranked comparison (chart + top picks). Its review
+    // and battle pages stay live; re-add "hims" here to restore it to the chart.
+    providerOrder: ["hone", "rodeo", "directmeds", "quad", "rexmd", "dudemeds", "braverx", "petermd", "shed"],
     positions: [
       { score: 9.8, starRating: 5, label: "Exceptional", badge: "Our Top Pick" },
       { score: 9.6, starRating: 5, label: "Excellent" },
@@ -75,7 +77,6 @@ export const edConfig: SiteConfig = {
       { score: 8.6, starRating: 4, label: "Very Good" },
       { score: 8.4, starRating: 4, label: "Very Good" },
       { score: 8.2, starRating: 4, label: "Very Good" },
-      { score: 8.0, starRating: 4, label: "Very Good" },
     ],
   },
 
