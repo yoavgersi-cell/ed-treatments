@@ -46,6 +46,16 @@ const REVIEW_SEO_OVERRIDES: Record<string, { title: string; description: string 
     description:
       "An honest, independent Rex MD review - the national men's-health brand with branded and generic Viagra & Cialis and its exclusive Ignite ED gummy. Real pricing, what users say, the subscription-billing complaints to know about, and whether it's legit and worth it in 2026.",
   },
+  hone: {
+    title: "Hone Health Reviews 2026: Cost, Lab Testing & Is It Legit?",
+    description:
+      "An honest, independent Hone Health review - the lab-first hormone and men's-health telehealth that treats ED with PDE5 pills and, when low testosterone is the cause, physician-guided TRT. Real pricing (blood test, membership, medication), its 4.8 Trustpilot record, the billing complaints to know about, and whether it's legit and worth it in 2026.",
+  },
+  rodeo: {
+    title: "Rodeo Men's Health Reviews 2026: 4-in-1 Cost & Is It Legit?",
+    description:
+      "An honest, independent Rodeo Men's Health review - the compounded sublingual 4-in-1 ED formula (sildenafil, tadalafil, apomorphine and L-citrulline in one under-the-tongue dose). Real per-dose pricing, what the formula is, the compounded caveats, and whether it's legit and worth it in 2026.",
+  },
 };
 
 const REVIEW_LEGIT: Record<string, { verdict: string; signals: string[] }> = {};
@@ -196,6 +206,50 @@ const REVIEW_EXTRA_FAQS: Record<string, { question: string; answer: string }[]> 
       question: "What do SHED reviews say?",
       answer:
         "SHED is a newer, niche entry in the no-pill ED category, so there's less long-term public feedback than for the big pill brands. The most useful approach is to read recent, specific reviews about onset, the spray experience and support, rather than rely on averages, and to confirm the current product and price with the provider before ordering.",
+    },
+  ],
+  hone: [
+    {
+      question: "Is Hone Health legit?",
+      answer:
+        "Yes - Hone Health is a legitimate, physician-staffed hormone and men's-health telehealth service that carries a 4.8 Trustpilot rating across more than 12,000 reviews. Unlike pill-first ED clinics, it starts with real bloodwork and a licensed-physician consult before treating. The honest caveat isn't legitimacy but its membership model: there's a recurring pattern of billing, cancellation and app-login complaints, so confirm the membership, lab and medication costs and the cancellation terms before you sign up.",
+    },
+    {
+      question: "How much does Hone Health cost?",
+      answer:
+        "Hone prices as a membership plus medication, not a single per-dose figure. Approximate published costs: a blood test around $65 (40+ biomarkers), a membership (Basic around $25/mo, Premium around $149/mo), and medication billed separately - sildenafil around $40/mo, tadalafil from about $25/mo, testosterone from about $28/mo. That stacks higher than a pill-only clinic, which is the trade-off for the lab-based, physician-led model. Prices change, so confirm the current cost on Hone's own site before ordering.",
+    },
+    {
+      question: "What do Hone Health reviews say?",
+      answer:
+        "Hone's 4.8 Trustpilot score (12,000+ reviews) is consistently strong, with repeated praise for doctors who explain lab results and a responsive support team. The recurring complaints cluster around billing and cancellation (membership and lab charges, difficulty cancelling), occasional delays between paying and receiving medication, and a finicky app login. Go in aware of the membership's moving parts and keep an eye on your statements.",
+    },
+    {
+      question: "Does Hone Health treat erectile dysfunction?",
+      answer:
+        "Yes. Hone treats ED two ways: with the same standard PDE5 pills everyone else offers (sildenafil, tadalafil), and - when low testosterone is the underlying cause - with physician-guided testosterone therapy aimed at the root cause. Because it runs real bloodwork first, it's best suited to men who want the cause of their ED investigated, not just a quick pill. A prescription isn't guaranteed; it depends on your results and the physician's judgment.",
+    },
+  ],
+  rodeo: [
+    {
+      question: "Is Rodeo Men's Health legit?",
+      answer:
+        "Yes - Rodeo Men's Health is a legitimate telehealth service that prescribes its compounded ED formula after an online medical questionnaire reviewed by a licensed provider. As with every compounded multi-ingredient product, the honest caveats are that the blend isn't FDA-approved the way standalone generic sildenafil or tadalafil are, the exact formula and format can vary, and it's a newer brand without a long public review record - so confirm the current formula, price and cancellation terms before ordering.",
+    },
+    {
+      question: "How much does Rodeo Men's Health cost?",
+      answer:
+        "Rodeo prices per dose on a plan. Published pricing works out to roughly $13.20 per dose on a 5-dose monthly plan (about $66/mo) and around $9.90 per dose on a 10-dose plan (about $99/mo), with the final price confirmed after you complete the medical questionnaire. That's competitive within the compounded multi-ingredient class. Prices and plans change, so verify the current cost on Rodeo's own site.",
+    },
+    {
+      question: "What is in Rodeo's ED formula?",
+      answer:
+        "Rodeo's hero product is a compounded sublingual 4-in-1 ED formula - a single under-the-tongue dose that typically combines two PDE5 inhibitors (sildenafil and tadalafil) with apomorphine and L-citrulline, aiming at more than one mechanism at once. Because it's compounded, the exact actives and format (vial or troche) can vary, so confirm the specific formulation at checkout. The apomorphine component can cause nausea in some men.",
+    },
+    {
+      question: "Is Rodeo Men's Health worth it, and does it work?",
+      answer:
+        "Rodeo is a credible, differentiated option for men who want a multi-mechanism dose in a fast-absorbing sublingual format - especially if a single standard pill hasn't fully worked. The multi-ingredient blend and the under-the-tongue delivery are its real points of difference. If you simply want the cheapest proven single generic, a value clinic will undercut it. As with all PDE5 medication, it isn't appropriate for men who take nitrates or have certain heart conditions, which the intake is there to catch.",
     },
   ],
 };
