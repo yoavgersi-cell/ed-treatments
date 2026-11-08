@@ -545,7 +545,7 @@ export const edConfig: SiteConfig = {
         "Anyone who prefers a chewable to a tablet",
       ],
       finalVerdict:
-        "Hims is a strong, safe-feeling choice for men starting ED treatment online: it carries both major generics, offers chewables, and delivers a polished experience. If you tried a standard single-ingredient pill and wanted more, a compounded multi-ingredient option like our top-ranked ED medication is worth comparing. Confirm current pricing on Hims' own site. This review is general information, not medical advice.",
+        "Hims is a strong, safe-feeling choice for men starting ED treatment online: it carries both major generics, offers chewables, and delivers a polished experience. If you tried a standard single-ingredient pill and wanted more, a compounded multi-ingredient option like DirectMeds is worth comparing. Confirm current pricing on Hims' own site. This review is general information, not medical advice.",
       howItWorks: [
         {
           timing: "Step 1",
@@ -903,7 +903,7 @@ export const edConfig: SiteConfig = {
         "Budget-focused shoppers",
       ],
       finalVerdict:
-        "DudeMeds is a sensible pick for men who want the common ED medications without paying for extra brand polish - a simple, value-minded, fully online option. If you want a differentiated format like a compounded multi-ingredient dose, compare it against our top-ranked ED medication. Confirm current pricing on the DudeMeds site. This review is general information, not medical advice.",
+        "DudeMeds is a sensible pick for men who want the common ED medications without paying for extra brand polish - a simple, value-minded, fully online option. If you want a differentiated format like a compounded multi-ingredient dose, compare it against a 3-in-1 like DirectMeds. Confirm current pricing on the DudeMeds site. This review is general information, not medical advice.",
       howItWorks: [
         {
           timing: "Step 1",
@@ -1170,9 +1170,9 @@ export const edConfig: SiteConfig = {
       slug: "directmeds",
       providerId: "directmeds",
       shortSummary:
-        "DirectMeds' DirectMax is a compounded 3-in-1 rapid-dissolve ED tablet - sildenafil, tadalafil and apomorphine in one sublingual dose - prescribed online after a licensed-clinician review, priced per dose from around $7.45 and rated 4.6/5 on Trustpilot. Our top-ranked ED medication for a strong multi-mechanism formula at a competitive per-dose price.",
+        "DirectMeds' DirectMax is a compounded 3-in-1 rapid-dissolve ED tablet - sildenafil, tadalafil and apomorphine in one sublingual dose - prescribed online after a licensed-clinician review, priced per dose from around $7.45 and rated 4.6/5 on Trustpilot. A strong 3-in-1 ED medication with a genuinely multi-mechanism formula at a competitive per-dose price.",
       reviewIntro:
-        "DirectMeds is a men's-health telehealth brand built around a specific product: DirectMax, a compounded, multi-ingredient erectile-dysfunction tablet taken as a fast-dissolving sublingual rather than a swallowed pill. Rather than a single active, it blends three - sildenafil, tadalafil and apomorphine - into one dose, aiming at more than one pathway at once. It's prescription-only: you complete an online intake, a licensed clinician reviews whether it's appropriate, and, if so, it ships discreetly to your door, typically in 1-2 days, from licensed 503A compounding pharmacies. It's our top-ranked ED medication for the combination of a genuinely differentiated 3-in-1 formula, a competitive per-dose price, and a strong public review record - the best choice if you want the medication itself rather than the lab-based, root-cause workup that tops our overall list. This review covers what it is, what it costs, who it fits, and the honest caveats.",
+        "DirectMeds is a men's-health telehealth brand built around a specific product: DirectMax, a compounded, multi-ingredient erectile-dysfunction tablet taken as a fast-dissolving sublingual rather than a swallowed pill. Rather than a single active, it blends three - sildenafil, tadalafil and apomorphine - into one dose, aiming at more than one pathway at once. It's prescription-only: you complete an online intake, a licensed clinician reviews whether it's appropriate, and, if so, it ships discreetly to your door, typically in 1-2 days, from licensed 503A compounding pharmacies. It's a strong per-dose pick for the combination of a genuinely differentiated 3-in-1 formula, a competitive per-dose price, and a strong public review record - a good option if you want the medication itself rather than the lab-based, root-cause workup that tops our overall list. This review covers what it is, what it costs, who it fits, and the honest caveats.",
       keyFeatures: [
         "DirectMax: a compounded 3-in-1 rapid-dissolve sublingual tablet",
         "Combines sildenafil, tadalafil and apomorphine in one dose",
@@ -1204,7 +1204,7 @@ export const edConfig: SiteConfig = {
         "Men who use ED treatment occasionally and want per-dose pricing, not a fixed monthly plan",
       ],
       finalVerdict:
-        "DirectMeds' DirectMax is our top-ranked ED medication because it pairs a genuinely differentiated 3-in-1 dissolvable formula with transparent per-dose pricing that can beat fixed monthly compounded plans, backed by a strong public review record. The honest caveats apply to every compounded option: it isn't FDA-approved the way generics are, so the licensed-clinician review is doing real work, and the apomorphine component can cause nausea in some men. If you want a stronger multi-mechanism dose and like paying per use, it's an excellent first choice. This review is general information, not medical advice - a licensed clinician decides whether it's right for you, especially if you take nitrates or have a heart condition.",
+        "DirectMeds' DirectMax is a strong 3-in-1 ED medication because it pairs a genuinely differentiated 3-in-1 dissolvable formula with transparent per-dose pricing that can beat fixed monthly compounded plans, backed by a strong public review record. The honest caveats apply to every compounded option: it isn't FDA-approved the way generics are, so the licensed-clinician review is doing real work, and the apomorphine component can cause nausea in some men. If you want a stronger multi-mechanism dose and like paying per use, it's an excellent first choice. This review is general information, not medical advice - a licensed clinician decides whether it's right for you, especially if you take nitrates or have a heart condition.",
       howItWorks: [
         {
           timing: "Step 1",
@@ -1338,7 +1338,7 @@ export const edConfig: SiteConfig = {
       intro:
         "DirectMeds and Rex MD are both legitimate men's-health telehealth brands, but they're built differently. DirectMeds is focused: its DirectMax is a compounded 3-in-1 rapid-dissolve tablet (sildenafil, tadalafil and apomorphine in one dose), priced transparently per dose. Rex MD is the broad, established brand - branded and generic Viagra and Cialis, daily tadalafil, and its exclusive Ignite gummy - with a strong Trustpilot record but a subscription-billing model worth watching. Here's how they compare.",
       verdict:
-        "Both are legitimate online options, and this is a close call. DirectMeds is our top-ranked ED medication and edges it for the man who wants a differentiated, multi-mechanism dose with clean, transparent per-dose pricing and no subscription surprises. Rex MD wins if you value brand recognition, the widest menu of options (including the Ignite gummy) and a large Trustpilot track record - just manage the auto-refill billing. Confirm current pricing on each provider's site.",
+        "Both are legitimate online options, and this is a close call. DirectMeds is a strong 3-in-1 option and edges it for the man who wants a differentiated, multi-mechanism dose with clean, transparent per-dose pricing and no subscription surprises. Rex MD wins if you value brand recognition, the widest menu of options (including the Ignite gummy) and a large Trustpilot track record - just manage the auto-refill billing. Confirm current pricing on each provider's site.",
       verdictWinnerPoints: [
         "3-in-1 compounded dose - sildenafil, tadalafil and apomorphine in one",
         "Transparent per-dose pricing, no subscription surprises",
@@ -1916,7 +1916,7 @@ export const edConfig: SiteConfig = {
         },
         {
           heading: "Our top-ranked providers",
-          body: `<p>We rank several licensed online options. <a href="/reviews/directmeds">DirectMeds</a> is our top-ranked ED medication - its DirectMax is a compounded 3-in-1 dissolvable (sildenafil, tadalafil and apomorphine) priced per dose. <a href="/reviews/quad">Quad by MEDVi</a> is another leading compounded 4-in-1 that adds L-citrulline on a monthly plan. For men who want the cause of their ED investigated first, <a href="/reviews/hone">Hone Health</a> tops our overall ranking with a lab-based, root-cause model. <a href="/reviews/dudemeds">DudeMeds</a> is the value-minded pick for the standard medication at a low price. <a href="/reviews/braverx">BraveRX</a> is another compounded 3-in-1 alternative, <a href="/reviews/petermd">Peter MD</a> bundles ED into a broader men's-health platform, and <a href="/reviews/shed">SHED</a> offers the only intranasal option (its Roxus nasal spray). Full head-to-head detail lives on our <a href="/">comparison homepage</a>.</p>`,
+          body: `<p>We rank several licensed online options. <a href="/reviews/directmeds">DirectMeds</a> is a strong 3-in-1 pick - its DirectMax is a compounded 3-in-1 dissolvable (sildenafil, tadalafil and apomorphine) priced per dose. <a href="/reviews/quad">Quad by MEDVi</a> is another leading compounded 4-in-1 that adds L-citrulline on a monthly plan. For men who want the cause of their ED investigated first, <a href="/reviews/hone">Hone Health</a> tops our overall ranking with a lab-based, root-cause model. <a href="/reviews/dudemeds">DudeMeds</a> is the value-minded pick for the standard medication at a low price. <a href="/reviews/braverx">BraveRX</a> is another compounded 3-in-1 alternative, <a href="/reviews/petermd">Peter MD</a> bundles ED into a broader men's-health platform, and <a href="/reviews/shed">SHED</a> offers the only intranasal option (its Roxus nasal spray). Full head-to-head detail lives on our <a href="/">comparison homepage</a>.</p>`,
         },
         {
           heading: "How to choose the best treatment for your situation",
