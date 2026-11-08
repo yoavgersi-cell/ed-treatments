@@ -66,7 +66,7 @@ export const edConfig: SiteConfig = {
     // maps by index to the matching `positions` row below.
     // Hims is removed from the ranked comparison (chart + top picks). Its review
     // and battle pages stay live; re-add "hims" here to restore it to the chart.
-    providerOrder: ["hone", "rodeo", "directmeds", "quad", "rexmd", "dudemeds", "braverx", "petermd", "shed"],
+    providerOrder: ["hone", "rodeo", "quad", "rexmd", "directmeds", "dudemeds", "braverx", "petermd", "shed"],
     positions: [
       { score: 9.8, starRating: 5, label: "Exceptional", badge: "Our Top Pick" },
       { score: 9.6, starRating: 5, label: "Excellent" },
