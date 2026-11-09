@@ -6,6 +6,7 @@ import { edYoungMen } from "@/lib/articles/erectile-dysfunction-young-men";
 import { shockwaveTherapyEd } from "@/lib/articles/shockwave-therapy-for-ed";
 import { edStatistics } from "@/lib/articles/erectile-dysfunction-statistics";
 import { edAndHeartDisease } from "@/lib/articles/erectile-dysfunction-and-heart-disease";
+import { howToCureEd } from "@/lib/articles/how-to-cure-erectile-dysfunction";
 
 // ─────────────────────────────────────────────────────────────────────────────
 // Erectile Dysfunction (ED) vertical content - edtreatmenthub.com
@@ -1768,6 +1769,7 @@ export const edConfig: SiteConfig = {
     shockwaveTherapyEd,
     edStatistics,
     edAndHeartDisease,
+    howToCureEd,
     {
       slug: "what-causes-erectile-dysfunction",
       title: "What Causes Erectile Dysfunction? Main Causes Explained",
@@ -1868,7 +1870,7 @@ export const edConfig: SiteConfig = {
         },
         {
           heading: "Can ED be cured permanently?",
-          body: `<p>This is the honest part that a lot of marketing dances around: <strong>ED medicine manages ED - it does not permanently cure it.</strong> A pill helps you get an erection when you take it; it doesn't rewire the underlying cause so the problem is gone forever.</p><p>That said, the picture isn't hopeless. When ED is driven by a reversible cause - poor cardiovascular health, uncontrolled diabetes, a medication side effect, excess weight, smoking, or a psychological factor - <strong>treating that root cause</strong> can genuinely improve or resolve erectile function over time. So the accurate framing is: ED is highly <em>treatable</em>, and sometimes the underlying cause is <em>reversible</em>, but no pill is a permanent one-time cure. Be skeptical of any product promising a permanent fix.</p>`,
+          body: `<p>This is the honest part that a lot of marketing dances around: <strong>ED medicine manages ED - it does not permanently cure it.</strong> A pill helps you get an erection when you take it; it doesn't rewire the underlying cause so the problem is gone forever.</p><p>That said, the picture isn't hopeless. When ED is driven by a reversible cause - poor cardiovascular health, uncontrolled diabetes, a medication side effect, excess weight, smoking, or a psychological factor - <strong>treating that root cause</strong> can genuinely improve or resolve erectile function over time. So the accurate framing is: ED is highly <em>treatable</em>, and sometimes the underlying cause is <em>reversible</em>, but no pill is a permanent one-time cure. Be skeptical of any product promising a permanent fix. For the full cause-by-cause breakdown of what's reversible and what's managed - with the real success rates - see our guide to <a href="/articles/how-to-cure-erectile-dysfunction">how to cure erectile dysfunction</a>.</p>`,
         },
         {
           heading: "When a single pill isn't enough",
@@ -1960,7 +1962,7 @@ export const edConfig: SiteConfig = {
         },
         {
           heading: "Where natural approaches fit",
-          body: `<p>Natural approaches are a genuinely good foundation and, for mild ED with a lifestyle cause, sometimes enough. For moderate-to-severe ED, they usually work best <em>alongside</em> - not instead of - medical treatment. The sensible plan is to build the healthy habits and get a proper evaluation, so you know your cause. Licensed telehealth clinics on our <a href="/">ED treatment comparison</a> can handle that evaluation online.</p><p>Weight loss in particular has strong evidence for improving erections - and for men using GLP-1 medications like Ozempic or Mounjaro to lose weight, the sexual-health effects are a question worth understanding; our guide to <a href="/articles/ozempic-and-erectile-dysfunction">GLP-1 drugs and erectile dysfunction</a> covers what the research actually shows.</p><p><em>This article is general information, not medical advice. Check with a licensed clinician before starting supplements, especially alongside other medications.</em></p>`,
+          body: `<p>Natural approaches are a genuinely good foundation and, for mild ED with a lifestyle cause, sometimes enough. For moderate-to-severe ED, they usually work best <em>alongside</em> - not instead of - medical treatment. The sensible plan is to build the healthy habits and get a proper evaluation, so you know your cause. Licensed telehealth clinics on our <a href="/">ED treatment comparison</a> can handle that evaluation online. For the honest, cause-by-cause picture of which ED is reversible and which is best managed, see our guide to <a href="/articles/how-to-cure-erectile-dysfunction">how to cure erectile dysfunction</a>.</p><p>Weight loss in particular has strong evidence for improving erections - and for men using GLP-1 medications like Ozempic or Mounjaro to lose weight, the sexual-health effects are a question worth understanding; our guide to <a href="/articles/ozempic-and-erectile-dysfunction">GLP-1 drugs and erectile dysfunction</a> covers what the research actually shows.</p><p><em>This article is general information, not medical advice. Check with a licensed clinician before starting supplements, especially alongside other medications.</em></p>`,
         },
       ],
     },
