@@ -65,9 +65,10 @@ export const edConfig: SiteConfig = {
   ranking: {
     // Display order for the ranked comparison (chart + top picks). Each entry
     // maps by index to the matching `positions` row below.
-    // Hims is removed from the ranked comparison (chart + top picks). Its review
-    // and battle pages stay live; re-add "hims" here to restore it to the chart.
-    providerOrder: ["quad", "hone", "rodeo", "rexmd", "directmeds", "dudemeds", "braverx", "petermd", "shed", "taurus"],
+    // Hims and DirectMeds are removed from the ranked comparison (chart + top
+    // picks). Their review and battle pages stay live; re-add the id here to
+    // restore it to the chart.
+    providerOrder: ["quad", "hone", "rodeo", "rexmd", "dudemeds", "braverx", "petermd", "shed", "taurus"],
     positions: [
       { score: 9.8, starRating: 5, label: "Exceptional", badge: "Our Top Pick" },
       { score: 9.6, starRating: 5, label: "Excellent" },
@@ -78,7 +79,6 @@ export const edConfig: SiteConfig = {
       { score: 8.6, starRating: 4, label: "Very Good" },
       { score: 8.4, starRating: 4, label: "Very Good" },
       { score: 8.2, starRating: 4, label: "Very Good" },
-      { score: 8.0, starRating: 4, label: "Very Good" },
     ],
   },
 
@@ -96,7 +96,7 @@ export const edConfig: SiteConfig = {
         "Discreet, fast home delivery",
         "Stronger 4-in-1 formula",
       ],
-      affiliateUrl: "https://track.revoffers.com/aff_c?offer_id=1530&aff_id=12904",
+      affiliateUrl: "https://quad.medvi.org?oid=13&affid=2&pub=1952&sub1=1952&oid2=4794&affid2=1952",
       ctaText: "Visit Site",
     },
     {
