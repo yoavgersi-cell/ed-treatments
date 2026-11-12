@@ -260,10 +260,10 @@ export function EditorialContent({ midSlot }: { midSlot?: React.ReactNode }) {
       <p className="mb-8">
         Want to see how specific providers stack up? Read our reviews of{" "}
         <Link href="/reviews/quad" className="font-semibold text-[#111111] hover:underline">Quad by MEDVi</Link>,{" "}
-        <Link href="/reviews/directmeds" className="font-semibold text-[#111111] hover:underline">DirectMeds</Link>,{" "}
-        <Link href="/reviews/dudemeds" className="font-semibold text-[#111111] hover:underline">DudeMeds</Link>{" "}
+        <Link href="/reviews/hone" className="font-semibold text-[#111111] hover:underline">Hone Health</Link>,{" "}
+        <Link href="/reviews/rodeo" className="font-semibold text-[#111111] hover:underline">Rodeo Men&apos;s Health</Link>{" "}
         and{" "}
-        <Link href="/reviews/braverx" className="font-semibold text-[#111111] hover:underline">BraveRx</Link>.
+        <Link href="/reviews/dudemeds" className="font-semibold text-[#111111] hover:underline">DudeMeds</Link>.
       </p>
 
       {/* Mid-content slot */}

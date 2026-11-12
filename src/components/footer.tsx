@@ -9,9 +9,9 @@ const COLUMNS: { title: string; links: { label: string; href: string }[] }[] = [
     title: "Reviews",
     links: [
       { label: "Quad by MEDVi", href: "/reviews/quad" },
-      { label: "DirectMeds", href: "/reviews/directmeds" },
-      { label: "DudeMeds", href: "/reviews/dudemeds" },
-      { label: "BraveRX", href: "/reviews/braverx" },
+      { label: "Hone Health", href: "/reviews/hone" },
+      { label: "Rodeo Men's Health", href: "/reviews/rodeo" },
+      { label: "Rex MD", href: "/reviews/rexmd" },
       { label: "All Reviews", href: "/reviews" },
     ],
   },
