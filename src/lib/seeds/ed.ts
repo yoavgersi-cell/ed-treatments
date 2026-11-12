@@ -67,7 +67,7 @@ export const edConfig: SiteConfig = {
     // maps by index to the matching `positions` row below.
     // Hims is removed from the ranked comparison (chart + top picks). Its review
     // and battle pages stay live; re-add "hims" here to restore it to the chart.
-    providerOrder: ["quad", "hone", "rodeo", "rexmd", "directmeds", "dudemeds", "braverx", "petermd", "shed"],
+    providerOrder: ["quad", "hone", "rodeo", "rexmd", "directmeds", "dudemeds", "braverx", "petermd", "shed", "taurus"],
     positions: [
       { score: 9.8, starRating: 5, label: "Exceptional", badge: "Our Top Pick" },
       { score: 9.6, starRating: 5, label: "Excellent" },
@@ -78,6 +78,7 @@ export const edConfig: SiteConfig = {
       { score: 8.6, starRating: 4, label: "Very Good" },
       { score: 8.4, starRating: 4, label: "Very Good" },
       { score: 8.2, starRating: 4, label: "Very Good" },
+      { score: 8.0, starRating: 4, label: "Very Good" },
     ],
   },
 
@@ -410,6 +411,22 @@ export const edConfig: SiteConfig = {
         "Discreet, direct-to-door delivery",
       ],
       affiliateUrl: "https://track.revoffers.com/aff_c?offer_id=1516&aff_id=12904&url_id=12720",
+      ctaText: "Visit Site",
+    },
+    {
+      id: "taurus",
+      name: "Taurus",
+      tagline:
+        "A men's-health telehealth brand (Taurus Meds) whose ED product, Taurus Charge, is a compounded sublingual multi-ingredient formula - and which also offers testosterone therapy",
+      logo: "/logo-taurus.svg",
+      smallLogo: "/logo-taurus.svg",
+      highlights: [
+        "Compounded sublingual multi-ingredient ED formula (Taurus Charge)",
+        "Combines sildenafil + tadalafil with apomorphine",
+        "Rx-only after a licensed-provider questionnaire review",
+        "Also offers testosterone therapy (TRT)",
+      ],
+      affiliateUrl: "https://track.revoffers.com/aff_c?offer_id=1453&aff_id=12904&url_id=11984",
       ctaText: "Visit Site",
     },
   ],
@@ -1256,6 +1273,94 @@ export const edConfig: SiteConfig = {
         {
           heading: "How DirectMeds compares",
           body: `<p>DirectMax's natural comparisons are the other compounded dissolvables we rank. Against <a href="/reviews/braverx">BraveRX</a>, it uses the <strong>same three actives</strong> (sildenafil, tadalafil, apomorphine), so the decision comes down to pricing model and brand - DirectMeds' per-dose pricing is the differentiator. Against <a href="/reviews/quad">Quad by MEDVi</a>, Quad adds a fourth ingredient (L-citrulline) and bills as a monthly plan, while DirectMax keeps three actives and charges per dose - we put them head-to-head in <a href="/quad-vs-directmeds">Quad vs DirectMeds</a>. Against <a href="/reviews/rodeo">Rodeo Men's Health</a>, another compounded multi-ingredient option, the difference is format and blend - Rodeo is a 4-in-1 sublingual, DirectMax a 3-in-1 rapid-dissolve. And against a big brand-name menu, see our head-to-head in <a href="/directmeds-vs-rexmd">DirectMeds vs Rex MD</a>. Against a <strong>single generic pill</strong>, DirectMax's edge is the multi-mechanism blend and dissolvable format, at a higher per-dose cost and without FDA-approved-drug status. Weigh every licensed clinic on our <a href="/">ED treatment comparison</a>.</p><p><em>This review is general information, not medical advice. A licensed clinician decides whether DirectMax, or any ED treatment, is appropriate for you - especially if you take nitrates or have a heart condition.</em></p>`,
+        },
+      ],
+    },
+    {
+      slug: "taurus",
+      providerId: "taurus",
+      shortSummary:
+        "A men's-health telehealth brand (Taurus Meds) whose ED product, Taurus Charge, is a compounded sublingual multi-ingredient formula - and which also offers testosterone therapy. A credible compounded option with the usual compounded caveats, and a newer brand whose ED pricing and exact formula are reported inconsistently, so confirm the details before ordering.",
+      reviewIntro:
+        "Taurus (Taurus Meds) is a men's-health telehealth brand with two sides: a compounded sublingual ED product called Taurus Charge, and a testosterone-therapy (TRT) service. On the ED side it competes in the same compounded, multi-ingredient class as our top picks - a single under-the-tongue dose that blends more than one active (commonly sildenafil, tadalafil and apomorphine) - prescribed through the standard online questionnaire and licensed-provider review. It's a legitimate entry in that class, but it's a newer brand whose published ED pricing and exact formulation are reported inconsistently across sources, and like every compounded blend it isn't FDA-approved the way standalone generics are - so this review sticks to what's verifiable and flags what to confirm.",
+      keyFeatures: [
+        "Compounded sublingual multi-ingredient ED formula (Taurus Charge)",
+        "Commonly listed as sildenafil + tadalafil + apomorphine (sources vary)",
+        "Licensed-provider review before prescribing",
+        "Also offers testosterone therapy (TRT)",
+        "Newer brand; confirm current price and formula at checkout",
+      ],
+      pricingSummary:
+        "Approximate - and worth confirming, because reports vary widely. Third-party sources list Taurus Charge anywhere from around $12.99 per dose to roughly $100-130 for a package or monthly supply (with sale prices discounted from a higher standard rate), and the final price is set after the online questionnaire. That spread is exactly why you should verify the current cost, the quantity it covers, and the refill terms on Taurus's own site before ordering rather than trusting any single figure.",
+      treatmentOptions: [
+        "Taurus Charge - compounded sublingual multi-ingredient ED formula",
+        "Sildenafil + tadalafil (PDE5 inhibitors), with apomorphine",
+        "Testosterone therapy (TRT) for appropriate candidates",
+        "Online provider evaluation and follow-up",
+      ],
+      pros: [
+        "Differentiated sublingual multi-ingredient dose in the compounded class",
+        "Multi-mechanism blend aimed at men a single pill underwhelms",
+        "Legitimate flow: licensed-provider review before prescribing",
+        "Also covers testosterone therapy on the same platform",
+      ],
+      cons: [
+        "Compounded blend isn't FDA-approved like standalone generics",
+        "ED pricing and exact formula reported inconsistently - confirm directly",
+        "Apomorphine can cause nausea in some men",
+        "Newer brand without a large, verified ED-specific review record",
+        "Positioned as a step-up, not a first-line generic - costs more",
+      ],
+      bestFor: [
+        "Men who tried a standard single-ingredient pill and wanted more",
+        "Those who want a multi-ingredient dose in a sublingual format",
+        "Men interested in both ED treatment and TRT on one platform",
+      ],
+      finalVerdict:
+        "Taurus is a credible, if newer, entry in the compounded multi-ingredient class - a sublingual blend (Taurus Charge) delivered through the standard legitimate telehealth flow, from a brand that also offers TRT. The honest caveats are the ones that apply to every compounded product plus a couple specific to a younger brand: the formula isn't FDA-approved the way standalone generics are, apomorphine can cause nausea, and - unusually - its published ED pricing and exact formulation are reported inconsistently across sources, so you should confirm the current price and ingredients directly before ordering. It's positioned as a step-up for men a single pill underwhelmed rather than a first-line generic. If that fits you and the verified details check out, it's worth comparing against our higher-ranked compounded picks; if you simply want the cheapest proven generic, a value clinic will undercut it. This review is general information, not medical advice.",
+      howItWorks: [
+        {
+          timing: "Step 1",
+          title: "Online questionnaire",
+          detail: "Complete a confidential medical intake covering your symptoms, health history and medications - the safety screen before any prescription.",
+        },
+        {
+          timing: "Step 2",
+          title: "Licensed-provider review",
+          detail: "A licensed provider reviews your intake and, if appropriate, prescribes Taurus Charge (or TRT) and confirms your price.",
+        },
+        {
+          timing: "Step 3",
+          title: "Discreet delivery",
+          detail: "If prescribed, your treatment ships discreetly to your door, typically on a plan you can manage online.",
+        },
+      ],
+      trustBadges: ["Compounded multi-ingredient", "Licensed-provider review", "ED + TRT platform"],
+      updatedAt: UPDATED,
+      sections: [
+        {
+          heading: "What Taurus is",
+          body: `<p>Taurus (Taurus Meds) is a <strong>men's-health telehealth brand</strong> with two main offerings: a compounded ED product called <strong>Taurus Charge</strong>, and a <strong>testosterone-therapy (TRT)</strong> service. On the ED side, Taurus Charge is a <strong>compounded sublingual multi-ingredient formula</strong> - taken under the tongue rather than swallowed - that blends more than one active ingredient into a single dose, most commonly described as <strong>sildenafil, tadalafil and apomorphine</strong> (some sources describe a fourth ingredient, so the exact formula is worth confirming). It's prescribed the legitimate way: an online intake, a <strong>licensed-provider review</strong>, and discreet delivery if appropriate. That puts it in the same compounded, multi-mechanism class as several of our higher-ranked picks.</p>`,
+        },
+        {
+          heading: "Products and pricing",
+          body: `<p>Here's where we have to be straight with you: <strong>Taurus's ED pricing is reported inconsistently</strong> across the third-party sources available, which is unusual and worth knowing before you order. Depending on where you look, Taurus Charge is listed anywhere from about <strong>$12.99 per dose</strong> to roughly <strong>$100-130 for a package or monthly supply</strong> (sometimes as a sale price discounted from a higher standard rate), with the final figure set after you complete the medical questionnaire. We're not going to assert a single number we can't verify. The practical takeaway: <strong>confirm the current price, exactly what quantity it covers, and the cancellation/refill terms on Taurus's own site</strong> before committing. For context on how compounded multi-ingredient options are priced across the market, see our <a href="/ed-cost-index">ED Cost Index</a> and <a href="/articles/ed-treatment-cost">ED treatment cost</a> guide.</p>`,
+        },
+        {
+          heading: "Taurus Charge: the compounded sublingual formula",
+          body: `<p>Taurus Charge's point of difference is the <strong>format and the blend together</strong>: a sublingual dose that combines several actives rather than relying on a single ingredient. The multi-mechanism idea - pairing PDE5 inhibitors with apomorphine, which acts on the brain's arousal pathway - is aimed at men for whom a standard single pill underperformed, and the under-the-tongue route is designed for faster absorption than a swallowed tablet. The same honest caveats apply as with any compounded product: it's <strong>prescription-only after a provider review</strong>, it <strong>isn't FDA-approved</strong> the way standalone generic sildenafil or tadalafil are, and the <strong>apomorphine component can cause nausea</strong> in some men. If a multi-ingredient sublingual dose is what you're after, compare it against the closest options in our <a href="/reviews/directmeds">DirectMeds</a>, <a href="/reviews/quad">Quad by MEDVi</a> and <a href="/reviews/rodeo">Rodeo</a> reviews, and the broader field in our <a href="/articles/best-4-in-1-ed-medication">best 4-in-1 ED medication</a> guide.</p>`,
+        },
+        {
+          heading: "The TRT side, and how it works",
+          body: `<p>Beyond ED, Taurus also offers <strong>testosterone therapy</strong>, which is worth knowing if low testosterone might be part of your picture - though, as we explain in our guide to <a href="/articles/can-low-testosterone-cause-ed">whether low testosterone causes ED</a>, most ED is primarily vascular rather than hormonal, so TRT is the right answer for a specific subset of men rather than a universal ED fix. For a provider built entirely around the lab-first, root-cause approach to that question, our top-ranked <a href="/reviews/hone">Hone Health</a> review is the one to read.</p><p>The ED process itself is the standard, legitimate telehealth flow: you <strong>complete an online questionnaire</strong>, a <strong>licensed provider reviews it</strong> and, if appropriate, prescribes Taurus Charge and confirms your price, and your <strong>treatment ships discreetly</strong>. That licensed-provider review is the non-negotiable safeguard - and, unlike the "no-prescription" sellers we warn about in our guide to <a href="/articles/ed-meds-without-prescription">ED meds without a prescription</a>, Taurus keeps it. One point some reviewers raise: because a brief online intake may not include the kind of thorough cardiovascular screening that prescribing these medications ideally warrants, be especially honest and complete on the questionnaire about your heart health and medications.</p>`,
+        },
+        {
+          heading: "The honest caveats: compounded, newer, and inconsistently reported",
+          body: `<p>Three things to go in aware of. First, like every compounded multi-ingredient blend, Taurus Charge <strong>isn't FDA-approved the way standalone generics are</strong> - compounding is legal and widely used, but it means the specific combination hasn't been through the FDA's drug-approval process, so the licensed-provider review carries more weight. Second, Taurus is a <strong>newer brand</strong> without the large, independently verified ED-specific review record the biggest names carry (much of its public reputation is tied to its TRT business rather than the ED product). Third, and most unusual, its <strong>ED pricing and exact formulation are reported inconsistently</strong> across sources - which isn't a sign of anything sinister, but is a clear reason to verify the specifics directly rather than trust a third-party figure. None of this makes Taurus illegitimate; it just means doing your homework on the current details matters more here than with an established brand.</p>`,
+        },
+        {
+          heading: "Safety and the bottom line",
+          body: `<p>Taurus Charge is built on standard PDE5 inhibitors plus apomorphine, so the core safety rules are the familiar ones: mostly mild, temporary side effects (headache, flushing, congestion, and - from the apomorphine - possible nausea), and the absolute rule that ED medication <strong>must never be combined with nitrates</strong>. The licensed-provider review is the safeguard that screens for that and decides whether a compounded multi-ingredient product is right for you - which, given the point above about cardiovascular screening, is worth engaging with honestly.</p><p>The bottom line: Taurus is a credible compounded option and a legitimate telehealth brand that also offers TRT - placed last in our current rankings largely because it's newer and its ED details are reported less consistently than the established names above it, not because it's a bad choice. If it fits what you want and the verified specifics check out, it's worth a look; otherwise our higher-ranked compounded picks are the safer starting point. Compare them all on our <a href="/">ED treatment comparison</a>.</p><p><em>This review is general information, not medical advice. A licensed clinician decides whether Taurus Charge, or any ED treatment, is appropriate for you - especially if you take nitrates or have a heart condition.</em></p>`,
         },
       ],
     },

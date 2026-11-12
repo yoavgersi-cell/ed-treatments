@@ -115,6 +115,17 @@ export const COST_INDEX: CostEntry[] = [
     href: "/reviews/rodeo",
   },
   {
+    name: "Taurus - Taurus Charge (compounded sublingual)",
+    category: "Compounded (multi-ingredient)",
+    format: "Sublingual",
+    headline: "~$13/dose to $199/mo (varies)",
+    perMonthLow: 40,
+    perMonthHigh: 199,
+    basis: "range",
+    source: "Taurus Charge pricing is reported inconsistently across sources (from ~$12.99/dose to ~$100-199 per package/month, with sale pricing); confirm current cost directly at Taurus",
+    href: "/reviews/taurus",
+  },
+  {
     name: "Hone Health (sildenafil / tadalafil + membership)",
     category: "Generic pill",
     format: "Oral tablet",

@@ -103,6 +103,18 @@ export const PRODUCT_CATALOG: CatalogProduct[] = [
     shipping: "Discreet delivery",
     image: null,
   },
+  {
+    id: "taurus-charge",
+    providerId: "taurus",
+    name: "Taurus Charge Compounded Sublingual",
+    chip: "Multi-ingredient",
+    format: "sublingual",
+    price: "$12.99",
+    unit: "dose",
+    priceNote: "Pricing is reported inconsistently (from ~$12.99/dose to ~$100-199 per package/month, with sale pricing); compounded sublingual formula, final price confirmed after the questionnaire - verify current pricing and formula at Taurus",
+    shipping: "Discreet delivery",
+    image: null,
+  },
 ];
 
 /** Numeric value for sorting ("from $179" → 179). */
