@@ -7,6 +7,7 @@ import { shockwaveTherapyEd } from "@/lib/articles/shockwave-therapy-for-ed";
 import { edStatistics } from "@/lib/articles/erectile-dysfunction-statistics";
 import { edAndHeartDisease } from "@/lib/articles/erectile-dysfunction-and-heart-disease";
 import { howToCureEd } from "@/lib/articles/how-to-cure-erectile-dysfunction";
+import { bloodPressureAndEd } from "@/lib/articles/blood-pressure-medication-and-erectile-dysfunction";
 
 // ─────────────────────────────────────────────────────────────────────────────
 // Erectile Dysfunction (ED) vertical content - edtreatmenthub.com
@@ -1875,6 +1876,7 @@ export const edConfig: SiteConfig = {
     edStatistics,
     edAndHeartDisease,
     howToCureEd,
+    bloodPressureAndEd,
     {
       slug: "what-causes-erectile-dysfunction",
       title: "What Causes Erectile Dysfunction? Main Causes Explained",
