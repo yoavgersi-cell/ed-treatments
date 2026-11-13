@@ -186,7 +186,10 @@ export async function ArticlePageView({ slug, ctx }: { slug: string; ctx: SiteCo
     "@type": "Article",
     headline: article.title,
     description: article.description,
-    image: canonicalUrl(ctx, `/articles/${slug}/opengraph-image`),
+    // Article.image must resolve: the per-article OG image is served by Next at a
+    // hashed path we can't know here, so point the schema image at a real,
+    // always-200 asset (the article's own image when set, else the site hero).
+    image: canonicalUrl(ctx, article.image ?? "/hero.png"),
     datePublished: article.publishedAt,
     dateModified: latestUpdate(article.updatedAt),
     wordCount,
