@@ -66,10 +66,9 @@ export const edConfig: SiteConfig = {
   ranking: {
     // Display order for the ranked comparison (chart + top picks). Each entry
     // maps by index to the matching `positions` row below.
-    // Hims and DirectMeds are removed from the ranked comparison (chart + top
-    // picks). Their review and battle pages stay live; re-add the id here to
-    // restore it to the chart.
-    providerOrder: ["quad", "hone", "rodeo", "rexmd", "dudemeds", "braverx", "petermd", "shed", "taurus"],
+    // DirectMeds is removed from the ranked comparison (chart + top picks). Its
+    // review and battle pages stay live; re-add the id here to restore it.
+    providerOrder: ["quad", "hone", "hims", "rodeo", "rexmd", "dudemeds", "braverx", "petermd", "shed", "taurus"],
     positions: [
       { score: 9.8, starRating: 5, label: "Exceptional", badge: "Our Top Pick" },
       { score: 9.6, starRating: 5, label: "Excellent" },
@@ -80,6 +79,7 @@ export const edConfig: SiteConfig = {
       { score: 8.6, starRating: 4, label: "Very Good" },
       { score: 8.4, starRating: 4, label: "Very Good" },
       { score: 8.2, starRating: 4, label: "Very Good" },
+      { score: 8.0, starRating: 4, label: "Very Good" },
     ],
   },
 
@@ -255,9 +255,7 @@ export const edConfig: SiteConfig = {
         "Chewable \"hard mint\" options",
         "Trusted national brand",
       ],
-      // PLACEHOLDER: points to the live Hims site so the chart CTA works.
-      // Replace with the real Hims affiliate tracking link to earn commission.
-      affiliateUrl: "https://www.hims.com/",
+      affiliateUrl: "https://afflat3c2.com/trk/lnk/D9C41574-51B7-44D4-B2E4-50FFA2997AB9/?o=33075&c=918271&a=807768&k=1826D2A11021814D01CF0A7089112E84&l=39118",
       ctaText: "Visit Site",
       // Real Trustpilot reviews transcribed from Hims' Trustpilot profile.
       // Aggregate rating/count intentionally omitted (not verified) - the
