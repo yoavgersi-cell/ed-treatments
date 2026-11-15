@@ -250,6 +250,7 @@ const REVIEWED_LATER: Record<string, PageReview> = {
   "/articles/how-to-cure-erectile-dysfunction": { reviewer: "francheska-capistrano", reviewedAt: "2026-11-09" },
   "/reviews/taurus": { reviewer: "francheska-capistrano", reviewedAt: "2026-11-12" },
   "/articles/blood-pressure-medication-and-erectile-dysfunction": { reviewer: "francheska-capistrano", reviewedAt: "2026-11-13" },
+  "/articles/why-ed-medication-isnt-working": { reviewer: "francheska-capistrano", reviewedAt: "2026-11-15" },
 };
 
 export const REVIEW_LOG: Record<string, PageReview> = {

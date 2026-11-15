@@ -536,7 +536,7 @@ export async function ArticlePageView({ slug, ctx }: { slug: string; ctx: SiteCo
                 {i === 1 && !/^is-.+-legit$/.test(slug) && topProviders.length > 0 && (
                   <TopProviderCards
                     config={config}
-                    limit={3}
+                    limit={article.topProvidersLimit ?? 3}
                     quizHref={hubLink(ctx, "/find-your-match")}
                     linkPrefix=""
                     pageType="listing"

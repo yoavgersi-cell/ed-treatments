@@ -209,6 +209,9 @@ export interface ArticleData {
   keyTakeaways?: string[];
   sections: ArticleSection[];
   sidebarId?: string;
+  // How many ranked provider cards the inline "top providers" component shows
+  // on this article (defaults to 3). Set to 2 for a tighter top-2 showcase.
+  topProvidersLimit?: number;
 }
 
 export interface BattleCategory {
